@@ -130,7 +130,7 @@ def photometry():
         a.text(
             0.025,
             0.055,
-            f"ρ = {data['spearman']:.2f}  ·  {len(pts)} dates",
+            f"ρ = {data['spearman']:.3f}  ·  {len(pts)} dates",
             transform=a.transAxes,
             fontsize=10,
             bbox={"facecolor": BG, "edgecolor": "none", "alpha": 0.9},
