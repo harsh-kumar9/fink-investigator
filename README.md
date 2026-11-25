@@ -48,6 +48,8 @@ This work uses public ZTF alert data served by Fink, ESA Gaia DR3 through NASA/I
 
 ## Replication on October 2026
 
+An independent astrometric check tested the closest call. Across 269 nights, the ZTF detections of ZTF18abdjpbo lay a median 0.134″ from the Gaia star after accounting for its motion. [Near-cutoff counterpart investigation](experiments/replication/2026-10/astrometry/README.md)
+
 The next run used the last completed calendar month and a new set of 20 object IDs. The originally registered screen admitted four. All four had published VSX counterparts, so the sample yielded zero uncatalogued survivors. An exploratory check also found catalog counterparts for all five objects withheld after their historical broker crossmatches failed. [Registration](experiments/replication/protocol.md) · [Counts and object-level identifications](experiments/replication/2026-10/results/summary.md)
 
 ```sh

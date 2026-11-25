@@ -1,0 +1,15 @@
+{
+  "retrieved_utc_date": "2026-11-25",
+  "files": [
+    {
+      "file": "gaia.csv",
+      "sha256": "2a07549585922315477cac3c38e2fc101c6eb2a31263b7d8a567308a8f3537b9",
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+source_id%2Cra%2Cdec%2Cref_epoch%2Cpmra%2Cpmdec%2Cphot_g_mean_mag%2Cphot_variable_flag+FROM+gaia_dr3_source+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C268.7712219%2C13.4219804%2C0.0013888889%29%29"
+    },
+    {
+      "file": "ps1.csv",
+      "sha256": "6a406bd3b671ba3eb50eab1ebb9010591a070239ae132fd5f4142956e8b669d4",
+      "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/mean.csv?ra=268.7712219&dec=13.4219804&radius=0.0013888889&columns=%5BobjID%2CraMean%2CdecMean%2CnDetections%2CgMeanPSFMag%2CrMeanPSFMag%5D"
+    }
+  ]
+}
