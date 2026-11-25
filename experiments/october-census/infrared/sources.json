@@ -1,0 +1,35 @@
+{
+  "retrieval_date_utc": "2026-11-25",
+  "sources": [
+    {
+      "path": "target-cone.csv",
+      "rows": 1,
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?QUERY=SELECT+designation%2Cra%2Cdec%2Cw1mpro%2Cw2mpro%2Cw1snr%2Cw2snr%2Cvar_flg%2Ccc_flags%2Cext_flg%2Cnb+FROM+allwise_p3as_psd+WHERE+CONTAINS%28POINT%28ra%2Cdec%29%2CCIRCLE%2887.2258635%2C26.8631435%2C0.00222222222%29%29%3D1&FORMAT=csv",
+      "sha256": "d07ed505ea2803b496209a02263a48b61f1164ce01f99328d4e831e6d8bc5dda"
+    },
+    {
+      "path": "field.csv",
+      "rows": 184,
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync?QUERY=SELECT+designation%2Cra%2Cdec%2Cw1mpro%2Cw2mpro%2Cw1snr%2Cw2snr%2Cvar_flg%2Ccc_flags%2Cext_flg%2Cnb+FROM+allwise_p3as_psd+WHERE+CONTAINS%28POINT%28ra%2Cdec%29%2CCIRCLE%2887.2258635%2C26.8631435%2C0.05%29%29%3D1&FORMAT=csv",
+      "sha256": "77380fd3575b8e224243f8dd219277de51a1fb28e3a41420f4f2a0ab906812e4"
+    },
+    {
+      "path": "J054854.20+265147.6.tbl.gz",
+      "rows": 260,
+      "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=neowiser_p1bs_psd&spatial=cone&objstr=87.2258595+26.8632392&radius=2.5&radunits=arcsec&outfmt=1&selcols=mjd%2Cra%2Cdec%2Cw1mpro%2Cw1sigmpro%2Cw1snr%2Ccc_flags%2Cmoon_masked%2Cqual_frame%2Cnb",
+      "sha256": "dc3ea5f33d53db8753ce8c05c44a810c1a59033037732439951a893528b1ca72"
+    },
+    {
+      "path": "J054852.71+265123.2.tbl.gz",
+      "rows": 260,
+      "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=neowiser_p1bs_psd&spatial=cone&objstr=87.2196505+26.8564689&radius=2.5&radunits=arcsec&outfmt=1&selcols=mjd%2Cra%2Cdec%2Cw1mpro%2Cw1sigmpro%2Cw1snr%2Ccc_flags%2Cmoon_masked%2Cqual_frame%2Cnb",
+      "sha256": "a8d70798ff9a3fec5e814d365701a8b3250862e7a588df2337887db65c28e1b1"
+    },
+    {
+      "path": "J054856.62+265119.5.tbl.gz",
+      "rows": 262,
+      "url": "https://irsa.ipac.caltech.edu/cgi-bin/Gator/nph-query?catalog=neowiser_p1bs_psd&spatial=cone&objstr=87.2359582+26.8554418&radius=2.5&radunits=arcsec&outfmt=1&selcols=mjd%2Cra%2Cdec%2Cw1mpro%2Cw1sigmpro%2Cw1snr%2Ccc_flags%2Cmoon_masked%2Cqual_frame%2Cnb",
+      "sha256": "7435b6a4636c2d1cba11adee68f94a778dc40b28abefd4013cc8efc6b740a413"
+    }
+  ]
+}
