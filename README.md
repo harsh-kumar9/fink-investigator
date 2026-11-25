@@ -1,5 +1,7 @@
 # Fink anomaly investigator
 
+This is an experiment in iteratively building pipelines for open-world discovery with frontier language models. Agents propose explanations for unusual telescope alerts, check them against public measurements and catalogs, and record what ruled each explanation in or out. Each new search starts with a test on objects whose identities are already known.
+
 Can an investigator recognize a known source of false alarms, then apply that check to historical telescope alerts? This pilot looks for **subtraction residuals from fast-moving foreground stars** in the Zwicky Transient Facility stream. Fink selects the anomaly alerts. This repository tests their interpretation.
 
 The first run investigated 20 of the 144 object IDs in 210 October 2024 anomaly packets. It recovered the exact Gaia identifiers of four published moving-star controls and retained three known supernovae. In the exploration sample, ZTF18abgobyb sits on the past track of the star VB 10. Its predicted crossing date falls inside the exposure interval for the actual reference image. Three other initially unexplained sources all had subarcsecond VSX counterparts. [Cohort and case table](results/report.md) · [VB 10 reference-date check](results/moving-star/report.md) · [Three epochs of VB 10 stamps](review/ZTF18abgobyb/gallery.md) · [Variable-star stamps](review/ZTF17aaagxae/gallery.md) · [Independent image inspection](review/inspection.md)
