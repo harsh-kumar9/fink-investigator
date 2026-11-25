@@ -76,6 +76,17 @@ class ScreeningTests(unittest.TestCase):
             p.stellar_matches(anchor, {"1": {**star, "pmra_error": "1", "pmra": "149"}})
         )
 
+    def test_metadata_only_history_records_have_no_detection(self):
+        row = {
+            "i:objectId": "nan",
+            "i:candid": None,
+            "i:jd": None,
+            "d:cdsxmatch": "EclBin",
+        }
+        self.assertEqual(p.histories([row]), {})
+        with self.assertRaisesRegex(ValueError, "unexpected Fink object ID"):
+            p.histories([{**row, "i:jd": 2459945.5}])
+
     def test_checksum_rejects_mutated_source(self):
         with TemporaryDirectory() as tmp:
             folder = Path(tmp)

@@ -188,9 +188,28 @@ def locked_directory(folder):
         os.close(fd)
 
 
+def empty_history_record(row):
+    """Fink can return science-module metadata without any underlying ZTF detection."""
+    return str(row.get("i:objectId")).lower() in {"nan", "none", ""} and all(
+        row.get(field) is None
+        for field in (
+            "i:candid",
+            "i:jd",
+            "i:ra",
+            "i:dec",
+            "i:fid",
+            "i:magpsf",
+            "i:sigmapsf",
+            "i:drb",
+        )
+    )
+
+
 def histories(rows):
     groups = defaultdict(dict)
     for row in rows:
+        if empty_history_record(row):
+            continue
         name = oid(row)
         candid = row["i:candid"]
         if not isinstance(candid, int) or candid <= 0:
