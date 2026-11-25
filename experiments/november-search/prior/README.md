@@ -1,0 +1,16 @@
+# What did another alert broker already know?
+
+**ALeRCE already reports a period near 5.812 days for the October timing candidate, ZTF18abjtfpx.** Feature version `27.5.4` reports **5.81202077 days** in green, red and both bands together. That is 21 seconds from the 5.81178079 days found with the early red data in this repository. Other versions range from close agreement to short-period alternatives; the full response includes missing estimates. The forced-photometry classifier ranks an Algol-type eclipsing binary first with a score of 0.424. Older full classifiers rank an eclipsing binary or a Cepheid first with scores below 0.27. These scores describe related algorithms using ZTF data. They leave the physical class and possible orbital harmonic unresolved. The chronological test measures how well the recovered waveform predicted later brightness. [ALeRCE features](https://api.alerce.online/ztf/v1/objects/ZTF18abjtfpx/features) · [ALeRCE classifications](https://api.alerce.online/ztf/v1/objects/ZTF18abjtfpx/probabilities) · [Feature retrieval documentation](https://alerce.readthedocs.io/en/latest/tutorials/ztf_api.html) · [Chronological verification](../../october-census/timing/results.json)
+
+## November outage-audit positions
+
+| Fink identifier | ALeRCE mean-position offset | Top class in forced-photometry light-curve classifier 2.1.0 | Top classes of two earlier full light-curve classifiers |
+|---|---:|---|---|
+| ZTF18abqclig | 0.127″ | Young stellar object, 0.311 | Young stellar object, 0.495 and 0.451 |
+| ZTF20aaothpc | 0.397″ | RS CVn-type variable, 0.378 | Other periodic variable, 0.336 and 0.521 |
+
+The ZTF identifiers match across the two brokers. Offsets compare ALeRCE's mean detection position with the Fink anchor. The table uses overall classifiers. A subclass score conditional on first choosing a variability family would answer a different question. The YSO and RS CVn labels remain model hypotheses for the two already catalogued variable candidates. [First source and its model outputs](https://api.alerce.online/ztf/v1/objects/ZTF18abqclig/probabilities) · [Second source and its model outputs](https://api.alerce.online/ztf/v1/objects/ZTF20aaothpc/probabilities)
+
+Both 5″ cones returned zero rows in the Marton Gaia DR2–AllWISE classification table and the Inight SDSS cataclysmic-variable table queried here. These catalogs cover selected populations. The second source is in the declination range of the ZTF DR11/4MOST classifications, but the VizieR service omitted the requested full candidate tables. The first source lies outside that survey's declination range. The public TNS 10″ queries returned HTTP 403. Caltech's ZVAR cone service requires credentials and returned HTTP 401 for all three positions. These access outcomes leave those searches unresolved. [Marton catalog](https://cdsarc.cds.unistra.fr/viz-bin/cat/II/360) · [Inight catalog](https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/524/4867) · [Served ZTF DR11 tables](https://vizier.cfa.harvard.edu/viz-bin/VizieR-3?-source=J%2FA%2BA%2F675%2FA195) · [ZVAR data access](https://arxiv.org/html/2611.16166v1#S3)
+
+Running `python3 check.py` here reproduces the [summary and per-version measurements](results.json) from archived responses. Each compressed response has a matching request, retrieval time, HTTP status and SHA-256 receipt.

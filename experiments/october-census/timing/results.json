@@ -1,0 +1,343 @@
+{
+  "calibration_passed": true,
+  "period_search": [
+    {
+      "id": "ZTF18achfhai",
+      "oid": "341201400001827",
+      "training_nights": 210,
+      "test_nights": 106,
+      "training_last_mjd": 60244.1692477,
+      "test_first_mjd": 60250.231875,
+      "test_last_mjd": 60969.2524421,
+      "period_days": 0.5096502050710628,
+      "training_power": 0.7192782023108958,
+      "training_cycles": 3876.6357436539042,
+      "test_error_reduction": 0.7110047318582005,
+      "test_spearman": 0.8846865002393128,
+      "status": "passes"
+    },
+    {
+      "id": "ZTF17aacydyv",
+      "oid": "611209400001128",
+      "training_nights": 314,
+      "test_nights": 157,
+      "training_last_mjd": 59800.4836574,
+      "test_first_mjd": 59825.4541667,
+      "test_last_mjd": 60968.4479051,
+      "period_days": 7.313554328335185,
+      "training_power": 0.24518768662319237,
+      "training_cycles": 216.62632545693742,
+      "test_error_reduction": 0.04294178883505595,
+      "test_spearman": 0.24799521207648278,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18aaawbgm",
+      "oid": "513204300009613",
+      "training_nights": 189,
+      "test_nights": 95,
+      "training_last_mjd": 59303.1554398,
+      "test_first_mjd": 59306.2077431,
+      "test_last_mjd": 60948.5000579,
+      "period_days": 1.5707443227306266,
+      "training_power": 0.19241420878011165,
+      "training_cycles": 691.98817035127,
+      "test_error_reduction": 0.19009046262465723,
+      "test_spearman": 0.4765817469204927,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abjtfpx",
+      "oid": "538201200054998",
+      "training_nights": 304,
+      "test_nights": 153,
+      "training_last_mjd": 60233.1409838,
+      "test_first_mjd": 60237.1816551,
+      "test_last_mjd": 60969.1247338,
+      "period_days": 5.811780793230248,
+      "training_power": 0.3080493758775215,
+      "training_cycles": 350.08844994166674,
+      "test_error_reduction": 0.41005702192616544,
+      "test_spearman": 0.6969696969696969,
+      "status": "passes"
+    },
+    {
+      "id": "ZTF17aaaaitr",
+      "oid": "460207300009135",
+      "training_nights": 250,
+      "test_nights": 126,
+      "training_last_mjd": 59848.4995023,
+      "test_first_mjd": 59850.5023032,
+      "test_last_mjd": 60951.4647338,
+      "period_days": 1.113252364476466,
+      "training_power": 0.2606044087086143,
+      "training_cycles": 1466.2623579297622,
+      "test_error_reduction": 0.38190372268192774,
+      "test_spearman": 0.5817502812148482,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18ablrppd",
+      "oid": "538202400036246",
+      "training_nights": 373,
+      "test_nights": 187,
+      "training_last_mjd": 60152.2484954,
+      "test_first_mjd": 60155.3295949,
+      "test_last_mjd": 60969.1247338,
+      "period_days": 226.95136098195746,
+      "training_power": 0.32905893576824,
+      "training_cycles": 8.608673882144965,
+      "test_error_reduction": 0.04657820380202349,
+      "test_spearman": 0.48825144333642867,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abuizsi",
+      "oid": "658206400008024",
+      "training_nights": 343,
+      "test_nights": 172,
+      "training_last_mjd": 59851.4530787,
+      "test_first_mjd": 59854.4742824,
+      "test_last_mjd": 60968.3496875,
+      "period_days": 1.4168615550893315,
+      "training_power": 0.1550283193022515,
+      "training_cycles": 1154.157591228815,
+      "test_error_reduction": 0.1632860919517236,
+      "test_spearman": 0.3809180162396851,
+      "status": "below threshold"
+    }
+  ],
+  "optical_infrared": [
+    {
+      "designation": "J054854.20+265147.6",
+      "role": "target",
+      "pairs": [
+        {
+          "mjd": 58381.494,
+          "w1": 12.753499999999999,
+          "r": 18.5616932,
+          "optical_nights": 17
+        },
+        {
+          "mjd": 58539.125,
+          "w1": 12.722,
+          "r": 18.8039379,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 58745.545,
+          "w1": 12.752,
+          "r": 18.6940117,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 58903.288,
+          "w1": 12.932,
+          "r": 18.7735062,
+          "optical_nights": 7
+        },
+        {
+          "mjd": 59112.714,
+          "w1": 12.824,
+          "r": 18.83630375,
+          "optical_nights": 12
+        },
+        {
+          "mjd": 59270.428,
+          "w1": 12.885,
+          "r": 18.7695847,
+          "optical_nights": 5
+        },
+        {
+          "mjd": 59476.868,
+          "w1": 12.725,
+          "r": 18.7584572,
+          "optical_nights": 9
+        },
+        {
+          "mjd": 59634.594,
+          "w1": 12.59,
+          "r": 18.5368195,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 59844.022,
+          "w1": 12.439,
+          "r": 19.1170692,
+          "optical_nights": 5
+        },
+        {
+          "mjd": 60208.236,
+          "w1": 12.646,
+          "r": 18.1169872,
+          "optical_nights": 8
+        },
+        {
+          "mjd": 60365.854,
+          "w1": 12.678,
+          "r": 18.24763585,
+          "optical_nights": 2
+        }
+      ],
+      "spearman": 0.2545454545454546,
+      "leave_one_out_range": [
+        0.1515151515151515,
+        0.6727272727272726
+      ]
+    },
+    {
+      "designation": "J054852.71+265123.2",
+      "role": "field control",
+      "pairs": [
+        {
+          "mjd": 58381.494,
+          "w1": 13.079,
+          "r": 18.5616932,
+          "optical_nights": 17
+        },
+        {
+          "mjd": 58539.125,
+          "w1": 13.06,
+          "r": 18.8039379,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 58745.545,
+          "w1": 13.06,
+          "r": 18.6940117,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 58903.288,
+          "w1": 13.082,
+          "r": 18.7735062,
+          "optical_nights": 7
+        },
+        {
+          "mjd": 59112.714,
+          "w1": 13.062,
+          "r": 18.83630375,
+          "optical_nights": 12
+        },
+        {
+          "mjd": 59270.428,
+          "w1": 13.087,
+          "r": 18.7695847,
+          "optical_nights": 5
+        },
+        {
+          "mjd": 59476.868,
+          "w1": 13.1005,
+          "r": 18.7584572,
+          "optical_nights": 9
+        },
+        {
+          "mjd": 59634.594,
+          "w1": 13.116,
+          "r": 18.5368195,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 59844.022,
+          "w1": 13.089,
+          "r": 19.1170692,
+          "optical_nights": 5
+        },
+        {
+          "mjd": 60208.236,
+          "w1": 13.085,
+          "r": 18.1169872,
+          "optical_nights": 8
+        },
+        {
+          "mjd": 60365.854,
+          "w1": 13.082,
+          "r": 18.24763585,
+          "optical_nights": 2
+        }
+      ],
+      "spearman": -0.17351779069134482,
+      "leave_one_out_range": [
+        -0.40854418032379974,
+        -0.012195348666382085
+      ]
+    },
+    {
+      "designation": "J054856.62+265119.5",
+      "role": "field control",
+      "pairs": [
+        {
+          "mjd": 58381.527,
+          "w1": 13.208,
+          "r": 18.5616932,
+          "optical_nights": 17
+        },
+        {
+          "mjd": 58539.125,
+          "w1": 13.238,
+          "r": 18.8039379,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 58745.545,
+          "w1": 13.227,
+          "r": 18.6940117,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 58903.321,
+          "w1": 13.2825,
+          "r": 18.7735062,
+          "optical_nights": 7
+        },
+        {
+          "mjd": 59112.714,
+          "w1": 13.271,
+          "r": 18.83630375,
+          "optical_nights": 12
+        },
+        {
+          "mjd": 59270.428,
+          "w1": 13.265,
+          "r": 18.7695847,
+          "optical_nights": 5
+        },
+        {
+          "mjd": 59476.868,
+          "w1": 13.283000000000001,
+          "r": 18.7584572,
+          "optical_nights": 9
+        },
+        {
+          "mjd": 59634.594,
+          "w1": 13.282,
+          "r": 18.5368195,
+          "optical_nights": 3
+        },
+        {
+          "mjd": 59844.022,
+          "w1": 13.236,
+          "r": 19.1170692,
+          "optical_nights": 5
+        },
+        {
+          "mjd": 60208.236,
+          "w1": 13.283,
+          "r": 18.1169872,
+          "optical_nights": 8
+        },
+        {
+          "mjd": 60365.854,
+          "w1": 13.261,
+          "r": 18.24763585,
+          "optical_nights": 2
+        }
+      ],
+      "spearman": -0.17272727272727276,
+      "leave_one_out_range": [
+        -0.32121212121212117,
+        0.04242424242424241
+      ]
+    }
+  ]
+}

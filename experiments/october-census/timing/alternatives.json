@@ -1,0 +1,53 @@
+{
+  "test_nights": 153,
+  "training_origin_hjd": 2458199.002980003,
+  "training_mean_mag": 16.4999367493421,
+  "training_model_peak_to_peak_mag": 0.5969019357078693,
+  "model_brightest_phase": 0.2674,
+  "model_faintest_phase": 0.9591,
+  "constant_rmse_mag": 0.21510318341907234,
+  "fits": {
+    "red_fit": {
+      "period_days": 5.811780793230248,
+      "rmse_mag": 0.16521590585018958,
+      "reduction_vs_constant": 0.41005702192616555,
+      "rho": 0.6969696969696969
+    },
+    "atlas_lomb_scargle": {
+      "period_days": 5.79624,
+      "rmse_mag": 0.23656298282731747,
+      "reduction_vs_constant": -0.20948336520426913,
+      "rho": -0.4296603808987709
+    },
+    "atlas_lombscar": {
+      "period_days": 2.408143,
+      "rmse_mag": 0.20344733646318605,
+      "reduction_vs_constant": 0.10543821538086073,
+      "rho": 0.3737921005722863
+    },
+    "red_minus_sidereal_alias": {
+      "period_days": 1.2038422808370606,
+      "rmse_mag": 0.19000759326042124,
+      "reduction_vs_constant": 0.21972401891972426,
+      "rho": 0.7573412139975606
+    },
+    "red_plus_sidereal_alias": {
+      "period_days": 0.8512071216010041,
+      "rmse_mag": 0.18617760247818957,
+      "reduction_vs_constant": 0.25086309722875877,
+      "rho": 0.7136759009824024
+    },
+    "double_red_period": {
+      "period_days": 11.623561586460497,
+      "rmse_mag": 0.17084356797012507,
+      "reduction_vs_constant": 0.3691827074096202,
+      "rho": 0.8716309490303298
+    },
+    "half_red_period": {
+      "period_days": 2.905890396615124,
+      "rmse_mag": 0.2315298350683699,
+      "reduction_vs_constant": -0.15856458604699641,
+      "rho": -0.21915081822202562
+    }
+  }
+}

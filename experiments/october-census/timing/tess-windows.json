@@ -1,0 +1,68 @@
+[
+  {
+    "predicted_bjd_approx": 2460482.788736949,
+    "window": "half-cycle",
+    "counts_left_in_right": [
+      4,
+      4,
+      4
+    ],
+    "deficit_electrons_per_sec": {
+      "center": 8.684776886499776,
+      "lower_left": 1.4234055773763714,
+      "lower_right": 13.166378871718734,
+      "upper_left": 1.9230201433358616,
+      "upper_right": 0.11080530246749731
+    }
+  },
+  {
+    "predicted_bjd_approx": 2460488.6005177423,
+    "window": "deep",
+    "counts_left_in_right": [
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "predicted_bjd_approx": 2460494.4122985355,
+    "window": "half-cycle",
+    "counts_left_in_right": [
+      3,
+      4,
+      4
+    ],
+    "deficit_electrons_per_sec": {
+      "center": 14.025616597261205,
+      "lower_left": 0.9796504795102692,
+      "lower_right": -3.6855595088086375,
+      "upper_left": 3.365124931592959,
+      "upper_right": 2.0544639607098816
+    }
+  },
+  {
+    "predicted_bjd_approx": 2460500.224079329,
+    "window": "deep",
+    "counts_left_in_right": [
+      4,
+      4,
+      4
+    ],
+    "deficit_electrons_per_sec": {
+      "center": 4.218344436107088,
+      "lower_left": -16.99376105119275,
+      "lower_right": -3.771074377935747,
+      "upper_left": -10.196859566168484,
+      "upper_right": 36.2532702926527
+    }
+  },
+  {
+    "predicted_bjd_approx": 2460506.035860122,
+    "window": "half-cycle",
+    "counts_left_in_right": [
+      4,
+      4,
+      0
+    ]
+  }
+]

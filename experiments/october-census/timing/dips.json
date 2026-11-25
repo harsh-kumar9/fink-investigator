@@ -1,0 +1,100 @@
+{
+  "fits": {
+    "red_clock": {
+      "period_days": 5.811946375748076,
+      "duration_days": 0.5811780793230249,
+      "center_hjd": 2458204.5357953184,
+      "training_depth_mag": 0.7264647672938574,
+      "training_power": 6.86076375555114
+    },
+    "lower_daily_alias": {
+      "period_days": 1.2057746577279196,
+      "duration_days": 0.024076845616741213,
+      "center_hjd": 2458200.203210757,
+      "training_depth_mag": 0.6825096872108851,
+      "training_power": 2.3290973656835012
+    },
+    "upper_daily_alias": {
+      "period_days": 0.8512320426562052,
+      "duration_days": 0.06809656972808033,
+      "center_hjd": 2458199.037028288,
+      "training_depth_mag": 0.4578483316546765,
+      "training_power": 2.7251262323866183
+    },
+    "half_frequency": {
+      "period_days": 11.623561586460497,
+      "duration_days": 0.9298849269168398,
+      "center_hjd": 2458210.382446796,
+      "training_depth_mag": 0.9345455712401437,
+      "training_power": 10.917192809057081
+    },
+    "double_frequency": {
+      "period_days": 2.9128296627160313,
+      "duration_days": 0.058117807932302486,
+      "center_hjd": 2458201.9001527284,
+      "training_depth_mag": 1.1036138097452937,
+      "training_power": 1.826945161590782
+    }
+  },
+  "training_winner": "half_frequency",
+  "original_later": {
+    "inside": 7,
+    "outside": 146,
+    "in_window_mjd_mag": [
+      [
+        60430.3956713,
+        16.7871819
+      ],
+      [
+        60441.4199306,
+        17.6098709
+      ],
+      [
+        60464.415544,
+        17.1915512
+      ],
+      [
+        60499.2958912,
+        17.1975021
+      ],
+      [
+        60593.1721875,
+        16.6854324
+      ],
+      [
+        60871.2911574,
+        17.4929562
+      ],
+      [
+        60953.1726389,
+        17.5719852
+      ]
+    ],
+    "outside_median_mag": 16.409625050000002,
+    "inside_minus_outside_median_mag": 0.7878770499999987,
+    "outside_p90_minus_p10_mag": 0.18369199999999708
+  },
+  "other_series_disjoint_dates": {
+    "1533210200094203": {
+      "inside": 3,
+      "outside": 26,
+      "in_window_mjd_mag": [
+        [
+          58593.369213,
+          17.4884987
+        ],
+        [
+          60081.4492477,
+          17.5029106
+        ],
+        [
+          60708.5565162,
+          17.3540249
+        ]
+      ],
+      "outside_median_mag": 16.42784215,
+      "inside_minus_outside_median_mag": 1.060656550000001,
+      "outside_p90_minus_p10_mag": 0.24656679999999653
+    }
+  }
+}

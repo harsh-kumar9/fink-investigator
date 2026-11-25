@@ -1,0 +1,175 @@
+{
+  "period_days": 11.623561586460497,
+  "center_hjd": 2458210.382446796,
+  "full_window_days": 0.9298849269168398,
+  "atlas_catalog": {
+    "Class": "dubious",
+    "fp-LSper": "5.796240",
+    "fp-lngfitper": "5.793208",
+    "fp-domper-c": "5.793208",
+    "fp-domper-o": "5.793208",
+    "fp-fit": "0",
+    "fp-period": "",
+    "fp-domperiod": "",
+    "ls-Pday": "2.408143",
+    "P(CBF)": "0.00000000000000000",
+    "P(CBH)": "0.00000000000000000",
+    "P(DBF)": "0.00000000000000000",
+    "P(DBH)": "0.00000000000000000",
+    "P(dubious)": "1.00000000000000000"
+  },
+  "green": {
+    "538101200105064": {
+      "all": {
+        "deep": {
+          "n": 27,
+          "median_mag": 18.8139
+        },
+        "opposite": {
+          "n": 27,
+          "median_mag": 17.3605
+        },
+        "outside_both": {
+          "n": 340,
+          "median_mag": 17.2608
+        }
+      },
+      "absent_from_both_red_fields": {
+        "deep": {
+          "n": 6,
+          "median_mag": 18.91
+        },
+        "opposite": {
+          "n": 11,
+          "median_mag": 17.3478
+        },
+        "outside_both": {
+          "n": 71,
+          "median_mag": 17.2467
+        }
+      }
+    },
+    "538101200000658": {
+      "all": {
+        "deep": {
+          "n": 26,
+          "median_mag": 16.8747
+        },
+        "opposite": {
+          "n": 24,
+          "median_mag": 16.8793
+        },
+        "outside_both": {
+          "n": 326,
+          "median_mag": 16.8773
+        }
+      },
+      "absent_from_both_red_fields": {
+        "deep": {
+          "n": 6,
+          "median_mag": 16.8701
+        },
+        "opposite": {
+          "n": 9,
+          "median_mag": 16.8692
+        },
+        "outside_both": {
+          "n": 67,
+          "median_mag": 16.8736
+        }
+      }
+    },
+    "538101200001178": {
+      "all": {
+        "deep": {
+          "n": 27,
+          "median_mag": 17.8543
+        },
+        "opposite": {
+          "n": 27,
+          "median_mag": 17.8683
+        },
+        "outside_both": {
+          "n": 343,
+          "median_mag": 17.8632
+        }
+      },
+      "absent_from_both_red_fields": {
+        "deep": {
+          "n": 6,
+          "median_mag": 17.8573
+        },
+        "opposite": {
+          "n": 11,
+          "median_mag": 17.8722
+        },
+        "outside_both": {
+          "n": 73,
+          "median_mag": 17.8618
+        }
+      }
+    }
+  },
+  "red": {
+    "538201200054998": {
+      "all": {
+        "deep": {
+          "n": 30,
+          "median_mag": 17.4774
+        },
+        "opposite": {
+          "n": 27,
+          "median_mag": 16.5676
+        },
+        "outside_both": {
+          "n": 400,
+          "median_mag": 16.4028
+        }
+      },
+      "later": {
+        "deep": {
+          "n": 7,
+          "median_mag": 17.1975
+        },
+        "opposite": {
+          "n": 7,
+          "median_mag": 16.5594
+        },
+        "outside_both": {
+          "n": 139,
+          "median_mag": 16.4028
+        }
+      }
+    },
+    "1533210200094203": {
+      "all": {
+        "deep": {
+          "n": 3,
+          "median_mag": 17.4885
+        },
+        "opposite": {
+          "n": 5,
+          "median_mag": 16.583
+        },
+        "outside_both": {
+          "n": 31,
+          "median_mag": 16.4179
+        }
+      },
+      "disjoint_from_primary": {
+        "deep": {
+          "n": 3,
+          "median_mag": 17.4885
+        },
+        "opposite": {
+          "n": 5,
+          "median_mag": 16.583
+        },
+        "outside_both": {
+          "n": 21,
+          "median_mag": 16.4049
+        }
+      }
+    }
+  }
+}

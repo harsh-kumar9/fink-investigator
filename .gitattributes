@@ -1,3 +1,4 @@
 *.gz binary
 *.png binary
 experiments/replication/2026-10/astrometry/*.csv -text -whitespace
+experiments/october-census/timing/ps1-*.csv -text -whitespace

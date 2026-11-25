@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ZTF18abqclig",
+    "query": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=J%2FAJ%2F156%2F241%2Ftable4%2CII%2F366%2Fcatv2021&-c=92.6614871+%2B20.6345684&-c.rs=5&-out.add=_r&-out.max=50&-out=ATOID%2CID%2CASASSN-V%2CRAJ2000%2CDEJ2000%2CClass%2CType%2Cddc%2Cprox%2Cls-Pday%2Cfp-period%2CPer",
+    "tables": {
+      "J/AJ/156/241/table4": [
+        {
+          "_r": "0.19",
+          "ATOID": "J092.6615+20.6346",
+          "RAJ2000": "092.66150",
+          "DEJ2000": "+20.63462",
+          "Class": "STOCH",
+          "ddc": "1",
+          "prox": "1",
+          "ls-Pday": "20.192421",
+          "fp-period": ""
+        }
+      ],
+      "II/366/catv2021": []
+    }
+  },
+  {
+    "id": "ZTF20aaothpc",
+    "query": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=J%2FAJ%2F156%2F241%2Ftable4%2CII%2F366%2Fcatv2021&-c=130.6710409+-2.381935&-c.rs=5&-out.add=_r&-out.max=50&-out=ATOID%2CID%2CASASSN-V%2CRAJ2000%2CDEJ2000%2CClass%2CType%2Cddc%2Cprox%2Cls-Pday%2Cfp-period%2CPer",
+    "tables": {
+      "J/AJ/156/241/table4": [
+        {
+          "_r": "0.51",
+          "ATOID": "J130.6711-02.3818",
+          "RAJ2000": "130.67111",
+          "DEJ2000": "-02.38181",
+          "Class": "IRR",
+          "ddc": "0",
+          "prox": "1",
+          "ls-Pday": "3.585029",
+          "fp-period": "1.997811"
+        }
+      ],
+      "II/366/catv2021": []
+    }
+  }
+]

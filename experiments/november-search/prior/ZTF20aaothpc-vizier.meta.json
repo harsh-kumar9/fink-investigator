@@ -1,0 +1,7 @@
+{
+  "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=II%2F360%2CJ%2FMNRAS%2F524%2F4867%2Ftablea1%2CJ%2FA%2BA%2F675%2FA195%2Fcandztfg%2CJ%2FA%2BA%2F675%2FA195%2Fcandztfr&-c=130.6710409+-2.381935&-c.rs=5&-out.add=_r&-out.max=100&-out=GaiaDR2%2CRA_ICRS%2CDE_ICRS%2CR%2CLY%2CSY%2CLE%2CSE%2CLM%2CSM%2CLEG%2CSEG%2CSDSS%2CName%2CRAJ2000%2CDEJ2000%2CObjectId%2CRAdeg%2CDEdeg%2CNepochs%2CPredIClass%2CPredIClassProb%2CPredClass%2CPredClassProb%2CPeriod",
+  "json_payload": null,
+  "http_status": 200,
+  "sha256": "b77837636c50341f32eaffd51cb91c04b43806c72dcbed67aa5e5309529a358a",
+  "retrieved_utc": "2026-11-25T22:16:38.829511+00:00"
+}

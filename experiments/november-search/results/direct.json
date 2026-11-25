@@ -1,0 +1,46 @@
+{
+  "control": {
+    "id": "ZTF18achfhai",
+    "query": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+336.6817423+-20.0940973+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61328.22885420&FORMAT=csv",
+    "direct_source_id": "341201400001827",
+    "eligible_series_count": 3,
+    "first_matched_date": "2019-11-02",
+    "last_matched_date": "2025-10-21",
+    "matched_dates": 158,
+    "positive_dates": 44,
+    "negative_dates": 114,
+    "spearman": 0.986,
+    "negative_minus_positive_median_direct_mag": 0.567,
+    "threshold_supported": true
+  },
+  "objects": [
+    {
+      "id": "ZTF18abqclig",
+      "query": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+92.6614871+20.6345684+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61351.42290510&FORMAT=csv",
+      "direct_source_id": "563212100016993",
+      "eligible_series_count": 1,
+      "first_matched_date": "2019-11-06",
+      "last_matched_date": "2025-10-20",
+      "matched_dates": 175,
+      "positive_dates": 6,
+      "negative_dates": 169,
+      "spearman": 0.998,
+      "negative_minus_positive_median_direct_mag": 0.886,
+      "threshold_supported": true
+    },
+    {
+      "id": "ZTF20aaothpc",
+      "query": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+130.6710409+-2.381935+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61365.52819440&FORMAT=csv",
+      "direct_source_id": "414209300030384",
+      "eligible_series_count": 2,
+      "first_matched_date": "2020-12-11",
+      "last_matched_date": "2025-01-04",
+      "matched_dates": 5,
+      "positive_dates": 5,
+      "negative_dates": 0,
+      "spearman": null,
+      "negative_minus_positive_median_direct_mag": null,
+      "threshold_supported": false
+    }
+  ]
+}

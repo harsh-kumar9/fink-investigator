@@ -1,0 +1,7 @@
+{
+  "url": "https://www.wis-tns.org/search?ra=130.6710409&decl=-2.381935&radius=10&coords_unit=arcsec&format=csv",
+  "json_payload": null,
+  "http_status": 403,
+  "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+  "retrieved_utc": "2026-11-25T22:17:41.694356+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "119662803050979049": {
+    "retrieved_utc": "2026-11-25T22:14:17+00:00",
+    "sha256_uncompressed": "3c9c71cb59720a8381635cbded5d6c816e73f043df836751380f60d896de5a00",
+    "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/detection.csv?objID=119662803050979049&columns=%5BdetectID%2CfilterID%2CobsTime%2Cra%2Cdec%2CpsfFlux%2CpsfFluxErr%2CpsfQfPerfect%2CinfoFlag%2CinfoFlag2%2CinfoFlag3%5D"
+  },
+  "119662803059769582": {
+    "retrieved_utc": "2026-11-25T22:13:21+00:00",
+    "sha256_uncompressed": "7a0e8652d8858f270233e7aa1730341766186a782d2a89b1ed3a30403cb4df1e",
+    "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/detection.csv?objID=119662803059769582&columns=%5BdetectID%2CfilterID%2CobsTime%2Cra%2Cdec%2CpsfFlux%2CpsfFluxErr%2CpsfQfPerfect%2CinfoFlag%2CinfoFlag2%2CinfoFlag3%5D"
+  },
+  "119662803063168400": {
+    "retrieved_utc": "2026-11-25T22:13:21+00:00",
+    "sha256_uncompressed": "0e274bf8bd9e9a372a3528d6f69538d50f2093c8fe9aa2adbeff1a362c0f98df",
+    "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/detection.csv?objID=119662803063168400&columns=%5BdetectID%2CfilterID%2CobsTime%2Cra%2Cdec%2CpsfFlux%2CpsfFluxErr%2CpsfQfPerfect%2CinfoFlag%2CinfoFlag2%2CinfoFlag3%5D"
+  },
+  "119672803061170446": {
+    "retrieved_utc": "2026-11-25T22:13:21+00:00",
+    "sha256_uncompressed": "8f0d53d24908a2bcd7f375fa2c11af31506bf20b3ae4da3dc02eec66f1d06fa5",
+    "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/detection.csv?objID=119672803061170446&columns=%5BdetectID%2CfilterID%2CobsTime%2Cra%2Cdec%2CpsfFlux%2CpsfFluxErr%2CpsfQfPerfect%2CinfoFlag%2CinfoFlag2%2CinfoFlag3%5D"
+  },
+  "ps1-mean": {
+    "retrieved_utc": "2026-11-25T22:12:43+00:00",
+    "sha256_uncompressed": "d850828764bc7505a975cfa0096d2c967edeba54c2182fbb3490db561b6cf3c6",
+    "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/mean.csv?ra=280.305911&dec=9.7241705&radius=0.00138889&columns=%5BobjID%2CraMean%2CdecMean%2CnDetections%2CgMeanPSFMag%2CrMeanPSFMag%2CiMeanPSFMag%5D"
+  }
+}

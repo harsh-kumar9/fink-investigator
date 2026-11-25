@@ -1,0 +1,7 @@
+# Resolved Pan-STARRS light curves
+
+The ATLAS catalog led to a Pan-STARRS reference identifier. Its older object ID returned no rows from the DR2 detection service. A position query then located three DR2 sources within 4″ of the Fink anchor, including one very close to each of the three Gaia stars. Before reading the detection magnitudes, fix this source-localization check.
+
+Download the DR2 detections for all three. Retain finite positive PSF fluxes, signal to noise ≥10 and PSF perfect-pixel fraction ≥0.9. Group each filter separately by integer MJD and give each resulting median magnitude one vote. Use filters with at least five nights. Across the eligible filters fit a separate constant for each band. For each of the two recorded alternatives (ZTF's 5.811780793 d and ATLAS lombscar's 2.408143 d), add a common sine and cosine evaluated at the nightly median MJD. Frequency is fixed; phase and amplitude are fitted to these earlier data. Report the fraction of within-filter scatter explained and the reduction at both periods, with at least 15 filter-night medians total. A sub-day instrumental alias or an intrinsic color-dependent amplitude can affect this exploratory comparison. A missing or poorly sampled neighbor leaves its contribution open.
+
+Implementation note after retrieving the detection tables: recomputing the separation placed a fourth DR2 mean-catalog entry at 3.089″. The archive lists two detections. We included both under the same quality and minimum-night thresholds.

@@ -1,0 +1,77 @@
+{
+  "gate_passed": true,
+  "cases": [
+    {
+      "id": "ZTF18abqclig",
+      "question": "Does the evidence warrant inspecting this historical anomaly for an ordinary variable, catalog counterpart, or subtraction artifact?",
+      "evidence": [
+        {
+          "id": "alert",
+          "source": "https://ztf.fink-portal.org/ZTF18abqclig",
+          "detail": "Fink score -0.0233, DRB 1.000, JD 2461351.9229051, candid 3597422904415010006; RA 92.6614871, Dec 20.6345684 deg. The negative difference residual has magnitude 17.127 \u00b1 0.041 in ZTF filter 2."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF18abqclig",
+          "detail": "740 detections through the selected alert. 729 pass DRB >= 0.8 and sigma <= 0.2 mag on 315 UTC dates, with positive residuals on 63 dates."
+        },
+        {
+          "id": "catalog",
+          "source": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=92.6614871+%2B20.6345684&CooFrame=ICRS&CooEpoch=2000&Radius=3&Radius.unit=arcsec",
+          "detail": "Broker CDS label 'Fail'; TNS label not supplied for this alert; no independent TNS cone search was made; current 3 arcsec SIMBAD query yielded 0 neighbors. Coverage and positional differences limit this check."
+        },
+        {
+          "id": "motion",
+          "source": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+          "detail": "0 significant Gaia DR3 stars >=150 mas/yr passed the 2.5 arcsec track screen. Slower, uncataloged or poorly measured stars and image artifacts remain plausible."
+        },
+        {
+          "id": "image",
+          "source": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18abqclig&candid=3597422904415010006&kind=Difference",
+          "detail": "Epoch-specific difference cutout available for inspection alongside science and template. This link alone supplies no visual verdict."
+        },
+        {
+          "id": "vsx-cone",
+          "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=92.6614871+%2B20.6345684&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+          "detail": "The current five-arcsecond VSX cone returned no variable-star entries; other catalogs and image review remain outstanding."
+        }
+      ]
+    },
+    {
+      "id": "ZTF20aaothpc",
+      "question": "Does the evidence warrant inspecting this historical anomaly for an ordinary variable, catalog counterpart, or subtraction artifact?",
+      "evidence": [
+        {
+          "id": "alert",
+          "source": "https://ztf.fink-portal.org/ZTF20aaothpc",
+          "detail": "Fink score -0.0112, DRB 0.967, JD 2461366.0281944, candid 3611528193415015013; RA 130.6710409, Dec -2.381935 deg. The positive difference residual has magnitude 17.533 \u00b1 0.080 in ZTF filter 2."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF20aaothpc",
+          "detail": "13 detections through the selected alert. 10 pass DRB >= 0.8 and sigma <= 0.2 mag on 10 UTC dates, with positive residuals on 10 dates."
+        },
+        {
+          "id": "catalog",
+          "source": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=130.6710409+-2.381935&CooFrame=ICRS&CooEpoch=2000&Radius=3&Radius.unit=arcsec",
+          "detail": "Broker CDS label 'Fail'; TNS label not supplied for this alert; no independent TNS cone search was made; current 3 arcsec SIMBAD query yielded 0 neighbors. Coverage and positional differences limit this check."
+        },
+        {
+          "id": "motion",
+          "source": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+          "detail": "0 significant Gaia DR3 stars >=150 mas/yr passed the 2.5 arcsec track screen. Slower, uncataloged or poorly measured stars and image artifacts remain plausible."
+        },
+        {
+          "id": "image",
+          "source": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF20aaothpc&candid=3611528193415015013&kind=Difference",
+          "detail": "Epoch-specific difference cutout available for inspection alongside science and template. This link alone supplies no visual verdict."
+        },
+        {
+          "id": "vsx-cone",
+          "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=130.6710409+-2.381935&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+          "detail": "The current five-arcsecond VSX cone returned no variable-star entries; other catalogs and image review remain outstanding."
+        }
+      ]
+    }
+  ]
+}

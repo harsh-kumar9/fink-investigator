@@ -1,0 +1,210 @@
+{
+  "object": "ZTF18abqclig",
+  "target": {
+    "oid": "563112100001128",
+    "ra": "92.6615037",
+    "dec": "20.6346376",
+    "field": "563",
+    "ccdid": "12",
+    "qid": "1",
+    "fid": "1",
+    "nobs": "408",
+    "meanmag": "1.897834e+01",
+    "distance_arcsec": 0.2553204196711126
+  },
+  "comparison_stars": [
+    {
+      "oid": "563112100015783",
+      "ra": "92.6574438",
+      "dec": "20.6034816",
+      "field": "563",
+      "ccdid": "12",
+      "qid": "1",
+      "fid": "1",
+      "nobs": "428",
+      "meanmag": "1.890313e+01",
+      "distance_arcsec": 112.73847695591941
+    },
+    {
+      "oid": "563112100001100",
+      "ra": "92.6503899",
+      "dec": "20.6367507",
+      "field": "563",
+      "ccdid": "12",
+      "qid": "1",
+      "fid": "1",
+      "nobs": "418",
+      "meanmag": "1.887725e+01",
+      "distance_arcsec": 38.203535475793316
+    },
+    {
+      "oid": "563112100010100",
+      "ra": "92.6365429",
+      "dec": "20.6492857",
+      "field": "563",
+      "ccdid": "12",
+      "qid": "1",
+      "fid": "1",
+      "nobs": "325",
+      "meanmag": "1.908442e+01",
+      "distance_arcsec": 99.34560185645759
+    },
+    {
+      "oid": "563112100001023",
+      "ra": "92.6911758",
+      "dec": "20.6435169",
+      "field": "563",
+      "ccdid": "12",
+      "qid": "1",
+      "fid": "1",
+      "nobs": "416",
+      "meanmag": "1.916662e+01",
+      "distance_arcsec": 105.08244879441278
+    },
+    {
+      "oid": "563112100001317",
+      "ra": "92.6493446",
+      "dec": "20.6198362",
+      "field": "563",
+      "ccdid": "12",
+      "qid": "1",
+      "fid": "1",
+      "nobs": "420",
+      "meanmag": "1.878105e+01",
+      "distance_arcsec": 66.98006581620024
+    }
+  ],
+  "green_response_rows": 1128,
+  "early_dates": 87,
+  "late_dates": 94,
+  "comparison_field_dates_early": 93,
+  "comparison_field_dates_late": 95,
+  "worst_case_missing_night_shift_lower_bound_mag": 0.9092,
+  "raw_target_shift_mag": 0.9933,
+  "corrected_shift_mag": 0.9262,
+  "matched_month_shift_mag": 0.9869,
+  "individual_comparisons": {
+    "563112100015783": {
+      "paired_target_shift_mag": 0.9562,
+      "control_shift_mag": 0.0188
+    },
+    "563112100001100": {
+      "paired_target_shift_mag": 1.0044,
+      "control_shift_mag": -0.0091
+    },
+    "563112100010100": {
+      "paired_target_shift_mag": 1.0198,
+      "control_shift_mag": -0.0495
+    },
+    "563112100001023": {
+      "paired_target_shift_mag": 0.97,
+      "control_shift_mag": 0.0283
+    },
+    "563112100001317": {
+      "paired_target_shift_mag": 0.979,
+      "control_shift_mag": 0.0048
+    }
+  },
+  "monthly_shifts_mag": {
+    "1": 1.1838,
+    "2": 1.036,
+    "3": 0.6833,
+    "4": 0.9265,
+    "5": null,
+    "6": null,
+    "7": null,
+    "8": null,
+    "9": 1.2549,
+    "10": 0.9095,
+    "11": 0.9904,
+    "12": 0.9835
+  },
+  "annual_corrected_medians": {
+    "2021": {
+      "dates": 62,
+      "mag": 19.2248,
+      "interquartile_mag": [
+        19.018,
+        19.6601
+      ]
+    },
+    "2022": {
+      "dates": 25,
+      "mag": 19.18,
+      "interquartile_mag": [
+        18.7923,
+        19.5367
+      ]
+    },
+    "2023": {
+      "dates": 25,
+      "mag": 18.3311,
+      "interquartile_mag": [
+        18.2646,
+        18.4259
+      ]
+    },
+    "2024": {
+      "dates": 38,
+      "mag": 18.2268,
+      "interquartile_mag": [
+        18.0816,
+        18.3599
+      ]
+    },
+    "2025": {
+      "dates": 31,
+      "mag": 18.1438,
+      "interquartile_mag": [
+        18.0382,
+        18.7326
+      ]
+    }
+  },
+  "exploratory_red": {
+    "shift_mag": 0.9032,
+    "annual_medians": {
+      "2021": {
+        "dates": 75,
+        "mag": 17.7737,
+        "interquartile_mag": [
+          17.5101,
+          18.0453
+        ]
+      },
+      "2022": {
+        "dates": 46,
+        "mag": 17.8725,
+        "interquartile_mag": [
+          17.4008,
+          18.4092
+        ]
+      },
+      "2023": {
+        "dates": 41,
+        "mag": 16.9391,
+        "interquartile_mag": [
+          16.8852,
+          17.0765
+        ]
+      },
+      "2024": {
+        "dates": 42,
+        "mag": 16.9125,
+        "interquartile_mag": [
+          16.8227,
+          17.0233
+        ]
+      },
+      "2025": {
+        "dates": 36,
+        "mag": 16.8295,
+        "interquartile_mag": [
+          16.7497,
+          17.1058
+        ]
+      }
+    }
+  },
+  "criterion_passed": true
+}

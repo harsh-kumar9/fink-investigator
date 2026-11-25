@@ -1,0 +1,380 @@
+{
+  "utc_start": "2026-11-01",
+  "utc_stop_exclusive": "2026-11-25",
+  "fetched_anomaly_packets": 120,
+  "in_window_anomaly_packets": 110,
+  "archive_broker_labels": {
+    "Fail": 110
+  },
+  "utc_dates": [
+    "2026-11-05",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-18",
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24"
+  ],
+  "distinct_archive_ids": 86,
+  "sample_size": 20,
+  "first_pass": {
+    "broker crossmatch failed": 20
+  },
+  "control_agreements": 7,
+  "catalog_closed_primary": 0,
+  "eligible_primary": [],
+  "assigned_primary": [],
+  "audit_quality_survivors": [
+    "ZTF18abqclig",
+    "ZTF20aaothpc"
+  ],
+  "audit_simbad_neighbors": 15,
+  "audit_unique_vsx_within_1_arcsec": 3,
+  "objects": [
+    {
+      "id": "ZTF17aacptaj",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "V* GZ Aur A",
+          "type": "Or*",
+          "separation_arcsec": 0.429
+        },
+        {
+          "name": "V* GZ Aur",
+          "type": "Y*O",
+          "separation_arcsec": 0.809
+        },
+        {
+          "name": "V* GZ Aur B",
+          "type": "Or*",
+          "separation_arcsec": 2.774
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF17aabvtof",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "ATO J083.1521+12.4634",
+          "type": "Em*",
+          "separation_arcsec": 0.081
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18aabfdwa",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "ATO J069.8224+23.7152",
+          "type": "EB*",
+          "separation_arcsec": 0.059
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [
+        {
+          "cohort": "2026-10",
+          "id": "ZTF18aabfdwa",
+          "arcsec": 0.19,
+          "reasons": [
+            "exact object ID",
+            "within 5 arcsec",
+            "SIMBAD ATO J069.8224+23.7152"
+          ]
+        }
+      ],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18abqclig",
+      "primary": "broker crossmatch failed",
+      "simbad": [],
+      "vsx": [],
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF20acqpkxj",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "AT 2020abey",
+          "type": "CV*",
+          "separation_arcsec": 0.837
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF17aabrols",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "Gaia DR3 3122882785489307904",
+          "type": "*",
+          "separation_arcsec": 0.092
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF17aabcojf",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "CRTS CSS140903 J044529+173745",
+          "type": "CV*",
+          "separation_arcsec": 0.107
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18abvtydv",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "V* UV Gem",
+          "type": "CV*",
+          "separation_arcsec": 0.265
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18abcxezz",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "ATO J295.6317+15.0629",
+          "type": "LP*",
+          "separation_arcsec": 0.563
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF17aabwfnh",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "Gaia DR3 2970974362073260544",
+          "type": "Em*",
+          "separation_arcsec": 0.252
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18aafycti",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "CRTS J085007.0+165138",
+          "type": "EB*",
+          "separation_arcsec": 0.527
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18aaaamkw",
+      "primary": "broker crossmatch failed",
+      "simbad": [],
+      "vsx": [
+        {
+          "oid": "1499023",
+          "name": "MGAB-V674",
+          "type": "UG",
+          "ra": 95.63327,
+          "dec": 11.05683,
+          "separation_arcsec": 0.15,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=1499023"
+        }
+      ],
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF17aabnxye",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "ZTF J062627.38+122407.3",
+          "type": "LP*",
+          "separation_arcsec": 0.361
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18acrumat",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "2MASS J06131396-0915459",
+          "type": "LP?",
+          "separation_arcsec": 0.375
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": false,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18accpncg",
+      "primary": "broker crossmatch failed",
+      "simbad": [],
+      "vsx": [
+        {
+          "oid": "7506937",
+          "name": "Gaia DR3 4291664401752025344",
+          "type": "RS",
+          "ra": 294.79974,
+          "dec": 5.69665,
+          "separation_arcsec": 0.18,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=7506937"
+        }
+      ],
+      "meets_photometric_cuts": false,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF18abzbohj",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "ZTF J061211.45+091707.1",
+          "type": "RS*",
+          "separation_arcsec": 0.054
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": false,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF19acbksym",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "Gaia DR3 4218462078645338496",
+          "type": "*",
+          "separation_arcsec": 0.135
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": false,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF20aafpgwx",
+      "primary": "broker crossmatch failed",
+      "simbad": [],
+      "vsx": [
+        {
+          "oid": "4281060",
+          "name": "Gaia DR3 3014869821190815872",
+          "type": "ROT",
+          "ra": 82.28269,
+          "dec": -8.0553,
+          "separation_arcsec": 0.85,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=4281060"
+        }
+      ],
+      "meets_photometric_cuts": false,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF17aacjanz",
+      "primary": "broker crossmatch failed",
+      "simbad": [
+        {
+          "name": "V* DN Gem",
+          "type": "No*",
+          "separation_arcsec": 0.096
+        }
+      ],
+      "vsx": null,
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    },
+    {
+      "id": "ZTF20aaothpc",
+      "primary": "broker crossmatch failed",
+      "simbad": [],
+      "vsx": [],
+      "meets_photometric_cuts": true,
+      "tns": null,
+      "previous_cohort_matches": [],
+      "within_sample_matches": []
+    }
+  ]
+}

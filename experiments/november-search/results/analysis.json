@@ -1,0 +1,642 @@
+{
+  "gate_passed": true,
+  "start": "2026-11-01",
+  "stop_exclusive": "2026-11-25",
+  "anomaly_alerts": 110,
+  "distinct_anomaly_objects": 86,
+  "calibration": [
+    {
+      "id": "ZTF18abkalak",
+      "expected": true,
+      "name": "G 260-1",
+      "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+      "expected_gaia_dr3_source_id": "2259755746681611264",
+      "candid": "3311539581615010016",
+      "matches": [
+        {
+          "source_id": "2259755746681611264",
+          "pm_mas_yr": 1726.4,
+          "distance_to_track_arcsec": 0.027
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "ZTF18adgsbul",
+      "expected": true,
+      "name": "G 135-67",
+      "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+      "expected_gaia_dr3_source_id": "1235307193617100160",
+      "candid": "3317540210115010000",
+      "matches": [
+        {
+          "source_id": "1235307193617100160",
+          "pm_mas_yr": 1569.7,
+          "distance_to_track_arcsec": 0.109
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "ZTF19abhyflg",
+      "expected": true,
+      "name": "LP 624-55",
+      "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+      "expected_gaia_dr3_source_id": "4412055049456215808",
+      "candid": "3317559431315010011",
+      "matches": [
+        {
+          "source_id": "4412055049456215808",
+          "pm_mas_yr": 1598.3,
+          "distance_to_track_arcsec": 0.107
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "ZTF23aajfetj",
+      "expected": true,
+      "name": "Wolf 611",
+      "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+      "expected_gaia_dr3_source_id": "4426487823197250304",
+      "candid": "3317557504315010006",
+      "matches": [
+        {
+          "source_id": "4426487823197250304",
+          "pm_mas_yr": 1389.1,
+          "distance_to_track_arcsec": 0.014
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "ZTF23aalftvv",
+      "expected": false,
+      "name": "SN 2023mtp",
+      "source": "https://arxiv.org/html/2603.29511v1#S4.SS1.SSS2",
+      "candid": "2500135990815015006",
+      "matches": [],
+      "pass": true
+    },
+    {
+      "id": "ZTF23aaklqou",
+      "expected": false,
+      "name": "SN 2023ixf",
+      "source": "https://www.wis-tns.org/object/2023ixf",
+      "candid": "3311478482515015010",
+      "matches": [],
+      "pass": true
+    },
+    {
+      "id": "ZTF23aabtgej",
+      "expected": false,
+      "name": "SN 2023bee",
+      "source": "https://www.wis-tns.org/object/2023bee",
+      "candid": "2603370232515015012",
+      "matches": [],
+      "pass": true
+    }
+  ],
+  "objects": [
+    {
+      "id": "ZTF17aacptaj",
+      "candid": "3602441351415010033",
+      "jd": 2461356.9413542,
+      "ra": 75.0130123,
+      "dec": 30.0183427,
+      "score": -0.0245400406,
+      "drb": 0.99468315,
+      "filter": 2,
+      "magpsf": 14.390375,
+      "sigmapsf": 0.031799626,
+      "history_rows": 416,
+      "usable_rows": 368,
+      "usable_nights": 230,
+      "positive_nights": 12,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "V* GZ Aur A",
+          "type": "Or*",
+          "separation_arcsec": 0.429
+        },
+        {
+          "name": "V* GZ Aur",
+          "type": "Y*O",
+          "separation_arcsec": 0.809
+        },
+        {
+          "name": "V* GZ Aur B",
+          "type": "Or*",
+          "separation_arcsec": 2.774
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF17aabvtof",
+      "candid": "3600463474715010007",
+      "jd": 2461354.9634722,
+      "ra": 83.1521498,
+      "dec": 12.4633965,
+      "score": -0.0242803991,
+      "drb": 0.999999,
+      "filter": 2,
+      "magpsf": 17.147964,
+      "sigmapsf": 0.05537561,
+      "history_rows": 582,
+      "usable_rows": 578,
+      "usable_nights": 355,
+      "positive_nights": 143,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ATO J083.1521+12.4634",
+          "type": "Em*",
+          "separation_arcsec": 0.081
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18aabfdwa",
+      "candid": "3595331060415015017",
+      "jd": 2461349.8310648,
+      "ra": 69.8224813,
+      "dec": 23.7152541,
+      "score": -0.0237918012,
+      "drb": 0.99956656,
+      "filter": 2,
+      "magpsf": 16.43076,
+      "sigmapsf": 0.048022054,
+      "history_rows": 631,
+      "usable_rows": 607,
+      "usable_nights": 373,
+      "positive_nights": 333,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ATO J069.8224+23.7152",
+          "type": "EB*",
+          "separation_arcsec": 0.059
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18abqclig",
+      "candid": "3597422904415010006",
+      "jd": 2461351.9229051,
+      "ra": 92.6614871,
+      "dec": 20.6345684,
+      "score": -0.0233191308,
+      "drb": 0.9999959,
+      "filter": 2,
+      "magpsf": 17.12674,
+      "sigmapsf": 0.041174702,
+      "history_rows": 740,
+      "usable_rows": 729,
+      "usable_nights": 315,
+      "positive_nights": 63,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF20acqpkxj",
+      "candid": "3597209494715015002",
+      "jd": 2461351.7094907,
+      "ra": 352.358573,
+      "dec": -16.2763267,
+      "score": -0.0233086161,
+      "drb": 0.9999981,
+      "filter": 2,
+      "magpsf": 17.967209,
+      "sigmapsf": 0.06659645,
+      "history_rows": 263,
+      "usable_rows": 251,
+      "usable_nights": 180,
+      "positive_nights": 180,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "AT 2020abey",
+          "type": "CV*",
+          "separation_arcsec": 0.837
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF17aabrols",
+      "candid": "3602396531415015025",
+      "jd": 2461356.8965394,
+      "ra": 93.5390156,
+      "dec": 1.2062963,
+      "score": -0.0225165673,
+      "drb": 0.97518665,
+      "filter": 2,
+      "magpsf": 16.641415,
+      "sigmapsf": 0.09106209,
+      "history_rows": 263,
+      "usable_rows": 234,
+      "usable_nights": 209,
+      "positive_nights": 164,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "Gaia DR3 3122882785489307904",
+          "type": "*",
+          "separation_arcsec": 0.092
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF17aabcojf",
+      "candid": "3600398873115015012",
+      "jd": 2461354.8988773,
+      "ra": 71.3718178,
+      "dec": 17.6290328,
+      "score": -0.0221649576,
+      "drb": 0.9999877,
+      "filter": 1,
+      "magpsf": 17.803165,
+      "sigmapsf": 0.06234042,
+      "history_rows": 53,
+      "usable_rows": 48,
+      "usable_nights": 44,
+      "positive_nights": 35,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "CRTS CSS140903 J044529+173745",
+          "type": "CV*",
+          "separation_arcsec": 0.107
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18abvtydv",
+      "candid": "3597522372915015026",
+      "jd": 2461352.0223727,
+      "ra": 99.6840451,
+      "dec": 18.2698916,
+      "score": -0.0218059923,
+      "drb": 1.0,
+      "filter": 1,
+      "magpsf": 18.15525,
+      "sigmapsf": 0.066860616,
+      "history_rows": 353,
+      "usable_rows": 339,
+      "usable_nights": 246,
+      "positive_nights": 99,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "V* UV Gem",
+          "type": "CV*",
+          "separation_arcsec": 0.265
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18abcxezz",
+      "candid": "3612157324815015012",
+      "jd": 2461366.6573264,
+      "ra": 295.6316566,
+      "dec": 15.0628368,
+      "score": -0.0216569994,
+      "drb": 0.9973227,
+      "filter": 1,
+      "magpsf": 15.771297,
+      "sigmapsf": 0.06363787,
+      "history_rows": 825,
+      "usable_rows": 753,
+      "usable_nights": 474,
+      "positive_nights": 349,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ATO J295.6317+15.0629",
+          "type": "LP*",
+          "separation_arcsec": 0.563
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF17aabwfnh",
+      "candid": "3595482082515010007",
+      "jd": 2461349.9820833,
+      "ra": 84.9374057,
+      "dec": -17.4009183,
+      "score": -0.0198754072,
+      "drb": 0.99999964,
+      "filter": 2,
+      "magpsf": 16.799026,
+      "sigmapsf": 0.042651463,
+      "history_rows": 376,
+      "usable_rows": 374,
+      "usable_nights": 256,
+      "positive_nights": 24,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "Gaia DR3 2970974362073260544",
+          "type": "Em*",
+          "separation_arcsec": 0.252
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18aafycti",
+      "candid": "3608477310415010003",
+      "jd": 2461362.9773148,
+      "ra": 132.5293979,
+      "dec": 16.8609301,
+      "score": -0.0196449235,
+      "drb": 0.82130545,
+      "filter": 1,
+      "magpsf": 16.982836,
+      "sigmapsf": 0.043020677,
+      "history_rows": 17,
+      "usable_rows": 11,
+      "usable_nights": 11,
+      "positive_nights": 2,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "CRTS J085007.0+165138",
+          "type": "EB*",
+          "separation_arcsec": 0.527
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18aaaamkw",
+      "candid": "3598465061615015048",
+      "jd": 2461352.9650694,
+      "ra": 95.6332469,
+      "dec": 11.0568658,
+      "score": -0.0191853419,
+      "drb": 0.99999994,
+      "filter": 2,
+      "magpsf": 19.255852,
+      "sigmapsf": 0.12041041,
+      "history_rows": 371,
+      "usable_rows": 346,
+      "usable_nights": 234,
+      "positive_nights": 102,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF17aabnxye",
+      "candid": "3612402384615015006",
+      "jd": 2461366.9023843,
+      "ra": 96.6140159,
+      "dec": 12.40212,
+      "score": -0.0171014052,
+      "drb": 0.99733055,
+      "filter": 1,
+      "magpsf": 17.799673,
+      "sigmapsf": 0.06416466,
+      "history_rows": 362,
+      "usable_rows": 337,
+      "usable_nights": 254,
+      "positive_nights": 77,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ZTF J062627.38+122407.3",
+          "type": "LP*",
+          "separation_arcsec": 0.361
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18acrumat",
+      "candid": "3614291483515010049",
+      "jd": 2461368.7914815,
+      "ra": 93.3080382,
+      "dec": -9.2627928,
+      "score": -0.0170856584,
+      "drb": 0.4140037,
+      "filter": 2,
+      "magpsf": 15.923491,
+      "sigmapsf": 0.076937735,
+      "history_rows": 497,
+      "usable_rows": 463,
+      "usable_nights": 265,
+      "positive_nights": 78,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "2MASS J06131396-0915459",
+          "type": "LP?",
+          "separation_arcsec": 0.375
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18accpncg",
+      "candid": "3613095614015010114",
+      "jd": 2461367.5956134,
+      "ra": 294.7996982,
+      "dec": 5.6966281,
+      "score": -0.0167603772,
+      "drb": 0.99984944,
+      "filter": 1,
+      "magpsf": 16.393866,
+      "sigmapsf": 0.04414562,
+      "history_rows": 372,
+      "usable_rows": 275,
+      "usable_nights": 220,
+      "positive_nights": 0,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18abzbohj",
+      "candid": "3608441400515010075",
+      "jd": 2461362.9414005,
+      "ra": 93.0477097,
+      "dec": 9.285316,
+      "score": -0.0162843857,
+      "drb": 0.9772454,
+      "filter": 1,
+      "magpsf": 17.69125,
+      "sigmapsf": 0.08222068,
+      "history_rows": 72,
+      "usable_rows": 60,
+      "usable_nights": 54,
+      "positive_nights": 1,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ZTF J061211.45+091707.1",
+          "type": "RS*",
+          "separation_arcsec": 0.054
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF19acbksym",
+      "candid": "3613117361915010030",
+      "jd": 2461367.6173611,
+      "ra": 308.6412357,
+      "dec": -4.307118,
+      "score": -0.0155820493,
+      "drb": 0.9889789,
+      "filter": 2,
+      "magpsf": 17.259167,
+      "sigmapsf": 0.06745844,
+      "history_rows": 457,
+      "usable_rows": 428,
+      "usable_nights": 337,
+      "positive_nights": 0,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "Gaia DR3 4218462078645338496",
+          "type": "*",
+          "separation_arcsec": 0.135
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF20aafpgwx",
+      "candid": "3614311844015010000",
+      "jd": 2461368.8118403,
+      "ra": 82.2825518,
+      "dec": -8.0554894,
+      "score": -0.0153231621,
+      "drb": 0.52491796,
+      "filter": 1,
+      "magpsf": 17.772453,
+      "sigmapsf": 0.16993526,
+      "history_rows": 42,
+      "usable_rows": 26,
+      "usable_nights": 22,
+      "positive_nights": 0,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF17aacjanz",
+      "candid": "3611534832315015002",
+      "jd": 2461366.034838,
+      "ra": 103.7264717,
+      "dec": 32.1410677,
+      "score": -0.0115210246,
+      "drb": 0.9724871,
+      "filter": 2,
+      "magpsf": 18.05293,
+      "sigmapsf": 0.053291563,
+      "history_rows": 95,
+      "usable_rows": 83,
+      "usable_nights": 77,
+      "positive_nights": 62,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "V* DN Gem",
+          "type": "No*",
+          "separation_arcsec": 0.096
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF20aaothpc",
+      "candid": "3611528193415015013",
+      "jd": 2461366.0281944,
+      "ra": 130.6710409,
+      "dec": -2.381935,
+      "score": -0.0111783389,
+      "drb": 0.96666473,
+      "filter": 2,
+      "magpsf": 17.533464,
+      "sigmapsf": 0.07961347,
+      "history_rows": 13,
+      "usable_rows": 10,
+      "usable_nights": 10,
+      "positive_nights": 10,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "broker crossmatch failed"
+    }
+  ]
+}

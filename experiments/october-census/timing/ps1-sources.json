@@ -1,0 +1,12 @@
+{
+  "ps1-mean.csv": {
+    "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/mean.csv?ra=280.305911&dec=9.7241705&radius=0.0013888889&columns=%5BobjID%2CobjName%2CraMean%2CdecMean%2CnDetections%2Cng%2Cnr%2Cni%2Cnz%2Cny%5D",
+    "retrieved_utc": "2026-11-25T22:10:56+00:00",
+    "sha256": "38ace0889592a966a0fc6f9a4b208d0454c1cb3508f8d008d3e92a31ee00f528"
+  },
+  "ps1-detections.csv": {
+    "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/detection.csv?objID=119662803059769582&columns=%5BobjID%2CdetectID%2CobsTime%2Cra%2Cdec%2CfilterID%2CpsfFlux%2CpsfFluxErr%2CpsfQfPerfect%2CinfoFlag%2CinfoFlag2%2CinfoFlag3%5D",
+    "retrieved_utc": "2026-11-25T22:11:20+00:00",
+    "sha256": "0d2b0c6ef3464c9415016dd997ba0aa8780cd1c8dfeac2cb1f0117dc4355bd3d"
+  }
+}

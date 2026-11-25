@@ -1,0 +1,66 @@
+{
+  "anchor_deg": [
+    280.305911,
+    9.7241705
+  ],
+  "radius_arcsec": 15,
+  "rows": {
+    "I/355/gaiadr3": 16,
+    "J/AJ/156/241/table4": 1,
+    "II/366/catv2021": 0,
+    "J/A+A/648/A44/tabled1": 0
+  },
+  "atlas": {
+    "ATOID": "J280.3059+09.7242",
+    "RAJ2000": "280.30599",
+    "DEJ2000": "+09.72421",
+    "_r": "0.31",
+    "Class": "dubious",
+    "fp-c-pts": "72",
+    "fp-o-pts": "95",
+    "fp-LSper": "5.796240",
+    "fp-lngfitper": "5.793208",
+    "fp-domper-c": "5.793208",
+    "fp-domper-o": "5.793208",
+    "ls-Pday": "2.408143",
+    "ddc": "0",
+    "prox": "1",
+    "ps-dist": "3.7",
+    "ps-dist0": "27.6",
+    "objID": "119662803059909530"
+  },
+  "computed_atlas_offset_arcsec": 0.314,
+  "relative_period_difference_to_atlas_ls_percent": 0.268,
+  "gaia_within_4arcsec_j2016": [
+    {
+      "Source": "4479632717757053440",
+      "RA_ICRS": "280.30599280092",
+      "DE_ICRS": "+09.72420924015",
+      "_r": "0.322",
+      "Gmag": "16.459135",
+      "pmRA": "-4.012",
+      "pmDE": "-7.217",
+      "VarFlag": "NOT_AVAILABLE"
+    },
+    {
+      "Source": "4479632717740356224",
+      "RA_ICRS": "280.30613234116",
+      "DE_ICRS": "+09.72493255287",
+      "_r": "2.854",
+      "Gmag": "19.879670",
+      "pmRA": "1.292",
+      "pmDE": "-1.756",
+      "VarFlag": "NOT_AVAILABLE"
+    },
+    {
+      "Source": "4479632717740351360",
+      "RA_ICRS": "280.30632898576",
+      "DE_ICRS": "+09.72323809143",
+      "_r": "3.670",
+      "Gmag": "18.572626",
+      "pmRA": "-3.299",
+      "pmDE": "-4.724",
+      "VarFlag": "NOT_AVAILABLE"
+    }
+  ]
+}

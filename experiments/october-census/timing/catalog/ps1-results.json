@@ -1,0 +1,64 @@
+{
+  "periods_days": {
+    "ztf": 5.811780793230248,
+    "atlas_lombscar": 2.408143
+  },
+  "sources": [
+    {
+      "objID": "119662803059769582",
+      "offset_arcsec": 0.352,
+      "raw_detections": 62,
+      "retained_filter_nights": 28,
+      "used_filter_nights": 20,
+      "used_filters": [
+        "1",
+        "4",
+        "5"
+      ],
+      "mjd_range": [
+        55016.549829049996,
+        56808.6208254
+      ],
+      "fraction_scatter_explained": {
+        "ztf": 0.4275,
+        "atlas_lombscar": 0.0561
+      }
+    },
+    {
+      "objID": "119672803061170446",
+      "offset_arcsec": 2.905,
+      "raw_detections": 13,
+      "retained_filter_nights": 6,
+      "used_filter_nights": 0,
+      "used_filters": []
+    },
+    {
+      "objID": "119662803050979049",
+      "offset_arcsec": 3.089,
+      "raw_detections": 2,
+      "retained_filter_nights": 0,
+      "used_filter_nights": 0,
+      "used_filters": []
+    },
+    {
+      "objID": "119662803063168400",
+      "offset_arcsec": 3.68,
+      "raw_detections": 52,
+      "retained_filter_nights": 23,
+      "used_filter_nights": 16,
+      "used_filters": [
+        "2",
+        "4",
+        "5"
+      ],
+      "mjd_range": [
+        54997.5847396,
+        56803.61708415
+      ],
+      "fraction_scatter_explained": {
+        "ztf": 0.0256,
+        "atlas_lombscar": 0.0268
+      }
+    }
+  ]
+}

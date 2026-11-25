@@ -1,0 +1,32 @@
+{
+  "bins": 89,
+  "first_bjd": 2460479.9471260104,
+  "last_bjd": 2460506.295741826,
+  "apertures": {
+    "center": {
+      "ztf_fractional_error_reduction": 0.15111190447218403,
+      "atlas_alternative_fractional_error_reduction": 0.006365612083202299,
+      "fixed_waveform_rho": 0.19683350357507662
+    },
+    "lower_left": {
+      "ztf_fractional_error_reduction": 0.050365375463018225,
+      "atlas_alternative_fractional_error_reduction": 0.005082474614829469,
+      "fixed_waveform_rho": -0.013057541709227105
+    },
+    "lower_right": {
+      "ztf_fractional_error_reduction": 0.01879710487699482,
+      "atlas_alternative_fractional_error_reduction": 0.0036017100618047637,
+      "fixed_waveform_rho": 0.046169560776302354
+    },
+    "upper_left": {
+      "ztf_fractional_error_reduction": 0.07265740973400536,
+      "atlas_alternative_fractional_error_reduction": 0.005123837952458188,
+      "fixed_waveform_rho": 0.0406026557711951
+    },
+    "upper_right": {
+      "ztf_fractional_error_reduction": 0.046260207688052724,
+      "atlas_alternative_fractional_error_reduction": 0.002506559001654751,
+      "fixed_waveform_rho": -0.04029622063329929
+    }
+  }
+}

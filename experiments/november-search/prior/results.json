@@ -1,0 +1,834 @@
+{
+  "ZTF18abqclig": {
+    "zvar_http": 401,
+    "vizier": {
+      "II/360/catalog": [],
+      "J/MNRAS/524/4867/tablea1": []
+    },
+    "alerce_separation_arcsec": 0.127,
+    "alerce_rank1": [
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_periodic",
+        "classifier_version": "2.1.0",
+        "class_name": "LPV",
+        "probability": 0.26,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_periodic",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "LPV",
+        "probability": 0.406,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_top",
+        "classifier_version": "2.1.0",
+        "class_name": "Stochastic",
+        "probability": 0.79,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_top",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "Stochastic",
+        "probability": 0.592,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_transient",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "SNII",
+        "probability": 0.31,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier",
+        "classifier_version": "1.0.1",
+        "class_name": "VS",
+        "probability": 0.543819,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier",
+        "classifier_version": "stamp_classifier_1.0.0",
+        "class_name": "VS",
+        "probability": 0.5939023,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier",
+        "classifier_version": "stamp_classifier_1.0.4",
+        "class_name": "VS",
+        "probability": 0.5845713,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier_2025_beta",
+        "classifier_version": "2.1.1_beta",
+        "class_name": "VS",
+        "probability": 0.7620917,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_transient",
+        "classifier_version": "2.1.0",
+        "class_name": "SNIIn",
+        "probability": 0.318,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_stochastic",
+        "classifier_version": "2.1.0",
+        "class_name": "YSO",
+        "probability": 0.394,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_stochastic",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "YSO",
+        "probability": 0.836,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "YSO",
+        "probability": 0.494912,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier",
+        "classifier_version": "lc_classifier_1.1.13",
+        "class_name": "YSO",
+        "probability": 0.451104,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "1.0.0",
+        "class_name": "Blazar",
+        "probability": 0.47250754,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot",
+        "classifier_version": "2.1.0",
+        "class_name": "YSO",
+        "probability": 0.31126,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.3.1",
+        "class_name": "YSO",
+        "probability": 0.95629376,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.1.1",
+        "class_name": "YSO",
+        "probability": 0.41548946,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.3.4",
+        "class_name": "YSO",
+        "probability": 0.94706917,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.1.4",
+        "class_name": "YSO",
+        "probability": 0.4312361,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.1.5",
+        "class_name": "YSO",
+        "probability": 0.481992,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.3.6",
+        "class_name": "YSO",
+        "probability": 0.59246147,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "2.0.0",
+        "class_name": "YSO",
+        "probability": 0.46248,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.2.0",
+        "class_name": "CV/Nova",
+        "probability": 0.64199877,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.0.7",
+        "class_name": "CV/Nova",
+        "probability": 0.19805878,
+        "ranking": 1
+      }
+    ],
+    "tns_http": 403
+  },
+  "ZTF20aaothpc": {
+    "zvar_http": 401,
+    "vizier": {
+      "II/360/catalog": [],
+      "J/MNRAS/524/4867/tablea1": [],
+      "J/A+A/675/A195/candztfg": {
+        "status": "requested table absent from VizieR response"
+      },
+      "J/A+A/675/A195/candztfr": {
+        "status": "requested table absent from VizieR response"
+      }
+    },
+    "alerce_separation_arcsec": 0.397,
+    "alerce_rank1": [
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_top",
+        "classifier_version": "2.1.0",
+        "class_name": "Periodic",
+        "probability": 0.656,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_top",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "Periodic",
+        "probability": 0.49,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier",
+        "classifier_version": "stamp_classifier_1.0.0",
+        "class_name": "VS",
+        "probability": 0.5415819,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier",
+        "classifier_version": "stamp_classifier_1.0.4",
+        "class_name": "VS",
+        "probability": 0.70802087,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier_2025_beta",
+        "classifier_version": "2.1.1_beta",
+        "class_name": "VS",
+        "probability": 0.9837322,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_transient",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "SLSN",
+        "probability": 0.36,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_periodic",
+        "classifier_version": "2.1.0",
+        "class_name": "RSCVn",
+        "probability": 0.576,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_stochastic",
+        "classifier_version": "2.1.0",
+        "class_name": "YSO",
+        "probability": 0.33,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_stochastic",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "YSO",
+        "probability": 0.382,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_transient",
+        "classifier_version": "2.1.0",
+        "class_name": "TDE",
+        "probability": 0.334,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_periodic",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "Periodic-Other",
+        "probability": 0.686,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "Periodic-Other",
+        "probability": 0.33614,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier",
+        "classifier_version": "lc_classifier_1.1.13",
+        "class_name": "Periodic-Other",
+        "probability": 0.52116,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.3.1",
+        "class_name": "Periodic-Other",
+        "probability": 0.4065136,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "1.0.0",
+        "class_name": "Periodic-Other",
+        "probability": 0.5338409,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot",
+        "classifier_version": "2.1.0",
+        "class_name": "RSCVn",
+        "probability": 0.377856,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.1.1",
+        "class_name": "RSCVn",
+        "probability": 0.38346314,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.1.5",
+        "class_name": "RSCVn",
+        "probability": 0.353248,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.3.6",
+        "class_name": "RSCVn",
+        "probability": 0.8762138,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "2.0.0",
+        "class_name": "RSCVn",
+        "probability": 0.319,
+        "ranking": 1
+      }
+    ],
+    "tns_http": 403
+  },
+  "ZTF18abjtfpx": {
+    "zvar_http": 401,
+    "alerce_separation_arcsec": 0.237,
+    "alerce_rank1": [
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_periodic",
+        "classifier_version": "2.1.0",
+        "class_name": "EA",
+        "probability": 0.546,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_periodic",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "E",
+        "probability": 0.308,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_top",
+        "classifier_version": "2.1.0",
+        "class_name": "Periodic",
+        "probability": 0.776,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_top",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "Periodic",
+        "probability": 0.858,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_transient",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "SNII",
+        "probability": 0.368,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier",
+        "classifier_version": "1.0.1",
+        "class_name": "VS",
+        "probability": 0.556668,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier",
+        "classifier_version": "stamp_classifier_1.0.0",
+        "class_name": "VS",
+        "probability": 0.7963533,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier",
+        "classifier_version": "stamp_classifier_1.0.4",
+        "class_name": "VS",
+        "probability": 0.5174264,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier_2025_beta",
+        "classifier_version": "2.0.0_beta",
+        "class_name": "VS",
+        "probability": 0.97380596,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier_2025_beta",
+        "classifier_version": "2.1.0_beta",
+        "class_name": "VS",
+        "probability": 0.8489503,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "stamp_classifier_2025_beta",
+        "classifier_version": "2.1.1_beta",
+        "class_name": "VS",
+        "probability": 0.91039073,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_stochastic",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "CV/Nova",
+        "probability": 0.648,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_stochastic",
+        "classifier_version": "2.1.0",
+        "class_name": "CV/Nova",
+        "probability": 0.462,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot_transient",
+        "classifier_version": "2.1.0",
+        "class_name": "TDE",
+        "probability": 0.24,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier",
+        "classifier_version": "hierarchical_rf_1.1.0",
+        "class_name": "E",
+        "probability": 0.264264,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.2.0",
+        "class_name": "CV/Nova",
+        "probability": 0.5972978,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.0.7",
+        "class_name": "CV/Nova",
+        "probability": 0.2025072,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier",
+        "classifier_version": "lc_classifier_1.1.13",
+        "class_name": "CEP",
+        "probability": 0.23236,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "lc_classifier_BHRF_forced_phot",
+        "classifier_version": "2.1.0",
+        "class_name": "EA",
+        "probability": 0.423696,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "1.0.0",
+        "class_name": "EA",
+        "probability": 0.91767067,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.1.4",
+        "class_name": "EA",
+        "probability": 0.40545425,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.3.4",
+        "class_name": "EA",
+        "probability": 0.9660033,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_ATAT_forced_phot(beta)",
+        "classifier_version": "0.3.6",
+        "class_name": "EA",
+        "probability": 0.7885454,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "1.1.5",
+        "class_name": "EA",
+        "probability": 0.466928,
+        "ranking": 1
+      },
+      {
+        "classifier_name": "LC_classifier_BHRF_forced_phot(beta)",
+        "classifier_version": "2.0.0",
+        "class_name": "EA",
+        "probability": 0.42112,
+        "ranking": 1
+      }
+    ],
+    "alerce_periods": [
+      {
+        "name": "Multiband_period",
+        "value": 0.14434289476623893,
+        "fid": 12,
+        "version": "lc_classifier_1.2.1-P"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.81395329092567,
+        "fid": 1,
+        "version": "lc_classifier_1.2.1-P"
+      },
+      {
+        "name": "Period_band",
+        "value": 0.14434289476623893,
+        "fid": 2,
+        "version": "lc_classifier_1.2.1-P"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 5.81573286797439,
+        "fid": 12,
+        "version": "lc_classifier_1.2.1-P-transitional"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.81573286797439,
+        "fid": 1,
+        "version": "lc_classifier_1.2.1-P-transitional"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.81573286797439,
+        "fid": 2,
+        "version": "lc_classifier_1.2.1-P-transitional"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 1.0,
+        "fid": 12,
+        "version": "23.12.26a85"
+      },
+      {
+        "name": "Multiband_period",
+        "value": null,
+        "fid": 12,
+        "version": "25.0.0"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 1,
+        "version": "25.0.0"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.0"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 0.04961480691893987,
+        "fid": 12,
+        "version": "25.0.1a5"
+      },
+      {
+        "name": "Period_band",
+        "value": 0.04961480691893987,
+        "fid": 1,
+        "version": "25.0.1a5"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.1a5"
+      },
+      {
+        "name": "Multiband_period",
+        "value": null,
+        "fid": 12,
+        "version": "25.0.1a0"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 1,
+        "version": "25.0.1a0"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.1a0"
+      },
+      {
+        "name": "Multiband_period",
+        "value": null,
+        "fid": 12,
+        "version": "25.0.1a2"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 1,
+        "version": "25.0.1a2"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.1a2"
+      },
+      {
+        "name": "Multiband_period",
+        "value": null,
+        "fid": 12,
+        "version": "25.0.1a3"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 1,
+        "version": "25.0.1a3"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.1a3"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 0.050906017747508144,
+        "fid": 12,
+        "version": "25.0.1a8"
+      },
+      {
+        "name": "Period_band",
+        "value": 0.050906017747508144,
+        "fid": 1,
+        "version": "25.0.1a8"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.1a8"
+      },
+      {
+        "name": "Multiband_period",
+        "value": null,
+        "fid": 12,
+        "version": "25.0.1a9"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 1,
+        "version": "25.0.1a9"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.1a9"
+      },
+      {
+        "name": "Multiband_period",
+        "value": null,
+        "fid": 12,
+        "version": "25.0.1a13"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 1,
+        "version": "25.0.1a13"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.1a13"
+      },
+      {
+        "name": "Multiband_period",
+        "value": null,
+        "fid": 12,
+        "version": "25.0.1a14"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 1,
+        "version": "25.0.1a14"
+      },
+      {
+        "name": "Period_band",
+        "value": null,
+        "fid": 2,
+        "version": "25.0.1a14"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 5.81026761189803,
+        "fid": 12,
+        "version": "25.0.1a32"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.81026761189803,
+        "fid": 1,
+        "version": "25.0.1a32"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.81026761189803,
+        "fid": 2,
+        "version": "25.0.1a32"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 0.4597818178788669,
+        "fid": 12,
+        "version": "27.3.0"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.80885086156991,
+        "fid": 1,
+        "version": "27.3.0"
+      },
+      {
+        "name": "Period_band",
+        "value": 0.4597818178788669,
+        "fid": 2,
+        "version": "27.3.0"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 5.812466275259019,
+        "fid": 12,
+        "version": "27.5.6"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.812466275259019,
+        "fid": 1,
+        "version": "27.5.6"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.812466275259019,
+        "fid": 2,
+        "version": "27.5.6"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 5.812020771895498,
+        "fid": 12,
+        "version": "27.5.4"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.812020771895498,
+        "fid": 1,
+        "version": "27.5.4"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.812020771895498,
+        "fid": 2,
+        "version": "27.5.4"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.812174802622183,
+        "fid": 1,
+        "version": "23.12.26a85"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.812174802622183,
+        "fid": 2,
+        "version": "23.12.26a85"
+      },
+      {
+        "name": "Multiband_period",
+        "value": 5.813497990969737,
+        "fid": 12,
+        "version": "27.5.7a32.dev1"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.813497990969737,
+        "fid": 1,
+        "version": "27.5.7a32.dev1"
+      },
+      {
+        "name": "Period_band",
+        "value": 5.813497990969737,
+        "fid": 2,
+        "version": "27.5.7a32.dev1"
+      }
+    ]
+  }
+}

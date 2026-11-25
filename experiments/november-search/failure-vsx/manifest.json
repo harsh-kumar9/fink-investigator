@@ -1,0 +1,37 @@
+{
+  "ZTF18abqclig": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=92.6614871+%2B20.6345684&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3597422904415010006",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T22:13:04+00:00",
+    "sha256_uncompressed": "1b69034512ca4eb9ae4c9213dcea9da8206e4f1434a30acf27f0889e4aac3b69"
+  },
+  "ZTF18aaaamkw": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=95.6332469+%2B11.0568658&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3598465061615015048",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T22:13:04+00:00",
+    "sha256_uncompressed": "966a14737713f513971cdfc5944360f8eaa05f1ac498b64914f5d7652c282bca"
+  },
+  "ZTF18accpncg": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=294.7996982+%2B5.6966281&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3613095614015010114",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T22:13:04+00:00",
+    "sha256_uncompressed": "1e17101526334a9f5251b351c043572388a1f26dcebd70cb9fb7607aa12946e9"
+  },
+  "ZTF20aafpgwx": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=82.2825518+-8.0554894&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3614311844015010000",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T22:13:04+00:00",
+    "sha256_uncompressed": "aed48af13d75813e0ef804c9afaf2a98cbbf37de4fe6adc5bdadeb18b665207c"
+  },
+  "ZTF20aaothpc": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=130.6710409+-2.381935&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3611528193415015013",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T22:13:04+00:00",
+    "sha256_uncompressed": "5e3e5712029bfe27e5b6e0a3a93189dd787a07ec0d20d9ea2fdbbc77d74d8234"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://api.zvar.caltech.edu/imdiff/cone_search",
+  "json_payload": {
+    "ra": 280.305911,
+    "dec": 9.7241705,
+    "radius": 5
+  },
+  "http_status": 401,
+  "sha256": "c7477bc0ccc74696249ac17aceefd5b8831ee783d0c39e0a3f3d428cdf2837fc",
+  "retrieved_utc": "2026-11-25T22:17:41.934520+00:00"
+}
