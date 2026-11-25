@@ -473,10 +473,6 @@ def evaluate(folder):
         r for r in raw["anomaly.json.gz"] if utc_jd(start) <= r["i:jd"] < utc_jd(stop)
     ]
     targets = select_alerts(anomalies, manifest["max_objects"], start, stop)
-    control_ids = {c["id"] for c in labels} | {
-        "ZTF23aacafew"
-    }  # G 260-1 alias, paper Table 4
-    control_gaia_sources = {m["source_id"] for c in calibration for m in c["matches"]}
     anchor_count = len(labels) + len(targets)
     history_count = len({c["id"] for c in labels}.union(oid(r) for r in targets))
     required = {"anomaly.json.gz"} | {
@@ -488,6 +484,23 @@ def evaluate(folder):
         raise ValueError(
             f"incomplete snapshot inventory: {sorted(set(raw) ^ required)}"
         )
+    review = screen_targets(targets, history, stars, simbad, calibration)
+    return {
+        "gate_passed": gate,
+        "start": str(start),
+        "stop_exclusive": str(stop),
+        "anomaly_alerts": len(anomalies),
+        "distinct_anomaly_objects": len({oid(r) for r in anomalies}),
+        "calibration": calibration,
+        "objects": review,
+    }
+
+
+def screen_targets(targets, history, stars, simbad, calibration):
+    control_ids = {c["id"] for c in calibration} | {
+        "ZTF23aacafew"
+    }  # G 260-1 alias, paper Table 4
+    control_gaia_sources = {m["source_id"] for c in calibration for m in c["matches"]}
     review = []
     for a in targets:
         name = oid(a)
@@ -560,15 +573,7 @@ def evaluate(folder):
             }
         )
     review.sort(key=lambda r: (r["score"], r["id"]))
-    return {
-        "gate_passed": gate,
-        "start": str(start),
-        "stop_exclusive": str(stop),
-        "anomaly_alerts": len(anomalies),
-        "distinct_anomaly_objects": len({oid(r) for r in anomalies}),
-        "calibration": calibration,
-        "objects": review,
-    }
+    return review
 
 
 def image_url(r, kind):
