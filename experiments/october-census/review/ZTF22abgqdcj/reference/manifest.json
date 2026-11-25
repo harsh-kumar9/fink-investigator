@@ -1,0 +1,12 @@
+{
+  "reference.json": {
+    "url": "https://api.ztf.fink-portal.org/api/v1/objects?objectId=ZTF22abgqdcj&columns=i%3Acandid%2Ci%3Ajd%2Ci%3Afield%2Ci%3Arcid%2Ci%3Afid%2Ci%3Ajdstartref%2Ci%3Ajdendref%2Ci%3Anframesref",
+    "sha256_uncompressed": "69219c303618d06d427e370cf8e59548d19bdefd7ad38e590c321795665566b1",
+    "retrieved_utc": "2026-11-25T21:32:43+00:00"
+  },
+  "identifier.csv": {
+    "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+10+b.main_id%2Cb.otype%2Cb.pmra%2Cb.pmdec+FROM+basic+AS+b+JOIN+ident+AS+i+ON+i.oidref%3Db.oid+WHERE+i.id%3D%27Gaia+DR3+4304737938607671552%27",
+    "sha256_uncompressed": "d32a6da0e93db51d82568e0dcc7af3ed655a85229f458ec2b6f864dcba3fd2dd",
+    "retrieved_utc": "2026-11-25T21:32:43+00:00"
+  }
+}

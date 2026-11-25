@@ -1,0 +1,28 @@
+{
+  "ztf_id": "ZTF26acbcwpz",
+  "designation": "SN 2026afgd",
+  "lions": {
+    "url": "https://sites.astro.caltech.edu/LIONS/mag_bins_pub/2026-10-le18_0.html",
+    "retrieved_utc": "2026-11-25T21:35:14+00:00",
+    "html_sha256": "b282b4233806942ccc04018fda1ddbf66692c569bf413c8fbf2d6bce82a6861c",
+    "selected_row_fields": {
+      "source": "ZTF26acbcwpz/",
+      "name": "SN 2026afgd",
+      "ra": 328.0537,
+      "dec": 3.2972,
+      "redshift": 0.0287
+    }
+  },
+  "tns": {
+    "url": "https://www.wis-tns.org/object/2026afgd",
+    "discovery_certificate": "https://www.wis-tns.org/object/2026afgd/discovery-cert",
+    "verified_date": "2026-11-25",
+    "ra_deg": 328.05377682922,
+    "dec_deg": 3.2971566208674,
+    "type": "SN Ia",
+    "redshift": 0.028697,
+    "discovery_reporter": "GOTO",
+    "discovery_utc": "2026-10-11T21:39:12.672",
+    "spectrum_observation": "2026-10-14 P60/SEDM"
+  }
+}

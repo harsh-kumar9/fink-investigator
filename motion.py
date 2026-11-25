@@ -26,6 +26,21 @@ def investigate(snapshot, name, folder, fetch):
         )
     match = case["gaia_matches"][0]
     sid = match["source_id"]
+    _, raw = pilot.snapshot(snapshot)
+    star = next(
+        s
+        for key, rows in raw.items()
+        if key.startswith("gaia-")
+        for s in rows
+        if s["source_id"] == sid
+    )
+    return inspect_match(case, star, folder, fetch)
+
+
+def inspect_match(case, star, folder, fetch):
+    name = case["id"]
+    match = case["gaia_matches"][0]
+    sid = match["source_id"]
     if not sid.isdigit():
         raise ValueError("invalid Gaia source ID")
     query = (
@@ -81,19 +96,16 @@ def investigate(snapshot, name, folder, fetch):
     objects = pilot.parse_csv(source("identifier.csv", url))
     names = ", ".join(o["main_id"] for o in objects) or "unresolved"
     lo, hi = ref["i:jdstartref"], ref["i:jdendref"]
-    _, raw = pilot.snapshot(snapshot)
-    star = next(
-        s
-        for key, rows in raw.items()
-        if key.startswith("gaia-")
-        for s in rows
-        if s["source_id"] == sid
-    )
     x, y = pilot.offsets(case["ra"], case["dec"], float(star["ra"]), float(star["dec"]))
     vx, vy = float(star["pmra"]) / 1000, float(star["pmdec"]) / 1000
     inferred = float(star["ref_epoch"]) + (x * vx + y * vy) / (vx * vx + vy * vy)
     inferred_jd = 2451545 + (inferred - 2000) * 365.25
     verdict = "inside" if lo <= inferred_jd <= hi else "outside"
+    interpretation = (
+        "Together the sign, positional offset and coadd dates support subtraction at the star's former position."
+        if verdict == "inside" and match["negative_rows"] == case["usable_rows"] and case["usable_rows"] > 0
+        else "The interval and sign comparison leaves the proposed reference subtraction uncertain. Multi-epoch image registration can test it."
+    )
     text = f"""# Reference-image test for {name}
 
 The calibrated foreground screen flagged Gaia DR3 {sid} ({names}). The anomaly packet has candid {case['candid']} and epoch JD {case['jd']}. [SIMBAD identity query]({url}) · [Fink object]({pilot.PORTAL+name})
@@ -102,7 +114,7 @@ Projecting the alert position onto the straight Gaia track gives {inferred:.3f},
 
 The alert's {ref['i:nframesref']}-frame ZTF reference spans {pilot.day_of(lo)} through {pilot.day_of(hi)} (JD {lo}–{hi}, field {ref['i:field']}, readout channel {ref['i:rcid']}, filter {ref['i:fid']}). The inferred crossing falls **{verdict} the actual coadd interval**. [Fink reference metadata]({ref_url}) · [ZTF field definitions](https://zwickytransientfacility.github.io/ztf-avro-alert/schema.html)
 
-{match['negative_rows']} of {case['usable_rows']} quality-selected detections through this alert are negative residuals. Together the sign, positional offset and coadd dates support subtraction at the star's former position. The effective epoch depends on the weights of individual reference exposures. A superposed variable remains possible. Multi-epoch image registration and the reference input exposures can discriminate between these explanations.
+{match['negative_rows']} of {case['usable_rows']} quality-selected detections through this alert are negative residuals. {interpretation} The effective epoch depends on the weights of individual reference exposures. A superposed variable remains possible. Multi-epoch image registration and the reference input exposures can discriminate between these explanations.
 
 The estimate uses Gaia's catalog `pmra` (already multiplied by cos δ), `pmdec`, and reference epoch. It omits parallax and perspective acceleration. This targeted follow-up used an object outside the seven calibration controls. It does not independently measure the false-positive rate of the screen.
 """

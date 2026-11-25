@@ -1,0 +1,90 @@
+{
+  "id": "ZTF18aaawbgm",
+  "selection": "Earliest and middle usable prior dates in the alert band, plus the alert.",
+  "epochs": [
+    {
+      "date_utc": "2019-11-18",
+      "jd": 2458805.8880671,
+      "candid": "1051388060315010021",
+      "filter": 2,
+      "isdiffpos": "f",
+      "diff_mag": 15.363894,
+      "images": [
+        {
+          "kind": "Science",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=1051388060315010021&kind=Science",
+          "file": "1051388060315010021-science.png",
+          "sha256": "fb4e87479b316913565346082613840f8d1d7f5f1a5acaf286a1a573dddd6153"
+        },
+        {
+          "kind": "Template",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=1051388060315010021&kind=Template",
+          "file": "1051388060315010021-template.png",
+          "sha256": "8da90802e1fd426a29ed5ea29f683e394a1c37ad32b64586b0368b2a815aceed"
+        },
+        {
+          "kind": "Difference",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=1051388060315010021&kind=Difference",
+          "file": "1051388060315010021-difference.png",
+          "sha256": "5d59fd0a4f040ec6b83486bbc154b1a187fd1824bcc528afa0e6a26fb8732838"
+        }
+      ]
+    },
+    {
+      "date_utc": "2024-02-14",
+      "jd": 2460354.6964583,
+      "candid": "2600196451415010005",
+      "filter": 2,
+      "isdiffpos": "f",
+      "diff_mag": 15.781702,
+      "images": [
+        {
+          "kind": "Science",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=2600196451415010005&kind=Science",
+          "file": "2600196451415010005-science.png",
+          "sha256": "3b42cdf5497b0895d2fe6d392edda8ad43e4671b1fa88e53aecffbba0da74276"
+        },
+        {
+          "kind": "Template",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=2600196451415010005&kind=Template",
+          "file": "2600196451415010005-template.png",
+          "sha256": "39ad5e94d657b6d11e80ebddd037698cb70bdfd278ec8233ffe4cc1b7de179a0"
+        },
+        {
+          "kind": "Difference",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=2600196451415010005&kind=Difference",
+          "file": "2600196451415010005-difference.png",
+          "sha256": "c096edd52ff0f7663a117849e1fda60c780d1fdf85c4daff34a94fcf27e57794"
+        }
+      ]
+    },
+    {
+      "date_utc": "2026-10-26",
+      "jd": 2461339.9617593,
+      "candid": "3585461751415015009",
+      "filter": 2,
+      "isdiffpos": "t",
+      "diff_mag": 16.866137,
+      "images": [
+        {
+          "kind": "Science",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=3585461751415015009&kind=Science",
+          "file": "3585461751415015009-science.png",
+          "sha256": "1177c74446120effdb1aca3f77477eb9c478a67340e67c8f661b5e31e82e36e9"
+        },
+        {
+          "kind": "Template",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=3585461751415015009&kind=Template",
+          "file": "3585461751415015009-template.png",
+          "sha256": "10d4d680c57b0208bd6204b615486f3e662fba0eee9cab46680289227cc0a566"
+        },
+        {
+          "kind": "Difference",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18aaawbgm&candid=3585461751415015009&kind=Difference",
+          "file": "3585461751415015009-difference.png",
+          "sha256": "584da2bbf29dcb9e422d8b05865232d01d202352b2748c79d0d78680e4c48e24"
+        }
+      ]
+    }
+  ]
+}

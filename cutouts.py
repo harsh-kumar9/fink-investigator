@@ -36,7 +36,12 @@ def capture(snapshot, case_id, destination):
         raise ValueError("choose a new output directory to preserve the previous capture")
     _, raw = pilot.snapshot(snapshot)
     history = pilot.histories([r for key, rows in raw.items() if key.startswith("history-") for r in rows])
-    rows = epochs(history[case_id], case)
+    capture_images(case, history[case_id], destination)
+
+
+def capture_images(case, history, destination):
+    case_id = case["id"]
+    rows = epochs(history, case)
     destination.parent.mkdir(parents=True, exist_ok=True)
     with TemporaryDirectory(dir=destination.parent) as tmp:
         stage = Path(tmp) / "capture"

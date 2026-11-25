@@ -1,0 +1,5 @@
+{
+  "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=95.9766563+%2B8.5814374&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+  "sha256_uncompressed": "b0e1558c12dcdb495dc1abc56627a700d031b2b23fe706a39ac1507a591c003d",
+  "retrieved_utc": "2026-11-25T21:32:13+00:00"
+}
