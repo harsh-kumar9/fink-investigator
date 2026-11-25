@@ -1,0 +1,678 @@
+{
+  "gate_passed": true,
+  "start": "2026-10-01",
+  "stop_exclusive": "2026-11-01",
+  "anomaly_alerts": 190,
+  "distinct_anomaly_objects": 130,
+  "calibration": [
+    {
+      "id": "ZTF18abkalak",
+      "expected": true,
+      "name": "G 260-1",
+      "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+      "expected_gaia_dr3_source_id": "2259755746681611264",
+      "candid": "3311539581615010016",
+      "matches": [
+        {
+          "source_id": "2259755746681611264",
+          "pm_mas_yr": 1726.4,
+          "distance_to_track_arcsec": 0.027
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "ZTF18adgsbul",
+      "expected": true,
+      "name": "G 135-67",
+      "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+      "expected_gaia_dr3_source_id": "1235307193617100160",
+      "candid": "3317540210115010000",
+      "matches": [
+        {
+          "source_id": "1235307193617100160",
+          "pm_mas_yr": 1569.7,
+          "distance_to_track_arcsec": 0.109
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "ZTF19abhyflg",
+      "expected": true,
+      "name": "LP 624-55",
+      "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+      "expected_gaia_dr3_source_id": "4412055049456215808",
+      "candid": "3317559431315010011",
+      "matches": [
+        {
+          "source_id": "4412055049456215808",
+          "pm_mas_yr": 1598.3,
+          "distance_to_track_arcsec": 0.107
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "ZTF23aajfetj",
+      "expected": true,
+      "name": "Wolf 611",
+      "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+      "expected_gaia_dr3_source_id": "4426487823197250304",
+      "candid": "3317557504315010006",
+      "matches": [
+        {
+          "source_id": "4426487823197250304",
+          "pm_mas_yr": 1389.1,
+          "distance_to_track_arcsec": 0.014
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "ZTF23aalftvv",
+      "expected": false,
+      "name": "SN 2023mtp",
+      "source": "https://arxiv.org/html/2603.29511v1#S4.SS1.SSS2",
+      "candid": "2500135990815015006",
+      "matches": [],
+      "pass": true
+    },
+    {
+      "id": "ZTF23aaklqou",
+      "expected": false,
+      "name": "SN 2023ixf",
+      "source": "https://www.wis-tns.org/object/2023ixf",
+      "candid": "3311478482515015010",
+      "matches": [],
+      "pass": true
+    },
+    {
+      "id": "ZTF23aabtgej",
+      "expected": false,
+      "name": "SN 2023bee",
+      "source": "https://www.wis-tns.org/object/2023bee",
+      "candid": "2603370232515015012",
+      "matches": [],
+      "pass": true
+    }
+  ],
+  "objects": [
+    {
+      "id": "ZTF18aaaduso",
+      "candid": "3579466520215010028",
+      "jd": 2461333.9665278,
+      "ra": 71.279681,
+      "dec": 22.8745289,
+      "score": -0.037907593,
+      "drb": 0.99312866,
+      "filter": 2,
+      "magpsf": 19.110153,
+      "sigmapsf": 0.107545935,
+      "history_rows": 652,
+      "usable_rows": 623,
+      "usable_nights": 376,
+      "positive_nights": 83,
+      "cdsxmatch": "Fail 503",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18abjedws",
+      "candid": "3577135701215015023",
+      "jd": 2461331.635706,
+      "ra": 268.906611,
+      "dec": 9.0999886,
+      "score": -0.0243743081,
+      "drb": 0.9940064,
+      "filter": 2,
+      "magpsf": 18.078491,
+      "sigmapsf": 0.11952513,
+      "history_rows": 152,
+      "usable_rows": 147,
+      "usable_nights": 94,
+      "positive_nights": 40,
+      "cdsxmatch": "Unknown",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "review",
+      "vsx_matches": [
+        {
+          "oid": "1499062",
+          "name": "MGAB-V713",
+          "type": "UGZ",
+          "ra": 268.90659,
+          "dec": 9.10002,
+          "separation_arcsec": 0.15,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=1499062"
+        }
+      ],
+      "vsx_query": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=268.906611+%2B9.0999886&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+      "adjudication": "closed as a new source, retained for alias review"
+    },
+    {
+      "id": "ZTF18abdjpbo",
+      "candid": "3579170844415015001",
+      "jd": 2461333.6708449,
+      "ra": 268.7712219,
+      "dec": 13.4219804,
+      "score": -0.0219003987,
+      "drb": 0.9999996,
+      "filter": 2,
+      "magpsf": 19.520815,
+      "sigmapsf": 0.21272029,
+      "history_rows": 417,
+      "usable_rows": 392,
+      "usable_nights": 292,
+      "positive_nights": 269,
+      "cdsxmatch": "Unknown",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "review",
+      "vsx_matches": [
+        {
+          "oid": "2345383",
+          "name": "ZTF18abdjpbo",
+          "type": "AM+E:",
+          "ra": 268.7713,
+          "dec": 13.42222,
+          "separation_arcsec": 0.91,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=2345383"
+        }
+      ],
+      "vsx_query": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=268.7712219+%2B13.4219804&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+      "adjudication": "closed as a new source, retained for alias review"
+    },
+    {
+      "id": "ZTF18adsbqgv",
+      "candid": "3585462232115015017",
+      "jd": 2461339.9622338,
+      "ra": 103.5795116,
+      "dec": 3.9136546,
+      "score": -0.0213185865,
+      "drb": 0.9999107,
+      "filter": 2,
+      "magpsf": 19.17592,
+      "sigmapsf": 0.1785039,
+      "history_rows": 56,
+      "usable_rows": 50,
+      "usable_nights": 49,
+      "positive_nights": 47,
+      "cdsxmatch": "EclBin",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "Gaia DR3 3128149583625199104",
+          "type": "EB*",
+          "separation_arcsec": 0.444
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18adqfzbb",
+      "candid": "3562131583015010015",
+      "jd": 2461316.6315856,
+      "ra": 295.2791205,
+      "dec": 10.639395,
+      "score": -0.0207742527,
+      "drb": 0.9879614,
+      "filter": 1,
+      "magpsf": 16.119501,
+      "sigmapsf": 0.037974518,
+      "history_rows": 184,
+      "usable_rows": 175,
+      "usable_nights": 108,
+      "positive_nights": 36,
+      "cdsxmatch": "EclBin",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "Gaia DR3 4302763421888816000",
+          "type": "EB*",
+          "separation_arcsec": 0.098
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18abkwscm",
+      "candid": "3567112804415010009",
+      "jd": 2461321.6128009,
+      "ra": 293.0435566,
+      "dec": 6.2875709,
+      "score": -0.0206972267,
+      "drb": 0.8668567,
+      "filter": 2,
+      "magpsf": 18.55291,
+      "sigmapsf": 0.10939223,
+      "history_rows": 297,
+      "usable_rows": 263,
+      "usable_nights": 195,
+      "positive_nights": 102,
+      "cdsxmatch": "Unknown",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "review",
+      "vsx_matches": [
+        {
+          "oid": "2344838",
+          "name": "ZTF18abkwscm",
+          "type": "UG",
+          "ra": 293.04358,
+          "dec": 6.28757,
+          "separation_arcsec": 0.08,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=2344838"
+        }
+      ],
+      "vsx_query": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=293.0435566+%2B6.2875709&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+      "adjudication": "closed as a new source, retained for alias review"
+    },
+    {
+      "id": "ZTF18abefzva",
+      "candid": "3565117141415010008",
+      "jd": 2461319.6171412,
+      "ra": 274.0764213,
+      "dec": -5.6890742,
+      "score": -0.0205325577,
+      "drb": 0.3306104,
+      "filter": 2,
+      "magpsf": 15.92157,
+      "sigmapsf": 0.017283052,
+      "history_rows": 458,
+      "usable_rows": 64,
+      "usable_nights": 61,
+      "positive_nights": 2,
+      "cdsxmatch": "Mira",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ZTF J181618.32-054120.6",
+          "type": "Mi*",
+          "separation_arcsec": 0.141
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18abablmz",
+      "candid": "3573166524515015017",
+      "jd": 2461327.6665278,
+      "ra": 281.2686372,
+      "dec": 12.7860928,
+      "score": -0.0201906245,
+      "drb": 0.99968565,
+      "filter": 1,
+      "magpsf": 18.794765,
+      "sigmapsf": 0.16322549,
+      "history_rows": 444,
+      "usable_rows": 408,
+      "usable_nights": 243,
+      "positive_nights": 147,
+      "cdsxmatch": "EclBin",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ZTF J184504.48+124709.5",
+          "type": "EB*",
+          "separation_arcsec": 0.474
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18abmfrmh",
+      "candid": "3585128510515010025",
+      "jd": 2461339.6285185,
+      "ra": 295.6563857,
+      "dec": 1.9756519,
+      "score": -0.0200255141,
+      "drb": 0.99999994,
+      "filter": 2,
+      "magpsf": 17.830793,
+      "sigmapsf": 0.054866567,
+      "history_rows": 826,
+      "usable_rows": 797,
+      "usable_nights": 558,
+      "positive_nights": 83,
+      "cdsxmatch": "Unknown",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "review",
+      "vsx_matches": [
+        {
+          "oid": "1543944",
+          "name": "ASASSN-20en",
+          "type": "UG",
+          "ra": 295.65637,
+          "dec": 1.97567,
+          "separation_arcsec": 0.08,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=1543944"
+        }
+      ],
+      "vsx_query": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=295.6563857+%2B1.9756519&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+      "adjudication": "closed as a new source, retained for alias review"
+    },
+    {
+      "id": "ZTF17aaeencn",
+      "candid": "3569197682915015025",
+      "jd": 2461323.6976852,
+      "ra": 341.174097,
+      "dec": 3.7710265,
+      "score": -0.01996479,
+      "drb": 0.99999785,
+      "filter": 1,
+      "magpsf": 20.452854,
+      "sigmapsf": 0.17742284,
+      "history_rows": 31,
+      "usable_rows": 28,
+      "usable_nights": 26,
+      "positive_nights": 23,
+      "cdsxmatch": "Fail 504",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18acxgxrh",
+      "candid": "3560128804615015061",
+      "jd": 2461314.6288079,
+      "ra": 312.7931763,
+      "dec": 4.8117015,
+      "score": -0.0189178437,
+      "drb": 0.99519837,
+      "filter": 2,
+      "magpsf": 15.146,
+      "sigmapsf": 0.033736918,
+      "history_rows": 179,
+      "usable_rows": 170,
+      "usable_nights": 99,
+      "positive_nights": 96,
+      "cdsxmatch": "Fail 503",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "MASTER OT J205110.36+044842.2",
+          "type": "CV*",
+          "separation_arcsec": 0.21
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18acpffho",
+      "candid": "3562411532815015005",
+      "jd": 2461316.9115394,
+      "ra": 76.6469301,
+      "dec": -3.0199348,
+      "score": -0.0186592415,
+      "drb": 0.9983682,
+      "filter": 1,
+      "magpsf": 16.115637,
+      "sigmapsf": 0.05468266,
+      "history_rows": 358,
+      "usable_rows": 337,
+      "usable_nights": 253,
+      "positive_nights": 199,
+      "cdsxmatch": "EclBin",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "V* V1010 Ori",
+          "type": "EB*",
+          "separation_arcsec": 0.238
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18achfhai",
+      "candid": "3574228850315015006",
+      "jd": 2461328.7288542,
+      "ra": 336.6817423,
+      "dec": -20.0940973,
+      "score": -0.0181384869,
+      "drb": 0.9999999,
+      "filter": 2,
+      "magpsf": 18.182074,
+      "sigmapsf": 0.080213845,
+      "history_rows": 816,
+      "usable_rows": 804,
+      "usable_nights": 428,
+      "positive_nights": 177,
+      "cdsxmatch": "RRLyrae",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "CRTS J222643.4-200536",
+          "type": "RR*",
+          "separation_arcsec": 0.628
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18aayuzbb",
+      "candid": "3576125273015015034",
+      "jd": 2461330.6252778,
+      "ra": 295.307318,
+      "dec": 10.0711529,
+      "score": -0.0175165292,
+      "drb": 0.93782234,
+      "filter": 1,
+      "magpsf": 17.676212,
+      "sigmapsf": 0.09827435,
+      "history_rows": 718,
+      "usable_rows": 537,
+      "usable_nights": 320,
+      "positive_nights": 233,
+      "cdsxmatch": "LongPeriodV*",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ZTF J194113.74+100416.5",
+          "type": "LP*",
+          "separation_arcsec": 0.483
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18admnqrq",
+      "candid": "3564169861515015037",
+      "jd": 2461318.6698611,
+      "ra": 288.8199835,
+      "dec": -6.0852519,
+      "score": -0.0174165703,
+      "drb": 0.99629927,
+      "filter": 2,
+      "magpsf": 12.78832,
+      "sigmapsf": 0.040971328,
+      "history_rows": 447,
+      "usable_rows": 440,
+      "usable_nights": 339,
+      "positive_nights": 170,
+      "cdsxmatch": "Mira",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "OGLE GD-LPV-25563",
+          "type": "Mi*",
+          "separation_arcsec": 0.095
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18abiyddq",
+      "candid": "3568110174215010032",
+      "jd": 2461322.6101736,
+      "ra": 283.217907,
+      "dec": -2.4741032,
+      "score": -0.0166276526,
+      "drb": 0.9995234,
+      "filter": 2,
+      "magpsf": 18.514057,
+      "sigmapsf": 0.09746843,
+      "history_rows": 202,
+      "usable_rows": 192,
+      "usable_nights": 169,
+      "positive_nights": 31,
+      "cdsxmatch": "LongPeriodV*",
+      "tns": null,
+      "isdiffpos": "f",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "2MASS J18525231-0228266",
+          "type": "LP*",
+          "separation_arcsec": 0.304
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18acehzkb",
+      "candid": "3584132874715015017",
+      "jd": 2461338.6328704,
+      "ra": 313.8904618,
+      "dec": 4.9431569,
+      "score": -0.0141780945,
+      "drb": 0.9999473,
+      "filter": 2,
+      "magpsf": 17.46888,
+      "sigmapsf": 0.095026046,
+      "history_rows": 755,
+      "usable_rows": 746,
+      "usable_nights": 509,
+      "positive_nights": 180,
+      "cdsxmatch": "RRLyrae",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ATO J313.8903+04.9431",
+          "type": "RR*",
+          "separation_arcsec": 0.337
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF17aaanyrs",
+      "candid": "3588453844015015016",
+      "jd": 2461342.9538426,
+      "ra": 85.4935138,
+      "dec": -1.2634729,
+      "score": -0.0137193799,
+      "drb": 0.99998987,
+      "filter": 1,
+      "magpsf": 18.25578,
+      "sigmapsf": 0.07492566,
+      "history_rows": 414,
+      "usable_rows": 409,
+      "usable_nights": 281,
+      "positive_nights": 227,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "EM* LkHA  290",
+          "type": "Y*O",
+          "separation_arcsec": 0.225
+        }
+      ],
+      "status": "broker crossmatch failed"
+    },
+    {
+      "id": "ZTF18abtilmq",
+      "candid": "3586131200915015028",
+      "jd": 2461340.6312037,
+      "ra": 300.4969656,
+      "dec": -12.6304461,
+      "score": -0.0129453987,
+      "drb": 0.9999842,
+      "filter": 2,
+      "magpsf": 18.824898,
+      "sigmapsf": 0.11912774,
+      "history_rows": 465,
+      "usable_rows": 453,
+      "usable_nights": 327,
+      "positive_nights": 126,
+      "cdsxmatch": "RRLyrae",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "ZTF J200159.26-123749.5",
+          "type": "RR*",
+          "separation_arcsec": 0.034
+        }
+      ],
+      "status": "catalog context"
+    },
+    {
+      "id": "ZTF18aabszgd",
+      "candid": "3588542454215015007",
+      "jd": 2461343.0424537,
+      "ra": 162.4140662,
+      "dec": 15.8104723,
+      "score": -0.0123714898,
+      "drb": 0.95735645,
+      "filter": 2,
+      "magpsf": 17.746752,
+      "sigmapsf": 0.05182941,
+      "history_rows": 492,
+      "usable_rows": 460,
+      "usable_nights": 285,
+      "positive_nights": 278,
+      "cdsxmatch": "Fail",
+      "tns": null,
+      "isdiffpos": "t",
+      "gaia_matches": [],
+      "simbad_neighbors": [
+        {
+          "name": "NVSS J104939+154838",
+          "type": "BLL",
+          "separation_arcsec": 0.301
+        }
+      ],
+      "status": "broker crossmatch failed"
+    }
+  ]
+}

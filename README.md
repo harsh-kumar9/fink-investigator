@@ -45,3 +45,15 @@ Fetch uses `curl`, sequential bounded HTTPS requests, per-request timeouts, limi
 For the next moving-star case, compare the inferred crossing date with the coadd's earliest and latest exposure dates. Run `python3 motion.py OBJECT_ID --snapshot SNAPSHOT --out NEW_DIRECTORY --fetch` for the first capture and omit `--fetch` for offline replay. A control population of shifted sky coordinates and a second disjoint set of labeled stars would test chance alignments before scaling that screen. The number of closed false leads per expert review hour and the number of surviving cases with independent image evidence are the useful operating measures here.
 
 This work uses public ZTF alert data served by Fink, ESA Gaia DR3 through NASA/IPAC IRSA, SIMBAD and VizieR at CDS, the AAVSO VSX and TNS. Individual rows retain their source identities. [Fink](https://fink-broker.org/) · [ZTF data access](https://irsa.ipac.caltech.edu/Missions/ztf.html) · [Gaia acknowledgements](https://www.cosmos.esa.int/web/gaia-users/credits) · [SIMBAD](https://simbad.cfa.harvard.edu/simbad/)
+
+## Replication on October 2026
+
+The next run used the last completed calendar month and a new set of 20 object IDs. The originally registered screen admitted four. All four had published VSX counterparts, so the sample yielded zero uncatalogued survivors. An exploratory check also found catalog counterparts for all five objects withheld after their historical broker crossmatches failed. [Registration](experiments/replication/protocol.md) · [Counts and object-level identifications](experiments/replication/2026-10/results/summary.md)
+
+```sh
+python3 coverage.py
+python3 replication.py
+make verify
+```
+
+These commands replay the checked-in archive on a clean checkout. The coverage script can retrieve missing source responses. The replication script reads the frozen cohort and its two additional VSX responses for historical service failures. The three alias-audit cases can be inspected with `python3 agents/review.py plan --limit 3 --packet experiments/replication/2026-10/results/review_packet.json`.

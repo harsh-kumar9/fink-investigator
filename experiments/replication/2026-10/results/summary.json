@@ -1,0 +1,100 @@
+{
+  "window": [
+    "2026-10-01",
+    "2026-11-01"
+  ],
+  "archive_utc_dates": 19,
+  "baseline_object_id_overlap": [],
+  "sample_size": 20,
+  "sample_utc_dates": 16,
+  "science_alerts": 1655912,
+  "observing_nights": 23,
+  "alerts_in_anomaly_archive": 190,
+  "distinct_archive_ids": 130,
+  "history_response_rows": 11230,
+  "metadata_only_history_rows": 438,
+  "control_agreements": 7,
+  "control_count": 7,
+  "first_pass": {
+    "broker crossmatch failed": 5,
+    "review": 4,
+    "catalog context": 11
+  },
+  "vsx_closed": 4,
+  "after_vsx": [],
+  "failed_crossmatch_audit": [
+    {
+      "id": "ZTF18aaaduso",
+      "broker": "Fail 503",
+      "simbad": [],
+      "vsx": [
+        {
+          "oid": "838077",
+          "name": "MGAB-V258",
+          "type": "UGSU",
+          "ra": 71.27971,
+          "dec": 22.87461,
+          "separation_arcsec": 0.31,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=838077"
+        }
+      ],
+      "vsx_query": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=71.279681+%2B22.8745289&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50"
+    },
+    {
+      "id": "ZTF17aaeencn",
+      "broker": "Fail 504",
+      "simbad": [],
+      "vsx": [
+        {
+          "oid": "2215141",
+          "name": "MGAB-V3757",
+          "type": "UG",
+          "ra": 341.17404,
+          "dec": 3.77106,
+          "separation_arcsec": 0.23,
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=2215141"
+        }
+      ],
+      "vsx_query": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=341.174097+%2B3.7710265&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50"
+    },
+    {
+      "id": "ZTF18acxgxrh",
+      "broker": "Fail 503",
+      "simbad": [
+        {
+          "name": "MASTER OT J205110.36+044842.2",
+          "type": "CV*",
+          "separation_arcsec": 0.21
+        }
+      ],
+      "vsx": null,
+      "vsx_query": null
+    },
+    {
+      "id": "ZTF17aaanyrs",
+      "broker": "Fail",
+      "simbad": [
+        {
+          "name": "EM* LkHA  290",
+          "type": "Y*O",
+          "separation_arcsec": 0.225
+        }
+      ],
+      "vsx": null,
+      "vsx_query": null
+    },
+    {
+      "id": "ZTF18aabszgd",
+      "broker": "Fail",
+      "simbad": [
+        {
+          "name": "NVSS J104939+154838",
+          "type": "BLL",
+          "separation_arcsec": 0.301
+        }
+      ],
+      "vsx": null,
+      "vsx_query": null
+    }
+  ]
+}

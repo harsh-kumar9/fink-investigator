@@ -1,0 +1,30 @@
+{
+  "ZTF18abjedws": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=268.906611+%2B9.0999886&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3577135701215015023",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T21:04:23+00:00",
+    "sha256_uncompressed": "9ce1df518b9055e0aaf2cdd85f9cabab5e6e6c5698c89b800bd7611f43b5401b"
+  },
+  "ZTF18abdjpbo": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=268.7712219+%2B13.4219804&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3579170844415015001",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T21:04:24+00:00",
+    "sha256_uncompressed": "b08bad5cae25b60fa0332b8ab1b4022cbd833e5f7251c630524edeb87287c28e"
+  },
+  "ZTF18abkwscm": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=293.0435566+%2B6.2875709&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3567112804415010009",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T21:04:24+00:00",
+    "sha256_uncompressed": "68168559382fb65a42b35e6af51954adbae407a6a0d125aed7a270dd695d471a"
+  },
+  "ZTF18abmfrmh": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=295.6563857+%2B1.9756519&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3585128510515010025",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T21:04:24+00:00",
+    "sha256_uncompressed": "bc9434dac1c15a1f63f87ea555fe6f8d2834d256badae69f02fe26e4d4f28777"
+  }
+}

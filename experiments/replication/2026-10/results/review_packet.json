@@ -1,0 +1,113 @@
+{
+  "gate_passed": true,
+  "cases": [
+    {
+      "id": "ZTF18abjedws",
+      "question": "Which observations support the published variable-star counterpart, and which observations could distinguish a chance superposition or subtraction residual? Keep the new-source lead closed for a unique match within one arcsecond.",
+      "evidence": [
+        {
+          "id": "alert",
+          "source": "https://ztf.fink-portal.org/ZTF18abjedws",
+          "detail": "Fink score -0.0244, DRB 0.994, JD 2461331.635706, candid 3577135701215015023; RA 268.906611, Dec 9.0999886 deg. The positive difference residual has magnitude 18.078 \u00b1 0.120 in ZTF filter 2."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF18abjedws",
+          "detail": "152 detections through the selected alert. 147 pass DRB >= 0.8 and sigma <= 0.2 mag on 94 UTC dates, with positive residuals on 40 dates."
+        },
+        {
+          "id": "catalog",
+          "source": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=268.906611+%2B9.0999886&CooFrame=ICRS&CooEpoch=2000&Radius=3&Radius.unit=arcsec",
+          "detail": "Broker CDS label 'Unknown'; TNS label not supplied for this alert; no independent TNS cone search was made; current 3 arcsec SIMBAD query yielded 0 neighbors. Coverage and positional differences limit this check."
+        },
+        {
+          "id": "motion",
+          "source": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+          "detail": "0 significant Gaia DR3 stars >=150 mas/yr passed the 2.5 arcsec track screen. Slower, uncataloged or poorly measured stars and image artifacts remain plausible."
+        },
+        {
+          "id": "image",
+          "source": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18abjedws&candid=3577135701215015023&kind=Difference",
+          "detail": "Epoch-specific difference cutout available for inspection alongside science and template. This link alone supplies no visual verdict."
+        },
+        {
+          "id": "vsx-1",
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=1499062",
+          "detail": "VSX OID 1499062, MGAB-V713, variability type 'UGZ', separation 0.15 arcsec. Triage: closed as a new source, retained for alias review. A colon in a VSX type indicates uncertainty."
+        }
+      ]
+    },
+    {
+      "id": "ZTF18abdjpbo",
+      "question": "Which observations support the published variable-star counterpart, and which observations could distinguish a chance superposition or subtraction residual? Keep the new-source lead closed for a unique match within one arcsecond.",
+      "evidence": [
+        {
+          "id": "alert",
+          "source": "https://ztf.fink-portal.org/ZTF18abdjpbo",
+          "detail": "Fink score -0.0219, DRB 1.000, JD 2461333.6708449, candid 3579170844415015001; RA 268.7712219, Dec 13.4219804 deg. The positive difference residual has magnitude 19.521 \u00b1 0.213 in ZTF filter 2."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF18abdjpbo",
+          "detail": "417 detections through the selected alert. 392 pass DRB >= 0.8 and sigma <= 0.2 mag on 292 UTC dates, with positive residuals on 269 dates."
+        },
+        {
+          "id": "catalog",
+          "source": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=268.7712219+%2B13.4219804&CooFrame=ICRS&CooEpoch=2000&Radius=3&Radius.unit=arcsec",
+          "detail": "Broker CDS label 'Unknown'; TNS label not supplied for this alert; no independent TNS cone search was made; current 3 arcsec SIMBAD query yielded 0 neighbors. Coverage and positional differences limit this check."
+        },
+        {
+          "id": "motion",
+          "source": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+          "detail": "0 significant Gaia DR3 stars >=150 mas/yr passed the 2.5 arcsec track screen. Slower, uncataloged or poorly measured stars and image artifacts remain plausible."
+        },
+        {
+          "id": "image",
+          "source": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18abdjpbo&candid=3579170844415015001&kind=Difference",
+          "detail": "Epoch-specific difference cutout available for inspection alongside science and template. This link alone supplies no visual verdict."
+        },
+        {
+          "id": "vsx-1",
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=2345383",
+          "detail": "VSX OID 2345383, ZTF18abdjpbo, variability type 'AM+E:', separation 0.91 arcsec. Triage: closed as a new source, retained for alias review. A colon in a VSX type indicates uncertainty."
+        }
+      ]
+    },
+    {
+      "id": "ZTF18abkwscm",
+      "question": "Which observations support the published variable-star counterpart, and which observations could distinguish a chance superposition or subtraction residual? Keep the new-source lead closed for a unique match within one arcsecond.",
+      "evidence": [
+        {
+          "id": "alert",
+          "source": "https://ztf.fink-portal.org/ZTF18abkwscm",
+          "detail": "Fink score -0.0207, DRB 0.867, JD 2461321.6128009, candid 3567112804415010009; RA 293.0435566, Dec 6.2875709 deg. The negative difference residual has magnitude 18.553 \u00b1 0.109 in ZTF filter 2."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF18abkwscm",
+          "detail": "297 detections through the selected alert. 263 pass DRB >= 0.8 and sigma <= 0.2 mag on 195 UTC dates, with positive residuals on 102 dates."
+        },
+        {
+          "id": "catalog",
+          "source": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=293.0435566+%2B6.2875709&CooFrame=ICRS&CooEpoch=2000&Radius=3&Radius.unit=arcsec",
+          "detail": "Broker CDS label 'Unknown'; TNS label not supplied for this alert; no independent TNS cone search was made; current 3 arcsec SIMBAD query yielded 0 neighbors. Coverage and positional differences limit this check."
+        },
+        {
+          "id": "motion",
+          "source": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+          "detail": "0 significant Gaia DR3 stars >=150 mas/yr passed the 2.5 arcsec track screen. Slower, uncataloged or poorly measured stars and image artifacts remain plausible."
+        },
+        {
+          "id": "image",
+          "source": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18abkwscm&candid=3567112804415010009&kind=Difference",
+          "detail": "Epoch-specific difference cutout available for inspection alongside science and template. This link alone supplies no visual verdict."
+        },
+        {
+          "id": "vsx-1",
+          "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=2344838",
+          "detail": "VSX OID 2344838, ZTF18abkwscm, variability type 'UG', separation 0.08 arcsec. Triage: closed as a new source, retained for alias review. A colon in a VSX type indicates uncertainty."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "start": "2026-10-01",
+  "stop_exclusive": "2026-11-01",
+  "max_objects": 20,
+  "sources": {
+    "anomaly.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2026-10-01",
+        "stop_date": "2026-11-01",
+        "n": 331,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:11+00:00",
+      "sha256_uncompressed": "a372132eac0bc1443bab88a63432d69a18378943515c64963460dba72084095a"
+    },
+    "history-00.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF17aaanyrs,ZTF17aaeencn,ZTF18aaaduso,ZTF18aabszgd",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:13+00:00",
+      "sha256_uncompressed": "927dd06ec90433baf01a68ce4b9e6231d7123c46fb531423602dc12579a2331b"
+    },
+    "history-04.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18aayuzbb,ZTF18abablmz,ZTF18abdjpbo,ZTF18abefzva",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:17+00:00",
+      "sha256_uncompressed": "5bf7be82e4960d34a693c5f8bb1f3e01db1f8b130b26ffd254c37cce85c643b0"
+    },
+    "history-08.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18abiyddq,ZTF18abjedws,ZTF18abkalak,ZTF18abkwscm",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:20+00:00",
+      "sha256_uncompressed": "fa7116d2074a13091534612c7a54e5892fcfd5c0d642013d4c7452c61abde08e"
+    },
+    "history-12.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18abmfrmh,ZTF18abtilmq,ZTF18acehzkb,ZTF18achfhai",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:23+00:00",
+      "sha256_uncompressed": "99c13d9f988b30cde982bc73fcd7ee61958179e827456588412ee7cb533928c7"
+    },
+    "history-16.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18acpffho,ZTF18acxgxrh,ZTF18adgsbul,ZTF18admnqrq",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:26+00:00",
+      "sha256_uncompressed": "e8461b90c2db2c014be936632cfb14e622f36ad807390532568f3ebaf33fccd7"
+    },
+    "history-20.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18adqfzbb,ZTF18adsbqgv,ZTF19abhyflg,ZTF23aabtgej",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:27+00:00",
+      "sha256_uncompressed": "70888339a7e0f04fe36c3a967e9376a21f17cd66101d05bbebc96a22deaf29e4"
+    },
+    "history-24.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF23aajfetj,ZTF23aaklqou,ZTF23aalftvv",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:28+00:00",
+      "sha256_uncompressed": "9122e49cf5d7205342f1e3e22c6616c82d60742a729660cfbf6de7f8c44aa836"
+    },
+    "gaia-00.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',274.30286530,68.54720460,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:01:15+00:00",
+      "sha256_uncompressed": "f2bc559ad4f2a343a8a25834639e9c857756a887dd1f2f7dcc339aa258c614f7"
+    },
+    "gaia-01.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',218.77893280,16.89638020,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:01:20+00:00",
+      "sha256_uncompressed": "d4e3a4d3c2ac9065d1af9a0110734d20f942b3927a1e99fb4e3faeef7633abe8"
+    },
+    "gaia-02.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',243.60204530,2.24393030,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:01:22+00:00",
+      "sha256_uncompressed": "73501e6692e9081eb67cb07bce4aa08895a9054156091f97c25630bf4c70510f"
+    },
+    "gaia-03.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',239.30485420,5.09279930,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:01:30+00:00",
+      "sha256_uncompressed": "2c4ae59694608d83c9d75bb18462d17bd72ca1ae3e2a44d6f65066302bef8eee"
+    },
+    "gaia-04.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',258.53542570,81.07479520,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:01:37+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-05.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',210.91070780,54.31166830,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:01:50+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-06.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',134.04842690,-3.32545790,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:01:52+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-07.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',312.79317630,4.81170150,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:00+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-08.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',295.27912050,10.63939500,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:12+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-09.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',76.64693010,-3.01993480,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:17+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-10.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',288.81998350,-6.08525190,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:25+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-11.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',274.07642130,-5.68907420,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:32+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-12.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',293.04355660,6.28757090,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:40+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-13.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',283.21790700,-2.47410320,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:45+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-14.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',341.17409700,3.77102650,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:52+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-15.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',281.26863720,12.78609280,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:02:57+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-16.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',336.68174230,-20.09409730,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:03:08+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-17.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',295.30731800,10.07115290,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:03:15+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-18.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',268.90661100,9.09998860,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:03:17+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-19.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',268.77122190,13.42198040,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:03:25+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-20.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',71.27968100,22.87452890,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:03:30+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-21.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',313.89046180,4.94315690,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:03:35+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-22.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',295.65638570,1.97565190,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:03:42+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-23.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',103.57951160,3.91365460,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:03:55+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-24.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',300.49696560,-12.63044610,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:04:06+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-25.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',85.49351380,-1.26347290,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:04:16+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "gaia-26.csv.gz": {
+      "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',162.41406620,15.81047230,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:04:23+00:00",
+      "sha256_uncompressed": "4e0001e894d2a402de6cd5e1533385c92fdf64ad59217df6de1894a91444a2a9"
+    },
+    "simbad-00.csv.gz": {
+      "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 main_id,otype,ra,dec FROM basic WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',312.79317630,4.81170150,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',295.27912050,10.63939500,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',76.64693010,-3.01993480,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',288.81998350,-6.08525190,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',274.07642130,-5.68907420,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',293.04355660,6.28757090,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',283.21790700,-2.47410320,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',341.17409700,3.77102650,0.0008333333))=1"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:04:23+00:00",
+      "sha256_uncompressed": "f433af768006f33d59279f47d0fb6b0bee823cb1a79d1c71c26a953d9a8db353"
+    },
+    "simbad-08.csv.gz": {
+      "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 main_id,otype,ra,dec FROM basic WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',281.26863720,12.78609280,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',336.68174230,-20.09409730,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',295.30731800,10.07115290,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',268.90661100,9.09998860,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',268.77122190,13.42198040,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',71.27968100,22.87452890,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',313.89046180,4.94315690,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',295.65638570,1.97565190,0.0008333333))=1"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:04:23+00:00",
+      "sha256_uncompressed": "0ba294af4e5608fdf00419f4db3f9059d655036c03e0005b3309991e368863c7"
+    },
+    "simbad-16.csv.gz": {
+      "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync",
+      "params": {
+        "QUERY": "SELECT TOP 2000 main_id,otype,ra,dec FROM basic WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',103.57951160,3.91365460,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',300.49696560,-12.63044610,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',85.49351380,-1.26347290,0.0008333333))=1 OR CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',162.41406620,15.81047230,0.0008333333))=1"
+      },
+      "method": "GET",
+      "retrieved_utc": "2026-11-25T21:04:23+00:00",
+      "sha256_uncompressed": "3240a20a0b45bb9ee459d7ada11ed473e6c1cc23f0ad491d5a6cf6a2cf8c2b18"
+    }
+  }
+}

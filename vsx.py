@@ -77,13 +77,21 @@ def parse(raw, case):
     return sorted(matches, key=lambda m: m["separation_arcsec"])
 
 
+def closed_alias(case):
+    return case["adjudication"].startswith("close")
+
+
 def reconcile(folder, result, fetch=None):
     cases = [
         r
         for r in result["objects"]
         if r["status"] == "review" and result["gate_passed"]
     ]
-    archive = folder / "vsx"
+    annotate_cases(folder / "vsx", cases, fetch)
+    return result
+
+
+def annotate_cases(archive, cases, fetch=None):
     if fetch:
         archive.mkdir(exist_ok=True)
     manifest_path = archive / "manifest.json"
@@ -129,4 +137,3 @@ def reconcile(folder, result, fetch=None):
             r["adjudication"] = "inspect possible VSX counterpart"
         else:
             r["adjudication"] = "open for image and catalog checks"
-    return result

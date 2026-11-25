@@ -668,8 +668,8 @@ def outputs(result, folder):
         if result["gate_passed"]
         else []
     )
-    open_cases = [r for r in eligible if not r["adjudication"].startswith("close")]
-    audits = [r for r in eligible if r["adjudication"].startswith("close")]
+    open_cases = [r for r in eligible if not vsx.closed_alias(r)]
+    audits = [r for r in eligible if vsx.closed_alias(r)]
     batch = (open_cases + audits)[:REVIEW_LIMIT]
     packet = {
         "gate_passed": result["gate_passed"],

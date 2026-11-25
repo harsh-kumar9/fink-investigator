@@ -1,0 +1,16 @@
+{
+  "ZTF18aaaduso": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=71.279681+%2B22.8745289&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3579466520215010028",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T21:05:05+00:00",
+    "sha256_uncompressed": "cb04891a935a559156719be795e90754a6f76b6fed8c148749eb6d2cbfe43f82"
+  },
+  "ZTF17aaeencn": {
+    "url": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=341.174097+%2B3.7710265&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+    "candid": "3569197682915015025",
+    "method": "GET",
+    "retrieved_utc": "2026-11-25T21:05:06+00:00",
+    "sha256_uncompressed": "b02dfdaf86e27e0aa308ecc569317b29278a6a2544f10821fbb5e30fae8ac235"
+  }
+}
