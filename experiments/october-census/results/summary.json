@@ -1,0 +1,66 @@
+{
+  "archive_packets": 190,
+  "archive_ids": 130,
+  "anomaly_dates": 19,
+  "observing_nights": 23,
+  "science_alerts": 1655912,
+  "moving_star_screen_controls": {
+    "true_positives": 4,
+    "true_negatives": 3,
+    "total": 7
+  },
+  "cohort_sizes": {
+    "initial sample": 20,
+    "remainder": 110
+  },
+  "first_pass_by_cohort": {
+    "initial sample": {
+      "broker crossmatch failed": 5,
+      "review": 4,
+      "catalog context": 11
+    },
+    "remainder": {
+      "catalog context": 74,
+      "review": 16,
+      "broker crossmatch failed": 16,
+      "limited positive support": 3,
+      "moving-star alternative": 1
+    }
+  },
+  "first_pass": {
+    "broker crossmatch failed": 21,
+    "review": 20,
+    "catalog context": 85,
+    "limited positive support": 3,
+    "moving-star alternative": 1
+  },
+  "final": {
+    "VSX counterpart": 16,
+    "SIMBAD counterpart": 103,
+    "registered type Ia supernova": 1,
+    "positional variability supported; class open": 6,
+    "insufficient quality or positive dates": 3,
+    "moving-star explanation supported": 1
+  },
+  "by_first_pass": {
+    "broker crossmatch failed": {
+      "VSX counterpart": 2,
+      "SIMBAD counterpart": 18,
+      "positional variability supported; class open": 1
+    },
+    "catalog context": {
+      "SIMBAD counterpart": 85
+    },
+    "limited positive support": {
+      "insufficient quality or positive dates": 3
+    },
+    "moving-star alternative": {
+      "moving-star explanation supported": 1
+    },
+    "review": {
+      "VSX counterpart": 14,
+      "registered type Ia supernova": 1,
+      "positional variability supported; class open": 5
+    }
+  }
+}

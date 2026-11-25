@@ -1,0 +1,223 @@
+[
+  {
+    "id": "ZTF26acbcwpz",
+    "method_outputs": [
+      {
+        "id": "broker",
+        "source": "https://ztf.fink-portal.org/ZTF26acbcwpz",
+        "detail": "No TNS name in the selected packet. SIMBAD and VSX returned empty cones."
+      },
+      {
+        "id": "registry",
+        "source": "https://www.wis-tns.org/object/2026afgd",
+        "detail": "TNS reports SN Ia, with a P60/SEDM spectrum on 2026-10-14."
+      },
+      {
+        "id": "identifier",
+        "source": "https://sites.astro.caltech.edu/LIONS/mag_bins_pub/2026-10-le18_0.html",
+        "detail": "LIONS lists the exact ZTF identifier alongside SN 2026afgd."
+      }
+    ],
+    "competing_interpretations": [
+      "Previously unreported transient",
+      "Registered supernova with missing broker metadata"
+    ],
+    "status": "registered type Ia supernova",
+    "discriminating_evidence": "An explicit ZTF identifier in the independent registry-linked catalog and a classified spectrum can distinguish earlier reporting from an unregistered transient.",
+    "next_discriminating_observation": "The exact external alias and reported spectrum resolve the registry question. Check updated TNS spectra for any proposed subtype revision."
+  },
+  {
+    "id": "ZTF17aacydyv",
+    "method_outputs": [
+      {
+        "id": "gaia-position",
+        "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=87.2258635+%2B26.8631435&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+        "detail": "Gaia DR3 3429463387935153536 lies 0.221 arcsec from the anchor at its epoch. 1 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+      },
+      {
+        "id": "direct-photometry",
+        "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+87.2258635+26.8631435+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61321.47673610&FORMAT=csv",
+        "detail": "130 matched r-band dates (124 positive, 6 negative), from 2019-11-06 to 2025-10-18. Spearman rho 0.995. Negative minus positive median direct magnitude 0.805 mag."
+      },
+      {
+        "id": "image-comparison",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF17aacydyv/images/gallery.md",
+        "detail": "A central residual recurs in 2019, 2023 and 2026. A separate edge residual is visible."
+      },
+      {
+        "id": "independent-reading",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF17aacydyv/independent-review.md",
+        "detail": "The independent gpt-6-luna review favored recurrent variability at the position and kept a blended neighbor open. This opinion used the same archived optical evidence."
+      },
+      {
+        "id": "infrared",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/infrared/README.md",
+        "detail": "Independent NEOWISE W1 photometry spanned 0.295 mag between the 10th and 90th percentiles of 21 visit medians. Two comparison stars spanned 0.032 and 0.075 mag. A roughly 6-arcsec beam and unmatched optical/IR phases leave the varying component unresolved."
+      }
+    ],
+    "competing_interpretations": [
+      "A variable at the Gaia position",
+      "A blended neighbor or shared seeing/subtraction effects"
+    ],
+    "discriminating_evidence": "A matching signed flux change in direct images supports variability at the position. A centroid that follows another star with brightness, or a correlation with seeing, would favor a blend or instrumental origin.",
+    "status": "positional variability supported; class open",
+    "next_discriminating_observation": "Measure the centroid at bright and faint phases with higher angular resolution and obtain multicolor or spectral data."
+  },
+  {
+    "id": "ZTF18aaawbgm",
+    "method_outputs": [
+      {
+        "id": "gaia-position",
+        "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=95.9766563+%2B8.5814374&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+        "detail": "Gaia DR3 3325589883057224576 lies 0.268 arcsec from the anchor at its epoch. 1 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+      },
+      {
+        "id": "direct-photometry",
+        "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?ID=1507212400017506&ID=512201400009372&ID=513204300009613&COLLECTION=ztf_dr24&BAD_CATFLAGS_MASK=65535&TIME=-Inf+61339.46175930&FORMAT=csv",
+        "detail": "43 matched r-band dates (37 positive, 6 negative), from 2019-12-16 to 2025-04-06. Spearman rho 0.817. Negative minus positive median direct magnitude 1.462 mag."
+      },
+      {
+        "id": "image-comparison",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF18aaawbgm/images/gallery.md",
+        "detail": "A central residual recurs beside a second residual to the right. The selected anchor is positive after earlier negative detections."
+      }
+    ],
+    "competing_interpretations": [
+      "A variable at the Gaia position",
+      "A blended neighbor or shared seeing/subtraction effects"
+    ],
+    "discriminating_evidence": "A matching signed flux change in direct images supports variability at the position. A centroid that follows another star with brightness, or a correlation with seeing, would favor a blend or instrumental origin.",
+    "status": "positional variability supported; class open",
+    "next_discriminating_observation": "Register the images to Gaia and compare the centroids and signs of the two residuals across seeing conditions."
+  },
+  {
+    "id": "ZTF18abjtfpx",
+    "method_outputs": [
+      {
+        "id": "gaia-position",
+        "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=280.305911+%2B9.7241705&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+        "detail": "Gaia DR3 4479632717757053440 lies 0.254 arcsec from the anchor at its epoch. 3 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+      },
+      {
+        "id": "direct-photometry",
+        "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+280.305911+9.7241705+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61333.17131940&FORMAT=csv",
+        "detail": "43 matched r-band dates (19 positive, 24 negative), from 2020-11-01 to 2025-10-05. Spearman rho 0.943. Negative minus positive median direct magnitude 0.982 mag."
+      },
+      {
+        "id": "image-comparison",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF18abjtfpx/images/gallery.md",
+        "detail": "Three Gaia stars lie inside 5\u2033. The central signal is weaker in the earliest and latest stamps."
+      }
+    ],
+    "competing_interpretations": [
+      "A variable at the Gaia position",
+      "A blended neighbor or shared seeing/subtraction effects"
+    ],
+    "discriminating_evidence": "A matching signed flux change in direct images supports variability at the position. A centroid that follows another star with brightness, or a correlation with seeing, would favor a blend or instrumental origin.",
+    "status": "positional variability supported; class open",
+    "next_discriminating_observation": "Fit all three source positions jointly to test whether a neighbor accounts for the light curve."
+  },
+  {
+    "id": "ZTF22abgqdcj",
+    "method_outputs": [
+      {
+        "id": "motion",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF22abgqdcj/reference/report.md",
+        "detail": "G 143-8 crossed within 0.059 arcsec near 2018-07-21, inside the actual 15-image reference interval. All 325 usable detections are negative."
+      },
+      {
+        "id": "images",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF22abgqdcj/images/gallery.md",
+        "detail": "A paired residual appears across three epochs with increasing apparent separation."
+      }
+    ],
+    "competing_interpretations": [
+      "Subtraction at an old stellar position",
+      "Superposed variable"
+    ],
+    "status": "moving-star explanation supported",
+    "discriminating_evidence": "A crossing during the measured coadd interval and increasing distance between residual lobes are expected when the star moves away from its former position.",
+    "next_discriminating_observation": "Register multi-epoch sharp images and measure both lobes relative to the Gaia track."
+  },
+  {
+    "id": "ZTF17aaaaitr",
+    "method_outputs": [
+      {
+        "id": "gaia-position",
+        "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=94.6946744+%2B3.2313571&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+        "detail": "Gaia DR3 3125235839154202752 lies 0.105 arcsec from the anchor at its epoch. 2 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+      },
+      {
+        "id": "direct-photometry",
+        "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+94.6946744+3.2313571+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61331.43715280&FORMAT=csv",
+        "detail": "193 matched r-band dates (175 positive, 18 negative), from 2019-11-03 to 2025-09-17. Spearman rho 0.899. Negative minus positive median direct magnitude 0.831 mag."
+      },
+      {
+        "id": "image-comparison",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF17aaaaitr/images/gallery.md",
+        "detail": "A compact central residual recurs on all three dates. Two Gaia stars lie inside 5\u2033."
+      }
+    ],
+    "competing_interpretations": [
+      "A variable at the Gaia position",
+      "A blended neighbor or shared seeing/subtraction effects"
+    ],
+    "discriminating_evidence": "A matching signed flux change in direct images supports variability at the position. A centroid that follows another star with brightness, or a correlation with seeing, would favor a blend or instrumental origin.",
+    "status": "positional variability supported; class open",
+    "next_discriminating_observation": "Deblend both Gaia positions on sharp images and measure which changes."
+  },
+  {
+    "id": "ZTF18ablrppd",
+    "method_outputs": [
+      {
+        "id": "gaia-position",
+        "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=279.631725+%2B8.3097532&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+        "detail": "Gaia DR3 4479015857365129856 lies 0.027 arcsec from the anchor at its epoch. 2 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+      },
+      {
+        "id": "direct-photometry",
+        "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?ID=538202400036246&COLLECTION=ztf_dr24&BAD_CATFLAGS_MASK=65535&TIME=-Inf+61323.11717590&FORMAT=csv",
+        "detail": "141 matched r-band dates (77 positive, 64 negative), from 2020-02-21 to 2025-10-21. Spearman rho 0.995. Negative minus positive median direct magnitude 0.633 mag."
+      },
+      {
+        "id": "image-comparison",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF18ablrppd/images/gallery.md",
+        "detail": "Two Gaia stars lie inside 5\u2033. Dark structure adjoins the central residual. The anchor's broker lookup failed and its DRB is low."
+      }
+    ],
+    "competing_interpretations": [
+      "A variable at the Gaia position",
+      "A blended neighbor or shared seeing/subtraction effects"
+    ],
+    "discriminating_evidence": "A matching signed flux change in direct images supports variability at the position. A centroid that follows another star with brightness, or a correlation with seeing, would favor a blend or instrumental origin.",
+    "status": "positional variability supported; class open",
+    "next_discriminating_observation": "Fit both stars on independent high-resolution images and check whether variability shifts toward the fainter neighbor."
+  },
+  {
+    "id": "ZTF18abuizsi",
+    "method_outputs": [
+      {
+        "id": "gaia-position",
+        "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=80.4915379+%2B32.0617594&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+        "detail": "Gaia DR3 180750743717485824 lies 0.079 arcsec from the anchor at its epoch. 1 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+      },
+      {
+        "id": "direct-photometry",
+        "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+80.4915379+32.0617594+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61338.36842590&FORMAT=csv",
+        "detail": "35 matched r-band dates (26 positive, 9 negative), from 2019-11-11 to 2025-07-20. Spearman rho 0.946. Negative minus positive median direct magnitude 1.949 mag."
+      },
+      {
+        "id": "image-comparison",
+        "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF18abuizsi/images/gallery.md",
+        "detail": "The central negative signal has adjacent structure in two of the selected stamps."
+      }
+    ],
+    "competing_interpretations": [
+      "A variable at the Gaia position",
+      "A blended neighbor or shared seeing/subtraction effects"
+    ],
+    "discriminating_evidence": "A matching signed flux change in direct images supports variability at the position. A centroid that follows another star with brightness, or a correlation with seeing, would favor a blend or instrumental origin.",
+    "status": "positional variability supported; class open",
+    "next_discriminating_observation": "Test whether flux persists in higher-resolution photometry after control for seeing and reference selection."
+  }
+]

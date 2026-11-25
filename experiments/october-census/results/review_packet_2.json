@@ -1,0 +1,158 @@
+{
+  "gate_passed": true,
+  "cases": [
+    {
+      "id": "ZTF17aaaaitr",
+      "question": "Deblend both Gaia positions on sharp images and measure which changes.",
+      "evidence": [
+        {
+          "id": "alert",
+          "source": "https://ztf.fink-portal.org/ZTF17aaaaitr",
+          "detail": "Fink score -0.0183, DRB 1.000, JD 2461331.9371528, candid 3577437152615015020; RA 94.6946744, Dec 3.2313571 deg. The positive difference residual has magnitude 18.516 \u00b1 0.090 in ZTF filter 2."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF17aaaaitr",
+          "detail": "267 detections through the selected alert. 266 pass DRB >= 0.8 and sigma <= 0.2 mag on 243 UTC dates, with positive residuals on 209 dates."
+        },
+        {
+          "id": "catalog",
+          "source": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=94.6946744+%2B3.2313571&CooFrame=ICRS&CooEpoch=2000&Radius=3&Radius.unit=arcsec",
+          "detail": "Broker CDS label 'Unknown'; TNS label not supplied for this alert; no independent TNS cone search was made; current 3 arcsec SIMBAD query yielded 0 neighbors. Coverage and positional differences limit this check."
+        },
+        {
+          "id": "motion",
+          "source": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+          "detail": "0 significant Gaia DR3 stars >=150 mas/yr passed the 2.5 arcsec track screen. Slower, uncataloged or poorly measured stars and image artifacts remain plausible."
+        },
+        {
+          "id": "image",
+          "source": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF17aaaaitr&candid=3577437152615015020&kind=Difference",
+          "detail": "Epoch-specific difference cutout available for inspection alongside science and template. This link alone supplies no visual verdict."
+        },
+        {
+          "id": "vsx-cone",
+          "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=94.6946744+%2B3.2313571&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+          "detail": "No VSX result within 5 arcsec."
+        },
+        {
+          "id": "gaia-position",
+          "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=94.6946744+%2B3.2313571&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+          "detail": "Gaia DR3 3125235839154202752 lies 0.105 arcsec from the anchor at its epoch. 2 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+        },
+        {
+          "id": "direct-photometry",
+          "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+94.6946744+3.2313571+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61331.43715280&FORMAT=csv",
+          "detail": "193 matched r-band dates (175 positive, 18 negative), from 2019-11-03 to 2025-09-17. Spearman rho 0.899. Negative minus positive median direct magnitude 0.831 mag."
+        },
+        {
+          "id": "image-comparison",
+          "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF17aaaaitr/images/gallery.md",
+          "detail": "A compact central residual recurs on all three dates. Two Gaia stars lie inside 5\u2033."
+        }
+      ]
+    },
+    {
+      "id": "ZTF18ablrppd",
+      "question": "Fit both stars on independent high-resolution images and check whether variability shifts toward the fainter neighbor.",
+      "evidence": [
+        {
+          "id": "alert",
+          "source": "https://ztf.fink-portal.org/ZTF18ablrppd",
+          "detail": "Fink score -0.0174, DRB 0.561, JD 2461323.6171759, candid 3569117170715010123; RA 279.631725, Dec 8.3097532 deg. The negative difference residual has magnitude 16.857 \u00b1 0.053 in ZTF filter 1."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF18ablrppd",
+          "detail": "533 detections through the selected alert. 435 pass DRB >= 0.8 and sigma <= 0.2 mag on 315 UTC dates, with positive residuals on 164 dates."
+        },
+        {
+          "id": "catalog",
+          "source": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=279.631725+%2B8.3097532&CooFrame=ICRS&CooEpoch=2000&Radius=3&Radius.unit=arcsec",
+          "detail": "Broker CDS label 'Fail 503'; TNS label not supplied for this alert; no independent TNS cone search was made; current 3 arcsec SIMBAD query yielded 0 neighbors. Coverage and positional differences limit this check."
+        },
+        {
+          "id": "motion",
+          "source": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+          "detail": "0 significant Gaia DR3 stars >=150 mas/yr passed the 2.5 arcsec track screen. Slower, uncataloged or poorly measured stars and image artifacts remain plausible."
+        },
+        {
+          "id": "image",
+          "source": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18ablrppd&candid=3569117170715010123&kind=Difference",
+          "detail": "Epoch-specific difference cutout available for inspection alongside science and template. This link alone supplies no visual verdict."
+        },
+        {
+          "id": "vsx-cone",
+          "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=279.631725+%2B8.3097532&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+          "detail": "No VSX result within 5 arcsec."
+        },
+        {
+          "id": "gaia-position",
+          "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=279.631725+%2B8.3097532&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+          "detail": "Gaia DR3 4479015857365129856 lies 0.027 arcsec from the anchor at its epoch. 2 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+        },
+        {
+          "id": "direct-photometry",
+          "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?ID=538202400036246&COLLECTION=ztf_dr24&BAD_CATFLAGS_MASK=65535&TIME=-Inf+61323.11717590&FORMAT=csv",
+          "detail": "141 matched r-band dates (77 positive, 64 negative), from 2020-02-21 to 2025-10-21. Spearman rho 0.995. Negative minus positive median direct magnitude 0.633 mag."
+        },
+        {
+          "id": "image-comparison",
+          "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF18ablrppd/images/gallery.md",
+          "detail": "Two Gaia stars lie inside 5\u2033. Dark structure adjoins the central residual. The anchor's broker lookup failed and its DRB is low."
+        }
+      ]
+    },
+    {
+      "id": "ZTF18abuizsi",
+      "question": "Test whether flux persists in higher-resolution photometry after control for seeing and reference selection.",
+      "evidence": [
+        {
+          "id": "alert",
+          "source": "https://ztf.fink-portal.org/ZTF18abuizsi",
+          "detail": "Fink score -0.0158, DRB 0.842, JD 2461338.8684259, candid 3584368422315010014; RA 80.4915379, Dec 32.0617594 deg. The negative difference residual has magnitude 17.302 \u00b1 0.051 in ZTF filter 1."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF18abuizsi",
+          "detail": "373 detections through the selected alert. 72 pass DRB >= 0.8 and sigma <= 0.2 mag on 55 UTC dates, with positive residuals on 29 dates."
+        },
+        {
+          "id": "catalog",
+          "source": "https://simbad.cfa.harvard.edu/simbad/sim-coo?Coord=80.4915379+%2B32.0617594&CooFrame=ICRS&CooEpoch=2000&Radius=3&Radius.unit=arcsec",
+          "detail": "Broker CDS label 'Unknown'; TNS label not supplied for this alert; no independent TNS cone search was made; current 3 arcsec SIMBAD query yielded 0 neighbors. Coverage and positional differences limit this check."
+        },
+        {
+          "id": "motion",
+          "source": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/",
+          "detail": "0 significant Gaia DR3 stars >=150 mas/yr passed the 2.5 arcsec track screen. Slower, uncataloged or poorly measured stars and image artifacts remain plausible."
+        },
+        {
+          "id": "image",
+          "source": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF18abuizsi&candid=3584368422315010014&kind=Difference",
+          "detail": "Epoch-specific difference cutout available for inspection alongside science and template. This link alone supplies no visual verdict."
+        },
+        {
+          "id": "vsx-cone",
+          "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=B%2Fvsx%2Fvsx&-c=80.4915379+%2B32.0617594&-c.rs=5&-out=OID%2CName%2CType%2CRAJ2000%2CDEJ2000&-out.add=_r&-out.max=50",
+          "detail": "No VSX result within 5 arcsec."
+        },
+        {
+          "id": "gaia-position",
+          "source": "https://vizier.cfa.harvard.edu/viz-bin/votable?-source=I%2F355%2Fgaiadr3%2CI%2F358%2Fvclassre%2CJ%2FApJS%2F249%2F18%2Ftable2%2CJ%2FApJS%2F249%2F18%2Ftable3&-c=80.4915379+%2B32.0617594&-c.rs=5&-out=Source%2CRA_ICRS%2CDE_ICRS%2CpmRA%2CpmDE%2CGmag%2CClass%2CClassSc%2CID%2CRAJ2000%2CDEJ2000%2CPer%2CPer-g%2CPer-r%2CType&-out.add=_r&-out.max=50",
+          "detail": "Gaia DR3 180750743717485824 lies 0.079 arcsec from the anchor at its epoch. 1 Gaia sources with measured motion in the 5-arcsec cone. No variable-class entry in Gaia DR3 or the two Chen et al. tables."
+        },
+        {
+          "id": "direct-photometry",
+          "source": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?POS=CIRCLE+80.4915379+32.0617594+0.0004166667&BANDNAME=r&BAD_CATFLAGS_MASK=65535&NOBS_MIN=30&TIME=-Inf+61338.36842590&FORMAT=csv",
+          "detail": "35 matched r-band dates (26 positive, 9 negative), from 2019-11-11 to 2025-07-20. Spearman rho 0.946. Negative minus positive median direct magnitude 1.949 mag."
+        },
+        {
+          "id": "image-comparison",
+          "source": "https://github.com/harsh-kumar9/fink-investigator/blob/main/experiments/october-census/review/ZTF18abuizsi/images/gallery.md",
+          "detail": "The central negative signal has adjacent structure in two of the selected stamps."
+        }
+      ]
+    }
+  ]
+}

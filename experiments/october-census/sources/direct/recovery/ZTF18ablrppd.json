@@ -1,0 +1,12 @@
+{
+  "cone": {
+    "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT+TOP+100+oid%2Cra%2Cdec%2Cnobs%2Cfid+FROM+ztf_objects_dr24+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C279.631725%2C8.3097532%2C0.0004166667%29%29%3D1+AND+fid%3D2+AND+nobs%3E%3D30",
+    "sha256_uncompressed": "f69f4760e436f243c2963aace004ed78f58c2ea898042d839b9ba52dcec9ad8d",
+    "retrieved_utc": "2026-11-25T21:44:23+00:00"
+  },
+  "photometry": {
+    "url": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?ID=538202400036246&COLLECTION=ztf_dr24&BAD_CATFLAGS_MASK=65535&TIME=-Inf+61323.11717590&FORMAT=csv",
+    "sha256_uncompressed": "2c343257541c1776ef1156251669d08972348b9720e5e3eaa038ae57f7a4796c",
+    "retrieved_utc": "2026-11-25T21:49:29+00:00"
+  }
+}

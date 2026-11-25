@@ -2,6 +2,10 @@
 
 This is an experiment in iteratively building pipelines for open-world discovery with frontier language models. Agents propose explanations for unusual telescope alerts, check them against public measurements and catalogs, and record what ruled each explanation in or out. Each new search starts with a test on objects whose identities are already known.
 
+## What survived an entire month of telescope alerts?
+
+We traced all **130 distinct objects** in Fink’s October 2026 anomaly archive. The first screen admitted 20. Fourteen matched known variable stars in VSX, one matched a previously classified supernova, and five led to repeated detections near Gaia stars. A separate audit of failed broker lookups added a sixth position to investigate. All six showed brighter direct-image measurements on positive-residual dates. At ZTF17aacydyv the two ways of measuring brightness agree across 130 dates, and a separate infrared telescope also measured changes near that position. The star responsible and its physical class remain open. [Full-month results and graphic](experiments/october-census/README.md) · [All 130 object decisions](experiments/october-census/results/outcomes.csv) · [How we resolve disagreements](DISCREPANCIES.md)
+
 ## Why would a telescope keep flagging a star’s old position?
 
 The Zwicky Transient Facility (ZTF) looks for changes by subtracting an older image from a new exposure. A stellar explosion can leave a bright spot in the difference. A familiar star drifting across the sky can leave *two* spots, one where it used to be and one where it moved. Telling those cases apart matters when astronomers decide which alerts deserve follow-up observations. [ZTF image processing](https://arxiv.org/abs/1902.01872) · [Fink follow-up observations](https://arxiv.org/abs/2603.29511)
