@@ -1,0 +1,48 @@
+[
+  {
+    "id": "ZTF18abkalak",
+    "expected": true,
+    "name": "G 260-1",
+    "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+    "expected_gaia_dr3_source_id": "2259755746681611264"
+  },
+  {
+    "id": "ZTF18adgsbul",
+    "expected": true,
+    "name": "G 135-67",
+    "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+    "expected_gaia_dr3_source_id": "1235307193617100160"
+  },
+  {
+    "id": "ZTF19abhyflg",
+    "expected": true,
+    "name": "LP 624-55",
+    "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+    "expected_gaia_dr3_source_id": "4412055049456215808"
+  },
+  {
+    "id": "ZTF23aajfetj",
+    "expected": true,
+    "name": "Wolf 611",
+    "source": "https://arxiv.org/html/2603.29511v1#S5.T4",
+    "expected_gaia_dr3_source_id": "4426487823197250304"
+  },
+  {
+    "id": "ZTF23aalftvv",
+    "expected": false,
+    "name": "SN 2023mtp",
+    "source": "https://arxiv.org/html/2603.29511v1#S4.SS1.SSS2"
+  },
+  {
+    "id": "ZTF23aaklqou",
+    "expected": false,
+    "name": "SN 2023ixf",
+    "source": "https://www.wis-tns.org/object/2023ixf"
+  },
+  {
+    "id": "ZTF23aabtgej",
+    "expected": false,
+    "name": "SN 2023bee",
+    "source": "https://www.wis-tns.org/object/2023bee"
+  }
+]
