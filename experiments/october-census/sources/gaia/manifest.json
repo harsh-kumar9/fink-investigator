@@ -1,0 +1,12 @@
+{
+  "request": {
+    "url": "https://irsa.ipac.caltech.edu/TAP/sync",
+    "method": "POST multipart/form-data",
+    "QUERY": "SELECT TOP 2000 source_id,ra,dec,ref_epoch,pmra,pmdec,pmra_error,pmdec_error FROM gaia_dr3_source WHERE CONTAINS(POINT(ra,dec),CIRCLE(TAP_UPLOAD.targets.my_ra,TAP_UPLOAD.targets.my_dec,0.0166666667))=1 AND (pmra*pmra+pmdec*pmdec)>=22500",
+    "FORMAT": "CSV",
+    "UPLOAD": "targets,param:coords",
+    "coords_sha256": "1fe46778d6491292bdd33ed754b9a2d7afda6bbeb1c061a69dfe951157b4e47d"
+  },
+  "retrieved_utc": "2026-11-25T21:29:20+00:00",
+  "sha256_uncompressed": "72e54bebe68dbde8d09cdae5f5eb33870d4c200e6f07964563baf640848baa4b"
+}
