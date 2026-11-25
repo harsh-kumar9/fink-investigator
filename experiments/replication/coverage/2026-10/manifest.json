@@ -1,0 +1,27 @@
+{
+  "sources": {
+    "anomaly.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2026-10-01",
+        "stop_date": "2026-11-01",
+        "n": 331,
+        "columns": "i:objectId,i:jd",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T20:59:49+00:00",
+      "sha256_uncompressed": "7680798bd8e8a1fd3b8ec7c467a8df91badbcf13670f6ce26d7af475c5b895d3"
+    },
+    "statistics.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/statistics",
+      "params": {
+        "date": "202610",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T21:00:22+00:00",
+      "sha256_uncompressed": "d4460b2e6d090811a4e4d8d397eded40d1ebc38e96908ebbad4113ca8787afcf"
+    }
+  }
+}
