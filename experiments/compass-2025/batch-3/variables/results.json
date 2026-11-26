@@ -1,0 +1,717 @@
+{
+  "ZTF17aabshbq": {
+    "anchor": "2025-12-30",
+    "training_last": "2022-03-02",
+    "frequencies_scanned": 142297,
+    "bands": {
+      "r": {
+        "first": "2018-04-09",
+        "last": "2025-09-30",
+        "nights": 565,
+        "p05_p50_p95": [
+          16.68564,
+          17.6384,
+          19.48985
+        ]
+      },
+      "g": {
+        "first": "2018-03-27",
+        "last": "2025-09-30",
+        "nights": 479,
+        "p05_p50_p95": [
+          16.57925,
+          17.47643,
+          19.94858
+        ]
+      }
+    },
+    "clocks": {
+      "early_red": {
+        "period_days": 1.066654652,
+        "r": {
+          "n": 189,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.236494,
+          "spearman": -0.085101,
+          "passes": false
+        },
+        "g": {
+          "n": 144,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.174634,
+          "spearman": -0.003541,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 22,
+          "start": "2022-04-26",
+          "end": "2025-04-05",
+          "error_reduction": -0.050557,
+          "spearman": 0.208357,
+          "passes": false
+        }
+      },
+      "half_period": {
+        "period_days": 0.533327326,
+        "r": {
+          "n": 189,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": 0.000114,
+          "spearman": 0.036874,
+          "passes": false
+        },
+        "g": {
+          "n": 144,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.001832,
+          "spearman": -0.059356,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 22,
+          "start": "2022-04-26",
+          "end": "2025-04-05",
+          "error_reduction": 0.003676,
+          "spearman": 0.246753,
+          "passes": false
+        }
+      },
+      "double_period": {
+        "period_days": 2.133309303,
+        "r": {
+          "n": 189,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.254894,
+          "spearman": -0.090782,
+          "passes": false
+        },
+        "g": {
+          "n": 144,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.191497,
+          "spearman": -0.021771,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 22,
+          "start": "2022-04-26",
+          "end": "2025-04-05",
+          "error_reduction": -0.024452,
+          "spearman": 0.253529,
+          "passes": false
+        }
+      },
+      "annual_plus": {
+        "period_days": 1.063548726,
+        "r": {
+          "n": 189,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.115066,
+          "spearman": -0.086534,
+          "passes": false
+        },
+        "g": {
+          "n": 144,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.068225,
+          "spearman": -0.096009,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 22,
+          "start": "2022-04-26",
+          "end": "2025-04-05",
+          "error_reduction": -0.023942,
+          "spearman": 0.07284,
+          "passes": false
+        }
+      },
+      "annual_minus": {
+        "period_days": 1.069778771,
+        "r": {
+          "n": 189,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.028575,
+          "spearman": -0.031488,
+          "passes": false
+        },
+        "g": {
+          "n": 144,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.036497,
+          "spearman": -0.023708,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 22,
+          "start": "2022-04-26",
+          "end": "2025-04-05",
+          "error_reduction": -0.033399,
+          "spearman": 0.093168,
+          "passes": false
+        }
+      },
+      "sidereal_day_plus": {
+        "period_days": 0.515397908,
+        "r": {
+          "n": 189,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.103138,
+          "spearman": 0.007178,
+          "passes": false
+        },
+        "g": {
+          "n": 144,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.047312,
+          "spearman": 0.051459,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 22,
+          "start": "2022-04-26",
+          "end": "2025-04-05",
+          "error_reduction": 0.1154,
+          "spearman": 0.374365,
+          "passes": false
+        }
+      },
+      "sidereal_day_minus": {
+        "period_days": 15.330993361,
+        "r": {
+          "n": 189,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.156628,
+          "spearman": -0.069095,
+          "passes": false
+        },
+        "g": {
+          "n": 144,
+          "start": "2022-04-02",
+          "end": "2025-09-30",
+          "error_reduction": -0.134235,
+          "spearman": -0.007138,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 22,
+          "start": "2022-04-26",
+          "end": "2025-04-05",
+          "error_reduction": -0.146457,
+          "spearman": -0.050254,
+          "passes": false
+        }
+      }
+    },
+    "state": {
+      "boundary": "2024-07-29",
+      "boundary_mjd": 60520,
+      "r": {
+        "earlier_bin_starts": [
+          "2024-01-31",
+          "2024-03-01",
+          "2024-04-30"
+        ],
+        "later_bin_starts": [
+          "2024-08-28",
+          "2024-09-27",
+          "2024-10-27",
+          "2024-11-26",
+          "2024-12-26"
+        ],
+        "before_bins": 3,
+        "after_bins": 5,
+        "after_minus_before_mag": -1.39041,
+        "leave_one_bin_out_range": [
+          -1.68736,
+          -1.08616
+        ]
+      },
+      "g": {
+        "before_bins": 2,
+        "after_bins": 5,
+        "after_minus_before_mag": null
+      },
+      "green_without_red": {
+        "before_bins": 0,
+        "after_bins": 0,
+        "after_minus_before_mag": null
+      }
+    },
+    "blind_clock_residuals_at_same_boundary": {
+      "boundary": "2024-07-29",
+      "boundary_mjd": 60520,
+      "r": {
+        "earlier_bin_starts": [
+          "2024-01-31",
+          "2024-03-01",
+          "2024-04-30"
+        ],
+        "later_bin_starts": [
+          "2024-08-28",
+          "2024-09-27",
+          "2024-10-27",
+          "2024-11-26",
+          "2024-12-26"
+        ],
+        "before_bins": 3,
+        "after_bins": 5,
+        "after_minus_before_mag": -1.36243,
+        "leave_one_bin_out_range": [
+          -1.46082,
+          -1.09385
+        ]
+      },
+      "g": {
+        "before_bins": 2,
+        "after_bins": 5,
+        "after_minus_before_mag": null
+      },
+      "green_without_red": {
+        "before_bins": 0,
+        "after_bins": 0,
+        "after_minus_before_mag": null
+      }
+    }
+  },
+  "ZTF18aazutgw": {
+    "anchor": "2025-03-22",
+    "training_last": "2023-08-17",
+    "frequencies_scanned": 190268,
+    "bands": {
+      "r": {
+        "first": "2018-06-01",
+        "last": "2025-03-22",
+        "nights": 314,
+        "p05_p50_p95": [
+          13.94919,
+          15.69291,
+          17.39793
+        ]
+      },
+      "g": {
+        "first": "2018-04-23",
+        "last": "2024-11-20",
+        "nights": 257,
+        "p05_p50_p95": [
+          16.72793,
+          17.73488,
+          19.78512
+        ]
+      }
+    },
+    "clocks": {
+      "early_red": {
+        "period_days": 379.738580203,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.872118,
+          "spearman": 0.88249,
+          "passes": true
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.613038,
+          "spearman": 0.59034,
+          "passes": true
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": 0.334261,
+          "spearman": 0.265934,
+          "passes": false
+        }
+      },
+      "half_period": {
+        "period_days": 189.869290102,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.144285,
+          "spearman": 0.441623,
+          "passes": false
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.367401,
+          "spearman": 0.852988,
+          "passes": true
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": 0.295486,
+          "spearman": 0.789011,
+          "passes": false
+        }
+      },
+      "double_period": {
+        "period_days": 759.477160406,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.773868,
+          "spearman": 0.68673,
+          "passes": true
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.144484,
+          "spearman": 0.075319,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": -0.597292,
+          "spearman": -0.323077,
+          "passes": false
+        }
+      },
+      "annual_plus": {
+        "period_days": 186.176701368,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.12861,
+          "spearman": 0.405484,
+          "passes": false
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.198679,
+          "spearman": 0.556596,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": 0.106849,
+          "spearman": 0.771429,
+          "passes": false
+        }
+      },
+      "annual_minus": {
+        "period_days": 9573.023338054,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.064035,
+          "spearman": 0.209092,
+          "passes": false
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": -0.009409,
+          "spearman": 0.201733,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": -0.102235,
+          "spearman": -0.002198,
+          "passes": false
+        }
+      },
+      "sidereal_day_plus": {
+        "period_days": 0.9946574,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.796654,
+          "spearman": 0.873585,
+          "passes": true
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.636513,
+          "spearman": 0.795674,
+          "passes": true
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": 0.658851,
+          "spearman": 0.753846,
+          "passes": false
+        }
+      },
+      "sidereal_day_minus": {
+        "period_days": 0.999895496,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.551476,
+          "spearman": 0.630997,
+          "passes": true
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": -0.273653,
+          "spearman": 0.064944,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": -0.939335,
+          "spearman": -0.591209,
+          "passes": false
+        }
+      },
+      "vsx": {
+        "period_days": 385.1017206,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.750489,
+          "spearman": 0.776861,
+          "passes": true
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.301894,
+          "spearman": 0.384302,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": -0.163519,
+          "spearman": 0.156044,
+          "passes": false
+        }
+      },
+      "year": {
+        "period_days": 365.25,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.85355,
+          "spearman": 0.938109,
+          "passes": true
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.360223,
+          "spearman": 0.881544,
+          "passes": true
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": 0.512314,
+          "spearman": 0.837363,
+          "passes": false
+        }
+      },
+      "chen_green": {
+        "period_days": 194.0059046,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.167832,
+          "spearman": 0.527203,
+          "passes": false
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.059458,
+          "spearman": 0.860492,
+          "passes": false
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": 0.067433,
+          "spearman": 0.854945,
+          "passes": false
+        }
+      },
+      "chen_red": {
+        "period_days": 188.3239431,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.149517,
+          "spearman": 0.401742,
+          "passes": false
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.360782,
+          "spearman": 0.71484,
+          "passes": true
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": 0.239726,
+          "spearman": 0.635165,
+          "passes": false
+        }
+      },
+      "gaia_dr3": {
+        "period_days": 380.668036315,
+        "r": {
+          "n": 105,
+          "start": "2023-08-25",
+          "end": "2025-03-22",
+          "error_reduction": 0.855332,
+          "spearman": 0.866369,
+          "passes": true
+        },
+        "g": {
+          "n": 62,
+          "start": "2023-08-25",
+          "end": "2024-11-20",
+          "error_reduction": 0.565374,
+          "spearman": 0.54597,
+          "passes": true
+        },
+        "green_without_red": {
+          "n": 14,
+          "start": "2023-09-11",
+          "end": "2024-11-20",
+          "error_reduction": 0.257892,
+          "spearman": 0.213187,
+          "passes": false
+        }
+      }
+    },
+    "state": {
+      "boundary": "2024-07-29",
+      "boundary_mjd": 60520,
+      "r": {
+        "earlier_bin_starts": [
+          "2024-01-31",
+          "2024-03-01",
+          "2024-03-31",
+          "2024-04-30",
+          "2024-05-30",
+          "2024-06-29"
+        ],
+        "later_bin_starts": [
+          "2024-07-29",
+          "2024-08-28",
+          "2024-09-27",
+          "2024-10-27"
+        ],
+        "before_bins": 6,
+        "after_bins": 4,
+        "after_minus_before_mag": -2.81249,
+        "leave_one_bin_out_range": [
+          -3.05713,
+          -2.56786
+        ]
+      },
+      "g": {
+        "before_bins": 1,
+        "after_bins": 4,
+        "after_minus_before_mag": null
+      },
+      "green_without_red": {
+        "before_bins": 0,
+        "after_bins": 0,
+        "after_minus_before_mag": null
+      }
+    },
+    "blind_clock_residuals_at_same_boundary": {
+      "boundary": "2024-07-29",
+      "boundary_mjd": 60520,
+      "r": {
+        "earlier_bin_starts": [
+          "2024-01-31",
+          "2024-03-01",
+          "2024-03-31",
+          "2024-04-30",
+          "2024-05-30",
+          "2024-06-29"
+        ],
+        "later_bin_starts": [
+          "2024-07-29",
+          "2024-08-28",
+          "2024-09-27",
+          "2024-10-27"
+        ],
+        "before_bins": 6,
+        "after_bins": 4,
+        "after_minus_before_mag": -0.17834,
+        "leave_one_bin_out_range": [
+          -0.40571,
+          0.04903
+        ]
+      },
+      "g": {
+        "before_bins": 1,
+        "after_bins": 4,
+        "after_minus_before_mag": null
+      },
+      "green_without_red": {
+        "before_bins": 0,
+        "after_bins": 0,
+        "after_minus_before_mag": null
+      }
+    }
+  }
+}

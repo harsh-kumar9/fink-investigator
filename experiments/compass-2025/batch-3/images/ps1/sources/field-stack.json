@@ -1,0 +1,5 @@
+{
+  "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/stack.csv?ra=309.8640412&dec=-9.5602805&radius=0.016666666666666666&columns=%5BobjID%2CraStack%2CdecStack%2CprimaryDetection%2CyPSFMag%5D&pagesize=1000",
+  "sha256_uncompressed": "62cdd91df56df698f1c2192a0385c737e84895cea0ac832f56f5b3328e950409",
+  "retrieved_utc": "2026-11-26T05:43:06+00:00"
+}

@@ -12,13 +12,13 @@ sys.path.insert(0, str(YEAR / "images"))
 import check as images
 
 
-def run(fetch=False):
+def run(fetch=False, batch=BATCH):
     # The first batch's capture and validation routines use its archive directory.
-    images.HERE = HERE
-    packet = json.loads((BATCH / "results/packet.json").read_text())
+    images.HERE = batch / "images"
+    packet = json.loads((batch / "results/packet.json").read_text())
     if not packet["gate_passed"]:
         raise ValueError("Closed review packet")
-    anchors, histories, _ = images.compass_archive.load(YEAR / "snapshot")
+    anchors, histories, _ = images.compass_archive.load(batch.parent / "snapshot")
     by_id = {images.pilot.oid(a): a for a in anchors}
     results = []
     for case in packet["cases"]:
@@ -35,13 +35,13 @@ def run(fetch=False):
     return results
 
 
-def plot(results):
+def plot(results, batch=BATCH):
     from figure import panels
     import figure
 
-    figure.HERE = HERE
+    figure.HERE = batch / "images"
     for case in results:
-        folder = HERE / case["id"]
+        folder = figure.HERE / case["id"]
         rows = []
         for receipt in (folder / "epochs/manifest.json", folder / "negative/manifest.json"):
             if not receipt.exists():
@@ -52,15 +52,16 @@ def plot(results):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--batch", type=Path, default=BATCH, help="Compass batch containing results/packet.json")
     parser.add_argument("--fetch", action="store_true")
     parser.add_argument("--plot", action="store_true")
     args = parser.parse_args()
-    results = run(args.fetch)
-    expected = HERE / "results.json"
+    results = run(args.fetch, args.batch)
+    expected = args.batch / "images/results.json"
     if args.fetch:
         images.pilot.json_write(expected, results)
     elif json.loads(expected.read_text()) != results:
         raise ValueError("Archived image or Gaia results changed")
     if args.plot:
-        plot(results)
+        plot(results, args.batch)
     print("Verified", sum(len(c["checked_image_candids"]) for c in results), "cutout triplets across", len(results), "sources")

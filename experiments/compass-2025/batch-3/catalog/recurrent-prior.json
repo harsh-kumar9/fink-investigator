@@ -1,0 +1,36 @@
+{
+  "quasar_catalogs": {
+    "VII/283/catalog": [
+      {
+        "_r": "0.079",
+        "Name": "SDSS J063806.46+451457.0",
+        "Cl+Ass": "q",
+        "z": "2.100",
+        "rName": "NBCKv3",
+        "rz": "NBCKv3",
+        "Qpct": "99",
+        "XName": null,
+        "RName": null
+      }
+    ],
+    "VII/290/catalog": [],
+    "VII/294/catalog": [],
+    "J/ApJS/219/39/cand": [
+      {
+        "_r": "0.139",
+        "RAJ2000": "099.526947",
+        "DEJ2000": "+45.249172",
+        "Class": "U",
+        "zsp": null,
+        "zphO": "2.125",
+        "b_zphO": "1.970",
+        "B_zphO": "2.230"
+      }
+    ]
+  },
+  "spectra_within_10arcsec": {
+    "sdss_dr17_primary": [],
+    "desi_dr1_zpix": []
+  },
+  "discovery_plot": "https://vsx.aavso.org/index.php?view=docs.open&fid=25415"
+}

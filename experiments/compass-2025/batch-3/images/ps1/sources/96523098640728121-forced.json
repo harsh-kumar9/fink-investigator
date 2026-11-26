@@ -1,0 +1,5 @@
+{
+  "url": "https://mast.stsci.edu/vo-tap/api/v0.1/mast_catalogs/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+1000+objid%2Cuniquepspsfwid%2Cforcedwarpid%2Cdetectid%2Cfilterid%2Cobstime%2Cfpsfflux%2Cfpsffluxerr%2Cfpsfqfperfect%2Cfpsfchisq%2Cfinfoflag%2Cfinfoflag2%2Cfinfoflag3+FROM+ps1_dr2.forced_warp_measurement+WHERE+objid%3D96523098640728121+ORDER+BY+obstime%2Cuniquepspsfwid",
+  "sha256_uncompressed": "0fd1a3ee954e9c287eeb18307ce5640cb31739219e5779e91a416b145974110f",
+  "retrieved_utc": "2026-11-26T05:40:08+00:00"
+}

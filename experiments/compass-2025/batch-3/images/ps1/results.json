@@ -1,0 +1,185 @@
+{
+  "id": "ZTF25aaohzdc",
+  "mean_rows_10arcsec": 9,
+  "stack_rows_10arcsec": 3,
+  "matches_within_1.5arcsec": {
+    "96523098640728121": {
+      "mean": [
+        {
+          "offset_arcsec": 0.113,
+          "objID": "96523098640728121",
+          "raMean": "309.8640727088501",
+          "decMean": "-9.560284043471803",
+          "nDetections": "15",
+          "gMeanPSFMag": "21.962200164794922",
+          "rMeanPSFMag": "21.49169921875",
+          "iMeanPSFMag": "21.25629997253418",
+          "zMeanPSFMag": "-999.0",
+          "yMeanPSFMag": "-999.0"
+        }
+      ],
+      "stack": [
+        {
+          "offset_arcsec": 0.141,
+          "objID": "96523098640728121",
+          "raStack": "309.8640662",
+          "decStack": "-9.56024993",
+          "nDetections": "15",
+          "primaryDetection": "1",
+          "bestDetection": "1",
+          "gPSFMag": "22.233400344848633",
+          "rPSFMag": "21.741300582885742",
+          "iPSFMag": "21.946500778198242",
+          "zPSFMag": "22.247499465942383",
+          "yPSFMag": "22.310800552368164"
+        }
+      ],
+      "raw_detections": 15,
+      "forced": {
+        "raw_exposures": 51,
+        "quality_exposures": 42,
+        "unique_quality_dates": 23,
+        "bands": {
+          "z": {
+            "quality_dates": 4,
+            "date_range": [
+              "2010-05-13",
+              "2013-10-23"
+            ],
+            "dates_with_SNR5": 0,
+            "dates_below_SNR5": 4,
+            "median_5sigma_depth_on_nondetection_dates": 21.11
+          },
+          "y": {
+            "quality_dates": 6,
+            "date_range": [
+              "2010-05-26",
+              "2014-10-28"
+            ],
+            "dates_with_SNR5": 1,
+            "dates_below_SNR5": 5,
+            "median_5sigma_depth_on_nondetection_dates": 20.094,
+            "brightest": [
+              19.351,
+              0.162,
+              "2012-10-19"
+            ],
+            "faintest": [
+              19.351,
+              0.162,
+              "2012-10-19"
+            ],
+            "selected": false
+          },
+          "g": {
+            "quality_dates": 4,
+            "date_range": [
+              "2010-07-14",
+              "2013-07-06"
+            ],
+            "dates_with_SNR5": 2,
+            "dates_below_SNR5": 2,
+            "median_5sigma_depth_on_nondetection_dates": 21.938,
+            "brightest": [
+              21.868,
+              0.156,
+              "2013-07-06"
+            ],
+            "faintest": [
+              22.162,
+              0.177,
+              "2012-09-06"
+            ],
+            "selected": false
+          },
+          "i": {
+            "quality_dates": 6,
+            "date_range": [
+              "2010-07-20",
+              "2014-08-04"
+            ],
+            "dates_with_SNR5": 2,
+            "dates_below_SNR5": 4,
+            "median_5sigma_depth_on_nondetection_dates": 21.416,
+            "brightest": [
+              21.122,
+              0.132,
+              "2013-06-29"
+            ],
+            "faintest": [
+              21.411,
+              0.124,
+              "2013-08-15"
+            ],
+            "selected": false
+          },
+          "r": {
+            "quality_dates": 7,
+            "date_range": [
+              "2010-08-19",
+              "2013-08-15"
+            ],
+            "dates_with_SNR5": 3,
+            "dates_below_SNR5": 4,
+            "median_5sigma_depth_on_nondetection_dates": 21.721,
+            "brightest": [
+              21.355,
+              0.101,
+              "2013-07-06"
+            ],
+            "faintest": [
+              22.107,
+              0.178,
+              "2011-08-21"
+            ],
+            "selected": false
+          }
+        }
+      },
+      "quality_nights": {
+        "g": {
+          "count": 3,
+          "brightest": [
+            21.8839,
+            0.1565,
+            "2013-07-06"
+          ],
+          "faintest": [
+            22.0633,
+            0.1619,
+            "2012-09-06"
+          ],
+          "selected": false
+        },
+        "r": {
+          "count": 3,
+          "brightest": [
+            21.3977,
+            0.1029,
+            "2013-07-06"
+          ],
+          "faintest": [
+            22.0984,
+            0.1735,
+            "2011-08-21"
+          ],
+          "selected": false
+        },
+        "i": {
+          "count": 2,
+          "brightest": [
+            21.05,
+            0.1224,
+            "2013-06-29"
+          ],
+          "faintest": [
+            21.4043,
+            0.115,
+            "2013-08-15"
+          ],
+          "selected": false
+        }
+      }
+    }
+  }
+}

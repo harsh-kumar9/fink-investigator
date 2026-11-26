@@ -1,0 +1,151 @@
+{
+  "frequency_per_day": 4.0,
+  "period_minutes": 360.0,
+  "training_semiamplitude_mag": 0.21515,
+  "training_error_reduction": 0.18756,
+  "heldout_error_reduction": 0.01511,
+  "heldout_cycles_covered": 0.32,
+  "transfer_pass": false,
+  "registered_three_night_test": "abstained: no qualifying April 6 exposure",
+  "two_night_amendment": "April 4 selects the frequency; April 5 tests the locked oscillation",
+  "coverage_before_and_after_quality": {
+    "2025-04-04": {
+      "received": 65,
+      "passed": 65,
+      "min_error": 0.025,
+      "median_error": 0.031,
+      "max_error": 0.048
+    },
+    "2025-04-05": {
+      "received": 69,
+      "passed": 67,
+      "min_error": 0.082,
+      "median_error": 0.119,
+      "max_error": 0.212
+    },
+    "2025-04-06": {
+      "received": 36,
+      "passed": 0,
+      "min_error": 0.225,
+      "median_error": 0.4085,
+      "max_error": 0.949
+    }
+  },
+  "nights": {
+    "2025-04-04": {
+      "exposures": 65,
+      "first_jd": 2460769.829514,
+      "last_jd": 2460769.907813,
+      "span_hours": 1.879,
+      "cycles_at_peak": 0.3132,
+      "cadence_median_minutes": 1.767,
+      "largest_gap_minutes": 1.8,
+      "median_mag": 16.167,
+      "mag_q25_q75": [
+        16.144,
+        16.2
+      ],
+      "median_check_minus_comp": -0.028,
+      "median_err_mag": 0.031
+    },
+    "2025-04-05": {
+      "exposures": 67,
+      "first_jd": 2460770.828067,
+      "last_jd": 2460770.908079,
+      "span_hours": 1.92,
+      "cycles_at_peak": 0.32,
+      "cadence_median_minutes": 1.716,
+      "largest_gap_minutes": 3.45,
+      "median_mag": 17.614,
+      "mag_q25_q75": [
+        17.5245,
+        17.702
+      ],
+      "median_check_minus_comp": -0.022,
+      "median_err_mag": 0.118
+    }
+  },
+  "alternatives": {
+    "plus_one_daily": {
+      "frequency_per_day": 4.6,
+      "period_minutes": 313.0435,
+      "training_semiamplitude_mag": 0.14896,
+      "training_error_reduction": 0.18642,
+      "heldout_error_reduction": -0.0449,
+      "heldout_cycles_covered": 0.3681,
+      "transfer_pass": false,
+      "training_error_ratio_to_best": 1.0014
+    },
+    "plus_two_daily": {
+      "frequency_per_day": 5.6,
+      "period_minutes": 257.1429,
+      "training_semiamplitude_mag": 0.09097,
+      "training_error_reduction": 0.18407,
+      "heldout_error_reduction": -0.03502,
+      "heldout_cycles_covered": 0.4481,
+      "transfer_pass": false,
+      "training_error_ratio_to_best": 1.0043
+    },
+    "double_frequency": {
+      "frequency_per_day": 8.0,
+      "period_minutes": 180.0,
+      "training_semiamplitude_mag": 0.04112,
+      "training_error_reduction": 0.17548,
+      "heldout_error_reduction": 0.0117,
+      "heldout_cycles_covered": 0.6401,
+      "transfer_pass": false,
+      "training_error_ratio_to_best": 1.01486
+    }
+  },
+  "offset_only_best": {
+    "frequency_per_day": 4.0,
+    "period_minutes": 360.0,
+    "training_semiamplitude_mag": 0.12443,
+    "training_error_reduction": 0.58505,
+    "heldout_error_reduction": 0.08107,
+    "heldout_cycles_covered": 0.32,
+    "transfer_pass": false
+  },
+  "offset_only_at_registered_peak": {
+    "frequency_per_day": 4.0,
+    "period_minutes": 360.0,
+    "training_semiamplitude_mag": 0.12443,
+    "training_error_reduction": 0.58505,
+    "heldout_error_reduction": 0.08107,
+    "heldout_cycles_covered": 0.32,
+    "transfer_pass": false
+  },
+  "comp_check_ids": [
+    "UCAC4 402-123854",
+    "UCAC4 403-131538"
+  ],
+  "field_control_at_registered_peak": {
+    "frequency_per_day": 4.0,
+    "period_minutes": 360.0,
+    "training_semiamplitude_mag": 0.07681,
+    "training_error_reduction": 0.04503,
+    "heldout_error_reduction": 0.0484,
+    "heldout_cycles_covered": 0.32,
+    "transfer_pass": false
+  },
+  "injections": {
+    "0": {
+      "draws": 60,
+      "transfer_pass": 0,
+      "recovered_frequency": 2,
+      "transfer_and_recovered": 0
+    },
+    "0.03": {
+      "draws": 60,
+      "transfer_pass": 0,
+      "recovered_frequency": 6,
+      "transfer_and_recovered": 0
+    },
+    "0.1": {
+      "draws": 60,
+      "transfer_pass": 9,
+      "recovered_frequency": 20,
+      "transfer_and_recovered": 5
+    }
+  }
+}

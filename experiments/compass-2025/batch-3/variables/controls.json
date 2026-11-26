@@ -1,0 +1,371 @@
+{
+  "comparison_sources": [
+    {
+      "asas_sn_id": 94490101569,
+      "gaia_source": "964727238971161088",
+      "gaia_g": 17.803127,
+      "offset_from_target_arcsec": 39.94495,
+      "match_arcsec": 0.001,
+      "usable_measurements": 0
+    },
+    {
+      "asas_sn_id": 51539815430,
+      "gaia_source": "964727208908050048",
+      "gaia_g": 17.007864,
+      "offset_from_target_arcsec": 50.54921,
+      "match_arcsec": 0.004,
+      "usable_measurements": 393
+    },
+    {
+      "asas_sn_id": 94490101473,
+      "gaia_source": "964726521713285504",
+      "gaia_g": 17.513435,
+      "offset_from_target_arcsec": 54.61931,
+      "match_arcsec": 0.003,
+      "usable_measurements": 399
+    }
+  ],
+  "lunar_camera": {
+    "2019": {
+      "available_nights": 70,
+      "common_anchors": 19,
+      "delta_flux_medians_mjy": [
+        0.329556,
+        0.173755,
+        0.409555
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2020": {
+      "available_nights": 26,
+      "common_anchors": 1,
+      "delta_flux_medians_mjy": [
+        0.270652,
+        0.472133,
+        0.108481
+      ],
+      "middle_smaller_than_both": false
+    },
+    "2021": {
+      "available_nights": 60,
+      "common_anchors": 35,
+      "delta_flux_medians_mjy": [
+        0.297368,
+        0.295452,
+        0.464181
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2022": {
+      "available_nights": 89,
+      "common_anchors": 59,
+      "delta_flux_medians_mjy": [
+        0.429834,
+        0.219596,
+        0.241289
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2023": {
+      "available_nights": 60,
+      "common_anchors": 21,
+      "delta_flux_medians_mjy": [
+        0.41255,
+        0.129778,
+        0.429937
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2024": {
+      "available_nights": 71,
+      "common_anchors": 14,
+      "delta_flux_medians_mjy": [
+        0.682464,
+        0.231924,
+        0.515474
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2025": {
+      "available_nights": 3,
+      "common_anchors": 0,
+      "delta_flux_medians_mjy": null,
+      "middle_smaller_than_both": false
+    }
+  },
+  "common_target": {
+    "2019": {
+      "available_nights": 68,
+      "common_anchors": 19,
+      "delta_flux_medians_mjy": [
+        0.338388,
+        0.148175,
+        0.375216
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2020": {
+      "available_nights": 26,
+      "common_anchors": 1,
+      "delta_flux_medians_mjy": [
+        0.183418,
+        0.381999,
+        0.235023
+      ],
+      "middle_smaller_than_both": false
+    },
+    "2021": {
+      "available_nights": 59,
+      "common_anchors": 34,
+      "delta_flux_medians_mjy": [
+        0.385697,
+        0.234505,
+        0.467228
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2022": {
+      "available_nights": 87,
+      "common_anchors": 56,
+      "delta_flux_medians_mjy": [
+        0.426096,
+        0.216482,
+        0.270288
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2023": {
+      "available_nights": 60,
+      "common_anchors": 21,
+      "delta_flux_medians_mjy": [
+        0.521405,
+        0.087031,
+        0.496391
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2024": {
+      "available_nights": 71,
+      "common_anchors": 14,
+      "delta_flux_medians_mjy": [
+        0.61944,
+        0.306292,
+        0.467019
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2025": {
+      "available_nights": 3,
+      "common_anchors": 0,
+      "delta_flux_medians_mjy": null,
+      "middle_smaller_than_both": false
+    }
+  },
+  "field_corrected_target": {
+    "2019": {
+      "available_nights": 68,
+      "common_anchors": 19,
+      "delta_flux_medians_mjy": [
+        0.409614,
+        0.188413,
+        0.402929
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2020": {
+      "available_nights": 26,
+      "common_anchors": 1,
+      "delta_flux_medians_mjy": [
+        0.120127,
+        0.434101,
+        0.236458
+      ],
+      "middle_smaller_than_both": false
+    },
+    "2021": {
+      "available_nights": 59,
+      "common_anchors": 34,
+      "delta_flux_medians_mjy": [
+        0.403983,
+        0.235054,
+        0.503252
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2022": {
+      "available_nights": 87,
+      "common_anchors": 56,
+      "delta_flux_medians_mjy": [
+        0.431629,
+        0.219579,
+        0.26664
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2023": {
+      "available_nights": 60,
+      "common_anchors": 21,
+      "delta_flux_medians_mjy": [
+        0.529954,
+        0.161272,
+        0.496471
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2024": {
+      "available_nights": 71,
+      "common_anchors": 14,
+      "delta_flux_medians_mjy": [
+        0.656262,
+        0.394747,
+        0.521031
+      ],
+      "middle_smaller_than_both": true
+    },
+    "2025": {
+      "available_nights": 3,
+      "common_anchors": 0,
+      "delta_flux_medians_mjy": null,
+      "middle_smaller_than_both": false
+    }
+  },
+  "individual_fields": {
+    "94490101569": {},
+    "51539815430": {
+      "2019": {
+        "available_nights": 70,
+        "common_anchors": 19,
+        "delta_flux_medians_mjy": [
+          0.108893,
+          0.072643,
+          0.070039
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2020": {
+        "available_nights": 26,
+        "common_anchors": 1,
+        "delta_flux_medians_mjy": [
+          0.064051,
+          0.075466,
+          0.021289
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2021": {
+        "available_nights": 59,
+        "common_anchors": 34,
+        "delta_flux_medians_mjy": [
+          0.101506,
+          0.119589,
+          0.074551
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2022": {
+        "available_nights": 88,
+        "common_anchors": 57,
+        "delta_flux_medians_mjy": [
+          0.089628,
+          0.085769,
+          0.077402
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2023": {
+        "available_nights": 60,
+        "common_anchors": 21,
+        "delta_flux_medians_mjy": [
+          0.103984,
+          0.084317,
+          0.075986
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2024": {
+        "available_nights": 71,
+        "common_anchors": 14,
+        "delta_flux_medians_mjy": [
+          0.121394,
+          0.126563,
+          0.095547
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2025": {
+        "available_nights": 3,
+        "common_anchors": 0,
+        "delta_flux_medians_mjy": null,
+        "middle_smaller_than_both": false
+      }
+    },
+    "94490101473": {
+      "2019": {
+        "available_nights": 73,
+        "common_anchors": 27,
+        "delta_flux_medians_mjy": [
+          0.126264,
+          0.085105,
+          0.085786
+        ],
+        "middle_smaller_than_both": true
+      },
+      "2020": {
+        "available_nights": 27,
+        "common_anchors": 1,
+        "delta_flux_medians_mjy": [
+          0.06253,
+          0.043521,
+          0.01842
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2021": {
+        "available_nights": 61,
+        "common_anchors": 36,
+        "delta_flux_medians_mjy": [
+          0.097965,
+          0.090764,
+          0.069872
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2022": {
+        "available_nights": 88,
+        "common_anchors": 58,
+        "delta_flux_medians_mjy": [
+          0.07673,
+          0.077509,
+          0.071421
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2023": {
+        "available_nights": 60,
+        "common_anchors": 21,
+        "delta_flux_medians_mjy": [
+          0.131468,
+          0.143002,
+          0.077918
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2024": {
+        "available_nights": 71,
+        "common_anchors": 14,
+        "delta_flux_medians_mjy": [
+          0.124785,
+          0.134355,
+          0.106804
+        ],
+        "middle_smaller_than_both": false
+      },
+      "2025": {
+        "available_nights": 3,
+        "common_anchors": 0,
+        "delta_flux_medians_mjy": null,
+        "middle_smaller_than_both": false
+      }
+    }
+  }
+}

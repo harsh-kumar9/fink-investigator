@@ -1,0 +1,101 @@
+{
+  "retrieved_utc": "2026-11-26T05:45:44+00:00",
+  "sources": {
+    "vsnet-alert": {
+      "url": "http://ooruri.kusastro.kyoto-u.ac.jp/mailman3/hyperkitty/list/vsnet-alert@ooruri.kusastro.kyoto-u.ac.jp/export/vsnet-alert@ooruri.kusastro.kyoto-u.ac.jp-2025-06.mbox.gz?start=2025-05-01&end=2025-06-01",
+      "sha256_decompressed": "9ad3e7371b670edfca74ddafbbb3984cc35a6de3904cbe77e32b8d7bfb513be5",
+      "messages": 10,
+      "from": "2025-05-11",
+      "through": "2025-05-30",
+      "matching_subjects": []
+    },
+    "vsnet-campaign-dn": {
+      "url": "http://ooruri.kusastro.kyoto-u.ac.jp/mailman3/hyperkitty/list/vsnet-campaign-dn@ooruri.kusastro.kyoto-u.ac.jp/export/vsnet-campaign-dn@ooruri.kusastro.kyoto-u.ac.jp-2025-06.mbox.gz?start=2025-05-01&end=2025-06-01",
+      "sha256_decompressed": "ab69312b27b69f725c291b70bc01655233877c81e472f6052b4d4aaddebebd4f",
+      "messages": 13,
+      "from": "2025-05-11",
+      "through": "2025-05-31",
+      "matching_subjects": []
+    },
+    "vsnet-obs": {
+      "url": "http://ooruri.kusastro.kyoto-u.ac.jp/mailman3/hyperkitty/list/vsnet-obs@ooruri.kusastro.kyoto-u.ac.jp/export/vsnet-obs@ooruri.kusastro.kyoto-u.ac.jp-2025-06.mbox.gz?start=2025-05-01&end=2025-06-01",
+      "sha256_decompressed": "ff2bdd80797b2b3942779855ab8c9a55dcf9b23c63d8201c474219fe0b5fbb8b",
+      "messages": 82,
+      "from": "2025-05-01",
+      "through": "2025-05-31",
+      "matching_subjects": []
+    },
+    "vsnet-outburst": {
+      "url": "http://ooruri.kusastro.kyoto-u.ac.jp/mailman3/hyperkitty/list/vsnet-outburst@ooruri.kusastro.kyoto-u.ac.jp/export/vsnet-outburst@ooruri.kusastro.kyoto-u.ac.jp-2025-06.mbox.gz?start=2025-05-01&end=2025-06-01",
+      "sha256_decompressed": "853e72dea806ad845ea6aed79430f8ca6a148196f578faca7e7f797ecf6e54a9",
+      "messages": 41,
+      "from": "2025-05-01",
+      "through": "2025-05-31",
+      "matching_subjects": []
+    },
+    "vsnet-cvcirc": {
+      "url": "http://ooruri.kusastro.kyoto-u.ac.jp/mailman3/hyperkitty/list/vsnet-cvcirc@ooruri.kusastro.kyoto-u.ac.jp/export/vsnet-cvcirc@ooruri.kusastro.kyoto-u.ac.jp-2025-06.mbox.gz?start=2025-05-01&end=2025-06-01",
+      "sha256_decompressed": "2a9fad86be032138375e74d24db3f6172b7f499798a7fe4076ca67880d2537c7",
+      "messages": 20,
+      "from": "2025-05-01",
+      "through": "2025-05-11",
+      "matching_subjects": [
+        {
+          "date_sent_utc": "2025-05-01",
+          "subject": "[vsnet-cvcirc 8931] VSNET CV Circular 2025.04 (up to May 01)"
+        },
+        {
+          "date_sent_utc": "2025-05-02",
+          "subject": "[vsnet-cvcirc 8932] VSNET CV Circular 2025.04 (up to May 02)"
+        },
+        {
+          "date_sent_utc": "2025-05-03",
+          "subject": "[vsnet-cvcirc 8934] VSNET CV Circular 2025.04 (up to May 03)"
+        },
+        {
+          "date_sent_utc": "2025-05-04",
+          "subject": "[vsnet-cvcirc 8936] VSNET CV Circular 2025.04 (up to May 04)"
+        },
+        {
+          "date_sent_utc": "2025-05-05",
+          "subject": "[vsnet-cvcirc 8937] VSNET CV Circular 2025.04 (up to May 05)"
+        },
+        {
+          "date_sent_utc": "2025-05-06",
+          "subject": "[vsnet-cvcirc 8939] VSNET CV Circular 2025.04 (up to May 06)"
+        },
+        {
+          "date_sent_utc": "2025-05-07",
+          "subject": "[vsnet-cvcirc 8941] VSNET CV Circular 2025.04 (up to May 07)"
+        },
+        {
+          "date_sent_utc": "2025-05-08",
+          "subject": "[vsnet-cvcirc 8943] VSNET CV Circular 2025.04 (up to May 08)"
+        },
+        {
+          "date_sent_utc": "2025-05-09",
+          "subject": "[vsnet-cvcirc 8945] VSNET CV Circular 2025.04 (up to May 09)"
+        },
+        {
+          "date_sent_utc": "2025-05-10",
+          "subject": "[vsnet-cvcirc 8948] VSNET CV Circular 2025.04 (up to May 10)"
+        },
+        {
+          "date_sent_utc": "2025-05-11",
+          "subject": "[vsnet-cvcirc 8949] VSNET CV Circular 2025.04 (up to May 11)"
+        }
+      ]
+    },
+    "vsolj": {
+      "url": "http://www.cetus-net.org/cgi-bin/obs_search.cgi?mode=view&object_name=ASASSN-25ba&sdate=20250301&edate=20250630&observer=&tz=UT-VSNET&asfile=Y",
+      "sha256_response": "48616e86be47b3d0a59fa71dd52f3fe944244364785f351c02183e9c8588ebd5",
+      "dates": [
+        {
+          "utc": "20250425",
+          "observer_code": "Myy.VSOLJ",
+          "observations": 1
+        }
+      ]
+    }
+  }
+}

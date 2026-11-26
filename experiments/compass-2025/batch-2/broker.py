@@ -2,8 +2,6 @@
 
 import argparse
 from datetime import date
-import gzip
-import hashlib
 import json
 import math
 from pathlib import Path
@@ -39,8 +37,12 @@ def run(fetch=False):
         raise ValueError("Wrong or truncated forced series")
     _, histories, _ = compass_archive.load(HERE.parent / "snapshot")
     fink = {str(r["i:candid"]): r for r in histories[NAME]}
-    alert = raw_json(folder, "alerce-detections", BASE + "/detections", fetch)
-    limits = raw_json(folder, "alerce-limits", BASE + "/non_detections", fetch)
+    alert = compass_archive.capture_list(
+        folder, "alerce-detections", BASE + "/detections", fetch
+    )
+    limits = compass_archive.capture_list(
+        folder, "alerce-limits", BASE + "/non_detections", fetch
+    )
     obs = json.loads((HERE / "results" / "ledger.json").read_text())
     (case,) = [r for r in obs["objects"] if r["id"] == NAME]
     _, raw, _ = direct.direct_data(case, HERE / "direct" / NAME)
@@ -128,33 +130,6 @@ def run(fetch=False):
         "dates": out,
         "january_change": change,
     }
-
-
-def raw_json(folder, name, url, fetch):
-    path = folder / (name + ".json.gz")
-    receipt = folder / (name + "-receipt.json")
-    if fetch and not receipt.exists():
-        raw = pilot.curl(url, [])
-        if not isinstance(json.loads(raw), list):
-            raise ValueError("Unexpected broker response")
-        from datetime import datetime, timezone
-
-        path.write_bytes(gzip.compress(raw, mtime=0))
-        pilot.json_write(
-            receipt,
-            {
-                "url": url,
-                "retrieved_utc": datetime.now(timezone.utc).isoformat(
-                    timespec="seconds"
-                ),
-                "sha256_uncompressed": hashlib.sha256(raw).hexdigest(),
-            },
-        )
-    raw = gzip.decompress(path.read_bytes())
-    m = json.loads(receipt.read_text())
-    if m["url"] != url or hashlib.sha256(raw).hexdigest() != m["sha256_uncompressed"]:
-        raise ValueError("Broker receipt mismatch")
-    return json.loads(raw)
 
 
 if __name__ == "__main__":

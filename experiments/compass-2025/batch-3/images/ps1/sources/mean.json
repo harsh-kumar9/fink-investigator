@@ -1,0 +1,5 @@
+{
+  "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/mean.csv?ra=309.8640412&dec=-9.5602805&radius=0.002777777777777778&columns=%5BobjID%2CraMean%2CdecMean%2CnDetections%2CgMeanPSFMag%2CrMeanPSFMag%2CiMeanPSFMag%2CzMeanPSFMag%2CyMeanPSFMag%5D&pagesize=1000",
+  "sha256_uncompressed": "54b95a5529d76da11ae623bdcba75d7fdffbbd82e6718c589a82a0149973ec18",
+  "retrieved_utc": "2026-11-26T05:38:54+00:00"
+}

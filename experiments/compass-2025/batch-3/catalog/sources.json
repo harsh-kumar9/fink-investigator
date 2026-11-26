@@ -1,0 +1,119 @@
+{
+  "discovery": {
+    "url": "https://www.astronomy.ohio-state.edu/asassn/transients.html",
+    "retrieved_utc": "2026-11-26T05:40:26+00:00",
+    "sha256_full_response": "9c27cf076dc6c854d100c43eabefc50dd3fd767cc2590ac7cf6b5228b4d10683",
+    "sha256_row": "3e9eed7a2f3ac7bf6d4159ab6e30449304c2ef611156f7ef3fed14bb121086b3",
+    "name": "ASASSN-25ba",
+    "other_name": "---",
+    "ra": "20:39:27.33",
+    "dec": "-9:33:37.4",
+    "discovery_utc": "2025-03-28.36",
+    "discovery_mag": 14.9,
+    "survey_note": "CV candidate, matches to PS1 g=22.0, g>17.1 on 2025-03-10.40, g=15.3 on 2025-03-27.38, g=15.4 on 2025-03-30.38."
+  },
+  "vsx": {
+    "ASASSN-25ba": {
+      "Name": "ASASSN-25ba",
+      "AUID": "000-BQD-327",
+      "RA2000": "309.86408",
+      "Declination2000": "-9.56031",
+      "VariabilityType": "UG",
+      "MaxMag": "15.3 g",
+      "MinMag": "22.2 g",
+      "Discoverer": "ASAS-SN",
+      "Category": "Variable",
+      "OID": "10848477",
+      "Constellation": "Aqr"
+    },
+    "MGAB-V243": {
+      "Name": "MGAB-V243",
+      "AUID": "000-BND-292",
+      "RA2000": "99.52692",
+      "Declination2000": "45.24917",
+      "VariabilityType": "UG",
+      "MaxMag": "16.4 g",
+      "MinMag": "20.2 g",
+      "Discoverer": "Gabriel Murawski",
+      "Category": "Variable",
+      "OID": "702876",
+      "Constellation": "Aur"
+    },
+    "ZTF J192701.28+073352.1": {
+      "Name": "ZTF J192701.28+073352.1",
+      "RA2000": "291.75536",
+      "Declination2000": "7.56450",
+      "VariabilityType": "M",
+      "Period": "385.1017206",
+      "Epoch": "2458504.2292",
+      "MaxMag": "15.053 r",
+      "MinMag": "(2.934) r",
+      "Discoverer": "Zwicky Transient Facility (ZTF)",
+      "Category": "Variable",
+      "OID": "2207486",
+      "Constellation": "Aql"
+    }
+  },
+  "chen": {
+    "_r": "0.10",
+    "recno": "438271",
+    "ID": "ZTFJ192701.28+073352.1",
+    "Seq": "438271",
+    "RAJ2000": "291.75536",
+    "DEJ2000": "+07.56450",
+    "Per": "385.1017206",
+    "R21": "0.343",
+    "phi21": "6.400",
+    "T0": "58503.7291494",
+    "gmag": "17.866",
+    "rmag": "15.053",
+    "Per-g": "194.0059046",
+    "Per-r": "188.3239431",
+    "Ng": "146",
+    "Nr": "162",
+    "R21-g": "1.479",
+    "R21-r": "0.343",
+    "phi21-g": "9.003",
+    "phi21-r": "6.400",
+    "R2-g": "0.987",
+    "R2-r": "0.993",
+    "gAmp": "2.624",
+    "rAmp": "2.934",
+    "log(FAP-g)": "-18.115",
+    "log(FAP-r)": "-20.280",
+    "Type": "Mira",
+    "Dmin-g": "0.000",
+    "Dmin-r": "0.000",
+    "Simbad": "Simbad"
+  },
+  "aavso_obs_per_date": {
+    "2025-04-04": 65,
+    "2025-04-05": 69,
+    "2025-04-06": 36
+  },
+  "sky_patrol_6arcsec": {
+    "url": "http://asassn-lb01.ifa.hawaii.edu:9006/lookup_cone/radius0.0016666666666666668_ra309.8640412_dec-9.5602805",
+    "post": {
+      "catalog": "master_list",
+      "cols": [
+        "asas_sn_id",
+        "ra_deg",
+        "dec_deg",
+        "catalog_sources"
+      ],
+      "format": "arrow",
+      "download": true
+    },
+    "retrieved_utc": "2026-11-26T05:54:31+00:00",
+    "sha256_response": "d0015c7b100dd5932b5bbd5aaeb8ce550bc5b527397191cfe8eb6ecefc90490c",
+    "radius_arcsec": 6,
+    "returned_columns": [
+      "asas_sn_id",
+      "ra_deg",
+      "dec_deg",
+      "catalog_sources",
+      "__index_level_0__"
+    ],
+    "rows": 0
+  }
+}

@@ -1,0 +1,7 @@
+# Independent first reading
+
+The three packet records are the only evidence in this first reading.
+
+* **ZTF18aazutgw.** The seven years of both positive and negative measurements are consistent with the reported Mira label. Hundreds of dates permit a phase prediction and a comparison across cycles. A bright neighboring star, detector nonlinearity, moving residual or an imperfect reference could alter inferred depths. Find which star each sign tracks, compare direct photometry in both filters and check faint phases for non-detections before quantifying minimum brightness.
+* **ZTF25aaohzdc.** Three positive dates across 22 days and two filters favor a real transient but leave its history and host open. A stellar outburst, an explosion on diffuse host light, or a growing central source can each pass this test. Inspect the underlying reference image for a stellar counterpart or galaxy and compare positions across dates. Check earlier direct observations, actual upper limits and independent discovery records.
+* **ZTF17aabshbq.** Seven years have pairs of positive red dates while far more green dates are negative than positive. A changing color, high-amplitude periodic variability and mismatched reference brightness between filters can all yield this distribution. The named red pairs could sample entirely different points along a continuous waveform. Locate both signs on Gaia stars, measure each pair and its surrounding baseline directly, and test whether the same red amplitude and phase predict green.

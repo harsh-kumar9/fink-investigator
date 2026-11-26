@@ -1,0 +1,5 @@
+{
+  "url": "https://gaia.aip.de/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=votable&QUERY=SELECT+%2A+FROM+gaiadr3.epoch_photometry+WHERE+source_id%3D4295582339667975168",
+  "retrieved_utc": "2026-11-26T05:40:57+00:00",
+  "sha256_uncompressed": "c7b48dcb8e6540c766293478d7e9104a30b4e09d93789fd1a24737643177ee62"
+}

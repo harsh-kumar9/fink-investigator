@@ -1,0 +1,218 @@
+[
+  {
+    "sector": 20,
+    "target_xy": [
+      4.007733536201972,
+      4.1467405687726275
+    ],
+    "six_hour_bins": 93,
+    "bands": {
+      "r": {
+        "matched_nights": 10,
+        "spearman": {
+          "center": 0.89091,
+          "lower_left": -0.12727,
+          "lower_right": 0.18788,
+          "upper_left": 0.3697,
+          "upper_right": -0.18788
+        },
+        "third_size": 3,
+        "peak_pixel": [
+          8,
+          3
+        ],
+        "peak_distance_pixels": 4.1537,
+        "passes": false,
+        "matches": [
+          {
+            "date": "2019-12-29",
+            "ztf_mag": 16.91887,
+            "tess_bjd": 2458846.88058472
+          },
+          {
+            "date": "2020-01-02",
+            "ztf_mag": 18.72355,
+            "tess_bjd": 2458850.88058472
+          },
+          {
+            "date": "2020-01-03",
+            "ztf_mag": 18.80355,
+            "tess_bjd": 2458851.88058472
+          },
+          {
+            "date": "2020-01-06",
+            "ztf_mag": 18.07072,
+            "tess_bjd": 2458854.80761719
+          },
+          {
+            "date": "2020-01-11",
+            "ztf_mag": 16.74631,
+            "tess_bjd": 2458859.63049316
+          },
+          {
+            "date": "2020-01-12",
+            "ztf_mag": 16.83901,
+            "tess_bjd": 2458860.88046265
+          },
+          {
+            "date": "2020-01-13",
+            "ztf_mag": 16.83913,
+            "tess_bjd": 2458861.63046265
+          },
+          {
+            "date": "2020-01-14",
+            "ztf_mag": 17.04326,
+            "tess_bjd": 2458862.88040161
+          },
+          {
+            "date": "2020-01-16",
+            "ztf_mag": 17.87992,
+            "tess_bjd": 2458864.63037109
+          },
+          {
+            "date": "2020-01-19",
+            "ztf_mag": 19.22993,
+            "tess_bjd": 2458867.88027954
+          }
+        ]
+      },
+      "g": {
+        "matched_nights": 10,
+        "spearman": {
+          "center": 0.91515,
+          "lower_left": 0.18788,
+          "lower_right": -0.15152,
+          "upper_left": 0.38182,
+          "upper_right": 0.05455
+        },
+        "third_size": 3,
+        "peak_pixel": [
+          8,
+          3
+        ],
+        "peak_distance_pixels": 4.1537,
+        "passes": false,
+        "matches": [
+          {
+            "date": "2019-12-29",
+            "ztf_mag": 16.81736,
+            "tess_bjd": 2458846.63058472
+          },
+          {
+            "date": "2020-01-01",
+            "ztf_mag": 18.28043,
+            "tess_bjd": 2458849.88058472
+          },
+          {
+            "date": "2020-01-04",
+            "ztf_mag": 19.96872,
+            "tess_bjd": 2458852.88058472
+          },
+          {
+            "date": "2020-01-05",
+            "ztf_mag": 18.92118,
+            "tess_bjd": 2458853.88058472
+          },
+          {
+            "date": "2020-01-06",
+            "ztf_mag": 17.70936,
+            "tess_bjd": 2458854.80761719
+          },
+          {
+            "date": "2020-01-11",
+            "ztf_mag": 16.72344,
+            "tess_bjd": 2458859.63049316
+          },
+          {
+            "date": "2020-01-12",
+            "ztf_mag": 16.74788,
+            "tess_bjd": 2458860.63049316
+          },
+          {
+            "date": "2020-01-13",
+            "ztf_mag": 16.73553,
+            "tess_bjd": 2458861.63046265
+          },
+          {
+            "date": "2020-01-16",
+            "ztf_mag": 17.5998,
+            "tess_bjd": 2458864.63037109
+          },
+          {
+            "date": "2020-01-19",
+            "ztf_mag": 18.8474,
+            "tess_bjd": 2458867.63027954
+          }
+        ]
+      }
+    }
+  },
+  {
+    "sector": 60,
+    "target_xy": [
+      4.607404876960323,
+      4.872306145779976
+    ],
+    "six_hour_bins": 82,
+    "bands": {
+      "r": {
+        "matched_nights": 1
+      },
+      "g": {
+        "matched_nights": 0
+      }
+    }
+  },
+  {
+    "sector": 73,
+    "target_xy": [
+      4.413959840028462,
+      4.3735163938252715
+    ],
+    "six_hour_bins": 80,
+    "bands": {
+      "r": {
+        "matched_nights": 4,
+        "spearman": {
+          "center": 0.6,
+          "lower_left": -0.8,
+          "lower_right": 0.6,
+          "upper_left": 0.6,
+          "upper_right": 0.0
+        },
+        "third_size": 1,
+        "peak_pixel": [
+          8,
+          2
+        ],
+        "peak_distance_pixels": 4.3004,
+        "passes": false,
+        "matches": [
+          {
+            "date": "2023-12-10",
+            "ztf_mag": 16.67747,
+            "tess_bjd": 2460288.87496551
+          },
+          {
+            "date": "2023-12-12",
+            "ztf_mag": 16.83869,
+            "tess_bjd": 2460290.87501775
+          },
+          {
+            "date": "2023-12-17",
+            "ztf_mag": 18.37706,
+            "tess_bjd": 2460295.87511995
+          },
+          {
+            "date": "2024-01-02",
+            "ztf_mag": 17.59384,
+            "tess_bjd": 2460311.87514476
+          }
+        ]
+      },
+      "g": {
+        "matched_nights": 2
+      }
+    }
+  }
+]

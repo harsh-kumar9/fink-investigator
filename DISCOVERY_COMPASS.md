@@ -18,18 +18,24 @@ The first three rows have label-blind routing rules. The fourth has a separate c
 
 ## Resume the 2025 queue
 
-The second round measured the early rise and late brightening of J0722 and tested two known pulsators. There are 62 eligible positions left. To take the next cases, reuse the frozen ranking and pass all three reviewed packets. [Second-round findings](experiments/compass-2025/batch-2/README.md) This command works offline. The new report gives each admission its original route rank in the ledger and keeps the earlier results accessible.
+The third round measured a 14–20 day recurrence timescale in MGAB-V243 and a late brightening of ASASSN-25ba. It left 59 unique eligible positions. The command below takes the next three from the frozen ranking, retains their original route ranks and skips positions already reviewed. [Third-round findings](experiments/compass-2025/batch-3/README.md) · [Current queue](experiments/compass-2025/batch-3/results/report.md)
 
 ```sh
 base=experiments/compass-2025
-python3 compass.py --snapshot "$base/snapshot" --out runs/compass-2025-batch-3 \
+python3 compass.py --snapshot "$base/snapshot" --out runs/compass-2025-batch-4 \
   --reviewed-packet "$base/results/packet.json" --reviewed-packet "$base/astrometry/packet.json" \
-  --reviewed-packet "$base/batch-2/results/packet.json"
+  --reviewed-packet "$base/batch-2/results/packet.json" --reviewed-packet "$base/batch-3/results/packet.json"
 ```
+
+Three checks from this round apply to other sources.
+
+* **Test eruption spacing across surveys.** Measure onset gaps where the sampling resolves both eruptions and an intervening fade. Freeze a range of delays. On unused dates from another telescope, compare brightness changes over that delay with those at shorter and longer delays starting on the same dates. Check nearby stars on the same images and time-dependent calibration. This can recover characteristic spacing even if a single clock fails on later seasons. [MGAB-V243 test and controls](experiments/compass-2025/batch-3/variables/recurrence-protocol.md)
+* **Measure the quiet nights.** The broker can stop returning observations while the survey continues imaging the position. Use the exposure inventory, freeze image quality and selection criteria, and measure signed flux at the same position. Withhold a nearby star of known brightness to check sensitivity. For a proposed outburst duration, count how much of the observing window could have caught it. [ASASSN-25ba image protocol](experiments/compass-2025/batch-3/onset-protocol.md)
+* **Challenge a single archival flare on its own exposure.** Ten nearby stars showed the same apparent excess as the candidate on a Pan-STARRS image. Inspect shared flags, local sky and comparison-star flux before assigning an earlier eruption. [Pan-STARRS field comparison](experiments/compass-2025/batch-3/images/ps1/README.md)
 
 ## Run another year
 
-Run these commands from the repository root with Python 3.10 or newer and curl. The numerical replay uses the standard library. The optional figures use Matplotlib. The 2024 commands below are an example for a different year; the checked-in wide search is 2025.
+Run these commands from the repository root with Python 3.10 or newer and curl. The queue and catalog replay use the standard library. The deeper image and time-series checks list their scientific Python dependencies in the batch reports. The optional figures use Matplotlib. The 2024 commands below are an example for a different year; the checked-in wide search is 2025.
 
 ```sh
 make verify

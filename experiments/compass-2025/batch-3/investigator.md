@@ -1,0 +1,7 @@
+# Investigator's first reading
+
+Only the three alert packets were opened for this initial assessment.
+
+* **ZTF25aaohzdc.** High-confidence positive residuals on three nights, in two filters, favor a source that brightened over its reference for at least part of April 24–May 16. Sparse sampling leaves the shape of the rise and peak open. A star undergoing an eruption and a supernova offset from its host both fit the packet. Locate the source on reference and science images, test for pre-event activity or upper limits and check dated reports and spectra.
+* **ZTF18aazutgw.** A Mira candidate could generate hundreds of red and green residuals of both signs during long, unequal pulsation cycles. Compare the direct light curve against sign, check whether a period measured before 2023 predicts later extrema and inspect the source and neighboring stars at minimum. Blending could distort the faint colors and amplitude. The packet already reports a Mira identification.
+* **ZTF17aabshbq.** The two red examples span six years, but a single continuously varying star can generate both. The negative green anchor is eight days after the final positive red group, so those measurements do not establish a simultaneous color reversal. Test for a coherent period on the direct measurements and measure ordinary brightness between the example groups. Check centroid motion, field-star contamination and existing identifications before assigning an outburst mechanism.

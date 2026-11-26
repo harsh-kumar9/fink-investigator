@@ -10,6 +10,7 @@ replay:
 verify-compass:
 	$(PYTHON) experiments/compass-2025/verify.py
 	$(PYTHON) experiments/compass-2025/batch-2/verify.py
+	$(PYTHON) experiments/compass-2025/batch-3/verify.py
 
 verify: test
 	@set -eu; tmp=$$(mktemp -d); trap 'rm -r "$$tmp"' EXIT; \

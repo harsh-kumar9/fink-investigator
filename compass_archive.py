@@ -2,7 +2,9 @@
 
 import argparse
 from collections import Counter
-from datetime import date, datetime
+from datetime import date, datetime, timezone
+import gzip
+import hashlib
 import json
 import math
 import os
@@ -14,6 +16,33 @@ VERSION = 1
 COLUMNS = pilot.COLUMNS + ",i:jdstarthist"
 ARCHIVE_CAP = 400  # greater than the documented 10/night for every month
 STRATA = ("young", "other_positive", "other")
+
+
+def capture_list(folder, name, url, fetch):
+    path = folder / (name + ".json.gz")
+    receipt = folder / (name + "-receipt.json")
+    if fetch and not receipt.exists():
+        raw = pilot.curl(url, [])
+        if not isinstance(json.loads(raw), list):
+            raise ValueError("Unexpected broker response")
+
+        folder.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(gzip.compress(raw, mtime=0))
+        pilot.json_write(
+            receipt,
+            {
+                "url": url,
+                "retrieved_utc": datetime.now(timezone.utc).isoformat(
+                    timespec="seconds"
+                ),
+                "sha256_uncompressed": hashlib.sha256(raw).hexdigest(),
+            },
+        )
+    raw = gzip.decompress(path.read_bytes())
+    m = json.loads(receipt.read_text())
+    if m["url"] != url or hashlib.sha256(raw).hexdigest() != m["sha256_uncompressed"]:
+        raise ValueError("Broker receipt mismatch")
+    return json.loads(raw)
 
 
 def months(year):

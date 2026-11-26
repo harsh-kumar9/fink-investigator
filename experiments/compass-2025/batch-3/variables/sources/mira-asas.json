@@ -1,0 +1,17 @@
+{
+  "cone_url": "http://asassn-lb01.ifa.hawaii.edu:9006/lookup_cone/radius0.0016666666666666668_ra291.7553476_dec7.5644761",
+  "cone_post": {
+    "catalog": "master_list",
+    "cols": [
+      "asas_sn_id",
+      "ra_deg",
+      "dec_deg",
+      "catalog_sources"
+    ],
+    "format": "arrow",
+    "download": true
+  },
+  "empty": true,
+  "cone_sha256": "d0015c7b100dd5932b5bbd5aaeb8ce550bc5b527397191cfe8eb6ecefc90490c",
+  "retrieved_utc": "2026-11-26T05:53:38+00:00"
+}

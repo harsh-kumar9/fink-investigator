@@ -1,0 +1,90 @@
+{
+  "ZTF18aazutgw": {
+    "simbad_10arcsec": [
+      {
+        "main_id": "IRAS 19245+0727",
+        "otype": "Mi*",
+        "ra": "291.75535702056",
+        "dec": "7.564526833499998",
+        "pmra": "-3.522",
+        "pmdec": "-7.579",
+        "separation_arcsec": 0.186
+      }
+    ],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.12",
+          "OID": "2207486",
+          "Name": "ZTF J192701.28+073352.1",
+          "RAJ2000": "291.75537",
+          "DEJ2000": "7.56450",
+          "Type": "M",
+          "Period": "385.101720600000"
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    },
+    "gaia_variability": {
+      "Source": "4295582339667975168",
+      "RA_ICRS": "291.75534122934",
+      "DE_ICRS": "+7.56449314909",
+      "Freq": "2.62696077580064e-03",
+      "e_Freq": "1.2007126e-04",
+      "Amp": "7.78130e-01",
+      "period_days": 380.66803631478734,
+      "linearized_period_error_days": 17.399304619655652
+    }
+  },
+  "ZTF25aaohzdc": {
+    "simbad_10arcsec": [],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.16",
+          "OID": "10848477",
+          "Name": "ASASSN-25ba",
+          "RAJ2000": "309.86407",
+          "DEJ2000": "-9.56031",
+          "Type": "UG",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    },
+    "bts_in_box": []
+  },
+  "ZTF17aabshbq": {
+    "simbad_10arcsec": [
+      {
+        "main_id": "Gaia DR3 964727238971174400",
+        "otype": "*",
+        "ra": "99.52693101412",
+        "dec": "45.249164228759994",
+        "pmra": "1.052",
+        "pmdec": "-2.913",
+        "separation_arcsec": 0.092
+      }
+    ],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.09",
+          "OID": "702876",
+          "Name": "MGAB-V243",
+          "RAJ2000": "99.52692",
+          "DEJ2000": "45.24917",
+          "Type": "UG",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    }
+  }
+}

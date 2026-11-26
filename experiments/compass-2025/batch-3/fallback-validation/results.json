@@ -1,0 +1,92 @@
+{
+  "historic": {
+    "original_url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2018/0716/355648/ztf_20180716355648_000388_zr_c10_o_q4_sciimg.fits",
+    "expid": 56135565,
+    "pid": "561355653915",
+    "original_bytes": 37872000,
+    "original_sha256": "088fb210bbe9ad506baa0f27390085e224404ed1d5271d2211ef28d23147d23e",
+    "ranges": [
+      {
+        "requested_bytes": [
+          0,
+          65535
+        ],
+        "http_status": 206,
+        "received_bytes": 65536,
+        "sha256": "899da4fc06c84929219c0bb87c9947e82caa8f57abd449cdf52415ac3fe2869c"
+      },
+      {
+        "requested_bytes": [
+          29499832,
+          31503431
+        ],
+        "http_status": 206,
+        "received_bytes": 2003600,
+        "sha256": "045f379d7272fc9dba587811517b6348cb5ebcfa82d400f3e79a225c78bd1015"
+      }
+    ],
+    "slice_xy_zero_based_half_open": [
+      2542,
+      2398,
+      2706,
+      2562
+    ],
+    "shape": [
+      164,
+      164
+    ],
+    "target_xy": [
+      81.5390519032015,
+      81.10665229141964
+    ],
+    "crop_sha256": "f1bb894ae91d962de665efda8639dffedefeca87325b264018029c9e37c4e910"
+  },
+  "april": {
+    "original_url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0424/481076/ztf_20250424481076_000388_zg_c10_o_q4_sciimg.fits",
+    "expid": 303548108,
+    "pid": "3035481083915",
+    "original_bytes": 37872000,
+    "original_sha256": "427f5bef4df520cffb050fd96e1b7ed670583d4c0f469c838d9c56002f9488f0",
+    "ranges": [
+      {
+        "requested_bytes": [
+          0,
+          65535
+        ],
+        "http_status": 206,
+        "received_bytes": 65536,
+        "sha256": "bcd6a47a3dbb8f2f7a9e57294f0cfdbd1678e1fe4e1fc259f33ad61e9c8d58d1"
+      },
+      {
+        "requested_bytes": [
+          28984104,
+          30987703
+        ],
+        "http_status": 206,
+        "received_bytes": 2003600,
+        "sha256": "c8f3398ce9f7c1c54347085f056e18a4f2b0d761e72572d06014dcf03ba445ba"
+      }
+    ],
+    "slice_xy_zero_based_half_open": [
+      2634,
+      2356,
+      2798,
+      2520
+    ],
+    "shape": [
+      164,
+      164
+    ],
+    "target_xy": [
+      81.42683529255166,
+      81.69251705066982
+    ],
+    "crop_sha256": "26e732d33aaa4860e0d8cf878a477ca942433a3e58df06cfe1a0d0fb81eba934",
+    "service": {
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0424/481076/ztf_20250424481076_000388_zg_c10_o_q4_sciimg.fits?center=309.8640412%2C-9.5602805&size=165arcsec&gzip=false",
+      "sha256": "d306be83594c45569e02ed9c13a6e927cd494f04f7c07904825c184a12d3aee2",
+      "identical_pixels": 26896,
+      "max_abs_sky_axis_delta_deg": 0.0
+    }
+  }
+}

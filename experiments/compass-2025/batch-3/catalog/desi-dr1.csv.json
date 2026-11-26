@@ -1,0 +1,5 @@
+{
+  "url": "https://datalab.noirlab.edu/query/query?sql=select+targetid%2Cmean_fiber_ra%2Cmean_fiber_dec%2Cspectype%2Cz%2Czwarn+from+desi_dr1.zpix+where+q3c_radial_query%28mean_fiber_ra%2Cmean_fiber_dec%2C99.526908%2C45.2491446%2C0.002777778%29+limit+20&ofmt=csv&async=False",
+  "retrieved_utc": "2026-11-26T05:51:36+00:00",
+  "sha256_uncompressed": "aecc599224b4597e7855b36636870a71e366d8f4b60e608322f217ed160327f0"
+}

@@ -1,0 +1,253 @@
+{
+  "cone": [
+    {
+      "asas_sn_id": 661427227898,
+      "ra_deg": 99.5269295,
+      "dec_deg": 45.2491606,
+      "catalog_sources": [
+        "milliquas",
+        "aavsovsx"
+      ],
+      "__index_level_0__": 0,
+      "separation_arcsec": 0.07929
+    }
+  ],
+  "raw_measurements": 885,
+  "good_nights_2019_to_anchor": 423,
+  "outside_interval_reference": {
+    "bright_ztf_quartile_dates": 22,
+    "faint_ztf_quartile_dates": 29,
+    "median_asassn_flux_mjy": {
+      "bright": 0.900563,
+      "faint": 0.218069
+    }
+  },
+  "all_overlapping_dates": 102,
+  "all_rank": 0.8881,
+  "interval_overlapping_dates": 16,
+  "interval_rank": 0.87647,
+  "interval_nights": [
+    {
+      "date": "2020-11-10",
+      "flux_mjy": 1.084253,
+      "median_single_epoch_error_mjy": 0.042248,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": null,
+      "ztf_red_mag": 16.61227
+    },
+    {
+      "date": "2020-11-13",
+      "flux_mjy": 0.753534,
+      "median_single_epoch_error_mjy": 0.039615,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": 16.67872,
+      "ztf_red_mag": 16.78098
+    },
+    {
+      "date": "2020-11-17",
+      "flux_mjy": 0.444294,
+      "median_single_epoch_error_mjy": 0.027141,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": 17.48909,
+      "ztf_red_mag": 17.59815
+    },
+    {
+      "date": "2020-11-19",
+      "flux_mjy": 0.365871,
+      "median_single_epoch_error_mjy": 0.032908,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": null,
+      "ztf_red_mag": null
+    },
+    {
+      "date": "2020-11-25",
+      "flux_mjy": 0.829076,
+      "median_single_epoch_error_mjy": 0.053396,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": null,
+      "ztf_red_mag": null
+    },
+    {
+      "date": "2020-11-29",
+      "flux_mjy": 0.598701,
+      "median_single_epoch_error_mjy": 0.095551,
+      "cameras": [
+        "bC",
+        "bs"
+      ],
+      "ztf_green_mag": null,
+      "ztf_red_mag": null
+    },
+    {
+      "date": "2020-12-05",
+      "flux_mjy": 0.415041,
+      "median_single_epoch_error_mjy": 0.052465,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": 18.27358,
+      "ztf_red_mag": 18.25884
+    },
+    {
+      "date": "2020-12-11",
+      "flux_mjy": 0.747919,
+      "median_single_epoch_error_mjy": 0.028041,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": 16.83188,
+      "ztf_red_mag": 16.89593
+    },
+    {
+      "date": "2020-12-15",
+      "flux_mjy": 0.903982,
+      "median_single_epoch_error_mjy": 0.044104,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": 16.68857,
+      "ztf_red_mag": 16.78051
+    },
+    {
+      "date": "2020-12-16",
+      "flux_mjy": 0.85607,
+      "median_single_epoch_error_mjy": 0.036646,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 16.77209,
+      "ztf_red_mag": 16.80375
+    },
+    {
+      "date": "2020-12-20",
+      "flux_mjy": 0.372906,
+      "median_single_epoch_error_mjy": 0.03101,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 18.22408,
+      "ztf_red_mag": 18.02423
+    },
+    {
+      "date": "2020-12-22",
+      "flux_mjy": 0.384217,
+      "median_single_epoch_error_mjy": 0.029924,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 18.53501,
+      "ztf_red_mag": 18.35588
+    },
+    {
+      "date": "2020-12-23",
+      "flux_mjy": 0.390968,
+      "median_single_epoch_error_mjy": 0.028868,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": null,
+      "ztf_red_mag": null
+    },
+    {
+      "date": "2020-12-25",
+      "flux_mjy": 0.243212,
+      "median_single_epoch_error_mjy": 0.046595,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": null,
+      "ztf_red_mag": null
+    },
+    {
+      "date": "2020-12-27",
+      "flux_mjy": 0.547408,
+      "median_single_epoch_error_mjy": 0.053279,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 17.27388,
+      "ztf_red_mag": 17.36679
+    },
+    {
+      "date": "2021-01-02",
+      "flux_mjy": 0.9349,
+      "median_single_epoch_error_mjy": 0.072138,
+      "cameras": [
+        "bC"
+      ],
+      "ztf_green_mag": 16.85995,
+      "ztf_red_mag": 16.93634
+    },
+    {
+      "date": "2021-01-05",
+      "flux_mjy": 0.389851,
+      "median_single_epoch_error_mjy": 0.025681,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 17.75248,
+      "ztf_red_mag": 17.8881
+    },
+    {
+      "date": "2021-01-06",
+      "flux_mjy": 0.299533,
+      "median_single_epoch_error_mjy": 0.039375,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 18.16841,
+      "ztf_red_mag": 18.1138
+    },
+    {
+      "date": "2021-01-07",
+      "flux_mjy": 0.297268,
+      "median_single_epoch_error_mjy": 0.034357,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 18.64648,
+      "ztf_red_mag": 18.33936
+    },
+    {
+      "date": "2021-01-08",
+      "flux_mjy": 0.273916,
+      "median_single_epoch_error_mjy": 0.032331,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 18.68291,
+      "ztf_red_mag": 18.40584
+    },
+    {
+      "date": "2021-01-09",
+      "flux_mjy": 0.362155,
+      "median_single_epoch_error_mjy": 0.032348,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 17.9546,
+      "ztf_red_mag": 17.97822
+    },
+    {
+      "date": "2021-01-14",
+      "flux_mjy": 0.88387,
+      "median_single_epoch_error_mjy": 0.027797,
+      "cameras": [
+        "bs"
+      ],
+      "ztf_green_mag": 16.66753,
+      "ztf_red_mag": 16.72371
+    }
+  ],
+  "at_or_below_faint_state_median": []
+}
