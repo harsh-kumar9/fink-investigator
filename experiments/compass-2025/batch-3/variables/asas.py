@@ -47,7 +47,7 @@ def obtain(fetch, local, neighbors=False, ra=RA, dec=DEC, stem=None):
             response = requests.post(cone_url, json=POST, timeout=45)
             response.raise_for_status()
             cone_bytes = response.content
-        cone_table = pq.read_table(io.BytesIO(cone_bytes))
+        cone_table = pq.ParquetFile(io.BytesIO(cone_bytes)).read(use_threads=False)
         if set(COLS) - set(cone_table.schema.names):
             raise ValueError("Unexpected Sky Patrol catalog schema")
         if not len(cone_table):
@@ -77,8 +77,8 @@ def obtain(fetch, local, neighbors=False, ra=RA, dec=DEC, stem=None):
             response = requests.get(url, timeout=60)
             response.raise_for_status()
             data = response.content
-        pq.read_table(io.BytesIO(cone_bytes))
-        pq.read_table(io.BytesIO(data))
+        pq.ParquetFile(io.BytesIO(cone_bytes)).read(use_threads=False)
+        pq.ParquetFile(io.BytesIO(data)).read(use_threads=False)
         cone.write_bytes(cone_bytes)
         phot.write_bytes(data)
         pilot.json_write(
@@ -102,7 +102,7 @@ def obtain(fetch, local, neighbors=False, ra=RA, dec=DEC, stem=None):
             meta["cone_url"] != cone_url
             or meta["cone_post"] != POST
             or hashlib.sha256(cone.read_bytes()).hexdigest() != meta["cone_sha256"]
-            or len(pq.read_table(cone))
+            or len(pq.ParquetFile(cone).read(use_threads=False))
         ):
             raise ValueError("Empty Sky Patrol result failed replay")
         return [], []
@@ -124,7 +124,7 @@ def obtain(fetch, local, neighbors=False, ra=RA, dec=DEC, stem=None):
     for path, label in ((cone, "cone_sha256"), (phot, "photometry_sha256")):
         if hashlib.sha256(path.read_bytes()).hexdigest() != meta[label]:
             raise ValueError("Sky Patrol source archive checksum changed")
-    cone_rows = pq.read_table(cone).to_pylist()
+    cone_rows = pq.ParquetFile(cone).read(use_threads=False).to_pylist()
     for r in cone_rows:
         r["separation_arcsec"] = round(
             math.hypot(*pilot.offsets(r["ra_deg"], r["dec_deg"], ra, dec)), 5
@@ -136,7 +136,7 @@ def obtain(fetch, local, neighbors=False, ra=RA, dec=DEC, stem=None):
     target = min(cone_rows, key=lambda r: (r["separation_arcsec"], r["asas_sn_id"]))
     if target["separation_arcsec"] > 3:
         raise ValueError("No Sky Patrol counterpart within 3 arcsec")
-    full = pq.read_table(phot).to_pylist()
+    full = pq.ParquetFile(phot).read(use_threads=False).to_pylist()
     ids = {r["asas_sn_id"] for r in full}
     if (
         not ids.issubset({r["asas_sn_id"] for r in cone_rows})

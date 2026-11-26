@@ -27,7 +27,7 @@ def sky_patrol(fetch=False, read_table=False):
     if fetch and not receipt.exists():
         import pyarrow.parquet as pq
         raw = catalog.pilot.curl(url, ["-H", "Content-Type: application/json", "--data", json.dumps(post)])
-        table = pq.read_table(io.BytesIO(raw))
+        table = pq.ParquetFile(io.BytesIO(raw)).read(use_threads=False)
         if not set(columns).issubset(table.column_names):
             raise ValueError("Unexpected Sky Patrol cone fields")
         path.write_bytes(raw)
@@ -43,7 +43,7 @@ def sky_patrol(fetch=False, read_table=False):
         raise ValueError("Mismatched Sky Patrol cone provenance")
     if read_table:
         import pyarrow.parquet as pq
-        table = pq.read_table(io.BytesIO(raw))
+        table = pq.ParquetFile(io.BytesIO(raw)).read(use_threads=False)
         if result["rows"] != table.num_rows or result["returned_columns"] != table.column_names:
             raise ValueError("Sky Patrol archive and receipt disagree")
     return result
