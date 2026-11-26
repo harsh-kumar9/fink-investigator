@@ -1,0 +1,367 @@
+{
+  "original": {
+    "passed": true,
+    "tp": 4,
+    "tn": 3,
+    "fp": 0,
+    "fn": 0,
+    "cases": [
+      {
+        "id": "ZTF18abkalak",
+        "name": "G 260-1",
+        "candid": "3311539581615010016",
+        "matched": true,
+        "expected": true,
+        "correct_identity_or_rejection": true
+      },
+      {
+        "id": "ZTF18adgsbul",
+        "name": "G 135-67",
+        "candid": "3317540210115010000",
+        "matched": true,
+        "expected": true,
+        "correct_identity_or_rejection": true
+      },
+      {
+        "id": "ZTF19abhyflg",
+        "name": "LP 624-55",
+        "candid": "3317559431315010011",
+        "matched": true,
+        "expected": true,
+        "correct_identity_or_rejection": true
+      },
+      {
+        "id": "ZTF23aajfetj",
+        "name": "Wolf 611",
+        "candid": "3317557504315010006",
+        "matched": true,
+        "expected": true,
+        "correct_identity_or_rejection": true
+      },
+      {
+        "id": "ZTF23aalftvv",
+        "name": "SN 2023mtp",
+        "candid": "2500135990815015006",
+        "matched": false,
+        "expected": false,
+        "correct_identity_or_rejection": true
+      },
+      {
+        "id": "ZTF23aaklqou",
+        "name": "SN 2023ixf",
+        "candid": "3311478482515015010",
+        "matched": false,
+        "expected": false,
+        "correct_identity_or_rejection": true
+      },
+      {
+        "id": "ZTF23aabtgej",
+        "name": "SN 2023bee",
+        "candid": "2603370232515015012",
+        "matched": false,
+        "expected": false,
+        "correct_identity_or_rejection": true
+      }
+    ]
+  },
+  "v1": {
+    "cases": [
+      {
+        "id": "ZTF22aasxgjp",
+        "name": "SN 2022oqm",
+        "expected": {
+          "onset": true,
+          "recurrent": false,
+          "fading": false
+        },
+        "rows_in_anchor_interval": 21,
+        "candid": "2044260680415015004",
+        "date": "2022-08-07",
+        "first_detection_jd": 2459771.6950231,
+        "history_rows_through_anchor": 21,
+        "observed_eligible": {
+          "onset": {
+            "score": [
+              5,
+              11
+            ],
+            "first_positive_date": "2022-07-12",
+            "last_positive_date": "2022-08-07"
+          }
+        }
+      },
+      {
+        "id": "ZTF18abjedws",
+        "name": "MGAB-V713",
+        "expected": {
+          "onset": false,
+          "recurrent": true
+        },
+        "rows_in_anchor_interval": 0,
+        "candid": null,
+        "date": null,
+        "first_detection_jd": null,
+        "history_rows_through_anchor": 0,
+        "observed_eligible": {}
+      },
+      {
+        "id": "ZTF18achfhai",
+        "name": "CRTS J222643.4-200536",
+        "expected": {
+          "onset": false,
+          "recurrent": true,
+          "fading": true
+        },
+        "rows_in_anchor_interval": 107,
+        "candid": "2912135011415010012",
+        "date": "2024-12-22",
+        "first_detection_jd": 2458279.9721875,
+        "history_rows_through_anchor": 533,
+        "observed_eligible": {
+          "recurrent": {
+            "filter": "g",
+            "score": [
+              6,
+              87
+            ],
+            "years_with_pair": [
+              2019,
+              2020,
+              2021,
+              2022,
+              2023,
+              2024
+            ],
+            "example_dates": [
+              "2019-11-02",
+              "2019-11-25",
+              "2024-11-25",
+              "2024-12-16"
+            ]
+          },
+          "fading": {
+            "filter": "g",
+            "score": [
+              6,
+              87
+            ],
+            "first_negative_date": "2019-11-08",
+            "last_negative_date": "2024-12-22"
+          }
+        }
+      },
+      {
+        "id": "ZTF22abgqdcj",
+        "name": "G 143-8 subtraction residual",
+        "expected": {
+          "onset": false,
+          "recurrent": false,
+          "fading": false
+        },
+        "rows_in_anchor_interval": 73,
+        "candid": "2897113034715010036",
+        "date": "2024-12-07",
+        "first_detection_jd": 2459199.5759722,
+        "history_rows_through_anchor": 118,
+        "observed_eligible": {}
+      }
+    ],
+    "routes": {
+      "onset": {
+        "tp": 1,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "unevaluable": 1,
+        "passed": false
+      },
+      "recurrent": {
+        "tp": 1,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "unevaluable": 1,
+        "passed": false
+      },
+      "fading": {
+        "tp": 1,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "unevaluable": 0,
+        "passed": true
+      }
+    }
+  },
+  "effective_panel": "V2",
+  "coverage_amendment": {
+    "unobservable_v1_id": "ZTF18abjedws",
+    "replacement_pool_interval_counts": {
+      "ZTF18abmfrmh": 95,
+      "ZTF18achrnju": 70
+    },
+    "chosen": "ZTF18abmfrmh"
+  },
+  "cases": [
+    {
+      "id": "ZTF22aasxgjp",
+      "name": "SN 2022oqm",
+      "expected": {
+        "onset": true,
+        "recurrent": false,
+        "fading": false
+      },
+      "rows_in_anchor_interval": 21,
+      "candid": "2044260680415015004",
+      "date": "2022-08-07",
+      "first_detection_jd": 2459771.6950231,
+      "history_rows_through_anchor": 21,
+      "observed_eligible": {
+        "onset": {
+          "score": [
+            5,
+            11
+          ],
+          "first_positive_date": "2022-07-12",
+          "last_positive_date": "2022-08-07"
+        }
+      }
+    },
+    {
+      "id": "ZTF18abmfrmh",
+      "name": "ASASSN-20en",
+      "expected": {
+        "onset": false,
+        "recurrent": true
+      },
+      "rows_in_anchor_interval": 95,
+      "candid": "2882107590515010060",
+      "date": "2024-11-22",
+      "first_detection_jd": 2458258.9403241,
+      "history_rows_through_anchor": 508,
+      "observed_eligible": {
+        "recurrent": {
+          "filter": "g",
+          "score": [
+            5,
+            42
+          ],
+          "years_with_pair": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "example_dates": [
+            "2020-05-07",
+            "2020-05-10",
+            "2024-06-02",
+            "2024-06-18"
+          ]
+        },
+        "fading": {
+          "filter": "r",
+          "score": [
+            6,
+            33
+          ],
+          "first_negative_date": "2019-11-05",
+          "last_negative_date": "2024-11-22"
+        }
+      }
+    },
+    {
+      "id": "ZTF18achfhai",
+      "name": "CRTS J222643.4-200536",
+      "expected": {
+        "onset": false,
+        "recurrent": true,
+        "fading": true
+      },
+      "rows_in_anchor_interval": 107,
+      "candid": "2912135011415010012",
+      "date": "2024-12-22",
+      "first_detection_jd": 2458279.9721875,
+      "history_rows_through_anchor": 533,
+      "observed_eligible": {
+        "recurrent": {
+          "filter": "g",
+          "score": [
+            6,
+            87
+          ],
+          "years_with_pair": [
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "example_dates": [
+            "2019-11-02",
+            "2019-11-25",
+            "2024-11-25",
+            "2024-12-16"
+          ]
+        },
+        "fading": {
+          "filter": "g",
+          "score": [
+            6,
+            87
+          ],
+          "first_negative_date": "2019-11-08",
+          "last_negative_date": "2024-12-22"
+        }
+      }
+    },
+    {
+      "id": "ZTF22abgqdcj",
+      "name": "G 143-8 subtraction residual",
+      "expected": {
+        "onset": false,
+        "recurrent": false,
+        "fading": false
+      },
+      "rows_in_anchor_interval": 73,
+      "candid": "2897113034715010036",
+      "date": "2024-12-07",
+      "first_detection_jd": 2459199.5759722,
+      "history_rows_through_anchor": 118,
+      "observed_eligible": {}
+    }
+  ],
+  "routes": {
+    "onset": {
+      "tp": 1,
+      "tn": 3,
+      "fp": 0,
+      "fn": 0,
+      "unevaluable": 0,
+      "passed": true
+    },
+    "recurrent": {
+      "tp": 2,
+      "tn": 2,
+      "fp": 0,
+      "fn": 0,
+      "unevaluable": 0,
+      "passed": true
+    },
+    "fading": {
+      "tp": 1,
+      "tn": 2,
+      "fp": 0,
+      "fn": 0,
+      "unevaluable": 0,
+      "passed": true
+    }
+  },
+  "passed_routes": [
+    "onset",
+    "recurrent",
+    "fading"
+  ]
+}

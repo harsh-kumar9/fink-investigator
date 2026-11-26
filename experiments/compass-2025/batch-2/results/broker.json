@@ -1,0 +1,75 @@
+{
+  "forced_epochs_returned": 60,
+  "detection_count": 54,
+  "difference_limits": 22,
+  "dates": {
+    "2025-01-17": {
+      "g": {
+        "band": "g",
+        "expid": "293826923",
+        "mjd": 60692.269236099906,
+        "direct_mag": 20.0679417,
+        "direct_err": 0.122803569,
+        "forced_mag": 20.00009655467466,
+        "forced_err": 0.1637649352403882,
+        "seeing_arcsec": 2.0234999656677246,
+        "reference_mag": 20.030000686645508,
+        "limiting_difference_mag": 19.739
+      },
+      "r": {
+        "band": "r",
+        "expid": "293827726",
+        "mjd": 60692.27726850007,
+        "direct_mag": 19.8285275,
+        "direct_err": 0.110492699,
+        "forced_mag": 19.835412047581322,
+        "forced_err": 0.10515561106515127,
+        "seeing_arcsec": 1.607100009918213,
+        "reference_mag": 20.058000564575195,
+        "limiting_difference_mag": 20.0903
+      }
+    },
+    "2025-01-19": {
+      "g": {
+        "band": "g",
+        "expid": "294026386",
+        "mjd": 60694.26386569999,
+        "direct_mag": 19.2796803,
+        "direct_err": 0.0669733062,
+        "forced_mag": 19.337020694574814,
+        "forced_err": 0.0637649048358168,
+        "seeing_arcsec": 2.357300043106079,
+        "reference_mag": 20.030000686645508,
+        "difference_mag": 20.112612,
+        "alert_corrected": 19.317945,
+        "alert_corrected_err": 0.089620695,
+        "reconstructed_total_mag": 19.31794582916141
+      },
+      "r": {
+        "band": "r",
+        "expid": "294040390",
+        "mjd": 60694.40390049992,
+        "direct_mag": 19.2181854,
+        "direct_err": 0.0673115924,
+        "forced_mag": 19.21414325514828,
+        "forced_err": 0.05417394816325247,
+        "seeing_arcsec": 1.5759999752044678,
+        "reference_mag": 20.058000564575195,
+        "difference_mag": 19.902603,
+        "alert_corrected": 19.224949,
+        "alert_corrected_err": 0.08996331,
+        "reconstructed_total_mag": 19.22494897527158
+      }
+    }
+  },
+  "january_change": {
+    "g": {
+      "forced_brightening_mag": 0.6630758600998448,
+      "errors_in_quadrature_mag": 0.17574105127433748
+    },
+    "r": {
+      "forced_brightening_mag": 0.6212687924330424,
+      "errors_in_quadrature_mag": 0.11828997928007312
+    }
+  }
+}

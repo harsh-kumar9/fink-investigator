@@ -1,0 +1,158 @@
+{
+  "stable_injection": {
+    "frequency_per_day": 1.6999996812362448,
+    "period_days": 0.588235404416545,
+    "families": {
+      "radial": {
+        "frequency_per_day": 2.2287677995613975,
+        "period_days": 0.4486784133352929,
+        "frequency_difference": 0.5287681183251527,
+        "beat_days": 1.8911881509941473,
+        "distance_to_one_sidereal_day_alias_per_day": 0.4739697816748474,
+        "passes_both_bands": false
+      },
+      "nearby": {
+        "frequency_per_day": 1.747430946638959,
+        "period_days": 0.5722686792994129,
+        "frequency_difference": 0.04743126540271425,
+        "beat_days": 21.083139813148968,
+        "distance_to_one_sidereal_day_alias_per_day": 0.9553066345972858,
+        "passes_both_bands": false
+      }
+    },
+    "bands": {
+      "g": {
+        "training_dates": 643,
+        "test_dates": 254,
+        "primary_error_reduction": 0.9931530392787824,
+        "primary_test_rms_mag": 0.022625299024487677,
+        "radial": {
+          "additional_error_reduction": -0.010682349735935848,
+          "training_secondary_semi_amplitude_mag": 0.0030225252742825883
+        },
+        "nearby": {
+          "additional_error_reduction": -0.014790696023047945,
+          "training_secondary_semi_amplitude_mag": 0.0018728120454749762
+        }
+      },
+      "r": {
+        "training_dates": 630,
+        "test_dates": 245,
+        "primary_error_reduction": 0.9948836080248491,
+        "primary_test_rms_mag": 0.018432705320748904,
+        "radial": {
+          "additional_error_reduction": -0.00032563177141708977,
+          "training_secondary_semi_amplitude_mag": 0.003542022639601846
+        },
+        "nearby": {
+          "additional_error_reduction": 0.001803525915503812,
+          "training_secondary_semi_amplitude_mag": 0.0035677091005621364
+        }
+      }
+    }
+  },
+  "extra_mode_injection": {
+    "frequency_per_day": 1.7000001880612918,
+    "period_days": 0.588235229044543,
+    "families": {
+      "radial": {
+        "frequency_per_day": 2.281879333926294,
+        "period_days": 0.4382352673659389,
+        "frequency_difference": 0.5818791458650023,
+        "beat_days": 1.718569924882654,
+        "distance_to_one_sidereal_day_alias_per_day": 0.42085875413499774,
+        "passes_both_bands": true
+      },
+      "nearby": {
+        "frequency_per_day": 1.7235659475654879,
+        "period_days": 0.5801924790939886,
+        "frequency_difference": 0.023565759504196038,
+        "beat_days": 42.43444815864914,
+        "distance_to_one_sidereal_day_alias_per_day": 0.979172140495804,
+        "passes_both_bands": false
+      }
+    },
+    "bands": {
+      "g": {
+        "training_dates": 643,
+        "test_dates": 254,
+        "primary_error_reduction": 0.9096661471144505,
+        "primary_test_rms_mag": 0.0877036021482598,
+        "radial": {
+          "additional_error_reduction": 0.9333882791895575,
+          "training_secondary_semi_amplitude_mag": 0.11858663882734818
+        },
+        "nearby": {
+          "additional_error_reduction": 0.07265346503151715,
+          "training_secondary_semi_amplitude_mag": 0.033331517636610956
+        }
+      },
+      "r": {
+        "training_dates": 630,
+        "test_dates": 245,
+        "primary_error_reduction": 0.9073162405951654,
+        "primary_test_rms_mag": 0.08495911345337959,
+        "radial": {
+          "additional_error_reduction": 0.953175244265739,
+          "training_secondary_semi_amplitude_mag": 0.12039994849815373
+        },
+        "nearby": {
+          "additional_error_reduction": 0.2608540053111911,
+          "training_secondary_semi_amplitude_mag": 0.04810967265510564
+        }
+      }
+    }
+  },
+  "source": {
+    "frequency_per_day": 1.6069066481758678,
+    "period_days": 0.6223136864454338,
+    "families": {
+      "radial": {
+        "frequency_per_day": 2.233944390173826,
+        "period_days": 0.44763871670153293,
+        "frequency_difference": 0.627037741997958,
+        "beat_days": 1.5948003334115994,
+        "distance_to_one_sidereal_day_alias_per_day": 0.37570015800204204,
+        "passes_both_bands": false
+      },
+      "nearby": {
+        "frequency_per_day": 1.5593399986216847,
+        "period_days": 0.641296959536669,
+        "frequency_difference": 0.047566649554183105,
+        "beat_days": 21.02313300121972,
+        "distance_to_one_sidereal_day_alias_per_day": 0.955171250445817,
+        "passes_both_bands": false
+      }
+    },
+    "bands": {
+      "g": {
+        "training_dates": 643,
+        "test_dates": 254,
+        "primary_error_reduction": 0.9680962843880054,
+        "primary_test_rms_mag": 0.07628345335141723,
+        "radial": {
+          "additional_error_reduction": 0.003677527864122565,
+          "training_secondary_semi_amplitude_mag": 0.003132169621255499
+        },
+        "nearby": {
+          "additional_error_reduction": -0.0073860788889930085,
+          "training_secondary_semi_amplitude_mag": 0.0024086044766223873
+        }
+      },
+      "r": {
+        "training_dates": 630,
+        "test_dates": 245,
+        "primary_error_reduction": 0.965721838084741,
+        "primary_test_rms_mag": 0.0536568994502257,
+        "radial": {
+          "additional_error_reduction": 0.018342902683200157,
+          "training_secondary_semi_amplitude_mag": 0.006665503753700726
+        },
+        "nearby": {
+          "additional_error_reduction": -0.02357548572059276,
+          "training_secondary_semi_amplitude_mag": 0.007256907646703272
+        }
+      }
+    }
+  }
+}

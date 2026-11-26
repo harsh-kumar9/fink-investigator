@@ -1,0 +1,785 @@
+{
+  "other_field": {
+    "1846103300002994": {
+      "fid": 1,
+      "field": "1846",
+      "first": "2018-11-08",
+      "last": "2024-01-26",
+      "dates": 24,
+      "january": null,
+      "april": null
+    },
+    "1846203300004075": {
+      "fid": 2,
+      "field": "1846",
+      "first": "2018-11-10",
+      "last": "2024-01-15",
+      "dates": 30,
+      "january": null,
+      "april": null
+    }
+  },
+  "bands": {
+    "g": {
+      "source_oid": "814111300004931",
+      "raw": {
+        "january": {
+          "n": 38,
+          "median": 19.98232745,
+          "day_mag": 19.2796803,
+          "brightening_mag": 0.7026471500000007
+        },
+        "previous_month": {
+          "n": 4,
+          "median": 19.8877678,
+          "day_mag": 19.2796803,
+          "brightening_mag": 0.6080874999999999
+        },
+        "april_before": {
+          "n": 4,
+          "median": 17.568345100000002,
+          "day_mag": 16.4225388,
+          "brightening_mag": 1.1458063000000003
+        },
+        "april_after": {
+          "n": 2,
+          "median": 18.450573,
+          "day_mag": 16.4225388,
+          "brightening_mag": 2.028034199999997
+        }
+      },
+      "corrected": {
+        "january": {
+          "n": 35,
+          "median": 19.9332428,
+          "day_mag": 19.3676015,
+          "brightening_mag": 0.5656412999999993
+        },
+        "previous_month": {
+          "n": 4,
+          "median": 19.8468351375,
+          "day_mag": 19.3676015,
+          "brightening_mag": 0.4792336375000019
+        },
+        "april_before": {
+          "n": 2,
+          "median": 17.51176075,
+          "day_mag": 16.41087535,
+          "brightening_mag": 1.1008853999999992
+        },
+        "april_after": {
+          "n": 2,
+          "median": 18.5026996875,
+          "day_mag": 16.41087535,
+          "brightening_mag": 2.0918243375000003
+        }
+      },
+      "events": [
+        {
+          "day": "2025-01-19",
+          "expid": "294026386",
+          "mjd": 60694.2638657,
+          "days_from_NMW": -1.6777343000285327,
+          "mag": 19.2796803,
+          "err": 0.0669733062,
+          "control_count": 5,
+          "field_corrected_mag": 19.3676015
+        },
+        {
+          "day": "2025-04-16",
+          "expid": "302717775",
+          "mjd": 60781.1777546,
+          "days_from_NMW": 85.23615460004658,
+          "mag": 16.4225388,
+          "err": 0.0145370159,
+          "control_count": 4,
+          "field_corrected_mag": 16.41087535
+        }
+      ],
+      "controls": {
+        "814111300004913": {
+          "january": {
+            "n": 49,
+            "median": 19.4672394,
+            "day_mag": 19.4101372,
+            "brightening_mag": 0.057102199999999215
+          },
+          "previous_month": {
+            "n": 7,
+            "median": 19.4566154,
+            "day_mag": 19.4101372,
+            "brightening_mag": 0.04647819999999925
+          },
+          "april_before": {
+            "n": 4,
+            "median": 19.449173950000002,
+            "day_mag": 19.494381,
+            "brightening_mag": -0.04520704999999836
+          },
+          "april_after": {
+            "n": 2,
+            "median": 19.4072475,
+            "day_mag": 19.494381,
+            "brightening_mag": -0.0871335000000002
+          }
+        },
+        "814111300004702": {
+          "january": {
+            "n": 44,
+            "median": 19.403976450000002,
+            "day_mag": 19.4431496,
+            "brightening_mag": -0.03917314999999988
+          },
+          "previous_month": {
+            "n": 7,
+            "median": 19.4525585,
+            "day_mag": 19.4431496,
+            "brightening_mag": 0.009408899999996834
+          },
+          "april_before": {
+            "n": 4,
+            "median": 19.4441986,
+            "day_mag": 19.4934177,
+            "brightening_mag": -0.049219099999998406
+          },
+          "april_after": {
+            "n": 2,
+            "median": 19.38390065,
+            "day_mag": 19.4934177,
+            "brightening_mag": -0.10951704999999734
+          }
+        },
+        "814111300004812": {
+          "january": {
+            "n": 34,
+            "median": 20.225495350000003,
+            "day_mag": 20.0951424,
+            "brightening_mag": 0.13035295000000247
+          },
+          "previous_month": {
+            "n": 4,
+            "median": 20.17605305,
+            "day_mag": 20.0951424,
+            "brightening_mag": 0.08091064999999986
+          },
+          "april_before": {
+            "n": 2,
+            "median": 20.075243,
+            "day_mag": 20.2013187,
+            "brightening_mag": -0.12607570000000123
+          },
+          "april_after": {
+            "n": 2,
+            "median": 20.19502065,
+            "day_mag": 20.2013187,
+            "brightening_mag": -0.006298050000001609
+          }
+        },
+        "814111300014087": {
+          "january": {
+            "n": 17,
+            "median": 20.2843342,
+            "day_mag": 20.1129265,
+            "brightening_mag": 0.1714076999999996
+          },
+          "previous_month": {
+            "n": 2,
+            "median": 20.324830050000003,
+            "day_mag": 20.1129265,
+            "brightening_mag": 0.21190355000000238
+          },
+          "april_before": {
+            "n": 0,
+            "median": null,
+            "day_mag": null,
+            "brightening_mag": null
+          },
+          "april_after": {
+            "n": 1,
+            "median": 19.8158417,
+            "day_mag": null,
+            "brightening_mag": null
+          }
+        },
+        "814111300004981": {
+          "january": {
+            "n": 21,
+            "median": 20.6046944,
+            "day_mag": 20.5167732,
+            "brightening_mag": 0.08792120000000025
+          },
+          "previous_month": {
+            "n": 3,
+            "median": 20.7399349,
+            "day_mag": 20.5167732,
+            "brightening_mag": 0.22316170000000213
+          },
+          "april_before": {
+            "n": 0,
+            "median": null,
+            "day_mag": 20.6008797,
+            "brightening_mag": null
+          },
+          "april_after": {
+            "n": 0,
+            "median": null,
+            "day_mag": 20.6008797,
+            "brightening_mag": null
+          }
+        }
+      },
+      "bright_panel": {
+        "corrected": {
+          "january": {
+            "n": 36,
+            "median": 19.98821545,
+            "day_mag": 19.286316,
+            "brightening_mag": 0.7018994499999991
+          },
+          "previous_month": {
+            "n": 3,
+            "median": 19.9474125,
+            "day_mag": 19.286316,
+            "brightening_mag": 0.6610964999999993
+          },
+          "april_before": {
+            "n": 4,
+            "median": 17.577224275,
+            "day_mag": 16.426708200000004,
+            "brightening_mag": 1.1505160749999952
+          },
+          "april_after": {
+            "n": 2,
+            "median": 18.470602525,
+            "day_mag": 16.426708200000004,
+            "brightening_mag": 2.0438943249999966
+          }
+        },
+        "comparison_oids": [
+          "814111300004951",
+          "814111300004797",
+          "814111300004902"
+        ],
+        "april_control_counts": [
+          3
+        ],
+        "individual": {
+          "814111300004951": {
+            "january": {
+              "n": 52,
+              "median": 16.81187535,
+              "day_mag": 16.7932911,
+              "brightening_mag": 0.01858424999999997
+            },
+            "previous_month": {
+              "n": 8,
+              "median": 16.8175068,
+              "day_mag": 16.7932911,
+              "brightening_mag": 0.024215699999999174
+            },
+            "april_before": {
+              "n": 4,
+              "median": 16.802295649999998,
+              "day_mag": 16.8072472,
+              "brightening_mag": -0.004951550000001248
+            },
+            "april_after": {
+              "n": 2,
+              "median": 16.7882738,
+              "day_mag": 16.8072472,
+              "brightening_mag": -0.01897340000000014
+            }
+          },
+          "814111300004797": {
+            "january": {
+              "n": 53,
+              "median": 17.1159019,
+              "day_mag": 17.1201248,
+              "brightening_mag": -0.004222899999998475
+            },
+            "previous_month": {
+              "n": 9,
+              "median": 17.1146965,
+              "day_mag": 17.1201248,
+              "brightening_mag": -0.005428299999998387
+            },
+            "april_before": {
+              "n": 4,
+              "median": 17.12874985,
+              "day_mag": 17.1117325,
+              "brightening_mag": 0.01701734999999971
+            },
+            "april_after": {
+              "n": 2,
+              "median": 17.1061249,
+              "day_mag": 17.1117325,
+              "brightening_mag": -0.005607599999997603
+            }
+          },
+          "814111300004902": {
+            "january": {
+              "n": 52,
+              "median": 17.2702694,
+              "day_mag": 17.2636337,
+              "brightening_mag": 0.006635700000000355
+            },
+            "previous_month": {
+              "n": 9,
+              "median": 17.2751598,
+              "day_mag": 17.2636337,
+              "brightening_mag": 0.011526100000001094
+            },
+            "april_before": {
+              "n": 4,
+              "median": 17.2443514,
+              "day_mag": 17.2808151,
+              "brightening_mag": -0.03646370000000232
+            },
+            "april_after": {
+              "n": 2,
+              "median": 17.2369223,
+              "day_mag": 17.2808151,
+              "brightening_mag": -0.04389280000000184
+            }
+          }
+        }
+      },
+      "first_return_within_0.3": "2025-09-30",
+      "last_observed": "2025-10-20",
+      "dates_after_first_return": 6,
+      "subsequent_bright_dates": [],
+      "subsequent_pairs": [],
+      "event_context": [
+        [
+          "2025-01-17",
+          19.9860459
+        ],
+        [
+          "2025-01-19",
+          19.3676015
+        ],
+        [
+          "2025-04-07",
+          17.6501541
+        ],
+        [
+          "2025-04-09",
+          17.373367400000003
+        ],
+        [
+          "2025-04-16",
+          16.41087535
+        ],
+        [
+          "2025-04-23",
+          18.506186550000002
+        ],
+        [
+          "2025-04-25",
+          18.499212825
+        ]
+      ]
+    },
+    "r": {
+      "source_oid": "814211300007783",
+      "raw": {
+        "january": {
+          "n": 43,
+          "median": 20.0876617,
+          "day_mag": 19.2181854,
+          "brightening_mag": 0.8694763000000023
+        },
+        "previous_month": {
+          "n": 3,
+          "median": 19.8285275,
+          "day_mag": 19.2181854,
+          "brightening_mag": 0.6103421000000004
+        },
+        "april_before": {
+          "n": 4,
+          "median": 17.3001423,
+          "day_mag": 16.9216995,
+          "brightening_mag": 0.37844280000000197
+        },
+        "april_after": {
+          "n": 3,
+          "median": 18.2864952,
+          "day_mag": 16.9216995,
+          "brightening_mag": 1.364795700000002
+        }
+      },
+      "corrected": {
+        "january": {
+          "n": 38,
+          "median": 20.119343774999997,
+          "day_mag": 19.19740865,
+          "brightening_mag": 0.9219351249999974
+        },
+        "previous_month": {
+          "n": 3,
+          "median": 19.83766555,
+          "day_mag": 19.19740865,
+          "brightening_mag": 0.6402569000000007
+        },
+        "april_before": {
+          "n": 3,
+          "median": 17.401689550000004,
+          "day_mag": null,
+          "brightening_mag": null
+        },
+        "april_after": {
+          "n": 3,
+          "median": 18.268930450000003,
+          "day_mag": null,
+          "brightening_mag": null
+        }
+      },
+      "events": [
+        {
+          "day": "2025-01-19",
+          "expid": "294040390",
+          "mjd": 60694.4039005,
+          "days_from_NMW": -1.5376995000988245,
+          "mag": 19.2181854,
+          "err": 0.0673115924,
+          "control_count": 5,
+          "field_corrected_mag": 19.19740865
+        },
+        {
+          "day": "2025-04-16",
+          "expid": "302725652",
+          "mjd": 60781.2565278,
+          "days_from_NMW": 85.31492780009285,
+          "mag": 16.9216995,
+          "err": 0.0145714665,
+          "control_count": 2,
+          "field_corrected_mag": null
+        }
+      ],
+      "controls": {
+        "814211300023320": {
+          "january": {
+            "n": 40,
+            "median": 20.045331,
+            "day_mag": 20.1145706,
+            "brightening_mag": -0.06923959999999951
+          },
+          "previous_month": {
+            "n": 2,
+            "median": 20.0695362,
+            "day_mag": 20.1145706,
+            "brightening_mag": -0.0450343999999987
+          },
+          "april_before": {
+            "n": 2,
+            "median": 20.005190849999998,
+            "day_mag": null,
+            "brightening_mag": null
+          },
+          "april_after": {
+            "n": 3,
+            "median": 19.9722977,
+            "day_mag": null,
+            "brightening_mag": null
+          }
+        },
+        "814211300007948": {
+          "january": {
+            "n": 46,
+            "median": 20.04811095,
+            "day_mag": 20.0688877,
+            "brightening_mag": -0.020776749999999566
+          },
+          "previous_month": {
+            "n": 3,
+            "median": 20.0047894,
+            "day_mag": 20.0688877,
+            "brightening_mag": -0.06409830000000127
+          },
+          "april_before": {
+            "n": 3,
+            "median": 19.9087009,
+            "day_mag": 20.1789284,
+            "brightening_mag": -0.27022750000000073
+          },
+          "april_after": {
+            "n": 3,
+            "median": 20.0250511,
+            "day_mag": 20.1789284,
+            "brightening_mag": -0.15387730000000133
+          }
+        },
+        "814211300014656": {
+          "january": {
+            "n": 44,
+            "median": 19.99534035,
+            "day_mag": 20.0455742,
+            "brightening_mag": -0.05023385000000147
+          },
+          "previous_month": {
+            "n": 4,
+            "median": 19.82019615,
+            "day_mag": 20.0455742,
+            "brightening_mag": -0.22537804999999977
+          },
+          "april_before": {
+            "n": 1,
+            "median": 19.7792683,
+            "day_mag": 19.9011765,
+            "brightening_mag": -0.12190820000000002
+          },
+          "april_after": {
+            "n": 2,
+            "median": 19.91766835,
+            "day_mag": 19.9011765,
+            "brightening_mag": 0.016491850000001307
+          }
+        },
+        "814211300014722": {
+          "january": {
+            "n": 40,
+            "median": 20.06949615,
+            "day_mag": 19.9158096,
+            "brightening_mag": 0.15368654999999976
+          },
+          "previous_month": {
+            "n": 3,
+            "median": 20.0776577,
+            "day_mag": 19.9158096,
+            "brightening_mag": 0.16184810000000027
+          },
+          "april_before": {
+            "n": 4,
+            "median": 20.051946649999998,
+            "day_mag": null,
+            "brightening_mag": null
+          },
+          "april_after": {
+            "n": 3,
+            "median": 20.0695801,
+            "day_mag": null,
+            "brightening_mag": null
+          }
+        },
+        "814211300007728": {
+          "january": {
+            "n": 41,
+            "median": 20.1045876,
+            "day_mag": 20.1210136,
+            "brightening_mag": -0.016426000000002716
+          },
+          "previous_month": {
+            "n": 2,
+            "median": 20.1288576,
+            "day_mag": 20.1210136,
+            "brightening_mag": 0.00784399999999863
+          },
+          "april_before": {
+            "n": 3,
+            "median": 19.9498596,
+            "day_mag": null,
+            "brightening_mag": null
+          },
+          "april_after": {
+            "n": 2,
+            "median": 20.02015495,
+            "day_mag": null,
+            "brightening_mag": null
+          }
+        }
+      },
+      "bright_panel": {
+        "corrected": {
+          "january": {
+            "n": 43,
+            "median": 20.08788295,
+            "day_mag": 19.211852099999998,
+            "brightening_mag": 0.8760308500000029
+          },
+          "previous_month": {
+            "n": 3,
+            "median": 19.826273999999998,
+            "day_mag": 19.211852099999998,
+            "brightening_mag": 0.6144219
+          },
+          "april_before": {
+            "n": 4,
+            "median": 17.298129575,
+            "day_mag": 16.919204699999998,
+            "brightening_mag": 0.3789248750000027
+          },
+          "april_after": {
+            "n": 3,
+            "median": 18.28955845,
+            "day_mag": 16.919204699999998,
+            "brightening_mag": 1.3703537500000031
+          }
+        },
+        "comparison_oids": [
+          "814211300007873",
+          "814211300007581",
+          "814211300007814",
+          "814211300007739"
+        ],
+        "april_control_counts": [
+          4
+        ],
+        "individual": {
+          "814211300007873": {
+            "january": {
+              "n": 51,
+              "median": 17.0487061,
+              "day_mag": 17.0133858,
+              "brightening_mag": 0.03532030000000219
+            },
+            "previous_month": {
+              "n": 4,
+              "median": 17.036327399999998,
+              "day_mag": 17.0133858,
+              "brightening_mag": 0.02294159999999934
+            },
+            "april_before": {
+              "n": 4,
+              "median": 17.0851202,
+              "day_mag": 17.0316734,
+              "brightening_mag": 0.05344679999999968
+            },
+            "april_after": {
+              "n": 3,
+              "median": 17.0332584,
+              "day_mag": 17.0316734,
+              "brightening_mag": 0.001585000000002168
+            }
+          },
+          "814211300007581": {
+            "january": {
+              "n": 51,
+              "median": 16.421011,
+              "day_mag": 16.4289188,
+              "brightening_mag": -0.007907800000001686
+            },
+            "previous_month": {
+              "n": 4,
+              "median": 16.42312905,
+              "day_mag": 16.4289188,
+              "brightening_mag": -0.005789750000001703
+            },
+            "april_before": {
+              "n": 4,
+              "median": 16.4174328,
+              "day_mag": 16.4244118,
+              "brightening_mag": -0.006979000000001179
+            },
+            "april_after": {
+              "n": 3,
+              "median": 16.4128647,
+              "day_mag": 16.4244118,
+              "brightening_mag": -0.011547100000001365
+            }
+          },
+          "814211300007814": {
+            "january": {
+              "n": 51,
+              "median": 16.0924053,
+              "day_mag": 16.1020813,
+              "brightening_mag": -0.009675999999998908
+            },
+            "previous_month": {
+              "n": 4,
+              "median": 16.098295200000003,
+              "day_mag": 16.1020813,
+              "brightening_mag": -0.0037860999999956846
+            },
+            "april_before": {
+              "n": 4,
+              "median": 16.09390355,
+              "day_mag": 16.1141472,
+              "brightening_mag": -0.020243650000001168
+            },
+            "april_after": {
+              "n": 3,
+              "median": 16.0882359,
+              "day_mag": 16.1141472,
+              "brightening_mag": -0.025911300000000637
+            }
+          },
+          "814211300007739": {
+            "january": {
+              "n": 51,
+              "median": 16.0351315,
+              "day_mag": 16.0398903,
+              "brightening_mag": -0.004758800000001173
+            },
+            "previous_month": {
+              "n": 4,
+              "median": 16.034778600000003,
+              "day_mag": 16.0398903,
+              "brightening_mag": -0.005111699999996944
+            },
+            "april_before": {
+              "n": 4,
+              "median": 16.03080655,
+              "day_mag": 16.0367203,
+              "brightening_mag": -0.0059137499999977194
+            },
+            "april_after": {
+              "n": 3,
+              "median": 16.0131397,
+              "day_mag": 16.0367203,
+              "brightening_mag": -0.023580599999998952
+            }
+          }
+        }
+      },
+      "first_return_within_0.3": "2025-10-04",
+      "last_observed": "2025-10-20",
+      "dates_after_first_return": 4,
+      "subsequent_bright_dates": [],
+      "subsequent_pairs": [],
+      "event_context": [
+        [
+          "2025-01-11",
+          19.83766555
+        ],
+        [
+          "2025-01-17",
+          19.8128119
+        ],
+        [
+          "2025-01-19",
+          19.19740865
+        ],
+        [
+          "2025-04-05",
+          17.34515955
+        ],
+        [
+          "2025-04-09",
+          17.401689550000004
+        ],
+        [
+          "2025-04-11",
+          17.4927331
+        ],
+        [
+          "2025-04-21",
+          18.177884575
+        ],
+        [
+          "2025-05-01",
+          18.334541775000005
+        ],
+        [
+          "2025-05-03",
+          18.268930450000003
+        ]
+      ]
+    }
+  },
+  "january_empirical": {
+    "earlier_paired_dates": 267,
+    "as_bright_in_both": [],
+    "first": "2018-04-19",
+    "last": "2025-01-17"
+  }
+}

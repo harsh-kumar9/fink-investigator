@@ -1,0 +1,73 @@
+{
+  "url": "http://www.cetus-net.org/cgi-bin/obs_search.cgi?mode=view&object_name=TCPJ07222683%2B6220548&sdate=20250401&edate=20250430&observer=&tz=UT-VSNET&asfile=Y",
+  "sha256_response": "c92a98c511bc5d7d2c9a451e932b1068a4a5f2062850697d9decf12a2f44d3fd",
+  "retrieved_utc": "2026-11-26T05:29:15+00:00",
+  "total_rows": 195,
+  "coverage": [
+    {
+      "date_utc": "20250401",
+      "observer_code": "San.VSOLJ",
+      "rows": 4
+    },
+    {
+      "date_utc": "20250402",
+      "observer_code": "Myy.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250403",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250403",
+      "observer_code": "Myy.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250406",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250407",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250409",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250414",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250415",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 180
+    },
+    {
+      "date_utc": "20250416",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250426",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250429",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250430",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 1
+    }
+  ]
+}

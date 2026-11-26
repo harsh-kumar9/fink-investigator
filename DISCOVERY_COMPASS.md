@@ -12,16 +12,19 @@ Start with a question whose answer could change after a second measurement. Fink
 | Bright and faint residuals land at different positions | Which source varied, and did the reduction move its centroid? | Learn a direction on early opposite-sign pairs and test later pairs. Propagate Gaia coordinates, separate detector/reference groups, and measure direct positions on the same exposures. [Worked diagnostic](experiments/compass-2025/README.md#where-did-the-position-shift-come-from) |
 | A catalog service failed or a cataloged star looks familiar | Could this position still show unmeasured behavior? | Repeat the missing lookup and preserve its status. Investigate the behavior separately from the name. Matched field stars helped establish a later bright state in ZTF18abqclig. [Service-failure and field-star example](experiments/november-search/README.md) |
 
+For a faint source present in the reference image, compare the signed difference flux, the reference-plus-difference total and the direct source on the very same exposure. A difference magnitude near the quiescent magnitude can mean the star nearly doubled in total flux. A published plot can already contain that measurement. Check the figure, measured baseline and earlier observer records before assigning novelty. [J0722 worked example](experiments/compass-2025/batch-2/README.md)
+
 The first three rows have label-blind routing rules. The fourth has a separate centroid search. The last is a recovery procedure for candidates encountered anywhere in the pipeline. A route score sets review order. It is neither a probability of discovery nor an astrophysical classification.
 
 ## Resume the 2025 queue
 
-To take the next primary cases from the existing 2025 sample, reuse the frozen ranking and pass both reviewed packets. This command works offline. The new report gives each admission its original route rank in the ledger and keeps the earlier results accessible.
+The second round measured the early rise and late brightening of J0722 and tested two known pulsators. There are 62 eligible positions left. To take the next cases, reuse the frozen ranking and pass all three reviewed packets. [Second-round findings](experiments/compass-2025/batch-2/README.md) This command works offline. The new report gives each admission its original route rank in the ledger and keeps the earlier results accessible.
 
 ```sh
 base=experiments/compass-2025
-python3 compass.py --snapshot "$base/snapshot" --out runs/compass-2025-batch-2 \
-  --reviewed-packet "$base/results/packet.json" --reviewed-packet "$base/astrometry/packet.json"
+python3 compass.py --snapshot "$base/snapshot" --out runs/compass-2025-batch-3 \
+  --reviewed-packet "$base/results/packet.json" --reviewed-packet "$base/astrometry/packet.json" \
+  --reviewed-packet "$base/batch-2/results/packet.json"
 ```
 
 ## Run another year

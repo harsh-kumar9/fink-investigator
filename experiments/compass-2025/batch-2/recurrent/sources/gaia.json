@@ -1,0 +1,5 @@
+{
+  "url": "https://gaia.aip.de/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+%2A+FROM+gaiadr3.epoch_photometry+WHERE+source_id%3D4239802740358274688",
+  "retrieved_utc": "2026-11-26T05:26:45+00:00",
+  "sha256_uncompressed": "9b585962a9903c60ec50a71c4ad13250dbade30dd3abe3b484fe9a8428e6e0f8"
+}

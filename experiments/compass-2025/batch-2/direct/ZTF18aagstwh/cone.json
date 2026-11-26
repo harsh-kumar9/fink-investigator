@@ -1,0 +1,5 @@
+{
+  "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+oid%2Cra%2Cdec%2Cfield%2Cccdid%2Cqid%2Cfid%2Cnobs+FROM+ztf_objects_dr24+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C239.6774093%2C51.26364%2C0.000416666667%29%29%3D1+AND+fid+IN+%281%2C2%29",
+  "sha256_uncompressed": "e9f6086e8e73f25a7140d068a49a211db7b273bea6e1c3462971f7ea8441429f",
+  "retrieved_utc": "2026-11-26T05:19:56+00:00"
+}

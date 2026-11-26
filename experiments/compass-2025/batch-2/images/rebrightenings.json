@@ -1,0 +1,152 @@
+[
+  {
+    "date": "2025-01-19",
+    "band": "g",
+    "candid": "2940263864215015037",
+    "gaia_id": "1087501559186713472",
+    "difference_mag": 20.112612,
+    "difference_magerr": 0.18632655,
+    "difference_xy_arcsec": [
+      -0.04,
+      0.158
+    ],
+    "difference_separation_arcsec": 0.163,
+    "next_gaia_separation_arcsec": 33.386,
+    "direct": {
+      "expid": "294026386",
+      "magnitude": 19.2796803,
+      "magerr": 0.0669733062,
+      "xy_arcsec": [
+        0.085,
+        0.147
+      ],
+      "separation_arcsec": 0.17,
+      "difference_to_direct_arcsec": 0.126
+    }
+  },
+  {
+    "date": "2025-01-19",
+    "band": "r",
+    "candid": "2940403904215015014",
+    "gaia_id": "1087501559186713472",
+    "difference_mag": 19.902603,
+    "difference_magerr": 0.16792953,
+    "difference_xy_arcsec": [
+      -0.088,
+      0.259
+    ],
+    "difference_separation_arcsec": 0.273,
+    "next_gaia_separation_arcsec": 33.331,
+    "direct": {
+      "expid": "294040390",
+      "magnitude": 19.2181854,
+      "magerr": 0.0673115924,
+      "xy_arcsec": [
+        0.022,
+        0.125
+      ],
+      "separation_arcsec": 0.127,
+      "difference_to_direct_arcsec": 0.173
+    }
+  },
+  {
+    "date": "2025-02-10",
+    "band": "g",
+    "candid": "2962379084215015008",
+    "gaia_id": "1087501559186713472",
+    "difference_mag": 13.37134,
+    "difference_magerr": 0.021746919,
+    "difference_xy_arcsec": [
+      0.051,
+      0.031
+    ],
+    "difference_separation_arcsec": 0.059,
+    "next_gaia_separation_arcsec": 33.438,
+    "direct": {
+      "expid": "296237908",
+      "magnitude": 13.4125509,
+      "magerr": 0.0110544376,
+      "xy_arcsec": [
+        0.076,
+        0.141
+      ],
+      "separation_arcsec": 0.16,
+      "difference_to_direct_arcsec": 0.113
+    }
+  },
+  {
+    "date": "2025-02-20",
+    "band": "g",
+    "candid": "2972399424215015015",
+    "gaia_id": "1087501559186713472",
+    "difference_mag": 14.118486,
+    "difference_magerr": 0.020679874,
+    "difference_xy_arcsec": [
+      0.058,
+      -0.01
+    ],
+    "difference_separation_arcsec": 0.059,
+    "next_gaia_separation_arcsec": 33.467,
+    "direct": {
+      "expid": "297239942",
+      "magnitude": 14.1547422,
+      "magerr": 0.011188793,
+      "xy_arcsec": [
+        0.065,
+        0.128
+      ],
+      "separation_arcsec": 0.144,
+      "difference_to_direct_arcsec": 0.138
+    }
+  },
+  {
+    "date": "2025-04-16",
+    "band": "g",
+    "candid": "3027177754215015008",
+    "gaia_id": "1087501559186713472",
+    "difference_mag": 16.474743,
+    "difference_magerr": 0.03814985,
+    "difference_xy_arcsec": [
+      0.039,
+      0.04
+    ],
+    "difference_separation_arcsec": 0.055,
+    "next_gaia_separation_arcsec": 33.438,
+    "direct": {
+      "expid": "302717775",
+      "magnitude": 16.4225388,
+      "magerr": 0.0145370159,
+      "xy_arcsec": [
+        0.054,
+        0.03
+      ],
+      "separation_arcsec": 0.062,
+      "difference_to_direct_arcsec": 0.018
+    }
+  },
+  {
+    "date": "2025-04-16",
+    "band": "r",
+    "candid": "3027256524215015009",
+    "gaia_id": "1087501559186713472",
+    "difference_mag": 16.94974,
+    "difference_magerr": 0.035391837,
+    "difference_xy_arcsec": [
+      0.021,
+      0.038
+    ],
+    "difference_separation_arcsec": 0.043,
+    "next_gaia_separation_arcsec": 33.449,
+    "direct": {
+      "expid": "302725652",
+      "magnitude": 16.9216995,
+      "magerr": 0.0145714665,
+      "xy_arcsec": [
+        0.028,
+        0.091
+      ],
+      "separation_arcsec": 0.096,
+      "difference_to_direct_arcsec": 0.054
+    }
+  }
+]

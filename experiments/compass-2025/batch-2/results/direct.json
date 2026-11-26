@@ -1,0 +1,210 @@
+{
+  "ZTF25aacfjde": {
+    "route": "onset",
+    "cone_series": 4,
+    "chosen_series": {
+      "1": {
+        "oid": "814111300004931",
+        "ra": "110.6126123",
+        "dec": "62.3491326",
+        "field": "814",
+        "ccdid": "11",
+        "qid": "3",
+        "fid": "1",
+        "nobs": "712",
+        "separation_arcsec": 0.027586
+      },
+      "2": {
+        "oid": "814211300007783",
+        "ra": "110.6126549",
+        "dec": "62.3491221",
+        "field": "814",
+        "ccdid": "11",
+        "qid": "3",
+        "fid": "2",
+        "nobs": "782",
+        "separation_arcsec": 0.053109
+      }
+    },
+    "bands": {
+      "g": {
+        "before_or_at_anchor_dates": 375,
+        "later_dates": 27,
+        "last_quality_date": "2025-10-20",
+        "off_alert": {
+          "dates": 372,
+          "median_mag": 20.012658575
+        },
+        "baseline": {
+          "dates": 34,
+          "median_mag": 19.98232745
+        },
+        "event": {
+          "dates": 3,
+          "median_mag": 18.3212299
+        },
+        "baseline_minus_event_mag": 1.6611
+      },
+      "r": {
+        "before_or_at_anchor_dates": 424,
+        "later_dates": 30,
+        "last_quality_date": "2025-10-20",
+        "off_alert": {
+          "dates": 422,
+          "median_mag": 20.094508175
+        },
+        "baseline": {
+          "dates": 36,
+          "median_mag": 20.0721445
+        },
+        "event": {
+          "dates": 2,
+          "median_mag": 18.6495142
+        },
+        "baseline_minus_event_mag": null
+      }
+    }
+  },
+  "ZTF18aagstwh": {
+    "route": "fading",
+    "cone_series": 7,
+    "chosen_series": {
+      "2": {
+        "oid": "761216100001403",
+        "ra": "239.6774768",
+        "dec": "51.2636446",
+        "field": "761",
+        "ccdid": "16",
+        "qid": "1",
+        "fid": "2",
+        "nobs": "1832",
+        "separation_arcsec": 0.152953
+      },
+      "1": {
+        "oid": "761116100000609",
+        "ra": "239.6774773",
+        "dec": "51.2636560",
+        "field": "761",
+        "ccdid": "16",
+        "qid": "1",
+        "fid": "1",
+        "nobs": "2039",
+        "separation_arcsec": 0.163652
+      }
+    },
+    "bands": {
+      "g": {
+        "before_or_at_anchor_dates": 876,
+        "later_dates": 21,
+        "last_quality_date": "2025-10-21",
+        "off_alert": {
+          "dates": 534,
+          "median_mag": 17.6054726
+        },
+        "positive": {
+          "dates": 181,
+          "median_mag": 17.076973
+        },
+        "negative": {
+          "dates": 154,
+          "median_mag": 17.776642825
+        },
+        "negative_minus_positive_mag": 0.6997
+      },
+      "r": {
+        "before_or_at_anchor_dates": 858,
+        "later_dates": 17,
+        "last_quality_date": "2025-10-17",
+        "off_alert": {
+          "dates": 491,
+          "median_mag": 17.305294
+        },
+        "positive": {
+          "dates": 102,
+          "median_mag": 16.89039995
+        },
+        "negative": {
+          "dates": 256,
+          "median_mag": 17.465456975000002
+        },
+        "negative_minus_positive_mag": 0.5751
+      }
+    }
+  },
+  "ZTF18abmfrjj": {
+    "route": "recurrent",
+    "cone_series": 4,
+    "chosen_series": {
+      "2": {
+        "oid": "489202300031045",
+        "ra": "295.8637993",
+        "dec": "1.2236352",
+        "field": "489",
+        "ccdid": "2",
+        "qid": "3",
+        "fid": "2",
+        "nobs": "1303",
+        "separation_arcsec": 0.046529
+      },
+      "1": {
+        "oid": "489102300045236",
+        "ra": "295.8638147",
+        "dec": "1.2236125",
+        "field": "489",
+        "ccdid": "2",
+        "qid": "3",
+        "fid": "1",
+        "nobs": "503",
+        "separation_arcsec": 0.059036
+      }
+    },
+    "bands": {
+      "g": {
+        "before_or_at_anchor_dates": 413,
+        "later_dates": 5,
+        "last_quality_date": "2025-10-21",
+        "off_alert": {
+          "dates": 200,
+          "median_mag": 18.66121675
+        },
+        "early": {
+          "dates": 2,
+          "median_mag": 16.4259186
+        },
+        "late": {
+          "dates": 2,
+          "median_mag": 13.5946093
+        },
+        "outside": {
+          "dates": 409,
+          "median_mag": 17.6312485
+        },
+        "outside_minus_early_mag": 1.2053,
+        "outside_minus_late_mag": 4.0366
+      },
+      "r": {
+        "before_or_at_anchor_dates": 483,
+        "later_dates": 0,
+        "last_quality_date": "2025-10-04",
+        "off_alert": {
+          "dates": 286,
+          "median_mag": 14.54352375
+        },
+        "early": {
+          "dates": 1,
+          "median_mag": 13.5037451
+        },
+        "late": {
+          "dates": 1,
+          "median_mag": 11.6666222
+        },
+        "outside": {
+          "dates": 481,
+          "median_mag": 14.71002725
+        },
+        "outside_minus_early_mag": null,
+        "outside_minus_late_mag": null
+      }
+    }
+  }
+}

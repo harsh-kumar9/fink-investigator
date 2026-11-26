@@ -1,0 +1,28 @@
+{
+  "url": "http://www.cetus-net.org/cgi-bin/obs_search.cgi?mode=view&object_name=TCPJ07222683%2B6220548&sdate=20250117&edate=20250121&observer=&tz=UT-VSNET&asfile=Y",
+  "sha256_response": "654e81a0bcebc14e4f04852373acb2c073f24a8ae5b3876308da1862de6c10d1",
+  "retrieved_utc": "2026-11-26T05:29:15+00:00",
+  "total_rows": 785,
+  "coverage": [
+    {
+      "date_utc": "20250121",
+      "observer_code": "Hsk.VSOLJ",
+      "rows": 1
+    },
+    {
+      "date_utc": "20250121",
+      "observer_code": "Ioh.VSOLJ",
+      "rows": 524
+    },
+    {
+      "date_utc": "20250121",
+      "observer_code": "Myy.VSOLJ",
+      "rows": 2
+    },
+    {
+      "date_utc": "20250121",
+      "observer_code": "San.VSOLJ",
+      "rows": 258
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ZTF25aacfjde",
+  "selection": "Earliest and middle usable prior dates in the alert band, plus the alert.",
+  "epochs": [
+    {
+      "date_utc": "2025-02-20",
+      "jd": 2460726.8994213,
+      "candid": "2972399424215015015",
+      "filter": 1,
+      "isdiffpos": "t",
+      "diff_mag": 14.118486,
+      "images": [
+        {
+          "kind": "Science",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF25aacfjde&candid=2972399424215015015&kind=Science",
+          "file": "2972399424215015015-science.png",
+          "sha256": "e605ac3b8136c600db7b36ef7e04bbeba33d42ce4dccc7ff556f5296464d840f"
+        },
+        {
+          "kind": "Template",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF25aacfjde&candid=2972399424215015015&kind=Template",
+          "file": "2972399424215015015-template.png",
+          "sha256": "8a105259e6cf6733974f13e9ba13cada42f530f04c1bae05c0d565cf4b6701ac"
+        },
+        {
+          "kind": "Difference",
+          "url": "https://api.ztf.fink-portal.org/api/v1/cutouts?objectId=ZTF25aacfjde&candid=2972399424215015015&kind=Difference",
+          "file": "2972399424215015015-difference.png",
+          "sha256": "86a7324a5fdc339f37dfb51d44c7076e9ea3e6fbe7426a1d9fe1361e9092d857"
+        }
+      ]
+    }
+  ]
+}

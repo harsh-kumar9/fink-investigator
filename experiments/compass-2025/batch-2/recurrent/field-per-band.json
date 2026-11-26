@@ -1,0 +1,66 @@
+{
+  "controls": [
+    {
+      "red": "489202300030583",
+      "green": "489102300020755",
+      "r_mag": 14.37057,
+      "g_mag": 17.31122,
+      "red_distance": 29.7986,
+      "green_distance": 25.3912
+    },
+    {
+      "red": "489202300031498",
+      "green": "489102300020654",
+      "r_mag": 14.99039,
+      "g_mag": 17.95036,
+      "red_distance": 29.8993,
+      "green_distance": 30.0855
+    },
+    {
+      "red": "489202300029937",
+      "green": "489102300021029",
+      "r_mag": 15.24425,
+      "g_mag": 16.84768,
+      "red_distance": 62.5016,
+      "green_distance": 37.1355
+    }
+  ],
+  "bands": {
+    "r": {
+      "target": {
+        "n": 161,
+        "start": "2023-08-07",
+        "end": "2025-10-04",
+        "error_reduction": 0.921387,
+        "spearman": 0.939553,
+        "passes": true
+      },
+      "corrected": {
+        "n": 161,
+        "start": "2023-08-07",
+        "end": "2025-10-04",
+        "error_reduction": 0.921266,
+        "spearman": 0.940433,
+        "passes": true
+      }
+    },
+    "g": {
+      "target": {
+        "n": 148,
+        "start": "2023-08-07",
+        "end": "2025-10-06",
+        "error_reduction": 0.826636,
+        "spearman": 0.868685,
+        "passes": true
+      },
+      "corrected": {
+        "n": 148,
+        "start": "2023-08-07",
+        "end": "2025-10-06",
+        "error_reduction": 0.826715,
+        "spearman": 0.866745,
+        "passes": true
+      }
+    }
+  }
+}
