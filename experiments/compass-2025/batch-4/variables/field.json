@@ -1,0 +1,3912 @@
+{
+  "ZTF17aabutiy": {
+    "state_boundary": "2021-02-15",
+    "primary": {
+      "r": {
+        "primary_oid": "802201400006442",
+        "uncorrected": {
+          "outside_n": 528,
+          "outside_q20_q50_q80": [
+            17.97432364,
+            19.938718799999997,
+            20.33434068
+          ],
+          "windows": {
+            "before": {
+              "n": 44,
+              "first": "2020-08-20",
+              "last": "2021-01-15",
+              "max_internal_gap": 13,
+              "q20_q50_q80": [
+                17.7156,
+                19.77308,
+                20.39221
+              ],
+              "bright": 15,
+              "faint": 11,
+              "complete_bins_with_3_nights": 5,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.32778,
+                0.25278
+              ]
+            },
+            "after": {
+              "n": 34,
+              "first": "2021-04-01",
+              "last": "2021-08-04",
+              "max_internal_gap": 9,
+              "q20_q50_q80": [
+                17.77284,
+                20.10758,
+                20.3853
+              ],
+              "bright": 9,
+              "faint": 12,
+              "complete_bins_with_3_nights": 4,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.23931,
+                0.35687
+              ]
+            }
+          },
+          "bin_contrast": {
+            "earlier_bin_starts": [
+              "2020-08-19",
+              "2020-09-18",
+              "2020-10-18",
+              "2020-11-17",
+              "2020-12-17"
+            ],
+            "later_bin_starts": [
+              "2021-04-16",
+              "2021-05-16",
+              "2021-06-15",
+              "2021-07-15"
+            ],
+            "before_bins": 5,
+            "after_bins": 4,
+            "after_minus_before_mag": 1.36197,
+            "leave_one_bin_out_range": [
+              0.62844,
+              1.56732
+            ]
+          }
+        },
+        "field_objects": [
+          {
+            "oid": "802201400006394",
+            "ra": "329.5709653",
+            "dec": "51.8397108",
+            "field": "802",
+            "ccdid": "1",
+            "qid": "4",
+            "fid": "2",
+            "nobs": "850",
+            "meanmag": "2.022303e+01"
+          },
+          {
+            "oid": "802201400047417",
+            "ra": "329.5675900",
+            "dec": "51.8337996",
+            "field": "802",
+            "ccdid": "1",
+            "qid": "4",
+            "fid": "2",
+            "nobs": "1044",
+            "meanmag": "1.928345e+01"
+          },
+          {
+            "oid": "802201400065728",
+            "ra": "329.5661790",
+            "dec": "51.8336893",
+            "field": "802",
+            "ccdid": "1",
+            "qid": "4",
+            "fid": "2",
+            "nobs": "895",
+            "meanmag": "1.967228e+01"
+          }
+        ],
+        "field_corrected": {
+          "outside_n": 502,
+          "outside_q20_q50_q80": [
+            18.008695225,
+            19.948051975,
+            20.351257175
+          ],
+          "windows": {
+            "before": {
+              "n": 42,
+              "first": "2020-08-20",
+              "last": "2021-01-15",
+              "max_internal_gap": 18,
+              "q20_q50_q80": [
+                17.76229,
+                19.87127,
+                20.40984
+              ],
+              "bright": 13,
+              "faint": 10,
+              "complete_bins_with_3_nights": 5,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.27778,
+                0.21944
+              ]
+            },
+            "after": {
+              "n": 32,
+              "first": "2021-04-10",
+              "last": "2021-08-04",
+              "max_internal_gap": 8,
+              "q20_q50_q80": [
+                17.87028,
+                20.14124,
+                20.37456
+              ],
+              "bright": 10,
+              "faint": 8,
+              "complete_bins_with_3_nights": 4,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.3171,
+                0.22998
+              ]
+            }
+          },
+          "bin_contrast": {
+            "earlier_bin_starts": [
+              "2020-08-19",
+              "2020-09-18",
+              "2020-10-18",
+              "2020-11-17",
+              "2020-12-17"
+            ],
+            "later_bin_starts": [
+              "2021-04-16",
+              "2021-05-16",
+              "2021-06-15",
+              "2021-07-15"
+            ],
+            "before_bins": 5,
+            "after_bins": 4,
+            "after_minus_before_mag": 0.82672,
+            "leave_one_bin_out_range": [
+              0.36103,
+              1.07034
+            ]
+          }
+        },
+        "coverage": {
+          "before": {
+            "field_dates": 55,
+            "target_dates": 42,
+            "bright_dates": 13,
+            "bright_fraction_range": [
+              0.23636,
+              0.47273
+            ],
+            "median_limitmag": 20.36,
+            "field_calendar": {
+              "2020-08-19": {
+                "expid": "132629504",
+                "limitmag": 20.83,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-08-20": {
+                "expid": "132743207",
+                "limitmag": 20.76,
+                "target_mag": 20.0981178,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-08-23": {
+                "expid": "133029170",
+                "limitmag": 20.66,
+                "target_mag": 20.4979076,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-08-25": {
+                "expid": "133234596",
+                "limitmag": 21.05,
+                "target_mag": 20.5625782,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-08-26": {
+                "expid": "133328864",
+                "limitmag": 20.77,
+                "target_mag": 20.4065971,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-08-29": {
+                "expid": "133645010",
+                "limitmag": 20.74,
+                "target_mag": 17.8445683,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-08-31": {
+                "expid": "133822466",
+                "limitmag": 20.22,
+                "target_mag": 17.7811012,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-09-01": {
+                "expid": "133934234",
+                "limitmag": 20.07,
+                "target_mag": 17.7579899,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-09-02": {
+                "expid": "134033135",
+                "limitmag": 19.74,
+                "target_mag": 17.3746071,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-09-04": {
+                "expid": "134230002",
+                "limitmag": 20.2,
+                "target_mag": 17.4515877,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-09-05": {
+                "expid": "134326368",
+                "limitmag": 19.98,
+                "target_mag": 17.5295429,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-09-06": {
+                "expid": "134437059",
+                "limitmag": 20.31,
+                "target_mag": 17.7209511,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2020-09-07": {
+                "expid": "134532187",
+                "limitmag": 20.32,
+                "target_mag": 18.206953,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-09-14": {
+                "expid": "135222061",
+                "limitmag": 20.25,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-09-17": {
+                "expid": "135517613",
+                "limitmag": 20.15,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-09-20": {
+                "expid": "135819662",
+                "limitmag": 20.9,
+                "target_mag": 20.537426,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-21": {
+                "expid": "135932108",
+                "limitmag": 20.79,
+                "target_mag": 20.1608009,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-23": {
+                "expid": "136127471",
+                "limitmag": 20.89,
+                "target_mag": 19.941143,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-26": {
+                "expid": "136423557",
+                "limitmag": 20.77,
+                "target_mag": 18.0953674,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-09-27": {
+                "expid": "136517092",
+                "limitmag": 20.42,
+                "target_mag": 18.7198906,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-30": {
+                "expid": "136820743",
+                "limitmag": 19.9,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-01": {
+                "expid": "136930521",
+                "limitmag": 19.67,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-02": {
+                "expid": "137026041",
+                "limitmag": 20.07,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-10-03": {
+                "expid": "137128991",
+                "limitmag": 20.25,
+                "target_mag": 20.5733356,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-10-04": {
+                "expid": "137234096",
+                "limitmag": 20.06,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-10-07": {
+                "expid": "137520862",
+                "limitmag": 20.39,
+                "target_mag": 20.5445175,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-10-12": {
+                "expid": "138017663",
+                "limitmag": 20.68,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-14": {
+                "expid": "138215773",
+                "limitmag": 20.45,
+                "target_mag": 20.5644875,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-10-16": {
+                "expid": "138413906",
+                "limitmag": 20.94,
+                "target_mag": 17.635601,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-10-18": {
+                "expid": "138614431",
+                "limitmag": 21.12,
+                "target_mag": 17.8304672,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-10-22": {
+                "expid": "139019707",
+                "limitmag": 20.97,
+                "target_mag": 20.1968498,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-10-27": {
+                "expid": "139511099",
+                "limitmag": 19.38,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-29": {
+                "expid": "139711657",
+                "limitmag": 20.16,
+                "target_mag": 18.6937428,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-10-31": {
+                "expid": "139911291",
+                "limitmag": 20.28,
+                "target_mag": 17.7713814,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-11-02": {
+                "expid": "140109350",
+                "limitmag": 20.6,
+                "target_mag": 17.308815,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-11-04": {
+                "expid": "140311707",
+                "limitmag": 20.98,
+                "target_mag": 17.4178429,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-11-11": {
+                "expid": "141013561",
+                "limitmag": 20.76,
+                "target_mag": 20.0894775,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-14": {
+                "expid": "141320035",
+                "limitmag": 20.7,
+                "target_mag": 20.2382336,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-16": {
+                "expid": "141517766",
+                "limitmag": 20.21,
+                "target_mag": 20.3818893,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-11-18": {
+                "expid": "141711666",
+                "limitmag": 21.06,
+                "target_mag": 20.3496342,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-20": {
+                "expid": "141912086",
+                "limitmag": 20.71,
+                "target_mag": 19.8266754,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-24": {
+                "expid": "142309856",
+                "limitmag": 20.32,
+                "target_mag": 19.0009594,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-11-26": {
+                "expid": "142509395",
+                "limitmag": 20.6,
+                "target_mag": 20.2688084,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-30": {
+                "expid": "142907954",
+                "limitmag": 20.06,
+                "target_mag": 20.2587624,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-12-02": {
+                "expid": "143113518",
+                "limitmag": 20.37,
+                "target_mag": 20.6674156,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-12-04": {
+                "expid": "143315692",
+                "limitmag": 20.05,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-12-11": {
+                "expid": "144011496",
+                "limitmag": 20.28,
+                "target_mag": 20.4164104,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-12-15": {
+                "expid": "144412064",
+                "limitmag": 20.36,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-12-16": {
+                "expid": "144511886",
+                "limitmag": 20.42,
+                "target_mag": 20.3119774,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-12-19": {
+                "expid": "144814002",
+                "limitmag": 19.96,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-12-20": {
+                "expid": "144912452",
+                "limitmag": 20.2,
+                "target_mag": 19.7194862,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-12-22": {
+                "expid": "145114275",
+                "limitmag": 20.63,
+                "target_mag": 17.6748581,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-01-05": {
+                "expid": "146514267",
+                "limitmag": 20.09,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-01-09": {
+                "expid": "146911846",
+                "limitmag": 19.99,
+                "target_mag": 20.4076881,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-01-15": {
+                "expid": "147511819",
+                "limitmag": 19.51,
+                "target_mag": 18.8584824,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              }
+            }
+          },
+          "after": {
+            "field_dates": 36,
+            "target_dates": 32,
+            "bright_dates": 8,
+            "bright_fraction_range": [
+              0.22222,
+              0.33333
+            ],
+            "median_limitmag": 20.585,
+            "field_calendar": {
+              "2021-04-10": {
+                "expid": "156047179",
+                "limitmag": 20.29,
+                "target_mag": 20.4622269,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-04-16": {
+                "expid": "156648784",
+                "limitmag": 20.36,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-04-18": {
+                "expid": "156847146",
+                "limitmag": 20.25,
+                "target_mag": 20.3351803,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-04-25": {
+                "expid": "157545503",
+                "limitmag": 20.02,
+                "target_mag": 19.9060497,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-05-03": {
+                "expid": "158347078",
+                "limitmag": 20.27,
+                "target_mag": 20.0902081,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-05-05": {
+                "expid": "158547366",
+                "limitmag": 20.97,
+                "target_mag": 20.3525066,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-05-07": {
+                "expid": "158745721",
+                "limitmag": 20.34,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-05-12": {
+                "expid": "159243423",
+                "limitmag": 20.8,
+                "target_mag": 17.5760803,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-05-15": {
+                "expid": "159546991",
+                "limitmag": 20.47,
+                "target_mag": 18.0280895,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-05-19": {
+                "expid": "159945592",
+                "limitmag": 20.56,
+                "target_mag": 20.3534393,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-05-22": {
+                "expid": "160240697",
+                "limitmag": 20.21,
+                "target_mag": 20.0809059,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-05-25": {
+                "expid": "160542667",
+                "limitmag": 20.09,
+                "target_mag": 20.6067867,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-05-30": {
+                "expid": "161045555",
+                "limitmag": 20.62,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-02": {
+                "expid": "161340356",
+                "limitmag": 20.54,
+                "target_mag": 17.485611,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2021-06-04": {
+                "expid": "161544996",
+                "limitmag": 20.81,
+                "target_mag": 17.2925987,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2021-06-06": {
+                "expid": "161745056",
+                "limitmag": 21.2,
+                "target_mag": 17.4767532,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-06-08": {
+                "expid": "161941370",
+                "limitmag": 20.81,
+                "target_mag": 18.0104942,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-06-11": {
+                "expid": "162245137",
+                "limitmag": 20.18,
+                "target_mag": 20.113287,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-12": {
+                "expid": "162342739",
+                "limitmag": 20.94,
+                "target_mag": 20.1958542,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-13": {
+                "expid": "162438831",
+                "limitmag": 20.82,
+                "target_mag": 20.389658,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-14": {
+                "expid": "162540684",
+                "limitmag": 20.82,
+                "target_mag": 20.3226299,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-17": {
+                "expid": "162844868",
+                "limitmag": 20.87,
+                "target_mag": 20.6860313,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-20": {
+                "expid": "163136665",
+                "limitmag": 20.41,
+                "target_mag": 20.3824005,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-06-21": {
+                "expid": "163240571",
+                "limitmag": 20.48,
+                "target_mag": 20.1351128,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-25": {
+                "expid": "163636559",
+                "limitmag": 20.16,
+                "target_mag": 17.8690605,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2021-06-28": {
+                "expid": "163940408",
+                "limitmag": 20.2,
+                "target_mag": 19.83815,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-07-02": {
+                "expid": "164338292",
+                "limitmag": 20.83,
+                "target_mag": 20.432972,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-05": {
+                "expid": "164643024",
+                "limitmag": 20.32,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-07-07": {
+                "expid": "164840016",
+                "limitmag": 20.61,
+                "target_mag": 20.4187088,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-15": {
+                "expid": "165640342",
+                "limitmag": 20.99,
+                "target_mag": 17.6862583,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-07-17": {
+                "expid": "165840138",
+                "limitmag": 21.02,
+                "target_mag": 17.3832722,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-07-20": {
+                "expid": "166138969",
+                "limitmag": 20.84,
+                "target_mag": 17.8305664,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2021-07-23": {
+                "expid": "166438320",
+                "limitmag": 19.88,
+                "target_mag": 19.5128574,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-07-29": {
+                "expid": "167032320",
+                "limitmag": 20.72,
+                "target_mag": 20.2857838,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-02": {
+                "expid": "167434834",
+                "limitmag": 20.87,
+                "target_mag": 20.1018658,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-04": {
+                "expid": "167635052",
+                "limitmag": 20.96,
+                "target_mag": 20.6577511,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              }
+            }
+          }
+        },
+        "control_series": {
+          "802201400006394": {
+            "outside_n": 493,
+            "outside_q20_q50_q80": [
+              20.13744582,
+              20.2381573,
+              20.33499182
+            ],
+            "windows": {
+              "before": {
+                "n": 44,
+                "first": "2020-08-19",
+                "last": "2021-01-09",
+                "max_internal_gap": 14,
+                "q20_q50_q80": [
+                  20.05786,
+                  20.21317,
+                  20.30476
+                ],
+                "bright": 16,
+                "faint": 7,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.38598,
+                  0.17761
+                ]
+              },
+              "after": {
+                "n": 34,
+                "first": "2021-04-10",
+                "last": "2021-08-04",
+                "max_internal_gap": 8,
+                "q20_q50_q80": [
+                  20.15364,
+                  20.26089,
+                  20.32845
+                ],
+                "bright": 5,
+                "faint": 5,
+                "complete_bins_with_3_nights": 4,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.14367,
+                  0.1526
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2020-08-19",
+                "2020-09-18",
+                "2020-10-18",
+                "2020-11-17",
+                "2020-12-17"
+              ],
+              "later_bin_starts": [
+                "2021-04-16",
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "before_bins": 5,
+              "after_bins": 4,
+              "after_minus_before_mag": 0.08393,
+              "leave_one_bin_out_range": [
+                0.06564,
+                0.08998
+              ]
+            }
+          },
+          "802201400047417": {
+            "outside_n": 580,
+            "outside_q20_q50_q80": [
+              19.22774736,
+              19.28255085,
+              19.33581466
+            ],
+            "windows": {
+              "before": {
+                "n": 57,
+                "first": "2020-08-19",
+                "last": "2021-01-15",
+                "max_internal_gap": 9,
+                "q20_q50_q80": [
+                  19.22359,
+                  19.28113,
+                  19.3668
+                ],
+                "bright": 13,
+                "faint": 18,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.2232,
+                  0.34208
+                ]
+              },
+              "after": {
+                "n": 37,
+                "first": "2021-04-01",
+                "last": "2021-08-04",
+                "max_internal_gap": 9,
+                "q20_q50_q80": [
+                  19.22501,
+                  19.2677,
+                  19.34299
+                ],
+                "bright": 9,
+                "faint": 10,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.2882,
+                  0.27835
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2020-08-19",
+                "2020-09-18",
+                "2020-10-18",
+                "2020-11-17",
+                "2020-12-17"
+              ],
+              "later_bin_starts": [
+                "2021-03-17",
+                "2021-04-16",
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "before_bins": 5,
+              "after_bins": 5,
+              "after_minus_before_mag": -0.00967,
+              "leave_one_bin_out_range": [
+                -0.03009,
+                -0.00743
+              ]
+            }
+          },
+          "802201400065728": {
+            "outside_n": 509,
+            "outside_q20_q50_q80": [
+              19.60281296,
+              19.6734047,
+              19.75228536
+            ],
+            "windows": {
+              "before": {
+                "n": 48,
+                "first": "2020-08-19",
+                "last": "2021-01-15",
+                "max_internal_gap": 14,
+                "q20_q50_q80": [
+                  19.60941,
+                  19.66313,
+                  19.73355
+                ],
+                "bright": 8,
+                "faint": 6,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.18571,
+                  0.12958
+                ]
+              },
+              "after": {
+                "n": 30,
+                "first": "2021-04-10",
+                "last": "2021-08-02",
+                "max_internal_gap": 8,
+                "q20_q50_q80": [
+                  19.59553,
+                  19.64437,
+                  19.72276
+                ],
+                "bright": 7,
+                "faint": 3,
+                "complete_bins_with_3_nights": 4,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.2053,
+                  0.09416
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2020-08-19",
+                "2020-09-18",
+                "2020-10-18",
+                "2020-11-17",
+                "2020-12-17"
+              ],
+              "later_bin_starts": [
+                "2021-04-16",
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "before_bins": 5,
+              "after_bins": 4,
+              "after_minus_before_mag": -0.01123,
+              "leave_one_bin_out_range": [
+                -0.01779,
+                -0.00124
+              ]
+            }
+          }
+        }
+      },
+      "g": {
+        "primary_oid": "803104300005499",
+        "uncorrected": {
+          "outside_n": 406,
+          "outside_q20_q50_q80": [
+            18.0334625,
+            20.350118600000002,
+            20.9576797
+          ],
+          "windows": {
+            "before": {
+              "n": 38,
+              "first": "2020-08-19",
+              "last": "2021-01-18",
+              "max_internal_gap": 16,
+              "q20_q50_q80": [
+                17.89854,
+                18.71682,
+                20.85167
+              ],
+              "bright": 12,
+              "faint": 5,
+              "complete_bins_with_3_nights": 5,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.31944,
+                0.1
+              ]
+            },
+            "after": {
+              "n": 24,
+              "first": "2021-04-21",
+              "last": "2021-08-12",
+              "max_internal_gap": 42,
+              "q20_q50_q80": [
+                17.92702,
+                20.07379,
+                20.98805
+              ],
+              "bright": 6,
+              "faint": 6,
+              "complete_bins_with_3_nights": 3,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.26667,
+                0.2537
+              ]
+            }
+          },
+          "bin_contrast": {
+            "earlier_bin_starts": [
+              "2020-08-19",
+              "2020-09-18",
+              "2020-10-18",
+              "2020-11-17",
+              "2020-12-17"
+            ],
+            "later_bin_starts": [
+              "2021-05-16",
+              "2021-06-15",
+              "2021-07-15"
+            ],
+            "before_bins": 5,
+            "after_bins": 3,
+            "after_minus_before_mag": 2.005,
+            "leave_one_bin_out_range": [
+              0.68989,
+              2.07
+            ]
+          }
+        },
+        "field_objects": [
+          {
+            "oid": "803104300005516",
+            "ra": "329.5748855",
+            "dec": "51.8390624",
+            "field": "803",
+            "ccdid": "4",
+            "qid": "3",
+            "fid": "1",
+            "nobs": "763",
+            "meanmag": "1.896420e+01"
+          },
+          {
+            "oid": "803104300005762",
+            "ra": "329.5660989",
+            "dec": "51.8336995",
+            "field": "803",
+            "ccdid": "4",
+            "qid": "3",
+            "fid": "1",
+            "nobs": "451",
+            "meanmag": "2.053399e+01"
+          },
+          {
+            "oid": "803104300042312",
+            "ra": "329.5618843",
+            "dec": "51.8326752",
+            "field": "803",
+            "ccdid": "4",
+            "qid": "3",
+            "fid": "1",
+            "nobs": "724",
+            "meanmag": "1.908363e+01"
+          }
+        ],
+        "field_corrected": {
+          "outside_n": 399,
+          "outside_q20_q50_q80": [
+            18.072185735,
+            20.429457199999998,
+            20.956193520000003
+          ],
+          "windows": {
+            "before": {
+              "n": 35,
+              "first": "2020-08-19",
+              "last": "2021-01-18",
+              "max_internal_gap": 20,
+              "q20_q50_q80": [
+                17.96065,
+                18.93133,
+                20.91622
+              ],
+              "bright": 11,
+              "faint": 7,
+              "complete_bins_with_3_nights": 4,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.29338,
+                0.227
+              ]
+            },
+            "after": {
+              "n": 24,
+              "first": "2021-04-21",
+              "last": "2021-08-12",
+              "max_internal_gap": 42,
+              "q20_q50_q80": [
+                17.92976,
+                20.01102,
+                20.98877
+              ],
+              "bright": 6,
+              "faint": 7,
+              "complete_bins_with_3_nights": 3,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.26667,
+                0.29074
+              ]
+            }
+          },
+          "bin_contrast": {
+            "earlier_bin_starts": [
+              "2020-08-19",
+              "2020-09-18",
+              "2020-10-18",
+              "2020-11-17"
+            ],
+            "later_bin_starts": [
+              "2021-05-16",
+              "2021-06-15",
+              "2021-07-15"
+            ],
+            "before_bins": 4,
+            "after_bins": 3,
+            "after_minus_before_mag": 1.73163,
+            "leave_one_bin_out_range": [
+              0.4194,
+              2.04534
+            ]
+          }
+        },
+        "coverage": {
+          "before": {
+            "field_dates": 50,
+            "target_dates": 35,
+            "bright_dates": 11,
+            "bright_fraction_range": [
+              0.22,
+              0.52
+            ],
+            "median_limitmag": 20.645,
+            "field_calendar": {
+              "2020-08-19": {
+                "expid": "132638770",
+                "limitmag": 21.15,
+                "target_mag": 20.3802414,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-08-20": {
+                "expid": "132730035",
+                "limitmag": 21.18,
+                "target_mag": 20.9640903,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-08-24": {
+                "expid": "133133979",
+                "limitmag": 21.52,
+                "target_mag": 20.8204918,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-08-25": {
+                "expid": "133230030",
+                "limitmag": 21.38,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-08-27": {
+                "expid": "133430291",
+                "limitmag": 20.62,
+                "target_mag": 20.8521042,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-08-28": {
+                "expid": "133538597",
+                "limitmag": 20.79,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-08-29": {
+                "expid": "133626751",
+                "limitmag": 20.23,
+                "target_mag": 18.3157234,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-08-30": {
+                "expid": "133725020",
+                "limitmag": 20.45,
+                "target_mag": 17.8210411,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2020-08-31": {
+                "expid": "133826849",
+                "limitmag": 20.37,
+                "target_mag": 17.9879417,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-09-01": {
+                "expid": "133943174",
+                "limitmag": 20.01,
+                "target_mag": 18.0110378,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2020-09-03": {
+                "expid": "134128763",
+                "limitmag": 20.12,
+                "target_mag": 17.5615807,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2020-09-07": {
+                "expid": "134538119",
+                "limitmag": 20.32,
+                "target_mag": 18.4803772,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-17": {
+                "expid": "135530202",
+                "limitmag": 21.01,
+                "target_mag": 21.3243656,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-20": {
+                "expid": "135827872",
+                "limitmag": 21.41,
+                "target_mag": 21.5133419,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-23": {
+                "expid": "136122047",
+                "limitmag": 21.07,
+                "target_mag": 21.3178101,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-24": {
+                "expid": "136223773",
+                "limitmag": 21.02,
+                "target_mag": 18.1293926,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-25": {
+                "expid": "136324168",
+                "limitmag": 21.04,
+                "target_mag": 17.8948975,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-09-26": {
+                "expid": "136436715",
+                "limitmag": 21.26,
+                "target_mag": 18.4224415,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-27": {
+                "expid": "136522855",
+                "limitmag": 20.57,
+                "target_mag": 19.0152454,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-28": {
+                "expid": "136623616",
+                "limitmag": 20.16,
+                "target_mag": 19.9126625,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-09-29": {
+                "expid": "136728315",
+                "limitmag": 20.11,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-09-30": {
+                "expid": "136824746",
+                "limitmag": 20.02,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-01": {
+                "expid": "136920508",
+                "limitmag": 19.92,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-03": {
+                "expid": "137123988",
+                "limitmag": 20.36,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-07": {
+                "expid": "137532247",
+                "limitmag": 20.65,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-12": {
+                "expid": "138021703",
+                "limitmag": 21.28,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-10-14": {
+                "expid": "138222260",
+                "limitmag": 21.23,
+                "target_mag": 21.4817848,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-10-16": {
+                "expid": "138422128",
+                "limitmag": 21.0,
+                "target_mag": 17.7410965,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-10-18": {
+                "expid": "138618466",
+                "limitmag": 21.21,
+                "target_mag": 18.100153,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-10-22": {
+                "expid": "139014986",
+                "limitmag": 21.01,
+                "target_mag": 20.9409676,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-10-27": {
+                "expid": "139524142",
+                "limitmag": 19.42,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-10-29": {
+                "expid": "139720537",
+                "limitmag": 20.19,
+                "target_mag": 18.9532547,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2020-10-31": {
+                "expid": "139919629",
+                "limitmag": 19.96,
+                "target_mag": 17.9799671,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2020-11-02": {
+                "expid": "140115342",
+                "limitmag": 20.14,
+                "target_mag": 17.5390472,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2020-11-04": {
+                "expid": "140314151",
+                "limitmag": 20.65,
+                "target_mag": 17.5745087,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-11-16": {
+                "expid": "141521857",
+                "limitmag": 20.7,
+                "target_mag": 20.834774,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-18": {
+                "expid": "141716377",
+                "limitmag": 21.11,
+                "target_mag": 20.9573154,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-20": {
+                "expid": "141924888",
+                "limitmag": 20.65,
+                "target_mag": 20.6163006,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-25": {
+                "expid": "142411629",
+                "limitmag": 20.75,
+                "target_mag": 20.5131721,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2020-11-28": {
+                "expid": "142713321",
+                "limitmag": 19.41,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-11-30": {
+                "expid": "142914130",
+                "limitmag": 19.42,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2020-12-02": {
+                "expid": "143109377",
+                "limitmag": 20.72,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-12-06": {
+                "expid": "143512120",
+                "limitmag": 20.79,
+                "target_mag": 17.9040146,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-12-21": {
+                "expid": "145011575",
+                "limitmag": 20.27,
+                "target_mag": 17.8677444,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2020-12-22": {
+                "expid": "145111369",
+                "limitmag": 20.76,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2020-12-27": {
+                "expid": "145620385",
+                "limitmag": 19.6,
+                "target_mag": 18.0406418,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-01-04": {
+                "expid": "146412131",
+                "limitmag": 20.63,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-01-06": {
+                "expid": "146614248",
+                "limitmag": 20.57,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-01-16": {
+                "expid": "147615556",
+                "limitmag": 19.93,
+                "target_mag": 19.7834816,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-01-18": {
+                "expid": "147812351",
+                "limitmag": 20.64,
+                "target_mag": 20.7703514,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              }
+            }
+          },
+          "after": {
+            "field_dates": 33,
+            "target_dates": 24,
+            "bright_dates": 6,
+            "bright_fraction_range": [
+              0.18182,
+              0.45455
+            ],
+            "median_limitmag": 21.04,
+            "field_calendar": {
+              "2021-04-18": {
+                "expid": "156845328",
+                "limitmag": 20.45,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-04-21": {
+                "expid": "157144692",
+                "limitmag": 20.37,
+                "target_mag": 17.9301796,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-05-27": {
+                "expid": "160746344",
+                "limitmag": 20.14,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-05-30": {
+                "expid": "161038848",
+                "limitmag": 20.39,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-02": {
+                "expid": "161345450",
+                "limitmag": 20.9,
+                "target_mag": 17.557682,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-06-05": {
+                "expid": "161642309",
+                "limitmag": 21.24,
+                "target_mag": 17.4939709,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-06-08": {
+                "expid": "161944488",
+                "limitmag": 21.26,
+                "target_mag": 18.245285,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-11": {
+                "expid": "162238701",
+                "limitmag": 21.08,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-13": {
+                "expid": "162443059",
+                "limitmag": 21.12,
+                "target_mag": 21.5212746,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-17": {
+                "expid": "162842917",
+                "limitmag": 21.19,
+                "target_mag": 20.7943268,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-20": {
+                "expid": "163140789",
+                "limitmag": 21.09,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-21": {
+                "expid": "163245020",
+                "limitmag": 21.15,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-22": {
+                "expid": "163339380",
+                "limitmag": 20.33,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-06-25": {
+                "expid": "163645621",
+                "limitmag": 20.25,
+                "target_mag": 18.0820713,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-26": {
+                "expid": "163742942",
+                "limitmag": 20.41,
+                "target_mag": 18.6453667,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-06-27": {
+                "expid": "163844348",
+                "limitmag": 20.2,
+                "target_mag": 19.4415703,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-06-29": {
+                "expid": "164037028",
+                "limitmag": 20.57,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-07-01": {
+                "expid": "164243119",
+                "limitmag": 20.95,
+                "target_mag": 20.8609619,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-02": {
+                "expid": "164344675",
+                "limitmag": 21.08,
+                "target_mag": 21.3587379,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-05": {
+                "expid": "164640835",
+                "limitmag": 21.14,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-07-07": {
+                "expid": "164834824",
+                "limitmag": 20.49,
+                "target_mag": 20.6617107,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-07-09": {
+                "expid": "165041170",
+                "limitmag": 21.11,
+                "target_mag": 20.9327221,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-13": {
+                "expid": "165438899",
+                "limitmag": 20.74,
+                "target_mag": 19.9837894,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-15": {
+                "expid": "165645120",
+                "limitmag": 21.14,
+                "target_mag": 17.7547054,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-07-17": {
+                "expid": "165844837",
+                "limitmag": 21.03,
+                "target_mag": 17.5624008,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-07-20": {
+                "expid": "166144781",
+                "limitmag": 21.34,
+                "target_mag": 17.9222755,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-07-23": {
+                "expid": "166445549",
+                "limitmag": 19.95,
+                "target_mag": 20.1637974,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-29": {
+                "expid": "167028487",
+                "limitmag": 20.91,
+                "target_mag": 20.9851265,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-31": {
+                "expid": "167236791",
+                "limitmag": 21.04,
+                "target_mag": 21.0660858,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-02": {
+                "expid": "167430877",
+                "limitmag": 21.2,
+                "target_mag": 21.2204514,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-08-04": {
+                "expid": "167632693",
+                "limitmag": 21.09,
+                "target_mag": 20.8996124,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-09": {
+                "expid": "168138930",
+                "limitmag": 21.42,
+                "target_mag": 20.9924335,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-12": {
+                "expid": "168438667",
+                "limitmag": 21.15,
+                "target_mag": 18.2297745,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              }
+            }
+          }
+        },
+        "control_series": {
+          "803104300005516": {
+            "outside_n": 556,
+            "outside_q20_q50_q80": [
+              18.9153423,
+              18.96034335,
+              19.0014343
+            ],
+            "windows": {
+              "before": {
+                "n": 55,
+                "first": "2020-08-19",
+                "last": "2021-01-18",
+                "max_internal_gap": 10,
+                "q20_q50_q80": [
+                  18.92736,
+                  18.98522,
+                  19.00529
+                ],
+                "bright": 9,
+                "faint": 15,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.17441,
+                  0.24156
+                ]
+              },
+              "after": {
+                "n": 33,
+                "first": "2021-04-18",
+                "last": "2021-08-12",
+                "max_internal_gap": 36,
+                "q20_q50_q80": [
+                  18.942,
+                  18.97291,
+                  19.01298
+                ],
+                "bright": 1,
+                "faint": 10,
+                "complete_bins_with_3_nights": 3,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.0,
+                  0.3381
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2020-08-19",
+                "2020-09-18",
+                "2020-10-18",
+                "2020-11-17",
+                "2020-12-17"
+              ],
+              "later_bin_starts": [
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "before_bins": 5,
+              "after_bins": 3,
+              "after_minus_before_mag": -0.00039,
+              "leave_one_bin_out_range": [
+                -0.00724,
+                0.00989
+              ]
+            }
+          },
+          "803104300005762": {
+            "outside_n": 353,
+            "outside_q20_q50_q80": [
+              20.42466434,
+              20.5456371,
+              20.66000978
+            ],
+            "windows": {
+              "before": {
+                "n": 31,
+                "first": "2020-08-19",
+                "last": "2020-12-22",
+                "max_internal_gap": 15,
+                "q20_q50_q80": [
+                  20.38387,
+                  20.49491,
+                  20.57562
+                ],
+                "bright": 10,
+                "faint": 3,
+                "complete_bins_with_3_nights": 4,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.25,
+                  0.1375
+                ]
+              },
+              "after": {
+                "n": 26,
+                "first": "2021-04-18",
+                "last": "2021-08-12",
+                "max_internal_gap": 39,
+                "q20_q50_q80": [
+                  20.44589,
+                  20.53357,
+                  20.62613
+                ],
+                "bright": 4,
+                "faint": 3,
+                "complete_bins_with_3_nights": 3,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.16667,
+                  0.11111
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2020-08-19",
+                "2020-09-18",
+                "2020-10-18",
+                "2020-11-17"
+              ],
+              "later_bin_starts": [
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "before_bins": 4,
+              "after_bins": 3,
+              "after_minus_before_mag": 0.01422,
+              "leave_one_bin_out_range": [
+                -0.01702,
+                0.04766
+              ]
+            }
+          },
+          "803104300042312": {
+            "outside_n": 533,
+            "outside_q20_q50_q80": [
+              19.043263279999998,
+              19.0815773,
+              19.12386359
+            ],
+            "windows": {
+              "before": {
+                "n": 51,
+                "first": "2020-08-19",
+                "last": "2021-01-18",
+                "max_internal_gap": 15,
+                "q20_q50_q80": [
+                  19.03038,
+                  19.08921,
+                  19.12279
+                ],
+                "bright": 12,
+                "faint": 10,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.2711,
+                  0.17101
+                ]
+              },
+              "after": {
+                "n": 33,
+                "first": "2021-04-18",
+                "last": "2021-08-12",
+                "max_internal_gap": 36,
+                "q20_q50_q80": [
+                  19.05899,
+                  19.08012,
+                  19.1362
+                ],
+                "bright": 3,
+                "faint": 8,
+                "complete_bins_with_3_nights": 3,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.07143,
+                  0.28095
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2020-08-19",
+                "2020-09-18",
+                "2020-10-18",
+                "2020-11-17",
+                "2020-12-17"
+              ],
+              "later_bin_starts": [
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "before_bins": 5,
+              "after_bins": 3,
+              "after_minus_before_mag": -0.00492,
+              "leave_one_bin_out_range": [
+                -0.00757,
+                0.00263
+              ]
+            }
+          }
+        }
+      }
+    },
+    "other_series": {
+      "802101400006035": {
+        "band": "g",
+        "field": "802",
+        "all_dates": {
+          "outside_n": 382,
+          "outside_q20_q50_q80": [
+            17.979989590000002,
+            20.124242799999998,
+            20.92060472
+          ],
+          "windows": {
+            "before": {
+              "n": 31,
+              "first": "2020-08-19",
+              "last": "2021-01-13",
+              "max_internal_gap": 18,
+              "q20_q50_q80": [
+                17.85996,
+                18.10428,
+                20.89332
+              ],
+              "bright": 10,
+              "faint": 6,
+              "complete_bins_with_3_nights": 5,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.33071,
+                0.21071
+              ]
+            },
+            "after": {
+              "n": 28,
+              "first": "2021-04-01",
+              "last": "2021-08-12",
+              "max_internal_gap": 18,
+              "q20_q50_q80": [
+                17.84681,
+                20.19567,
+                20.98636
+              ],
+              "bright": 7,
+              "faint": 8,
+              "complete_bins_with_3_nights": 4,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.23214,
+                0.29464
+              ]
+            }
+          },
+          "bin_contrast": {
+            "earlier_bin_starts": [
+              "2020-08-19",
+              "2020-09-18",
+              "2020-10-18",
+              "2020-11-17",
+              "2020-12-17"
+            ],
+            "later_bin_starts": [
+              "2021-04-16",
+              "2021-05-16",
+              "2021-06-15",
+              "2021-07-15"
+            ],
+            "before_bins": 5,
+            "after_bins": 4,
+            "after_minus_before_mag": 0.8936,
+            "leave_one_bin_out_range": [
+              0.52163,
+              1.32984
+            ]
+          }
+        },
+        "absent_primary_dates": {
+          "outside_n": 128,
+          "outside_q20_q50_q80": [
+            18.00549238,
+            20.5487204,
+            20.93377382
+          ],
+          "windows": {
+            "before": {
+              "n": 7,
+              "first": "2020-08-23",
+              "last": "2021-01-13",
+              "max_internal_gap": 83,
+              "q20_q50_q80": [
+                18.42751,
+                20.74411,
+                20.97469
+              ],
+              "bright": 2,
+              "faint": 2,
+              "complete_bins_with_3_nights": 1,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.66667,
+                0.0
+              ]
+            },
+            "after": {
+              "n": 14,
+              "first": "2021-04-01",
+              "last": "2021-07-11",
+              "max_internal_gap": 20,
+              "q20_q50_q80": [
+                18.05221,
+                20.80632,
+                20.96317
+              ],
+              "bright": 3,
+              "faint": 3,
+              "complete_bins_with_3_nights": 3,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.16667,
+                0.22222
+              ]
+            }
+          },
+          "bin_contrast": {
+            "before_bins": 1,
+            "after_bins": 3,
+            "after_minus_before_mag": null
+          }
+        }
+      },
+      "803204300005792": {
+        "band": "r",
+        "field": "803",
+        "all_dates": {
+          "outside_n": 510,
+          "outside_q20_q50_q80": [
+            17.95437584,
+            19.975822450000003,
+            20.34482956
+          ],
+          "windows": {
+            "before": {
+              "n": 37,
+              "first": "2020-08-19",
+              "last": "2021-01-18",
+              "max_internal_gap": 19,
+              "q20_q50_q80": [
+                17.71899,
+                20.04446,
+                20.41964
+              ],
+              "bright": 13,
+              "faint": 11,
+              "complete_bins_with_3_nights": 5,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.33905,
+                0.26571
+              ]
+            },
+            "after": {
+              "n": 30,
+              "first": "2021-04-21",
+              "last": "2021-08-09",
+              "max_internal_gap": 27,
+              "q20_q50_q80": [
+                17.82257,
+                20.2006,
+                20.41383
+              ],
+              "bright": 7,
+              "faint": 7,
+              "complete_bins_with_3_nights": 3,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.22222,
+                0.21759
+              ]
+            }
+          },
+          "bin_contrast": {
+            "earlier_bin_starts": [
+              "2020-08-19",
+              "2020-09-18",
+              "2020-10-18",
+              "2020-11-17",
+              "2020-12-17"
+            ],
+            "later_bin_starts": [
+              "2021-05-16",
+              "2021-06-15",
+              "2021-07-15"
+            ],
+            "before_bins": 5,
+            "after_bins": 3,
+            "after_minus_before_mag": 0.15279,
+            "leave_one_bin_out_range": [
+              0.05196,
+              1.22014
+            ]
+          }
+        },
+        "absent_primary_dates": {
+          "outside_n": 147,
+          "outside_q20_q50_q80": [
+            18.008540319999998,
+            20.1195641,
+            20.41436306
+          ],
+          "windows": {
+            "before": {
+              "n": 11,
+              "first": "2020-08-19",
+              "last": "2021-01-18",
+              "max_internal_gap": 84,
+              "q20_q50_q80": [
+                19.51332,
+                20.34547,
+                20.49826
+              ],
+              "bright": 2,
+              "faint": 5,
+              "complete_bins_with_3_nights": 2,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.26667,
+                0.43333
+              ]
+            },
+            "after": {
+              "n": 11,
+              "first": "2021-04-21",
+              "last": "2021-08-09",
+              "max_internal_gap": 27,
+              "q20_q50_q80": [
+                18.85728,
+                20.24535,
+                20.55607
+              ],
+              "bright": 2,
+              "faint": 3,
+              "complete_bins_with_3_nights": 2,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.125,
+                0.325
+              ]
+            }
+          },
+          "bin_contrast": {
+            "before_bins": 2,
+            "after_bins": 2,
+            "after_minus_before_mag": null
+          }
+        }
+      }
+    }
+  },
+  "ZTF18aaadshm": {
+    "state_boundary": "2021-08-14",
+    "primary": {
+      "g": {
+        "primary_oid": "740110100016334",
+        "uncorrected": {
+          "outside_n": 252,
+          "outside_q20_q50_q80": [
+            18.6034294,
+            18.96591095,
+            19.9960983
+          ],
+          "windows": {
+            "before": {
+              "n": 13,
+              "first": "2021-02-15",
+              "last": "2021-08-13",
+              "max_internal_gap": 118,
+              "q20_q50_q80": [
+                18.59904,
+                18.87715,
+                19.57267
+              ],
+              "bright": 3,
+              "faint": 2,
+              "complete_bins_with_3_nights": 2,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.17143,
+                0.14286
+              ]
+            },
+            "after": {
+              "n": 16,
+              "first": "2021-08-20",
+              "last": "2021-11-12",
+              "max_internal_gap": 17,
+              "q20_q50_q80": [
+                18.66998,
+                19.03105,
+                19.85642
+              ],
+              "bright": 2,
+              "faint": 3,
+              "complete_bins_with_3_nights": 3,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.15278,
+                0.19444
+              ]
+            }
+          },
+          "bin_contrast": {
+            "before_bins": 2,
+            "after_bins": 3,
+            "after_minus_before_mag": null
+          }
+        },
+        "field_objects": [
+          {
+            "oid": "740110100009593",
+            "ra": "44.4336231",
+            "dec": "48.8588909",
+            "field": "740",
+            "ccdid": "10",
+            "qid": "1",
+            "fid": "1",
+            "nobs": "642",
+            "meanmag": "1.861801e+01"
+          },
+          {
+            "oid": "740110100009538",
+            "ra": "44.4110448",
+            "dec": "48.8636372",
+            "field": "740",
+            "ccdid": "10",
+            "qid": "1",
+            "fid": "1",
+            "nobs": "521",
+            "meanmag": "1.994949e+01"
+          },
+          {
+            "oid": "740110100009423",
+            "ra": "44.4240613",
+            "dec": "48.8710558",
+            "field": "740",
+            "ccdid": "10",
+            "qid": "1",
+            "fid": "1",
+            "nobs": "626",
+            "meanmag": "1.910150e+01"
+          }
+        ],
+        "field_corrected": {
+          "outside_n": 250,
+          "outside_q20_q50_q80": [
+            18.602307739999997,
+            19.014497849999998,
+            19.99712664
+          ],
+          "windows": {
+            "before": {
+              "n": 12,
+              "first": "2021-02-15",
+              "last": "2021-08-13",
+              "max_internal_gap": 138,
+              "q20_q50_q80": [
+                18.63005,
+                18.99995,
+                19.6464
+              ],
+              "bright": 2,
+              "faint": 2,
+              "complete_bins_with_3_nights": 2,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.17143,
+                0.14286
+              ]
+            },
+            "after": {
+              "n": 15,
+              "first": "2021-08-20",
+              "last": "2021-11-12",
+              "max_internal_gap": 28,
+              "q20_q50_q80": [
+                18.7168,
+                19.25398,
+                19.878
+              ],
+              "bright": 1,
+              "faint": 3,
+              "complete_bins_with_3_nights": 2,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.0625,
+                0.125
+              ]
+            }
+          },
+          "bin_contrast": {
+            "before_bins": 2,
+            "after_bins": 2,
+            "after_minus_before_mag": null
+          }
+        },
+        "coverage": {
+          "before": {
+            "field_dates": 17,
+            "target_dates": 12,
+            "bright_dates": 2,
+            "bright_fraction_range": [
+              0.11765,
+              0.41176
+            ],
+            "median_limitmag": 20.71,
+            "field_calendar": {
+              "2021-02-15": {
+                "expid": "150617789",
+                "limitmag": 20.95,
+                "target_mag": 18.5440865,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-02-18": {
+                "expid": "150915312",
+                "limitmag": 19.85,
+                "target_mag": 18.8771477,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-02-20": {
+                "expid": "151116619",
+                "limitmag": 20.8,
+                "target_mag": 19.3824539,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-02-22": {
+                "expid": "151320087",
+                "limitmag": 19.37,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-02-24": {
+                "expid": "151520319",
+                "limitmag": 20.39,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-02-26": {
+                "expid": "151720354",
+                "limitmag": 19.86,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-03-01": {
+                "expid": "152015035",
+                "limitmag": 19.66,
+                "target_mag": 19.6994743,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-03-03": {
+                "expid": "152219707",
+                "limitmag": 20.47,
+                "target_mag": 18.6681042,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-19": {
+                "expid": "166043350",
+                "limitmag": 21.13,
+                "target_mag": 20.0356522,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-22": {
+                "expid": "166342759",
+                "limitmag": 20.09,
+                "target_mag": 18.6253414,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-27": {
+                "expid": "166846679",
+                "limitmag": 20.61,
+                "target_mag": 19.3396454,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-29": {
+                "expid": "167045064",
+                "limitmag": 20.71,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-08-03": {
+                "expid": "167544953",
+                "limitmag": 21.34,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-08-08": {
+                "expid": "168045032",
+                "limitmag": 21.62,
+                "target_mag": 18.581501,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-08-10": {
+                "expid": "168245311",
+                "limitmag": 21.65,
+                "target_mag": 18.7332935,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-12": {
+                "expid": "168445229",
+                "limitmag": 21.38,
+                "target_mag": 19.1556625,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-13": {
+                "expid": "168545104",
+                "limitmag": 21.23,
+                "target_mag": 20.0621243,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              }
+            }
+          },
+          "after": {
+            "field_dates": 31,
+            "target_dates": 15,
+            "bright_dates": 1,
+            "bright_fraction_range": [
+              0.03226,
+              0.54839
+            ],
+            "median_limitmag": 21.25,
+            "field_calendar": {
+              "2021-08-14": {
+                "expid": "168645103",
+                "limitmag": 21.37,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-08-16": {
+                "expid": "168847234",
+                "limitmag": 21.63,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-08-17": {
+                "expid": "168945024",
+                "limitmag": 21.33,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-08-20": {
+                "expid": "169246217",
+                "limitmag": 21.23,
+                "target_mag": 20.2626648,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-23": {
+                "expid": "169545332",
+                "limitmag": 19.57,
+                "target_mag": 18.7557793,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-08-26": {
+                "expid": "169847141",
+                "limitmag": 20.85,
+                "target_mag": 18.6699753,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-28": {
+                "expid": "170039150",
+                "limitmag": 20.88,
+                "target_mag": 19.254797,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-02": {
+                "expid": "170542607",
+                "limitmag": 21.41,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-09-04": {
+                "expid": "170742583",
+                "limitmag": 21.72,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-09-06": {
+                "expid": "170942974",
+                "limitmag": 21.51,
+                "target_mag": 20.5616875,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-08": {
+                "expid": "171142680",
+                "limitmag": 21.57,
+                "target_mag": 18.6846771,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-10": {
+                "expid": "171344931",
+                "limitmag": 21.68,
+                "target_mag": 18.5150547,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-09-12": {
+                "expid": "171542511",
+                "limitmag": 21.65,
+                "target_mag": 18.7794647,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-14": {
+                "expid": "171739063",
+                "limitmag": 21.31,
+                "target_mag": 19.4112358,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-17": {
+                "expid": "172041136",
+                "limitmag": 21.38,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-09-20": {
+                "expid": "172336997",
+                "limitmag": 20.17,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-09-22": {
+                "expid": "172522457",
+                "limitmag": 19.52,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-09-26": {
+                "expid": "172928343",
+                "limitmag": 19.81,
+                "target_mag": 20.0987701,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-10-01": {
+                "expid": "173437370",
+                "limitmag": 21.56,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-10-15": {
+                "expid": "174842704",
+                "limitmag": 20.51,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-10-17": {
+                "expid": "175044568",
+                "limitmag": 21.25,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-10-24": {
+                "expid": "175734581",
+                "limitmag": 19.63,
+                "target_mag": 18.6425667,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-10-30": {
+                "expid": "176326276",
+                "limitmag": 21.83,
+                "target_mag": 19.5479279,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-11-03": {
+                "expid": "176730962",
+                "limitmag": 21.78,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-11-05": {
+                "expid": "176930885",
+                "limitmag": 21.81,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-11-07": {
+                "expid": "177123570",
+                "limitmag": 21.19,
+                "target_mag": 19.8564167,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-11-09": {
+                "expid": "177323894",
+                "limitmag": 20.76,
+                "target_mag": 18.8072948,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-11-12": {
+                "expid": "177628163",
+                "limitmag": 20.64,
+                "target_mag": 19.3632545,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-11-14": {
+                "expid": "177826326",
+                "limitmag": 20.34,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-11-19": {
+                "expid": "178326863",
+                "limitmag": 19.13,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-11-22": {
+                "expid": "178638298",
+                "limitmag": 20.02,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              }
+            }
+          }
+        },
+        "control_series": {
+          "740110100009593": {
+            "outside_n": 388,
+            "outside_q20_q50_q80": [
+              18.588705859999997,
+              18.6218157,
+              18.65098608
+            ],
+            "windows": {
+              "before": {
+                "n": 18,
+                "first": "2021-02-15",
+                "last": "2021-08-13",
+                "max_internal_gap": 118,
+                "q20_q50_q80": [
+                  18.59451,
+                  18.62876,
+                  18.66241
+                ],
+                "bright": 2,
+                "faint": 7,
+                "complete_bins_with_3_nights": 2,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.0625,
+                  0.39583
+                ]
+              },
+              "after": {
+                "n": 31,
+                "first": "2021-08-14",
+                "last": "2021-11-22",
+                "max_internal_gap": 14,
+                "q20_q50_q80": [
+                  18.60766,
+                  18.64402,
+                  18.64734
+                ],
+                "bright": 4,
+                "faint": 5,
+                "complete_bins_with_3_nights": 4,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.1875,
+                  0.11859
+                ]
+              }
+            },
+            "bin_contrast": {
+              "before_bins": 2,
+              "after_bins": 4,
+              "after_minus_before_mag": null
+            }
+          },
+          "740110100009538": {
+            "outside_n": 333,
+            "outside_q20_q50_q80": [
+              19.879750079999997,
+              19.9661217,
+              20.0435402
+            ],
+            "windows": {
+              "before": {
+                "n": 12,
+                "first": "2021-02-15",
+                "last": "2021-08-13",
+                "max_internal_gap": 138,
+                "q20_q50_q80": [
+                  19.76637,
+                  19.90914,
+                  19.97572
+                ],
+                "bright": 5,
+                "faint": 1,
+                "complete_bins_with_3_nights": 2,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.5625,
+                  0.0625
+                ]
+              },
+              "after": {
+                "n": 27,
+                "first": "2021-08-14",
+                "last": "2021-11-22",
+                "max_internal_gap": 14,
+                "q20_q50_q80": [
+                  19.82632,
+                  19.96511,
+                  20.06483
+                ],
+                "bright": 7,
+                "faint": 6,
+                "complete_bins_with_3_nights": 4,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.38846,
+                  0.17692
+                ]
+              }
+            },
+            "bin_contrast": {
+              "before_bins": 2,
+              "after_bins": 4,
+              "after_minus_before_mag": null
+            }
+          },
+          "740110100009423": {
+            "outside_n": 384,
+            "outside_q20_q50_q80": [
+              19.05982742,
+              19.110982900000003,
+              19.151858920000002
+            ],
+            "windows": {
+              "before": {
+                "n": 17,
+                "first": "2021-02-15",
+                "last": "2021-08-13",
+                "max_internal_gap": 138,
+                "q20_q50_q80": [
+                  19.09623,
+                  19.12266,
+                  19.145
+                ],
+                "bright": 2,
+                "faint": 2,
+                "complete_bins_with_3_nights": 2,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.125,
+                  0.11806
+                ]
+              },
+              "after": {
+                "n": 32,
+                "first": "2021-08-14",
+                "last": "2021-11-22",
+                "max_internal_gap": 8,
+                "q20_q50_q80": [
+                  19.0482,
+                  19.11269,
+                  19.1575
+                ],
+                "bright": 9,
+                "faint": 9,
+                "complete_bins_with_3_nights": 4,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.35989,
+                  0.27507
+                ]
+              }
+            },
+            "bin_contrast": {
+              "before_bins": 2,
+              "after_bins": 4,
+              "after_minus_before_mag": null
+            }
+          }
+        }
+      },
+      "r": {
+        "primary_oid": "740210100017245",
+        "uncorrected": {
+          "outside_n": 328,
+          "outside_q20_q50_q80": [
+            18.41027526,
+            18.993923199999998,
+            20.05621448
+          ],
+          "windows": {
+            "before": {
+              "n": 24,
+              "first": "2021-02-18",
+              "last": "2021-08-13",
+              "max_internal_gap": 68,
+              "q20_q50_q80": [
+                18.44585,
+                18.70687,
+                19.85767
+              ],
+              "bright": 2,
+              "faint": 5,
+              "complete_bins_with_3_nights": 4,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.08125,
+                0.1625
+              ]
+            },
+            "after": {
+              "n": 21,
+              "first": "2021-08-14",
+              "last": "2021-11-12",
+              "max_internal_gap": 19,
+              "q20_q50_q80": [
+                18.56722,
+                19.40178,
+                20.92475
+              ],
+              "bright": 1,
+              "faint": 8,
+              "complete_bins_with_3_nights": 3,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.0303,
+                0.36818
+              ]
+            }
+          },
+          "bin_contrast": {
+            "earlier_bin_starts": [
+              "2021-02-15",
+              "2021-03-17",
+              "2021-06-15",
+              "2021-07-15"
+            ],
+            "later_bin_starts": [
+              "2021-08-14",
+              "2021-09-13",
+              "2021-10-13"
+            ],
+            "before_bins": 4,
+            "after_bins": 3,
+            "after_minus_before_mag": 0.94169,
+            "leave_one_bin_out_range": [
+              0.70306,
+              1.07414
+            ]
+          }
+        },
+        "field_objects": [
+          {
+            "oid": "740210100036583",
+            "ra": "44.4226122",
+            "dec": "48.8580387",
+            "field": "740",
+            "ccdid": "10",
+            "qid": "1",
+            "fid": "2",
+            "nobs": "780",
+            "meanmag": "1.974636e+01"
+          },
+          {
+            "oid": "740210100017276",
+            "ra": "44.4124845",
+            "dec": "48.8613331",
+            "field": "740",
+            "ccdid": "10",
+            "qid": "1",
+            "fid": "2",
+            "nobs": "712",
+            "meanmag": "2.019660e+01"
+          },
+          {
+            "oid": "740210100017122",
+            "ra": "44.4106435",
+            "dec": "48.8670523",
+            "field": "740",
+            "ccdid": "10",
+            "qid": "1",
+            "fid": "2",
+            "nobs": "969",
+            "meanmag": "1.876530e+01"
+          }
+        ],
+        "field_corrected": {
+          "outside_n": 311,
+          "outside_q20_q50_q80": [
+            18.419602400000002,
+            19.002906799999998,
+            20.0877599
+          ],
+          "windows": {
+            "before": {
+              "n": 21,
+              "first": "2021-02-20",
+              "last": "2021-08-13",
+              "max_internal_gap": 69,
+              "q20_q50_q80": [
+                18.44368,
+                18.95292,
+                20.22163
+              ],
+              "bright": 3,
+              "faint": 5,
+              "complete_bins_with_3_nights": 4,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.09375,
+                0.1875
+              ]
+            },
+            "after": {
+              "n": 21,
+              "first": "2021-08-14",
+              "last": "2021-11-12",
+              "max_internal_gap": 19,
+              "q20_q50_q80": [
+                18.57458,
+                19.3213,
+                20.89168
+              ],
+              "bright": 1,
+              "faint": 7,
+              "complete_bins_with_3_nights": 3,
+              "equal_bin_weight_bright_faint_fractions": [
+                0.0303,
+                0.33788
+              ]
+            }
+          },
+          "bin_contrast": {
+            "earlier_bin_starts": [
+              "2021-02-15",
+              "2021-03-17",
+              "2021-06-15",
+              "2021-07-15"
+            ],
+            "later_bin_starts": [
+              "2021-08-14",
+              "2021-09-13",
+              "2021-10-13"
+            ],
+            "before_bins": 4,
+            "after_bins": 3,
+            "after_minus_before_mag": 0.69256,
+            "leave_one_bin_out_range": [
+              0.46842,
+              0.89042
+            ]
+          }
+        },
+        "coverage": {
+          "before": {
+            "field_dates": 31,
+            "target_dates": 20,
+            "bright_dates": 3,
+            "bright_fraction_range": [
+              0.09677,
+              0.45161
+            ],
+            "median_limitmag": 20.46,
+            "field_calendar": {
+              "2021-02-20": {
+                "expid": "151114017",
+                "limitmag": 20.96,
+                "target_mag": 19.0491161,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-02-22": {
+                "expid": "151313984",
+                "limitmag": 20.43,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-02-24": {
+                "expid": "151513728",
+                "limitmag": 20.85,
+                "target_mag": 20.9061794,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-02-26": {
+                "expid": "151713855",
+                "limitmag": 20.51,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-03-03": {
+                "expid": "152214499",
+                "limitmag": 20.97,
+                "target_mag": 18.5461349,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-03-06": {
+                "expid": "152514407",
+                "limitmag": 20.29,
+                "target_mag": 18.5387039,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-03-20": {
+                "expid": "153918234",
+                "limitmag": 19.87,
+                "target_mag": 18.3099594,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2021-04-02": {
+                "expid": "155213927",
+                "limitmag": 19.92,
+                "target_mag": 19.009346,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-04-03": {
+                "expid": "155313964",
+                "limitmag": 20.48,
+                "target_mag": 18.5363407,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-04-04": {
+                "expid": "155414126",
+                "limitmag": 20.33,
+                "target_mag": 18.7657051,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-12": {
+                "expid": "162347275",
+                "limitmag": 20.09,
+                "target_mag": 20.1791897,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-13": {
+                "expid": "162447813",
+                "limitmag": 20.03,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-14": {
+                "expid": "162547300",
+                "limitmag": 20.2,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-17": {
+                "expid": "162846922",
+                "limitmag": 20.43,
+                "target_mag": 19.3834648,
+                "n_controls": 2,
+                "above_bright_threshold": false
+              },
+              "2021-06-20": {
+                "expid": "163147116",
+                "limitmag": 19.99,
+                "target_mag": 18.3703709,
+                "n_controls": 2,
+                "above_bright_threshold": true
+              },
+              "2021-06-21": {
+                "expid": "163247151",
+                "limitmag": 20.41,
+                "target_mag": 18.4110241,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-06-27": {
+                "expid": "163846657",
+                "limitmag": 19.9,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-06-28": {
+                "expid": "163946193",
+                "limitmag": 20.29,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-29": {
+                "expid": "164046521",
+                "limitmag": 20.36,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-06-30": {
+                "expid": "164146866",
+                "limitmag": 20.08,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-07-01": {
+                "expid": "164246568",
+                "limitmag": 20.46,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-07-02": {
+                "expid": "164346724",
+                "limitmag": 20.65,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-07-22": {
+                "expid": "166346281",
+                "limitmag": 20.61,
+                "target_mag": 18.4303989,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-27": {
+                "expid": "166842787",
+                "limitmag": 20.76,
+                "target_mag": 19.1244965,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-07-29": {
+                "expid": "167040863",
+                "limitmag": 20.68,
+                "target_mag": 20.2190552,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-01": {
+                "expid": "167345025",
+                "limitmag": 21.0,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-08-03": {
+                "expid": "167546817",
+                "limitmag": 21.31,
+                "target_mag": 20.6581993,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-08": {
+                "expid": "168047023",
+                "limitmag": 21.33,
+                "target_mag": 18.3405857,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-08-10": {
+                "expid": "168246868",
+                "limitmag": 21.57,
+                "target_mag": 18.4467926,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-12": {
+                "expid": "168447100",
+                "limitmag": 21.21,
+                "target_mag": 18.9923172,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-13": {
+                "expid": "168547099",
+                "limitmag": 21.36,
+                "target_mag": 19.6959934,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              }
+            }
+          },
+          "after": {
+            "field_dates": 28,
+            "target_dates": 21,
+            "bright_dates": 1,
+            "bright_fraction_range": [
+              0.03571,
+              0.28571
+            ],
+            "median_limitmag": 21.285,
+            "field_calendar": {
+              "2021-08-14": {
+                "expid": "168646831",
+                "limitmag": 21.47,
+                "target_mag": 20.5162849,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-16": {
+                "expid": "168844734",
+                "limitmag": 21.34,
+                "target_mag": 21.031105,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-17": {
+                "expid": "168947302",
+                "limitmag": 21.27,
+                "target_mag": 20.8617134,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-18": {
+                "expid": "169047505",
+                "limitmag": 21.3,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-08-20": {
+                "expid": "169240414",
+                "limitmag": 20.51,
+                "target_mag": 19.8657341,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-23": {
+                "expid": "169536636",
+                "limitmag": 19.82,
+                "target_mag": 18.6080875,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-08-28": {
+                "expid": "170042936",
+                "limitmag": 21.03,
+                "target_mag": 18.898365,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-02": {
+                "expid": "170546614",
+                "limitmag": 21.7,
+                "target_mag": 20.9247456,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-06": {
+                "expid": "170940711",
+                "limitmag": 21.35,
+                "target_mag": 20.0924187,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-08": {
+                "expid": "171147263",
+                "limitmag": 20.95,
+                "target_mag": 18.5091095,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-10": {
+                "expid": "171341140",
+                "limitmag": 21.54,
+                "target_mag": 18.3133926,
+                "n_controls": 3,
+                "above_bright_threshold": true
+              },
+              "2021-09-12": {
+                "expid": "171541179",
+                "limitmag": 21.55,
+                "target_mag": 18.5383644,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-14": {
+                "expid": "171745792",
+                "limitmag": 21.27,
+                "target_mag": 19.1235924,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-17": {
+                "expid": "172032325",
+                "limitmag": 20.66,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-09-20": {
+                "expid": "172341162",
+                "limitmag": 20.76,
+                "target_mag": 21.0061989,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-09-22": {
+                "expid": "172541614",
+                "limitmag": 20.45,
+                "target_mag": 18.6677265,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-10-01": {
+                "expid": "173434222",
+                "limitmag": 21.32,
+                "target_mag": 20.9291992,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-10-11": {
+                "expid": "174436401",
+                "limitmag": 21.59,
+                "target_mag": 18.5654354,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-10-15": {
+                "expid": "174836063",
+                "limitmag": 20.76,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-10-17": {
+                "expid": "175034954",
+                "limitmag": 20.36,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              },
+              "2021-10-30": {
+                "expid": "176334645",
+                "limitmag": 21.53,
+                "target_mag": 19.4017849,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-11-03": {
+                "expid": "176728915",
+                "limitmag": 21.56,
+                "target_mag": 21.054121,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-11-05": {
+                "expid": "176926409",
+                "limitmag": 21.63,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-11-07": {
+                "expid": "177127370",
+                "limitmag": 21.4,
+                "target_mag": 19.7999001,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-11-09": {
+                "expid": "177328217",
+                "limitmag": 21.34,
+                "target_mag": 18.5672245,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-11-12": {
+                "expid": "177635002",
+                "limitmag": 21.05,
+                "target_mag": 19.1645508,
+                "n_controls": 3,
+                "above_bright_threshold": false
+              },
+              "2021-11-14": {
+                "expid": "177836928",
+                "limitmag": 20.9,
+                "target_mag": null,
+                "n_controls": 3,
+                "above_bright_threshold": null
+              },
+              "2021-11-22": {
+                "expid": "178633057",
+                "limitmag": 19.82,
+                "target_mag": null,
+                "n_controls": 2,
+                "above_bright_threshold": null
+              }
+            }
+          }
+        },
+        "control_series": {
+          "740210100036583": {
+            "outside_n": 390,
+            "outside_q20_q50_q80": [
+              19.66150896,
+              19.75248335,
+              19.83722112
+            ],
+            "windows": {
+              "before": {
+                "n": 31,
+                "first": "2021-02-20",
+                "last": "2021-08-13",
+                "max_internal_gap": 69,
+                "q20_q50_q80": [
+                  19.6077,
+                  19.72197,
+                  19.80213
+                ],
+                "bright": 10,
+                "faint": 5,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.41667,
+                  0.12222
+                ]
+              },
+              "after": {
+                "n": 25,
+                "first": "2021-08-14",
+                "last": "2021-11-14",
+                "max_internal_gap": 15,
+                "q20_q50_q80": [
+                  19.73302,
+                  19.80101,
+                  19.88611
+                ],
+                "bright": 1,
+                "faint": 11,
+                "complete_bins_with_3_nights": 3,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.0303,
+                  0.42929
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2021-02-15",
+                "2021-03-17",
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "later_bin_starts": [
+                "2021-08-14",
+                "2021-09-13",
+                "2021-10-13"
+              ],
+              "before_bins": 5,
+              "after_bins": 3,
+              "after_minus_before_mag": 0.07777,
+              "leave_one_bin_out_range": [
+                0.07546,
+                0.09718
+              ]
+            }
+          },
+          "740210100017276": {
+            "outside_n": 368,
+            "outside_q20_q50_q80": [
+              20.10306666,
+              20.20795725,
+              20.307214339999998
+            ],
+            "windows": {
+              "before": {
+                "n": 28,
+                "first": "2021-02-20",
+                "last": "2021-08-13",
+                "max_internal_gap": 69,
+                "q20_q50_q80": [
+                  20.0582,
+                  20.18,
+                  20.26027
+                ],
+                "bright": 9,
+                "faint": 2,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.41905,
+                  0.05079
+                ]
+              },
+              "after": {
+                "n": 28,
+                "first": "2021-08-14",
+                "last": "2021-11-22",
+                "max_internal_gap": 13,
+                "q20_q50_q80": [
+                  20.10941,
+                  20.22205,
+                  20.28365
+                ],
+                "bright": 5,
+                "faint": 3,
+                "complete_bins_with_3_nights": 4,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.1875,
+                  0.09226
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2021-02-15",
+                "2021-03-17",
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "later_bin_starts": [
+                "2021-08-14",
+                "2021-09-13",
+                "2021-10-13",
+                "2021-11-12"
+              ],
+              "before_bins": 5,
+              "after_bins": 4,
+              "after_minus_before_mag": 0.02005,
+              "leave_one_bin_out_range": [
+                0.00352,
+                0.04012
+              ]
+            }
+          },
+          "740210100017122": {
+            "outside_n": 445,
+            "outside_q20_q50_q80": [
+              18.7339584,
+              18.7710686,
+              18.80045607
+            ],
+            "windows": {
+              "before": {
+                "n": 34,
+                "first": "2021-02-18",
+                "last": "2021-08-13",
+                "max_internal_gap": 68,
+                "q20_q50_q80": [
+                  18.72676,
+                  18.75227,
+                  18.77862
+                ],
+                "bright": 8,
+                "faint": 5,
+                "complete_bins_with_3_nights": 5,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.26571,
+                  0.10889
+                ]
+              },
+              "after": {
+                "n": 28,
+                "first": "2021-08-14",
+                "last": "2021-11-22",
+                "max_internal_gap": 13,
+                "q20_q50_q80": [
+                  18.76255,
+                  18.7904,
+                  18.81178
+                ],
+                "bright": 2,
+                "faint": 11,
+                "complete_bins_with_3_nights": 4,
+                "equal_bin_weight_bright_faint_fractions": [
+                  0.04167,
+                  0.46131
+                ]
+              }
+            },
+            "bin_contrast": {
+              "earlier_bin_starts": [
+                "2021-02-15",
+                "2021-03-17",
+                "2021-05-16",
+                "2021-06-15",
+                "2021-07-15"
+              ],
+              "later_bin_starts": [
+                "2021-08-14",
+                "2021-09-13",
+                "2021-10-13",
+                "2021-11-12"
+              ],
+              "before_bins": 5,
+              "after_bins": 4,
+              "after_minus_before_mag": 0.05071,
+              "leave_one_bin_out_range": [
+                0.04582,
+                0.05361
+              ]
+            }
+          }
+        }
+      }
+    },
+    "other_series": {
+      "1778102100008480": {
+        "band": "g",
+        "field": "1778",
+        "all_dates": {
+          "outside_n": 41,
+          "outside_q20_q50_q80": [
+            18.5865555,
+            19.2193775,
+            20.134700799999997
+          ],
+          "windows": {
+            "before": {
+              "n": 0,
+              "first": null,
+              "last": null,
+              "max_internal_gap": null,
+              "q20_q50_q80": null,
+              "bright": 0,
+              "faint": 0,
+              "complete_bins_with_3_nights": 0,
+              "equal_bin_weight_bright_faint_fractions": null
+            },
+            "after": {
+              "n": 0,
+              "first": null,
+              "last": null,
+              "max_internal_gap": null,
+              "q20_q50_q80": null,
+              "bright": 0,
+              "faint": 0,
+              "complete_bins_with_3_nights": 0,
+              "equal_bin_weight_bright_faint_fractions": null
+            }
+          },
+          "bin_contrast": {
+            "before_bins": 0,
+            "after_bins": 0,
+            "after_minus_before_mag": null
+          }
+        },
+        "absent_primary_dates": {
+          "outside_n": 26,
+          "outside_q20_q50_q80": [
+            18.6085701,
+            19.284049500000002,
+            20.2236862
+          ],
+          "windows": {
+            "before": {
+              "n": 0,
+              "first": null,
+              "last": null,
+              "max_internal_gap": null,
+              "q20_q50_q80": null,
+              "bright": 0,
+              "faint": 0,
+              "complete_bins_with_3_nights": 0,
+              "equal_bin_weight_bright_faint_fractions": null
+            },
+            "after": {
+              "n": 0,
+              "first": null,
+              "last": null,
+              "max_internal_gap": null,
+              "q20_q50_q80": null,
+              "bright": 0,
+              "faint": 0,
+              "complete_bins_with_3_nights": 0,
+              "equal_bin_weight_bright_faint_fractions": null
+            }
+          },
+          "bin_contrast": {
+            "before_bins": 0,
+            "after_bins": 0,
+            "after_minus_before_mag": null
+          }
+        }
+      },
+      "1778202100012098": {
+        "band": "r",
+        "field": "1778",
+        "all_dates": {
+          "outside_n": 59,
+          "outside_q20_q50_q80": [
+            18.45336228,
+            19.0073967,
+            20.351689139999998
+          ],
+          "windows": {
+            "before": {
+              "n": 0,
+              "first": null,
+              "last": null,
+              "max_internal_gap": null,
+              "q20_q50_q80": null,
+              "bright": 0,
+              "faint": 0,
+              "complete_bins_with_3_nights": 0,
+              "equal_bin_weight_bright_faint_fractions": null
+            },
+            "after": {
+              "n": 0,
+              "first": null,
+              "last": null,
+              "max_internal_gap": null,
+              "q20_q50_q80": null,
+              "bright": 0,
+              "faint": 0,
+              "complete_bins_with_3_nights": 0,
+              "equal_bin_weight_bright_faint_fractions": null
+            }
+          },
+          "bin_contrast": {
+            "before_bins": 0,
+            "after_bins": 0,
+            "after_minus_before_mag": null
+          }
+        },
+        "absent_primary_dates": {
+          "outside_n": 42,
+          "outside_q20_q50_q80": [
+            18.39825708,
+            19.01670935,
+            20.371545379999997
+          ],
+          "windows": {
+            "before": {
+              "n": 0,
+              "first": null,
+              "last": null,
+              "max_internal_gap": null,
+              "q20_q50_q80": null,
+              "bright": 0,
+              "faint": 0,
+              "complete_bins_with_3_nights": 0,
+              "equal_bin_weight_bright_faint_fractions": null
+            },
+            "after": {
+              "n": 0,
+              "first": null,
+              "last": null,
+              "max_internal_gap": null,
+              "q20_q50_q80": null,
+              "bright": 0,
+              "faint": 0,
+              "complete_bins_with_3_nights": 0,
+              "equal_bin_weight_bright_faint_fractions": null
+            }
+          },
+          "bin_contrast": {
+            "before_bins": 0,
+            "after_bins": 0,
+            "after_minus_before_mag": null
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/detection.csv?objID=166630444239155450&columns=%5BobjID%2CdetectID%2CfilterID%2CobsTime%2Cra%2Cdec%2CpsfFlux%2CpsfFluxErr%2CpsfQfPerfect%2CinfoFlag%2CinfoFlag2%2CinfoFlag3%5D&pagesize=1000",
+  "retrieved_utc": "2026-11-26T06:16:28+00:00",
+  "sha256_uncompressed": "3da4b8b2c6afa7e629e2db02576591cda7aa16453482109ba410e692be542c20"
+}

@@ -1,0 +1,15 @@
+{
+  "page_url": "https://sites.google.com/view/mgab-astronomy/mgab-v451-v500",
+  "retrieved_utc": "2026-11-26T06:21:00+00:00",
+  "sha256_page": "010521460a7b2ff6a5d2fe0ac111582081aca32dae388bbbc30d9b8ce8ec480a",
+  "sha256_chart": "f8f4bf1a9595fa4781489ce34a739ccf0fdee49b473902c14cfbf57f3984c2e6",
+  "bytes_chart": 56035,
+  "visually_read_chart_legend": [
+    "g-band (ZTF)",
+    "r-band (ZTF)"
+  ],
+  "visually_read_axis_HJD_minus_2400000": [
+    58150,
+    59050
+  ]
+}

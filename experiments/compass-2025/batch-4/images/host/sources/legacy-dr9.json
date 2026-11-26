@@ -1,0 +1,6 @@
+{
+  "url": "https://portal.nersc.gov/cfs/cosmo/data/legacysurvey/dr9/south/tractor/250/tractor-2500p297.fits",
+  "sha256_full_fits": "20f6a6023f7195ec15ecb4dff6e82e4ce3192f6cee75a5d3d328f53e9778b1fd",
+  "sha256_sky_subset_csv": "156055dcf18478357fb1501b9f2beb25771df42cce1d9930373c4049520ef8f2",
+  "retrieved_utc": "2026-11-26T06:18:55+00:00"
+}

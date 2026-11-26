@@ -1,0 +1,12 @@
+{
+  "url": "https://raw.githubusercontent.com/astroML/astroML-data/main/datasets/RRLyr_ugriz_templates.tar.gz",
+  "retrieved_utc": "2026-11-26T06:16:28+00:00",
+  "sha256_full_response": "f88cbdb35d6ba98945fae198c4e7c80aaadd22f0a132e10ad894e080838e7565",
+  "sha256_uncompressed": "4d95121e4b62b0849b077ad6caa388de3167197b91110041847aa8a8773ca93c",
+  "members": [
+    "102g.dat",
+    "111r.dat",
+    "113i.dat",
+    "117z.dat"
+  ]
+}

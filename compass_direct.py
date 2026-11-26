@@ -24,7 +24,7 @@ def capture(folder, name, url, required, fetch):
     archive = folder / (name + ".csv.gz")
     new = fetch and not receipt.exists()
     raw = pilot.curl(url, []) if new else gzip.decompress(archive.read_bytes())
-    reader = csv.DictReader(io.StringIO(raw.decode()))
+    reader = csv.DictReader(io.StringIO(raw.decode("utf-8-sig").lstrip("\r\n")))
     if not required.issubset(reader.fieldnames or []):
         raise ValueError(f"Invalid CSV response for {url}")
     rows = list(reader)

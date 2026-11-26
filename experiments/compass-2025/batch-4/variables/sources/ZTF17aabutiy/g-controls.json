@@ -1,0 +1,5 @@
+{
+  "url": "https://irsa.ipac.caltech.edu/cgi-bin/ZTF/nph_light_curves?ID=803104300005516&ID=803104300005762&ID=803104300042312&COLLECTION=ztf_dr24&FORMAT=csv&BAD_CATFLAGS_MASK=65535",
+  "sha256_uncompressed": "293e221a59643da8e4971e35c4411807acfadcbf2bf6145d34edcbfb19595616",
+  "retrieved_utc": "2026-11-26T06:10:47+00:00"
+}

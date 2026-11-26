@@ -1,0 +1,8 @@
+{
+  "method": "service",
+  "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0702/302870/ztf_20250702302870_000680_zr_c03_o_q3_sciimg.fits?center=250.0278614%2C29.763246&size=225arcsec&gzip=false",
+  "requested": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0702/302870/ztf_20250702302870_000680_zr_c03_o_q3_sciimg.fits?center=250.0278614%2C29.763246&size=225arcsec&gzip=false",
+  "sha256": "615393f836f2997ef3cab37fd3f9242b4ececb36d86d66460e13ef1f54999318",
+  "attempts_before_success": [],
+  "archived_utc": "2026-11-26T06:16:26+00:00"
+}

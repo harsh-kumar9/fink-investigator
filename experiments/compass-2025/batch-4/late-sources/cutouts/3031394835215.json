@@ -1,0 +1,46 @@
+{
+  "method": "alternate_ibe_cutout",
+  "original_url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/394826/ztf_20250420394826_000633_zr_c14_o_q1_sciimg.fits",
+  "url": "https://irsaproxy1.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/394826/ztf_20250420394826_000633_zr_c14_o_q1_sciimg.fits?center=250.0278614,29.763246&size=225arcsec",
+  "retrieved_utc": "2026-11-26T06:23:48+00:00",
+  "attempts": [
+    {
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/394826/ztf_20250420394826_000633_zr_c14_o_q1_sciimg.fits?center=250.0278614,29.763246&size=225arcsec",
+      "http_status": 503,
+      "curl_status": 22
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/394826/ztf_20250420394826_000633_zr_c14_o_q1_sciimg.fits?center=250.0278614,29.763246&size=225arcsec&gzip=true",
+      "http_status": 503,
+      "curl_status": 22
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/394826/ztf_20250420394826_000633_zr_c14_o_q1_sciimg.fits?center=250.0278614,29.763246&size=225arcsec&gzip=false",
+      "http_status": 503,
+      "curl_status": 22
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/394826/ztf_20250420394826_000633_zr_c14_o_q1_sciimg.fits?center=250.0278614,29.763246&size=3.75arcmin&gzip=false",
+      "http_status": 503,
+      "curl_status": 22
+    },
+    {
+      "url": "https://irsaproxy1.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/394826/ztf_20250420394826_000633_zr_c14_o_q1_sciimg.fits?center=250.0278614,29.763246&size=225arcsec",
+      "http_status": 200,
+      "curl_status": 0
+    }
+  ],
+  "received_bytes": 172485,
+  "size_arcsec": 225,
+  "sha256_response": "668cf96d91670de7ca16e6340a24b96c3973f27598d8fe48a175ca88d19ffb01",
+  "sha256_cutout": "92f28e3b017e288306fb65afb60707969e9608534cbdfea9c487934aa1c33c5e",
+  "requested": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/394826/ztf_20250420394826_000633_zr_c14_o_q1_sciimg.fits?center=250.0278614%2C29.763246&size=225arcsec&gzip=false",
+  "sha256": "92f28e3b017e288306fb65afb60707969e9608534cbdfea9c487934aa1c33c5e",
+  "attempts_before_success": [
+    {
+      "method": "service",
+      "curl_status": 22
+    }
+  ],
+  "archived_utc": "2026-11-26T06:23:48+00:00"
+}

@@ -1,66 +1,33 @@
 """Replay the third queue and compare the measured evidence with the frozen reports."""
 
 import argparse
-import json
 from pathlib import Path
-import subprocess
 import sys
 from tempfile import TemporaryDirectory
 
 HERE = Path(__file__).resolve().parent
 YEAR = HERE.parent
-ROOT = HERE.parents[2]
-sys.path.insert(0, str(ROOT))
-from compass import check_replay
-
-
-def execute(script, *args):
-    return subprocess.check_output([sys.executable, script, *args], cwd=ROOT)
+sys.path.insert(0, str(YEAR))
+from batch_replay import compare as compare_result, execute, queue_and_direct
 
 
 def compare(data, expected):
-    check_replay(json.loads(data), json.loads((HERE / expected).read_text()), expected)
+    compare_result(data, HERE / expected)
 
 
 def verify(science):
     with TemporaryDirectory() as tmp:
         out = Path(tmp)
-        packets = [
-            YEAR / p
-            for p in (
+        queue_and_direct(
+            HERE,
+            out,
+            (
                 "results/packet.json",
                 "astrometry/packet.json",
                 "batch-2/results/packet.json",
-            )
-        ]
-        execute(
-            ROOT / "compass.py",
-            "--snapshot",
-            YEAR / "snapshot",
-            "--out",
-            out,
-            *[x for p in packets for x in ("--reviewed-packet", p)],
+            ),
         )
-        for name in ("packet.json", "ledger.json", "calibration.json"):
-            compare((out / name).read_bytes(), "results/" + name)
-        if (out / "report.md").read_bytes() != (
-            HERE / "results/report.md"
-        ).read_bytes():
-            raise ValueError("Queue report changed")
         result = out / "replay.json"
-        execute(
-            ROOT / "compass_direct.py",
-            "--snapshot",
-            YEAR / "snapshot",
-            "--ledger",
-            out / "ledger.json",
-            "--sources",
-            HERE / "direct",
-            "--out",
-            result,
-        )
-        compare(result.read_bytes(), "results/direct.json")
-        execute(YEAR / "batch-2/images/replay.py", "--batch", HERE)
         for script, expected in (
             ("catalog/check.py", "catalog/results.json"),
             ("catalog/recurrent_prior.py", "catalog/recurrent-prior.json"),

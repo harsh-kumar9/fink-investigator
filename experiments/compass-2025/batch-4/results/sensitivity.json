@@ -1,0 +1,71 @@
+{
+  "draws": 2000,
+  "valid": 1396,
+  "conditional_p16_p50_p84": {
+    "decline": [
+      0.507674027743467,
+      0.5784316043961804,
+      0.6500475523809569
+    ],
+    "reddening": [
+      0.7698613259235781,
+      0.9259127846652433,
+      1.104075747271714
+    ]
+  },
+  "red_peak_mjd_days": {
+    "60785": 1,
+    "60786": 3,
+    "60787": 45,
+    "60789": 200,
+    "60794": 839,
+    "60796": 308
+  },
+  "closest_class_counts": {
+    "II": 1281,
+    "Ia": 115
+  },
+  "fields": {
+    "633": {
+      "early_nights": 1,
+      "late_nights": 0,
+      "early_gr": -0.30519676208496094,
+      "late_gr": null,
+      "change": null
+    },
+    "680": {
+      "early_nights": 2,
+      "late_nights": 4,
+      "early_gr": -0.08141136169433594,
+      "late_gr": 0.7489042282104492,
+      "change": 0.8303155899047852
+    }
+  },
+  "conditional_distance_scales": {
+    "0.1": {
+      "luminosity_distance_mpc": 460.2999363904782,
+      "apparent_r_minus_distance_modulus": -18.611911971365856,
+      "span_days_divided_by_1_plus_z": 39.09031981813975
+    },
+    "0.25": {
+      "luminosity_distance_mpc": 1260.1752528337242,
+      "apparent_r_minus_distance_modulus": -20.798862130681655,
+      "span_days_divided_by_1_plus_z": 34.39948143996298
+    },
+    "0.44": {
+      "luminosity_distance_mpc": 2431.800465765029,
+      "apparent_r_minus_distance_modulus": -22.226347083505793,
+      "span_days_divided_by_1_plus_z": 29.86066097219009
+    },
+    "0.534": {
+      "luminosity_distance_mpc": 3066.1358423814936,
+      "apparent_r_minus_distance_modulus": -22.729664356823385,
+      "span_days_divided_by_1_plus_z": 28.030868187714294
+    },
+    "0.623": {
+      "luminosity_distance_mpc": 3695.2653585371468,
+      "apparent_r_minus_distance_modulus": -23.1349355505621,
+      "span_days_divided_by_1_plus_z": 26.493747258135386
+    }
+  }
+}

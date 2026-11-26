@@ -1,0 +1,9 @@
+{
+  "url": "https://portal.nersc.gov/cfs/cosmo/data/legacysurvey/dr10/south/sweep/10.1-photo-z/sweep-250p025-255p030-pz.fits",
+  "byte_range": [
+    0,
+    8639
+  ],
+  "sha256_uncompressed": "863a5e97803e1e4d788512ade739554a2a69d371078dfe071f4196a38c40fc23",
+  "retrieved_utc": "2026-11-26T06:17:43+00:00"
+}

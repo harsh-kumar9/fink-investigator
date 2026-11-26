@@ -1,0 +1,13 @@
+# Where the three alerts came from
+
+**ZTF25aanlbls.** Green exposures on April 20, 21 and 22, 2025 show a compact positive residual at a common position. The bright object south of the residual appears in all three references. The nearest Gaia DR3 source is 12.48″ from the anchor. A median over nine later and earlier quality nights places the transient at 250.02788995°, +29.76327160°. A faint pre-existing galaxy lies 0.133″ from this position, comparable to the 0.126″ median nightly radial scatter. Ground-based imaging places the transient at the galaxy’s central region. It leaves room for an unresolved offset or a projected source. [Three ZTF triplets](ZTF25aanlbls/montage.png) · [Pre-event morphology, alternatives and approximate redshift](host/README.md)
+
+**ZTF18aaadshm.** The November 2019 and November 2021 green exposures show compact central negative residuals. The March 2025 exposure shows a positive residual at the same location. A brighter star lower in each frame has a prominent subtraction pattern of its own. Gaia DR3 439190715601098880 (G = 19.24) lies 0.121″ from the anchor after proper-motion propagation. The median offsets from this star are 0.169″ over 98 positive dates and 0.113″ over 182 negative dates. The next Gaia source is 5.72″ away. The central source varies relative to the reference. Establishing the period or an extinction event requires photometry. [Images](ZTF18aaadshm/montage.png) · [Astrometry](results.json)
+
+**ZTF17aabutiy.** Green exposures show a central negative residual in November 2019 and positive residuals in August 2022 and October 2025, distinct from residual structure near other stars. This is a crowded field with 117 Gaia DR3 sources within 60″. Positive and negative detections lie a median 0.076″ and 0.083″ from the proper-motion-corrected position of Gaia DR3 1981059579469736320 (G = 19.86), across 131 and 418 dates respectively. The next Gaia entry is 5.72″ from the anchor. These observations favor variability at the same source across seasons. Flux measurements between peaks determine whether separate outbursts occurred. [Images](ZTF17aabutiy/montage.png) · [Astrometry](results.json)
+
+The nine triplets use the archived alert band and candidate identifiers. Fink stretches each thumbnail separately. The sign labels come from the alert records. The stellar offsets above use eligible dates through the respective anchor. The host check uses the subsequent alerts as well. Replay the thumbnail provenance and Gaia results from the repository root with the following command. [Independent initial hypotheses](../skeptic.md) · [Source and centroid records](results.json)
+
+```sh
+python3 experiments/compass-2025/batch-2/images/replay.py --batch experiments/compass-2025/batch-4
+```

@@ -1,0 +1,5 @@
+{
+  "url": "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch?cmd=SELECT+TOP+20+s.specObjID%2C+s.ra%2C+s.dec%2C+s.class%2Cs.z%2Cs.zWarning+FROM+dbo.fGetNearbySpecObjEq%2844.4238904%2C48.862231%2C0.166667%29+AS+n+JOIN+SpecObj+AS+s+ON+s.specObjID%3Dn.specObjID&format=csv",
+  "retrieved_utc": "2026-11-26T06:11:24+00:00",
+  "sha256_uncompressed": "792db96ccdd1f8b25f62561e7ffe582c3ccbbf15858198fe8ab106f4d43e7c78"
+}

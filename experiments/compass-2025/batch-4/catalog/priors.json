@@ -1,0 +1,164 @@
+{
+  "tns": {
+    "objid": "177688",
+    "name_prefix": "AT",
+    "name": "2025iac",
+    "ra": "250.0279306",
+    "declination": "29.7632508",
+    "redshift": "",
+    "typeid": "",
+    "type": "",
+    "reporting_groupid": "48",
+    "reporting_group": "ZTF",
+    "source_groupid": "48",
+    "source_group": "ZTF",
+    "discoverydate": "2025-04-20 08:42:59.996",
+    "discoverymag": "19.7488",
+    "discmagfilter": "110",
+    "filter": "g",
+    "reporters": "Jesper Sollerman (SU), Christoffer Fremling (Caltech), Daniel Perley (LJMU), Theophile du Laz (Caltech) on behalf of ZTF",
+    "time_received": "2025-04-22 10:12:02",
+    "internal_names": "ZTF25aanlbls",
+    "Discovery_ADS_bibcode": "2025TNSTR1494....1S",
+    "Class_ADS_bibcodes": "",
+    "creationdate": "2025-04-22 10:12:05",
+    "lastmodified": "2025-04-22 10:12:05"
+  },
+  "primary_rows": {
+    "MGAB-V488": {
+      "J/AJ/153/204/table5": [
+        {
+          "_r": "0.22",
+          "recno": "67001",
+          "RAJ2000": "044.42382",
+          "DEJ2000": "+48.86227",
+          "S3ab": "0.30",
+          "S3c": "0.01",
+          "DM": "17.55",
+          "Per": "0.4904450424",
+          "phi0": "0.46603",
+          "gAmp": "1.39",
+          "rAmp": "1.20",
+          "iAmp": "1.05",
+          "zAmp": "0.90",
+          "gmag": "17.37",
+          "rmag": "17.38",
+          "imag": "17.45",
+          "zmag": "17.57",
+          "Tg": "102",
+          "Tr": "111",
+          "Ti": "113",
+          "Tz": "117",
+          "<gmag>": "18.43",
+          "<rmag>": "18.22",
+          "<imag>": "18.16",
+          "<zmag>": "18.17",
+          "E(B-V)": "0.363",
+          "S10": "0",
+          "PS1": "PS1",
+          "Sloan": "Sloan",
+          "SimbadName": null
+        }
+      ],
+      "J/MNRAS/456/4441/catalog": []
+    },
+    "ZTF17aabutiy": {
+      "J/AJ/159/198/table1": [],
+      "J/AJ/159/198/table2": [
+        {
+          "_r": "0.07",
+          "recno": "193",
+          "ZTF": "17aabutiy",
+          "RAJ2000": "21 58 15.94",
+          "DEJ2000": "+51 50 20.3",
+          "GLAT": "-2.4",
+          "High": "17.4",
+          "Low": "19.8",
+          "plx": null,
+          "e_plx": null,
+          "Nout": "3",
+          "Days": "336",
+          "SDSS": null,
+          "CRTS": null,
+          "Spec": null,
+          "Other": "G",
+          "CCat": "0",
+          "Gaia": "1",
+          "SimbadName": "o ZTF 17aabutiy"
+        }
+      ],
+      "J/AJ/159/198/table3": [],
+      "J/MNRAS/456/4441/catalog": []
+    }
+  },
+  "aavso": {
+    "MGAB-V488": {
+      "rows": 0,
+      "names": [],
+      "dates": []
+    },
+    "ZTF17aabutiy": {
+      "rows": 0,
+      "names": [],
+      "dates": []
+    }
+  },
+  "vsx": {
+    "MGAB-V488": {
+      "Name": "MGAB-V488",
+      "RA2000": "44.42384",
+      "Declination2000": "48.86227",
+      "VariabilityType": "UG",
+      "MaxMag": "18.4 r",
+      "MinMag": "21.4 r",
+      "Discoverer": "B. Sesar et al.; Gabriel Murawski",
+      "Category": "Variable",
+      "OID": "1498636",
+      "Constellation": "Per"
+    },
+    "ZTF17aabutiy": {
+      "Name": "ZTF17aabutiy",
+      "RA2000": "329.56639",
+      "Declination2000": "51.83902",
+      "VariabilityType": "UG",
+      "MaxMag": "16.9 g",
+      "MinMag": "21.0 g",
+      "Category": "Variable",
+      "OID": "1542955",
+      "Constellation": "Cyg"
+    }
+  },
+  "historical_notices": {
+    "vsnet": [
+      "MGAB-V488  (UGSS) 204(11) 205(15) 183(19) 185(21) ZAD",
+      "ZTF17aabutiy (UGSS) 194(5) 202(11) 199(13) 178(15) 200(19) 201(21) ZAD",
+      "ZAD ZTF Alert DC mag (Masci+ 2019)"
+    ],
+    "murawski": [
+      "MGAB-V488 Gaia EDR3 position : 44.423839 48.862266 Variability type : UG Variability range : 18.4 - 21.4 r"
+    ]
+  },
+  "discovery_chart": {
+    "page_url": "https://sites.google.com/view/mgab-astronomy/mgab-v451-v500",
+    "retrieved_utc": "2026-11-26T06:21:00+00:00",
+    "sha256_page": "010521460a7b2ff6a5d2fe0ac111582081aca32dae388bbbc30d9b8ce8ec480a",
+    "sha256_chart": "f8f4bf1a9595fa4781489ce34a739ccf0fdee49b473902c14cfbf57f3984c2e6",
+    "bytes_chart": 56035,
+    "visually_read_chart_legend": [
+      "g-band (ZTF)",
+      "r-band (ZTF)"
+    ],
+    "visually_read_axis_HJD_minus_2400000": [
+      58150,
+      59050
+    ]
+  },
+  "spectra_within_10arcsec": {
+    "sdss_dr17_primary": {
+      "MGAB-V488": [],
+      "ZTF17aabutiy": [],
+      "AT2025iac": []
+    },
+    "desi_dr1_zpix": []
+  }
+}

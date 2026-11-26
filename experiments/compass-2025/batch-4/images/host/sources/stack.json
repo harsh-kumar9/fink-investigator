@@ -1,0 +1,5 @@
+{
+  "url": "https://catalogs.mast.stsci.edu/api/v0.1/panstarrs/dr2/stack.csv?ra=250.0278614&dec=29.763246&radius=0.016666666666666666&pagesize=1000&columns=%5BobjID%2CraStack%2CdecStack%2CnDetections%2CprimaryDetection%2CbestDetection%2Cgra%2Cgdec%2CgEpoch%2CgPSFMag%2CgPSFMagErr%2CgKronMag%2CgKronMagErr%2CgpsfQfPerfect%2Crra%2Crdec%2CrEpoch%2CrPSFMag%2CrPSFMagErr%2CrKronMag%2CrKronMagErr%2CrpsfQfPerfect%2Cira%2Cidec%2CiEpoch%2CiPSFMag%2CiPSFMagErr%2CiKronMag%2CiKronMagErr%2CipsfQfPerfect%5D",
+  "sha256_uncompressed": "226c0148bf0cef457d153dd04663f626d88b8160b498bcaf736045e5f4a9cc48",
+  "retrieved_utc": "2026-11-26T06:08:55+00:00"
+}

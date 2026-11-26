@@ -1,0 +1,3410 @@
+{
+  "target_red_peak_mjd_day": 60794,
+  "target": {
+    "decline": 0.5595724635032369,
+    "reddening": 1.0386466979980469,
+    "early_gr": -0.30519676208496094,
+    "late_gr": 0.7334499359130859,
+    "offsets": {
+      "red": [
+        26,
+        28,
+        30,
+        34
+      ],
+      "early_color": [
+        -9,
+        -8,
+        2
+      ],
+      "late_color": [
+        22,
+        24,
+        26,
+        28,
+        30
+      ]
+    }
+  },
+  "panels": {
+    "2024_bright": {
+      "controls": [
+        {
+          "id": "ZTF24aabpojp",
+          "tns": "SN2024acn",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.031",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.1405922218405885,
+            "peak_minus_discovery_days": 30,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60352.38,
+          "red_peak_mjd_day": 60352,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aarvbxj",
+          "tns": "SN2024lby",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.02",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.08970006010485734,
+            "peak_minus_discovery_days": 11,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60484.36,
+          "red_peak_mjd_day": 60484,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.3173320000000004,
+            "reddening": 0.5999399999999966,
+            "early_gr": 0.0040170000000010475,
+            "late_gr": 0.6039569999999976,
+            "offsets": {
+              "red": [
+                26,
+                30,
+                32,
+                35,
+                37,
+                40
+              ],
+              "early_color": [
+                -8,
+                -4,
+                0
+              ],
+              "late_color": [
+                20,
+                26,
+                30,
+                32,
+                35
+              ]
+            }
+          },
+          "matched": {
+            "decline": 0.31137050000000066,
+            "reddening": 0.527338499999999,
+            "early_gr": 0.020547499999999275,
+            "late_gr": 0.5478859999999983,
+            "offsets": {
+              "red": [
+                26,
+                30,
+                32,
+                35
+              ],
+              "early_color": [
+                -8,
+                0
+              ],
+              "late_color": [
+                20,
+                26,
+                30,
+                32
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24abyatjx",
+          "tns": "SN2024aeee",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.0116",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.11073223970655763,
+            "peak_minus_discovery_days": 12,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60673.49,
+          "red_peak_mjd_day": 60673,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.6836564999999997,
+            "reddening": 0.6553509999999996,
+            "early_gr": -0.16198299999999932,
+            "late_gr": 0.49336800000000025,
+            "offsets": {
+              "red": [
+                25,
+                32,
+                37
+              ],
+              "early_color": [
+                -9,
+                -7,
+                -5,
+                0
+              ],
+              "late_color": [
+                20,
+                22,
+                25
+              ]
+            }
+          },
+          "matched": {
+            "decline": 0.6562869999999998,
+            "reddening": 0.6614339999999999,
+            "early_gr": -0.1680659999999996,
+            "late_gr": 0.49336800000000025,
+            "offsets": {
+              "red": [
+                25,
+                32
+              ],
+              "early_color": [
+                -9,
+                -7,
+                0
+              ],
+              "late_color": [
+                20,
+                22,
+                25
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24aahxgoa",
+          "tns": "SN2024faq",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.026",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.1028723395451909,
+            "peak_minus_discovery_days": 6,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60403.45,
+          "red_peak_mjd_day": 60407,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.46153000000000155,
+            "reddening": 0.834670500000005,
+            "early_gr": -0.13094400000000306,
+            "late_gr": 0.7037265000000019,
+            "offsets": {
+              "red": [
+                26,
+                30,
+                31,
+                32,
+                34,
+                36,
+                38,
+                40
+              ],
+              "early_color": [
+                -10,
+                -4,
+                0
+              ],
+              "late_color": [
+                23,
+                26,
+                30,
+                31,
+                32,
+                34
+              ]
+            }
+          },
+          "matched": {
+            "decline": 0.4325814999999995,
+            "reddening": 0.9488055000000006,
+            "early_gr": -0.29419549999999894,
+            "late_gr": 0.6546100000000017,
+            "offsets": {
+              "red": [
+                26,
+                30,
+                31,
+                34
+              ],
+              "early_color": [
+                -10,
+                0
+              ],
+              "late_color": [
+                23,
+                26,
+                30,
+                31
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24aanbjel",
+          "tns": "SN2024iqx",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.0313",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.20025125204672872,
+            "peak_minus_discovery_days": 6,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60446.38,
+          "red_peak_mjd_day": 60450,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.8474199999999996,
+            "reddening": 0.6095159999999993,
+            "early_gr": -0.10656999999999783,
+            "late_gr": 0.5029460000000014,
+            "offsets": {
+              "red": [
+                25,
+                27,
+                30,
+                32,
+                34,
+                37,
+                39
+              ],
+              "early_color": [
+                -10,
+                -8,
+                -6,
+                -4,
+                0,
+                2
+              ],
+              "late_color": [
+                20,
+                22,
+                25,
+                27,
+                30,
+                32,
+                34
+              ]
+            }
+          },
+          "matched": {
+            "decline": 0.8348990000000001,
+            "reddening": 0.5489059999999988,
+            "early_gr": -0.028691999999999496,
+            "late_gr": 0.5202139999999993,
+            "offsets": {
+              "red": [
+                25,
+                27,
+                30,
+                34
+              ],
+              "early_color": [
+                -10,
+                -8,
+                2
+              ],
+              "late_color": [
+                22,
+                25,
+                27,
+                30,
+                32
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24abybsoa",
+          "tns": "SN2024aeeg",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.0165",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.1564729737600181,
+            "peak_minus_discovery_days": 4,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60665.19,
+          "red_peak_mjd_day": 60661,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaabbse",
+          "tns": "SN2023achj",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.023",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.10885138907294747,
+            "peak_minus_discovery_days": 14,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60323.36,
+          "red_peak_mjd_day": 60323,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.22796999999999912,
+            "reddening": 0.6366969999999981,
+            "early_gr": 0.22868800000000178,
+            "late_gr": 0.8653849999999998,
+            "offsets": {
+              "red": [
+                29,
+                31,
+                34
+              ],
+              "early_color": [
+                -8,
+                0,
+                2
+              ],
+              "late_color": [
+                29,
+                31,
+                34
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaosqgf",
+          "tns": "SN2024jgk",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.0188",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.14911196721643424,
+            "peak_minus_discovery_days": 7,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60461.27,
+          "red_peak_mjd_day": 60455,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aahgqwk",
+          "tns": "SN2024ehs",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.00377",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.13496345254621572,
+            "peak_minus_discovery_days": 20,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60404.28,
+          "red_peak_mjd_day": 60404,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.5642069999999997,
+            "reddening": 1.0639719999999997,
+            "early_gr": 0.09349100000000021,
+            "late_gr": 1.157463,
+            "offsets": {
+              "red": [
+                25,
+                27,
+                33,
+                35,
+                37,
+                39
+              ],
+              "early_color": [
+                -9,
+                -6,
+                0
+              ],
+              "late_color": [
+                25,
+                33
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaimzkp",
+          "tns": "SN2024fpf",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.0152",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.08000064154755505,
+            "peak_minus_discovery_days": 76,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60480.32,
+          "red_peak_mjd_day": 60480,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aajzrsq",
+          "tns": "SN2024grz",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.02321",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.17004289309702939,
+            "peak_minus_discovery_days": 17,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60434.33,
+          "red_peak_mjd_day": 60437,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aboqfdy",
+          "tns": "SN2024zmm",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.03",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.11708466659692396,
+            "peak_minus_discovery_days": 35,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60644.31,
+          "red_peak_mjd_day": 60637,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.3542839999999998,
+            "reddening": 0.5191199999999991,
+            "early_gr": 0.3001799999999992,
+            "late_gr": 0.8192999999999984,
+            "offsets": {
+              "red": [
+                26,
+                28,
+                29,
+                31,
+                37,
+                40
+              ],
+              "early_color": [
+                -9,
+                -6,
+                -2,
+                0
+              ],
+              "late_color": [
+                23,
+                26,
+                28,
+                29,
+                31
+              ]
+            }
+          },
+          "matched": {
+            "decline": 0.30279700000000176,
+            "reddening": 0.5583719999999985,
+            "early_gr": 0.2609279999999998,
+            "late_gr": 0.8192999999999984,
+            "offsets": {
+              "red": [
+                26,
+                28,
+                31
+              ],
+              "early_color": [
+                -9,
+                -6,
+                0
+              ],
+              "late_color": [
+                23,
+                26,
+                28,
+                29,
+                31
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24abwniiv",
+          "tns": "SN2024admm",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.016",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.04041767292018415,
+            "peak_minus_discovery_days": 16,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60666.22,
+          "red_peak_mjd_day": 60668,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abuclbj",
+          "tns": "SN2024acga",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.04",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.09159999999948099,
+            "peak_minus_discovery_days": 13,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60653.16,
+          "red_peak_mjd_day": 60653,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.4037450000000007,
+            "reddening": 0.7396019999999979,
+            "early_gr": -0.1986309999999989,
+            "late_gr": 0.540970999999999,
+            "offsets": {
+              "red": [
+                26,
+                36,
+                38
+              ],
+              "early_color": [
+                -10,
+                -4,
+                0
+              ],
+              "late_color": [
+                22,
+                26
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaczgax",
+          "tns": "SN2024anc",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.02128",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.12937912728497658,
+            "peak_minus_discovery_days": 14,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60341.27,
+          "red_peak_mjd_day": null,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19abgbbzy",
+          "tns": "SN2019lqo",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.0103",
+          "audit": {
+            "ok": false,
+            "separation_arcsec": 0.757289186117858,
+            "peak_minus_discovery_days": 1733,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60418.28,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aahszxf",
+          "tns": "SN2024exw",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.007",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.0716000000025474,
+            "peak_minus_discovery_days": 10,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60403.32,
+          "red_peak_mjd_day": 60409,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18adowxvg",
+          "tns": "SN2024ydr",
+          "type": "SN IIP",
+          "family": "II",
+          "redshift": "0.01376",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.6372506427485375,
+            "peak_minus_discovery_days": 12,
+            "tns_type": "SN IIP"
+          },
+          "peak_estimate": 60608.43,
+          "red_peak_mjd_day": 60608,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abavoif",
+          "tns": "SN2024seh",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.056",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.15445852357708678,
+            "peak_minus_discovery_days": 22,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60556.25,
+          "red_peak_mjd_day": 60558,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aawakwl",
+          "tns": "SN2024pkt",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.025",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.16873742598999225,
+            "peak_minus_discovery_days": 7,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60511.37,
+          "red_peak_mjd_day": 60511,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.1208729999999996,
+            "reddening": 0.4889334999999999,
+            "early_gr": 0.3276294999999987,
+            "late_gr": 0.8165629999999986,
+            "offsets": {
+              "red": [
+                25,
+                27,
+                29,
+                33,
+                36,
+                38,
+                40
+              ],
+              "early_color": [
+                -4,
+                0
+              ],
+              "late_color": [
+                20,
+                25,
+                27,
+                29,
+                33
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24aasvdze",
+          "tns": "SN2024mld",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.043",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.11834260879954046,
+            "peak_minus_discovery_days": 17,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60501.23,
+          "red_peak_mjd_day": 60501,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.5296989999999973,
+            "reddening": 0.413551,
+            "early_gr": -0.2161230000000014,
+            "late_gr": 0.1974279999999986,
+            "offsets": {
+              "red": [
+                25,
+                27,
+                29,
+                31,
+                32,
+                36,
+                39
+              ],
+              "early_color": [
+                -2,
+                0
+              ],
+              "late_color": [
+                23,
+                25,
+                27,
+                29,
+                31,
+                32
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24abljlku",
+          "tns": "SN2024xav",
+          "type": "SN IIP",
+          "family": "II",
+          "redshift": "0.02",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.11569523062253916,
+            "peak_minus_discovery_days": 9,
+            "tns_type": "SN IIP"
+          },
+          "peak_estimate": 60592.43,
+          "red_peak_mjd_day": 60592,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.35955549999999903,
+            "reddening": 0.6074905000000008,
+            "early_gr": 0.20083649999999942,
+            "late_gr": 0.8083270000000002,
+            "offsets": {
+              "red": [
+                27,
+                28,
+                29,
+                31,
+                32,
+                35,
+                36,
+                39
+              ],
+              "early_color": [
+                0,
+                2
+              ],
+              "late_color": [
+                24,
+                27,
+                29,
+                31,
+                32,
+                35
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24abtczty",
+          "tns": "SN2024abfl",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.00297",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.06383934864408083,
+            "peak_minus_discovery_days": 6,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60635.25,
+          "red_peak_mjd_day": null,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaaibep",
+          "tns": "SN2024hw",
+          "type": "SN II",
+          "family": "II",
+          "redshift": "0.0389",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.10533130356929986,
+            "peak_minus_discovery_days": 11,
+            "tns_type": "SN II"
+          },
+          "peak_estimate": 60325.47,
+          "red_peak_mjd_day": 60325,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aatlsjq",
+          "tns": "SN2024ndh",
+          "type": "SN IIb",
+          "family": "IIb",
+          "redshift": "0.0163",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.041087475637381896,
+            "peak_minus_discovery_days": 27,
+            "tns_type": "SN IIb"
+          },
+          "peak_estimate": 60514.37,
+          "red_peak_mjd_day": 60514,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.1600859999999997,
+            "reddening": 0.7046030000000005,
+            "early_gr": 0.239510000000001,
+            "late_gr": 0.9441130000000015,
+            "offsets": {
+              "red": [
+                29,
+                31,
+                34,
+                36,
+                38
+              ],
+              "early_color": [
+                -9,
+                -3,
+                0,
+                2
+              ],
+              "late_color": [
+                22,
+                24,
+                29,
+                31,
+                34
+              ]
+            }
+          },
+          "matched": {
+            "decline": 1.0750050000000009,
+            "reddening": 0.7154385000000012,
+            "early_gr": 0.2322584999999986,
+            "late_gr": 0.9476969999999998,
+            "offsets": {
+              "red": [
+                29,
+                31,
+                34
+              ],
+              "early_color": [
+                -9,
+                2
+              ],
+              "late_color": [
+                22,
+                24,
+                29,
+                31
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24aankvcy",
+          "tns": "SN2024iss",
+          "type": "SN IIb",
+          "family": "IIb",
+          "redshift": "0.00333",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.13196592374430155,
+            "peak_minus_discovery_days": 13,
+            "tns_type": "SN IIb"
+          },
+          "peak_estimate": 60455.3,
+          "red_peak_mjd_day": 60455,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abszbeu",
+          "tns": "SN2024abmz",
+          "type": "SN IIn",
+          "family": "IIn",
+          "redshift": "0.01918",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.17469399690598877,
+            "peak_minus_discovery_days": 13,
+            "tns_type": "SN IIn"
+          },
+          "peak_estimate": 60646.5,
+          "red_peak_mjd_day": 60635,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaabljq",
+          "tns": "SN2024dy",
+          "type": "SN IIn",
+          "family": "IIn",
+          "redshift": "0.021",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.0004000000075166099,
+            "peak_minus_discovery_days": 41,
+            "tns_type": "SN IIn"
+          },
+          "peak_estimate": 60352.38,
+          "red_peak_mjd_day": 60352,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaleeji",
+          "tns": "SN2024hpj",
+          "type": "SN IIn",
+          "family": "IIn",
+          "redshift": "0.016",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.013250873074437194,
+            "peak_minus_discovery_days": 22,
+            "tns_type": "SN IIn"
+          },
+          "peak_estimate": 60452.41,
+          "red_peak_mjd_day": 60452,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.9488060000000011,
+            "reddening": 0.46837500000000176,
+            "early_gr": 0.008592000000000155,
+            "late_gr": 0.4769670000000019,
+            "offsets": {
+              "red": [
+                25,
+                28,
+                30,
+                32,
+                35,
+                37,
+                39
+              ],
+              "early_color": [
+                -10,
+                -8,
+                -6,
+                -2,
+                0
+              ],
+              "late_color": [
+                20,
+                23,
+                25,
+                28,
+                32
+              ]
+            }
+          },
+          "matched": {
+            "decline": 1.7162689999999987,
+            "reddening": 0.46837500000000176,
+            "early_gr": 0.008592000000000155,
+            "late_gr": 0.4769670000000019,
+            "offsets": {
+              "red": [
+                25,
+                28,
+                30,
+                35
+              ],
+              "early_color": [
+                -10,
+                -8,
+                0
+              ],
+              "late_color": [
+                20,
+                23,
+                25,
+                28,
+                32
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24aaisnlp",
+          "tns": "SN2024gbc",
+          "type": "SN IIn",
+          "family": "IIn",
+          "redshift": "0.0517",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.06859659998599532,
+            "peak_minus_discovery_days": 28,
+            "tns_type": "SN IIn"
+          },
+          "peak_estimate": 60436.45,
+          "red_peak_mjd_day": 60436,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abxpkhb",
+          "tns": "SN2024advj",
+          "type": "SN IIn",
+          "family": "IIn",
+          "redshift": "0.017",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.15984279209441776,
+            "peak_minus_discovery_days": 12,
+            "tns_type": "SN IIn"
+          },
+          "peak_estimate": 60667.18,
+          "red_peak_mjd_day": 60667,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.4822120000000005,
+            "reddening": 0.184616000000001,
+            "early_gr": 0.2128079999999999,
+            "late_gr": 0.3974240000000009,
+            "offsets": {
+              "red": [
+                27,
+                30,
+                39
+              ],
+              "early_color": [
+                -9,
+                -7,
+                -4,
+                0
+              ],
+              "late_color": [
+                20,
+                24,
+                27,
+                30
+              ]
+            }
+          },
+          "matched": {
+            "decline": 1.3280560000000001,
+            "reddening": 0.1709940000000003,
+            "early_gr": 0.22643000000000058,
+            "late_gr": 0.3974240000000009,
+            "offsets": {
+              "red": [
+                27,
+                30
+              ],
+              "early_color": [
+                -9,
+                -7,
+                0
+              ],
+              "late_color": [
+                20,
+                24,
+                27,
+                30
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24abeivan",
+          "tns": "SN2024ueo",
+          "type": "SN IIn",
+          "family": "IIn",
+          "redshift": "0.036",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.37062813626789487,
+            "peak_minus_discovery_days": 13,
+            "tns_type": "SN IIn"
+          },
+          "peak_estimate": 60566.42,
+          "red_peak_mjd_day": 60564,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.8063910000000014,
+            "reddening": 0.11628900000000186,
+            "early_gr": 0.08011899999999983,
+            "late_gr": 0.1964080000000017,
+            "offsets": {
+              "red": [
+                29,
+                32,
+                34,
+                36,
+                39
+              ],
+              "early_color": [
+                -8,
+                -6,
+                -3
+              ],
+              "late_color": [
+                29,
+                32,
+                34
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24abizbpc",
+          "tns": "SN2024wom",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.05",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.09160780482834462,
+            "peak_minus_discovery_days": 14,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60591.44,
+          "red_peak_mjd_day": 60591,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.0617039999999989,
+            "reddening": 1.1691725000000002,
+            "early_gr": -0.14768749999999997,
+            "late_gr": 1.0214850000000002,
+            "offsets": {
+              "red": [
+                30,
+                31,
+                32,
+                37,
+                40
+              ],
+              "early_color": [
+                0,
+                2
+              ],
+              "late_color": [
+                31,
+                32
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24abglarx",
+          "tns": "SN2024uzz",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.0349",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.11959999999646698,
+            "peak_minus_discovery_days": 17,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60578.21,
+          "red_peak_mjd_day": 60578,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aamipnt",
+          "tns": "SN2024iey",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.03",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.11670489256999333,
+            "peak_minus_discovery_days": 19,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60455.38,
+          "red_peak_mjd_day": 60455,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.0931060000000024,
+            "reddening": 1.015788999999998,
+            "early_gr": 0.04942300000000088,
+            "late_gr": 1.065211999999999,
+            "offsets": {
+              "red": [
+                26,
+                28,
+                30,
+                32,
+                34,
+                36
+              ],
+              "early_color": [
+                -10,
+                -8,
+                -6,
+                -4,
+                0
+              ],
+              "late_color": [
+                21,
+                24,
+                26,
+                28,
+                30,
+                34
+              ]
+            }
+          },
+          "matched": {
+            "decline": 1.0037740000000017,
+            "reddening": 0.994019999999999,
+            "early_gr": 0.04942300000000088,
+            "late_gr": 1.043443,
+            "offsets": {
+              "red": [
+                26,
+                28,
+                30,
+                34
+              ],
+              "early_color": [
+                -10,
+                -8,
+                0
+              ],
+              "late_color": [
+                21,
+                24,
+                26,
+                28,
+                30
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24abrfsap",
+          "tns": "SN2024aasu",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.03204",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.1604041604049803,
+            "peak_minus_discovery_days": 13,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60635.14,
+          "red_peak_mjd_day": 60627,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18abdnffn",
+          "tns": "SN2024isl",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.0477",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.40518025903935084,
+            "peak_minus_discovery_days": 18,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60455.39,
+          "red_peak_mjd_day": 60455,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abcwqil",
+          "tns": "SN2024tdb",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.04",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.06819614934379148,
+            "peak_minus_discovery_days": 15,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60564.47,
+          "red_peak_mjd_day": 60564,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.9439239999999991,
+            "reddening": 1.183863999999998,
+            "early_gr": 0.2592255000000012,
+            "late_gr": 1.4430894999999992,
+            "offsets": {
+              "red": [
+                27,
+                29,
+                31,
+                35,
+                38
+              ],
+              "early_color": [
+                -10,
+                -7,
+                -4,
+                0
+              ],
+              "late_color": [
+                29,
+                31
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaidlza",
+          "tns": "SN2024fke",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.04",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.1166417265070207,
+            "peak_minus_discovery_days": 17,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60419.2,
+          "red_peak_mjd_day": 60421,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24absvdpn",
+          "tns": "SN2024abkj",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.04",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.09650133815044674,
+            "peak_minus_discovery_days": 13,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60644.38,
+          "red_peak_mjd_day": 60644,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abljkvr",
+          "tns": "SN2024xed",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.0339",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.0822443618299655,
+            "peak_minus_discovery_days": 15,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60600.34,
+          "red_peak_mjd_day": 60600,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.0429059999999986,
+            "reddening": 0.7900525000000016,
+            "early_gr": -0.049306000000001404,
+            "late_gr": 0.7407465000000002,
+            "offsets": {
+              "red": [
+                26,
+                31,
+                34,
+                36,
+                39
+              ],
+              "early_color": [
+                -8,
+                -6,
+                -4,
+                -2,
+                0
+              ],
+              "late_color": [
+                20,
+                24,
+                26,
+                31
+              ]
+            }
+          },
+          "matched": {
+            "decline": 0.9279580000000003,
+            "reddening": 0.7592965000000014,
+            "early_gr": -0.018550000000001177,
+            "late_gr": 0.7407465000000002,
+            "offsets": {
+              "red": [
+                26,
+                31,
+                34
+              ],
+              "early_color": [
+                -8,
+                -6,
+                0
+              ],
+              "late_color": [
+                20,
+                24,
+                26,
+                31
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24abkbhzk",
+          "tns": "SN2024wye",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.032",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.07949607298272986,
+            "peak_minus_discovery_days": 14,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60596.21,
+          "red_peak_mjd_day": 60599,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaiehwu",
+          "tns": "SN2024fot",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.04",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.13595854068214858,
+            "peak_minus_discovery_days": 17,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60421.29,
+          "red_peak_mjd_day": 60421,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.0442644999999988,
+            "reddening": 0.7576514999999979,
+            "early_gr": -0.18564149999999913,
+            "late_gr": 0.5720099999999988,
+            "offsets": {
+              "red": [
+                26,
+                39
+              ],
+              "early_color": [
+                -10,
+                -8,
+                -4,
+                0
+              ],
+              "late_color": [
+                20,
+                22,
+                26
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24abwsvdz",
+          "tns": "SN2024adix",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.02103",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.152926283780081,
+            "peak_minus_discovery_days": 10,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60658.53,
+          "red_peak_mjd_day": 60658,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF17aabvong",
+          "tns": "SN2024xxq",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.034",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.3609251673301059,
+            "peak_minus_discovery_days": 14,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60610.19,
+          "red_peak_mjd_day": 60610,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aasgaac",
+          "tns": "SN2024lol",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.02",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.040017710101037364,
+            "peak_minus_discovery_days": 15,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60491.27,
+          "red_peak_mjd_day": 60491,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.130564500000002,
+            "reddening": 1.0459199999999989,
+            "early_gr": 0.045286000000000826,
+            "late_gr": 1.0912059999999997,
+            "offsets": {
+              "red": [
+                30,
+                33,
+                35,
+                39
+              ],
+              "early_color": [
+                -7,
+                -2
+              ],
+              "late_color": [
+                20,
+                33,
+                35
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaovokk",
+          "tns": "SN2024jii",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.04025",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.10288661715282568,
+            "peak_minus_discovery_days": 15,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60471.39,
+          "red_peak_mjd_day": 60473,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.332015499999999,
+            "reddening": 1.1627930000000006,
+            "early_gr": -0.1620929999999987,
+            "late_gr": 1.000700000000002,
+            "offsets": {
+              "red": [
+                29,
+                31,
+                34,
+                36,
+                38,
+                40
+              ],
+              "early_color": [
+                -9,
+                -4,
+                -2,
+                0
+              ],
+              "late_color": [
+                29,
+                31,
+                34
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24aaonrzo",
+          "tns": "SN2024jdi",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.02563",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.12108779053968663,
+            "peak_minus_discovery_days": 12,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60462.23,
+          "red_peak_mjd_day": 60464,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF21abnujlh",
+          "tns": "SN2021uuv",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.04457",
+          "audit": {
+            "ok": false,
+            "separation_arcsec": 0.17390914708061914,
+            "peak_minus_discovery_days": 1231,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60649.23,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aahgtjt",
+          "tns": "SN2024epx",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.01",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.02645106413726687,
+            "peak_minus_discovery_days": 15,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60403.29,
+          "red_peak_mjd_day": 60403,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aakdffc",
+          "tns": "SN2024gve",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.02991",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.1287820793267904,
+            "peak_minus_discovery_days": 11,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60430.34,
+          "red_peak_mjd_day": 60430,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abttoau",
+          "tns": "SN2024acda",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.041",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.13795142296800356,
+            "peak_minus_discovery_days": 13,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60650.53,
+          "red_peak_mjd_day": 60658,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aagiouv",
+          "tns": "SN2024dhl",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.04419",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.32849213742264977,
+            "peak_minus_discovery_days": 6,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60374.38,
+          "red_peak_mjd_day": 60374,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abgvscf",
+          "tns": "SN2024vim",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.01894",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.11065335388514881,
+            "peak_minus_discovery_days": 11,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60577.47,
+          "red_peak_mjd_day": 60577,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.1286320000000014,
+            "reddening": 0.9989684999999966,
+            "early_gr": 0.05508500000000183,
+            "late_gr": 1.0540534999999984,
+            "offsets": {
+              "red": [
+                25,
+                27,
+                29,
+                31,
+                33,
+                37,
+                39
+              ],
+              "early_color": [
+                -6,
+                -1,
+                0
+              ],
+              "late_color": [
+                20,
+                22,
+                25,
+                27,
+                29,
+                31
+              ]
+            }
+          },
+          "matched": {
+            "decline": 1.0729585000000004,
+            "reddening": 1.0011724999999974,
+            "early_gr": 0.06448450000000072,
+            "late_gr": 1.065656999999998,
+            "offsets": {
+              "red": [
+                27,
+                29,
+                31,
+                33
+              ],
+              "early_color": [
+                -6,
+                0
+              ],
+              "late_color": [
+                22,
+                25,
+                27,
+                29,
+                31
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24abhzshd",
+          "tns": "SN2024vny",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.0333",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.17050166743728767,
+            "peak_minus_discovery_days": 12,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60583.17,
+          "red_peak_mjd_day": 60583,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abbwkci",
+          "tns": "SN2024sht",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.01848",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.07160647781755873,
+            "peak_minus_discovery_days": 15,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 60552.43,
+          "red_peak_mjd_day": 60552,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.4197895000000003,
+            "reddening": 0.9669630000000007,
+            "early_gr": 0.019238999999999784,
+            "late_gr": 0.9862020000000005,
+            "offsets": {
+              "red": [
+                25,
+                27,
+                29,
+                39
+              ],
+              "early_color": [
+                -9,
+                -8,
+                -7,
+                -4,
+                -2,
+                0
+              ],
+              "late_color": [
+                20,
+                23,
+                24,
+                25,
+                27,
+                29
+              ]
+            }
+          },
+          "matched": {
+            "decline": 1.335382000000001,
+            "reddening": 0.9694439999999993,
+            "early_gr": 0.020018000000000313,
+            "late_gr": 0.9894619999999996,
+            "offsets": {
+              "red": [
+                25,
+                27,
+                29
+              ],
+              "early_color": [
+                -9,
+                -8,
+                0
+              ],
+              "late_color": [
+                23,
+                24,
+                25,
+                27,
+                29
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24abwmzop",
+          "tns": "SN2024admc",
+          "type": "SN Ib/c",
+          "family": "Ib/c",
+          "redshift": "0.0168",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.02042440172457432,
+            "peak_minus_discovery_days": 23,
+            "tns_type": "SN Ib/c"
+          },
+          "peak_estimate": 60673.13,
+          "red_peak_mjd_day": 60671,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24abtnkbi",
+          "tns": "SN2024abtu",
+          "type": "SN Ic",
+          "family": "Ib/c",
+          "redshift": "0.01768",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.08647039422281265,
+            "peak_minus_discovery_days": 11,
+            "tns_type": "SN Ic"
+          },
+          "peak_estimate": 60647.39,
+          "red_peak_mjd_day": 60647,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.6304890000000007,
+            "reddening": 0.8112655000000011,
+            "early_gr": 0.4078304999999993,
+            "late_gr": 1.2190960000000004,
+            "offsets": {
+              "red": [
+                26,
+                39
+              ],
+              "early_color": [
+                -8,
+                2
+              ],
+              "late_color": [
+                20,
+                26
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF24abhhzrp",
+          "tns": "SN2024vkn",
+          "type": "SN Ic",
+          "family": "Ib/c",
+          "redshift": "0.031",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.22382373129091454,
+            "peak_minus_discovery_days": 10,
+            "tns_type": "SN Ic"
+          },
+          "peak_estimate": 60575.45,
+          "red_peak_mjd_day": 60575,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aayimjt",
+          "tns": "SN2024rjw",
+          "type": "SN Ic",
+          "family": "Ib/c",
+          "redshift": "0.02",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.09256957787375049,
+            "peak_minus_discovery_days": 11,
+            "tns_type": "SN Ic"
+          },
+          "peak_estimate": 60536.21,
+          "red_peak_mjd_day": 60536,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF24aawtoiv",
+          "tns": "SN2024pwk",
+          "type": "SN Ic",
+          "family": "Ib/c",
+          "redshift": "0.024",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.12295427019628512,
+            "peak_minus_discovery_days": 16,
+            "tns_type": "SN Ic"
+          },
+          "peak_estimate": 60529.37,
+          "red_peak_mjd_day": 60529,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.3304150000000021,
+            "reddening": 0.7740369999999963,
+            "early_gr": 0.19507400000000175,
+            "late_gr": 0.9691109999999981,
+            "offsets": {
+              "red": [
+                26,
+                28,
+                30,
+                32,
+                34,
+                36
+              ],
+              "early_color": [
+                -10,
+                -8,
+                -4,
+                0,
+                2
+              ],
+              "late_color": [
+                20,
+                22,
+                24,
+                26,
+                28,
+                30,
+                32
+              ]
+            }
+          },
+          "matched": {
+            "decline": 1.2738090000000017,
+            "reddening": 0.8561589999999981,
+            "early_gr": 0.11295199999999994,
+            "late_gr": 0.9691109999999981,
+            "offsets": {
+              "red": [
+                26,
+                28,
+                30,
+                34
+              ],
+              "early_color": [
+                -10,
+                -8,
+                2
+              ],
+              "late_color": [
+                22,
+                24,
+                26,
+                28,
+                30
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF24aaymkrs",
+          "tns": "SN2024rbc",
+          "type": "SN Ib",
+          "family": "Ib/c",
+          "redshift": "0.016",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.07985894785519226,
+            "peak_minus_discovery_days": 18,
+            "tns_type": "SN Ib"
+          },
+          "peak_estimate": 60543.44,
+          "red_peak_mjd_day": 60543,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 1.356880499999999,
+            "reddening": 0.7189959999999971,
+            "early_gr": 0.4174010000000017,
+            "late_gr": 1.1363969999999988,
+            "offsets": {
+              "red": [
+                26,
+                29,
+                32,
+                33,
+                34,
+                36,
+                38,
+                40
+              ],
+              "early_color": [
+                -10,
+                -7,
+                -5,
+                0,
+                2
+              ],
+              "late_color": [
+                21,
+                23,
+                26,
+                29,
+                32,
+                33,
+                34
+              ]
+            }
+          },
+          "matched": {
+            "decline": 1.2745219999999993,
+            "reddening": 0.9298949999999984,
+            "early_gr": 0.2323990000000009,
+            "late_gr": 1.1622939999999993,
+            "offsets": {
+              "red": [
+                26,
+                29,
+                32,
+                34
+              ],
+              "early_color": [
+                -10,
+                -7,
+                2
+              ],
+              "late_color": [
+                21,
+                23,
+                26,
+                29,
+                32
+              ]
+            }
+          }
+        }
+      ],
+      "class_comparison": {
+        "all": {
+          "families": {
+            "II": {
+              "usable": 11,
+              "selected": 24,
+              "decline": {
+                "min": 0.22796999999999912,
+                "median": 0.5296989999999973,
+                "max": 1.5642069999999997
+              },
+              "reddening": {
+                "min": 0.413551,
+                "median": 0.6095159999999993,
+                "max": 1.0639719999999997
+              }
+            },
+            "IIb": {
+              "usable": 1,
+              "selected": 2,
+              "decline": {
+                "min": 1.1600859999999997,
+                "median": 1.1600859999999997,
+                "max": 1.1600859999999997
+              },
+              "reddening": {
+                "min": 0.7046030000000005,
+                "median": 0.7046030000000005,
+                "max": 0.7046030000000005
+              }
+            },
+            "IIn": {
+              "usable": 3,
+              "selected": 6,
+              "decline": {
+                "min": 0.8063910000000014,
+                "median": 1.4822120000000005,
+                "max": 1.9488060000000011
+              },
+              "reddening": {
+                "min": 0.11628900000000186,
+                "median": 0.184616000000001,
+                "max": 0.46837500000000176
+              }
+            },
+            "Ia": {
+              "usable": 9,
+              "selected": 24,
+              "decline": {
+                "min": 0.9439239999999991,
+                "median": 1.0931060000000024,
+                "max": 1.4197895000000003
+              },
+              "reddening": {
+                "min": 0.7576514999999979,
+                "median": 1.015788999999998,
+                "max": 1.183863999999998
+              }
+            },
+            "Ib/c": {
+              "usable": 3,
+              "selected": 6,
+              "decline": {
+                "min": 1.3304150000000021,
+                "median": 1.356880499999999,
+                "max": 1.6304890000000007
+              },
+              "reddening": {
+                "min": 0.7189959999999971,
+                "median": 0.7740369999999963,
+                "max": 0.8112655000000011
+              }
+            }
+          },
+          "nearest": [
+            {
+              "id": "ZTF24aahxgoa",
+              "tns": "SN2024faq",
+              "family": "II",
+              "distance_mag": 0.22631529775850243
+            },
+            {
+              "id": "ZTF24abyatjx",
+              "tns": "SN2024aeee",
+              "family": "II",
+              "distance_mag": 0.4028801809684118
+            },
+            {
+              "id": "ZTF24abcwqil",
+              "tns": "SN2024tdb",
+              "family": "Ia",
+              "distance_mag": 0.4108700140046093
+            }
+          ],
+          "leave_one_out": {
+            "II": {
+              "II": 8,
+              "IIb": 1,
+              "IIn": 0,
+              "Ia": 1,
+              "Ib/c": 1
+            },
+            "IIb": {
+              "II": 0,
+              "IIb": 0,
+              "IIn": 0,
+              "Ia": 1,
+              "Ib/c": 0
+            },
+            "IIn": {
+              "II": 2,
+              "IIb": 0,
+              "IIn": 0,
+              "Ia": 0,
+              "Ib/c": 1
+            },
+            "Ia": {
+              "II": 1,
+              "IIb": 0,
+              "IIn": 0,
+              "Ia": 8,
+              "Ib/c": 0
+            },
+            "Ib/c": {
+              "II": 2,
+              "IIb": 0,
+              "IIn": 0,
+              "Ia": 0,
+              "Ib/c": 1
+            }
+          }
+        },
+        "matched": {
+          "families": {
+            "II": {
+              "usable": 5,
+              "selected": 24,
+              "decline": {
+                "min": 0.30279700000000176,
+                "median": 0.4325814999999995,
+                "max": 0.8348990000000001
+              },
+              "reddening": {
+                "min": 0.527338499999999,
+                "median": 0.5583719999999985,
+                "max": 0.9488055000000006
+              }
+            },
+            "IIb": {
+              "usable": 1,
+              "selected": 2,
+              "decline": {
+                "min": 1.0750050000000009,
+                "median": 1.0750050000000009,
+                "max": 1.0750050000000009
+              },
+              "reddening": {
+                "min": 0.7154385000000012,
+                "median": 0.7154385000000012,
+                "max": 0.7154385000000012
+              }
+            },
+            "IIn": {
+              "usable": 2,
+              "selected": 6,
+              "decline": {
+                "min": 1.3280560000000001,
+                "median": 1.5221624999999994,
+                "max": 1.7162689999999987
+              },
+              "reddening": {
+                "min": 0.1709940000000003,
+                "median": 0.31968450000000104,
+                "max": 0.46837500000000176
+              }
+            },
+            "Ia": {
+              "usable": 4,
+              "selected": 24,
+              "decline": {
+                "min": 0.9279580000000003,
+                "median": 1.038366250000001,
+                "max": 1.335382000000001
+              },
+              "reddening": {
+                "min": 0.7592965000000014,
+                "median": 0.9817319999999992,
+                "max": 1.0011724999999974
+              }
+            },
+            "Ib/c": {
+              "usable": 2,
+              "selected": 6,
+              "decline": {
+                "min": 1.2738090000000017,
+                "median": 1.2741655000000005,
+                "max": 1.2745219999999993
+              },
+              "reddening": {
+                "min": 0.8561589999999981,
+                "median": 0.8930269999999982,
+                "max": 0.9298949999999984
+              }
+            }
+          },
+          "nearest": [
+            {
+              "id": "ZTF24aahxgoa",
+              "tns": "SN2024faq",
+              "family": "II",
+              "distance_mag": 0.1555575317019549
+            },
+            {
+              "id": "ZTF24abyatjx",
+              "tns": "SN2024aeee",
+              "family": "II",
+              "distance_mag": 0.38941381729562385
+            },
+            {
+              "id": "ZTF24aamipnt",
+              "tns": "SN2024iey",
+              "family": "Ia",
+              "distance_mag": 0.4464376184869457
+            }
+          ],
+          "leave_one_out": {
+            "II": {
+              "II": 5,
+              "IIb": 0,
+              "IIn": 0,
+              "Ia": 0,
+              "Ib/c": 0
+            },
+            "IIb": {
+              "II": 0,
+              "IIb": 0,
+              "IIn": 0,
+              "Ia": 1,
+              "Ib/c": 0
+            },
+            "IIn": {
+              "II": 0,
+              "IIb": 0,
+              "IIn": 2,
+              "Ia": 0,
+              "Ib/c": 0
+            },
+            "Ia": {
+              "II": 0,
+              "IIb": 1,
+              "IIn": 0,
+              "Ia": 2,
+              "Ib/c": 1
+            },
+            "Ib/c": {
+              "II": 0,
+              "IIb": 0,
+              "IIn": 0,
+              "Ia": 1,
+              "Ib/c": 1
+            }
+          }
+        }
+      }
+    },
+    "distant": {
+      "controls": [
+        {
+          "id": "ZTF22aaylnhq",
+          "tns": "SN2022qmx",
+          "type": "SN Ia",
+          "family": "Ia",
+          "redshift": "0.35",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.136751036006392,
+            "peak_minus_discovery_days": 14,
+            "tns_type": "SN Ia"
+          },
+          "peak_estimate": 59806.19,
+          "red_peak_mjd_day": 59806,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF22aarqrxf",
+          "tns": "SN2022npq",
+          "type": "SLSN-I",
+          "family": "SLSN-I",
+          "redshift": "0.26",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.056474762951397944,
+            "peak_minus_discovery_days": 56,
+            "tns_type": "SLSN-I"
+          },
+          "peak_estimate": 59806.2,
+          "red_peak_mjd_day": 59806,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF21absyjff",
+          "tns": "SN2021xfu",
+          "type": "SLSN-I",
+          "family": "SLSN-I",
+          "redshift": "0.32",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.040199655298218104,
+            "peak_minus_discovery_days": 24,
+            "tns_type": "SLSN-I"
+          },
+          "peak_estimate": 59480.31,
+          "red_peak_mjd_day": 59487,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.14217649999999793,
+            "reddening": 0.020654500000000908,
+            "early_gr": -0.05987000000000009,
+            "late_gr": -0.03921549999999918,
+            "offsets": {
+              "red": [
+                25,
+                34,
+                36,
+                38
+              ],
+              "early_color": [
+                -7,
+                -3,
+                0
+              ],
+              "late_color": [
+                25,
+                34
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF22abkbmob",
+          "tns": "SN2022xgc",
+          "type": "SLSN-I",
+          "family": "SLSN-I",
+          "redshift": "0.31",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.050827321630665334,
+            "peak_minus_discovery_days": 50,
+            "tns_type": "SLSN-I"
+          },
+          "peak_estimate": 59896.38,
+          "red_peak_mjd_day": 59882,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.06569999999999965,
+            "reddening": -0.007137999999997646,
+            "early_gr": -0.032083000000000084,
+            "late_gr": -0.03922099999999773,
+            "offsets": {
+              "red": [
+                26,
+                28,
+                32
+              ],
+              "early_color": [
+                -8,
+                -2,
+                0
+              ],
+              "late_color": [
+                21,
+                26,
+                28
+              ]
+            }
+          },
+          "matched": {
+            "decline": 0.06569999999999965,
+            "reddening": -0.12405449999999796,
+            "early_gr": 0.08483350000000023,
+            "late_gr": -0.03922099999999773,
+            "offsets": {
+              "red": [
+                26,
+                28,
+                32
+              ],
+              "early_color": [
+                -8,
+                0
+              ],
+              "late_color": [
+                21,
+                26,
+                28
+              ]
+            }
+          }
+        },
+        {
+          "id": "ZTF22aadqgoa",
+          "tns": "SN2022gyv",
+          "type": "SLSN-I",
+          "family": "SLSN-I",
+          "redshift": "0.39",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.13591705499244536,
+            "peak_minus_discovery_days": 12,
+            "tns_type": "SLSN-I"
+          },
+          "peak_estimate": 59684.31,
+          "red_peak_mjd_day": 59684,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF21aalhtgv",
+          "tns": "SN2021fao",
+          "type": "SLSN-I",
+          "family": "SLSN-I",
+          "redshift": "0.281",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.08812451947970214,
+            "peak_minus_discovery_days": 22,
+            "tns_type": "SLSN-I"
+          },
+          "peak_estimate": 59302.27,
+          "red_peak_mjd_day": 59302,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.4259789999999981,
+            "reddening": 0.2467605000000006,
+            "early_gr": -0.003995499999998486,
+            "late_gr": 0.24276500000000212,
+            "offsets": {
+              "red": [
+                26,
+                34,
+                39
+              ],
+              "early_color": [
+                -10,
+                -8,
+                -5,
+                2
+              ],
+              "late_color": [
+                20,
+                22,
+                34
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF21abbqeea",
+          "tns": "SN2021mkr",
+          "type": "SLSN-I",
+          "family": "SLSN-I",
+          "redshift": "0.28",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.0005847961671611638,
+            "peak_minus_discovery_days": 48,
+            "tns_type": "SLSN-I"
+          },
+          "peak_estimate": 59397.35,
+          "red_peak_mjd_day": 59397,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF21aanefkx",
+          "tns": "SN2021elz",
+          "type": "SLSN-II",
+          "family": "SLSN-II",
+          "redshift": "0.26",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.3426116988409663,
+            "peak_minus_discovery_days": 34,
+            "tns_type": "SLSN-II"
+          },
+          "peak_estimate": 59300.4,
+          "red_peak_mjd_day": 59300,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.7194279999999988,
+            "reddening": 0.5016074999999987,
+            "early_gr": -0.0028009999999998314,
+            "late_gr": 0.4988064999999988,
+            "offsets": {
+              "red": [
+                28,
+                34,
+                38,
+                40
+              ],
+              "early_color": [
+                -8,
+                -3
+              ],
+              "late_color": [
+                24,
+                34
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF19adcfsoc",
+          "tns": "SN2019zcr",
+          "type": "SLSN-II",
+          "family": "SLSN-II",
+          "redshift": "0.259",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.15809695118220554,
+            "peak_minus_discovery_days": 52,
+            "tns_type": "SLSN-II"
+          },
+          "peak_estimate": 58898.46,
+          "red_peak_mjd_day": 58898,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF23abcvbqq",
+          "tns": "AT2023vto",
+          "type": "SLSN-II",
+          "family": "SLSN-II",
+          "redshift": "0.4846",
+          "audit": {
+            "ok": false,
+            "separation_arcsec": 0.24521334525356264,
+            "peak_minus_discovery_days": 49,
+            "tns_type": "SLSN-II",
+            "reason": "Published He TDE spectrum conflicts with catalog SLSN-II label"
+          },
+          "peak_estimate": 60245.29,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF22aarsjvn",
+          "tns": "SN2022oio",
+          "type": "SLSN-II",
+          "family": "SLSN-II",
+          "redshift": "0.29",
+          "audit": {
+            "ok": true,
+            "separation_arcsec": 0.03767584256494727,
+            "peak_minus_discovery_days": 28,
+            "tns_type": "SLSN-II"
+          },
+          "peak_estimate": 59793.3,
+          "red_peak_mjd_day": 59800,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        }
+      ],
+      "class_comparison": {
+        "all": {
+          "families": {
+            "Ia": {
+              "usable": 0,
+              "selected": 1
+            },
+            "SLSN-I": {
+              "usable": 3,
+              "selected": 6,
+              "decline": {
+                "min": 0.06569999999999965,
+                "median": 0.14217649999999793,
+                "max": 0.4259789999999981
+              },
+              "reddening": {
+                "min": -0.007137999999997646,
+                "median": 0.020654500000000908,
+                "max": 0.2467605000000006
+              }
+            },
+            "SLSN-II": {
+              "usable": 1,
+              "selected": 4,
+              "decline": {
+                "min": 0.7194279999999988,
+                "median": 0.7194279999999988,
+                "max": 0.7194279999999988
+              },
+              "reddening": {
+                "min": 0.5016074999999987,
+                "median": 0.5016074999999987,
+                "max": 0.5016074999999987
+              }
+            }
+          },
+          "nearest": [
+            {
+              "id": "ZTF21aanefkx",
+              "tns": "SN2021elz",
+              "family": "SLSN-II",
+              "distance_mag": 0.5603257023687691
+            },
+            {
+              "id": "ZTF21aalhtgv",
+              "tns": "SN2021fao",
+              "family": "SLSN-I",
+              "distance_mag": 0.8030759391680168
+            },
+            {
+              "id": "ZTF21absyjff",
+              "tns": "SN2021xfu",
+              "family": "SLSN-I",
+              "distance_mag": 1.100239749115478
+            }
+          ],
+          "leave_one_out": {
+            "Ia": {
+              "Ia": 0,
+              "SLSN-I": 0,
+              "SLSN-II": 0
+            },
+            "SLSN-I": {
+              "Ia": 0,
+              "SLSN-I": 3,
+              "SLSN-II": 0
+            },
+            "SLSN-II": {
+              "Ia": 0,
+              "SLSN-I": 1,
+              "SLSN-II": 0
+            }
+          }
+        },
+        "matched": {
+          "families": {
+            "Ia": {
+              "usable": 0,
+              "selected": 1
+            },
+            "SLSN-I": {
+              "usable": 1,
+              "selected": 6,
+              "decline": {
+                "min": 0.06569999999999965,
+                "median": 0.06569999999999965,
+                "max": 0.06569999999999965
+              },
+              "reddening": {
+                "min": -0.12405449999999796,
+                "median": -0.12405449999999796,
+                "max": -0.12405449999999796
+              }
+            },
+            "SLSN-II": {
+              "usable": 0,
+              "selected": 4
+            }
+          },
+          "nearest": [
+            {
+              "id": "ZTF22abkbmob",
+              "tns": "SN2022xgc",
+              "family": "SLSN-I",
+              "distance_mag": 1.263243478523774
+            }
+          ],
+          "leave_one_out": {
+            "Ia": {
+              "Ia": 0,
+              "SLSN-I": 0,
+              "SLSN-II": 0
+            },
+            "SLSN-I": {
+              "Ia": 0,
+              "SLSN-I": 0,
+              "SLSN-II": 0
+            },
+            "SLSN-II": {
+              "Ia": 0,
+              "SLSN-I": 0,
+              "SLSN-II": 0
+            }
+          }
+        }
+      }
+    },
+    "nuclear_TDE": {
+      "controls": [
+        {
+          "id": "ZTF18aabtxvd",
+          "tns": "AT2018zr",
+          "type": "TDE-H",
+          "family": "TDE",
+          "redshift": "0.075",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58205.0,
+          "red_peak_mjd_day": null,
+          "conflicting_exposures": 1,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18aahqkbt",
+          "tns": "AT2018bsi",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.051",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58225.0,
+          "red_peak_mjd_day": null,
+          "conflicting_exposures": 1,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18abxftqm",
+          "tns": "AT2018hco",
+          "type": "TDE-H",
+          "family": "TDE",
+          "redshift": "0.088",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58405.0,
+          "red_peak_mjd_day": null,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18acaqdaa",
+          "tns": "AT2018iih",
+          "type": "TDE-He",
+          "family": "TDE",
+          "redshift": "0.212",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18acpdvos",
+          "tns": "AT2018hyz",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.046",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58428.0,
+          "red_peak_mjd_day": null,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18actaqdw",
+          "tns": "AT2018lni",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.138",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19aabbnzo",
+          "tns": "AT2018lna",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.091",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58509.0,
+          "red_peak_mjd_day": 58507,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18acnbpmd",
+          "tns": "AT2018jbv",
+          "type": "TDE-featureless",
+          "family": "TDE",
+          "redshift": "0.340",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19aakiwze",
+          "tns": "AT2019cho",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.193",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58546.0,
+          "red_peak_mjd_day": 58543,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19aakswrb",
+          "tns": "AT2019bhf",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.121",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF17aaazdba",
+          "tns": "AT2019azh",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.022",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58558.0,
+          "red_peak_mjd_day": 58561,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.43809774999999895,
+            "reddening": 0.15319150000000015,
+            "early_gr": -0.23356650000000023,
+            "late_gr": -0.08037500000000009,
+            "offsets": {
+              "red": [
+                30,
+                37
+              ],
+              "early_color": [
+                -5,
+                0
+              ],
+              "late_color": [
+                20,
+                23,
+                30
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF19aapreis",
+          "tns": "AT2019dsg",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.051",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58604.0,
+          "red_peak_mjd_day": 58607,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19aarioci",
+          "tns": "AT2019ehz",
+          "type": "TDE-H",
+          "family": "TDE",
+          "redshift": "0.074",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58613.0,
+          "red_peak_mjd_day": 58619,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.31836900000000057,
+            "reddening": 0.06242500000000106,
+            "early_gr": -0.1756530000000005,
+            "late_gr": -0.11322799999999944,
+            "offsets": {
+              "red": [
+                25,
+                28,
+                31
+              ],
+              "early_color": [
+                -7,
+                -3,
+                0
+              ],
+              "late_color": [
+                22,
+                25
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF19abhejal",
+          "tns": "AT2019mha",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.148",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58704.0,
+          "red_peak_mjd_day": 58697,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19abhhjcc",
+          "tns": "AT2019meg",
+          "type": "TDE-H",
+          "family": "TDE",
+          "redshift": "0.152",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58696.0,
+          "red_peak_mjd_day": 58698,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.536054,
+            "reddening": 0.06738600000000083,
+            "early_gr": -0.17107199999999878,
+            "late_gr": -0.10368599999999795,
+            "offsets": {
+              "red": [
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "early_color": [
+                -5,
+                -4,
+                -2,
+                -1,
+                1,
+                2
+              ],
+              "late_color": [
+                20,
+                24,
+                25,
+                26,
+                27,
+                28
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF19abidbya",
+          "tns": "AT2019lwu",
+          "type": "TDE-H",
+          "family": "TDE",
+          "redshift": "0.117",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58692.0,
+          "red_peak_mjd_day": 58694,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19abzrhgq",
+          "tns": "AT2019qiz",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.015",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58763.0,
+          "red_peak_mjd_day": 58763,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19accmaxo",
+          "tns": "AT2019teq",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.087",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58794.0,
+          "red_peak_mjd_day": 58794,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20aabqihu",
+          "tns": "AT2020pj",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.068",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58862.0,
+          "red_peak_mjd_day": 58864,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF19acspeuw",
+          "tns": "AT2019vcb",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.088",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58829.0,
+          "red_peak_mjd_day": 58833,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20aamqmfk",
+          "tns": "AT2020ddv",
+          "type": "TDE-He",
+          "family": "TDE",
+          "redshift": "0.160",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 58915.0,
+          "red_peak_mjd_day": 58915,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF18aakelin",
+          "tns": "AT2020ocn",
+          "type": "TDE-He",
+          "family": "TDE",
+          "redshift": "0.070",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20abjwvae",
+          "tns": "AT2020opy",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.159",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 59089.0,
+          "red_peak_mjd_day": null,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20abfcszi",
+          "tns": "AT2020mot",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.070",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 59052.0,
+          "red_peak_mjd_day": 59064,
+          "conflicting_exposures": 0,
+          "all": {
+            "decline": 0.15201050000000293,
+            "reddening": -0.03975200000000001,
+            "early_gr": -0.10006100000000018,
+            "late_gr": -0.1398130000000002,
+            "offsets": {
+              "red": [
+                30,
+                32,
+                33,
+                34,
+                35
+              ],
+              "early_color": [
+                -10,
+                -7,
+                2
+              ],
+              "late_color": [
+                30,
+                33,
+                35
+              ]
+            }
+          },
+          "matched": null
+        },
+        {
+          "id": "ZTF20abefeab",
+          "tns": "AT2020mbq",
+          "type": "TDE-H",
+          "family": "TDE",
+          "redshift": "0.093",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20abowque",
+          "tns": "AT2020qhs",
+          "type": "TDE-featureless",
+          "family": "TDE",
+          "redshift": "0.345",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20abrnwfc",
+          "tns": "AT2020riz",
+          "type": "TDE-featureless",
+          "family": "TDE",
+          "redshift": "0.435",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20acitpfz",
+          "tns": "AT2020wey",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.027",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 59149.0,
+          "red_peak_mjd_day": 59153,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20acqoiyt",
+          "tns": "AT2020zso",
+          "type": "TDE-H+He",
+          "family": "TDE",
+          "redshift": "0.057",
+          "reference": "Hammerstein et al. 2023",
+          "peak_estimate": 59193.0,
+          "red_peak_mjd_day": 59189,
+          "conflicting_exposures": 0,
+          "all": null,
+          "matched": null
+        },
+        {
+          "id": "ZTF20abnorit",
+          "tns": "AT2020ysg",
+          "type": "TDE-featureless",
+          "family": "TDE",
+          "redshift": "0.277",
+          "reference": "Hammerstein et al. 2023",
+          "all": null,
+          "matched": null
+        }
+      ],
+      "class_comparison": {
+        "all": {
+          "families": {
+            "TDE": {
+              "usable": 4,
+              "selected": 30,
+              "decline": {
+                "min": 0.15201050000000293,
+                "median": 0.37823337499999976,
+                "max": 0.536054
+              },
+              "reddening": {
+                "min": -0.03975200000000001,
+                "median": 0.06490550000000095,
+                "max": 0.15319150000000015
+              }
+            }
+          },
+          "nearest": [
+            {
+              "id": "ZTF17aaazdba",
+              "tns": "AT2019azh",
+              "family": "TDE",
+              "distance_mag": 0.8937488538076308
+            },
+            {
+              "id": "ZTF19abhhjcc",
+              "tns": "AT2019meg",
+              "family": "TDE",
+              "distance_mag": 0.97154539863107
+            },
+            {
+              "id": "ZTF19aarioci",
+              "tns": "AT2019ehz",
+              "family": "TDE",
+              "distance_mag": 1.0055783979621602
+            }
+          ],
+          "leave_one_out": {
+            "TDE": {
+              "TDE": 4
+            }
+          }
+        },
+        "matched": {
+          "families": {
+            "TDE": {
+              "usable": 0,
+              "selected": 30
+            }
+          },
+          "nearest": [],
+          "leave_one_out": {
+            "TDE": {
+              "TDE": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

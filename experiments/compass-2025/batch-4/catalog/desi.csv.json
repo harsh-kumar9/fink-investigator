@@ -1,0 +1,5 @@
+{
+  "url": "https://datalab.noirlab.edu/query/query?sql=select+%27MGAB-V488%27+as+src%2Ctargetid%2Cmean_fiber_ra%2Cmean_fiber_dec%2Cspectype%2Cz%2Czwarn+from+desi_dr1.zpix+where+q3c_radial_query%28mean_fiber_ra%2Cmean_fiber_dec%2C44.4238904%2C48.862231%2C0.002777778%29+union+all+select+%27ZTF17aabutiy%27+as+src%2Ctargetid%2Cmean_fiber_ra%2Cmean_fiber_dec%2Cspectype%2Cz%2Czwarn+from+desi_dr1.zpix+where+q3c_radial_query%28mean_fiber_ra%2Cmean_fiber_dec%2C329.5663886%2C51.8389644%2C0.002777778%29+union+all+select+%27AT2025iac%27+as+src%2Ctargetid%2Cmean_fiber_ra%2Cmean_fiber_dec%2Cspectype%2Cz%2Czwarn+from+desi_dr1.zpix+where+q3c_radial_query%28mean_fiber_ra%2Cmean_fiber_dec%2C250.0278614%2C29.763246%2C0.002777778%29&ofmt=csv&async=False",
+  "retrieved_utc": "2026-11-26T06:11:27+00:00",
+  "sha256_uncompressed": "4894b3387f95a791ef9e976095aa08c45c94239c54a8879478046b10323804d2"
+}

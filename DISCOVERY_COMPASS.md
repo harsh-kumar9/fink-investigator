@@ -18,16 +18,22 @@ The first three rows have label-blind routing rules. The fourth has a separate c
 
 ## Resume the 2025 queue
 
-The third round measured a 14–20 day recurrence timescale in MGAB-V243 and a late brightening of ASASSN-25ba. It left 59 unique eligible positions. The command below takes the next three from the frozen ranking, retains their original route ranks and skips positions already reviewed. [Third-round findings](experiments/compass-2025/batch-3/README.md) · [Current queue](experiments/compass-2025/batch-3/results/report.md)
+The fourth round recovered MGAB-V488’s December 2013 eruption and measured the color and late light of AT 2025iac. There are 56 unique eligible positions left. Pass all five reviewed packets to take the next three while preserving the original route ranks. [Fourth-round findings](experiments/compass-2025/batch-4/README.md) · [Current queue](experiments/compass-2025/batch-4/results/report.md)
 
 ```sh
 base=experiments/compass-2025
-python3 compass.py --snapshot "$base/snapshot" --out runs/compass-2025-batch-4 \
+python3 compass.py --snapshot "$base/snapshot" --out runs/compass-2025-batch-5 \
   --reviewed-packet "$base/results/packet.json" --reviewed-packet "$base/astrometry/packet.json" \
-  --reviewed-packet "$base/batch-2/results/packet.json" --reviewed-packet "$base/batch-3/results/packet.json"
+  --reviewed-packet "$base/batch-2/results/packet.json" --reviewed-packet "$base/batch-3/results/packet.json" \
+  --reviewed-packet "$base/batch-4/results/packet.json"
 ```
 
-Three checks from this round apply to other sources.
+Two tests from the fourth round apply to other sources.
+
+* **Test a historical classification at its own epochs.** Retrieve the original model, amplitudes and dates. A measured brightness change larger than the model’s full range can challenge it without knowing the absolute phase. Inspect same-exposure field stars and flagged pixels, then transfer the model to an independent telescope. [The six-day rise at MGAB-V488](experiments/compass-2025/batch-4/catalog/README.md)
+* **Separate an observed light-curve resemblance from a physical identification.** Measure red fading and color evolution on matched dates, test known spectroscopic labels, and perturb the target fluxes to see how often the ranking changes. Check the host distance: one similar-looking light curve can imply very different luminosities. [AT 2025iac comparison](experiments/compass-2025/batch-4/comparison-protocol.md)
+
+Earlier rounds added these checks.
 
 * **Test eruption spacing across surveys.** Measure onset gaps where the sampling resolves both eruptions and an intervening fade. Freeze a range of delays. On unused dates from another telescope, compare brightness changes over that delay with those at shorter and longer delays starting on the same dates. Check nearby stars on the same images and time-dependent calibration. This can recover characteristic spacing even if a single clock fails on later seasons. [MGAB-V243 test and controls](experiments/compass-2025/batch-3/variables/recurrence-protocol.md)
 * **Measure the quiet nights.** The broker can stop returning observations while the survey continues imaging the position. Use the exposure inventory, freeze image quality and selection criteria, and measure signed flux at the same position. Withhold a nearby star of known brightness to check sensitivity. For a proposed outburst duration, count how much of the observing window could have caught it. [ASASSN-25ba image protocol](experiments/compass-2025/batch-3/onset-protocol.md)

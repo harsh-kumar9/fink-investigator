@@ -1,0 +1,290 @@
+{
+  "object": "ZTF18aaadshm",
+  "published_period_days": 0.4904450424,
+  "published_peak_to_peak_mag": {
+    "r": 1.2,
+    "g": 1.39
+  },
+  "t_origin_hjd": 2458288.9631755636,
+  "training_through": "2022-08-12",
+  "anchor": "2025-03-01",
+  "exact_period": {
+    "r": {
+      "early": {
+        "red_waveform": {
+          "n": 248,
+          "mse_gain": 0.035676,
+          "rho": 0.22014,
+          "passes": false
+        },
+        "band_waveform": {
+          "n": 248,
+          "mse_gain": 0.035676,
+          "rho": 0.22014,
+          "passes": false
+        },
+        "band_refit_peak_to_peak_mag": 0.480787
+      },
+      "later": {
+        "red_waveform": {
+          "n": 125,
+          "mse_gain": -0.031956,
+          "rho": 0.039877,
+          "passes": false
+        },
+        "band_waveform": {
+          "n": 125,
+          "mse_gain": -0.031956,
+          "rho": 0.039877,
+          "passes": false
+        },
+        "band_refit_peak_to_peak_mag": 0.484938
+      },
+      "post_anchor": {
+        "red_waveform": {
+          "n": 23,
+          "mse_gain": -0.072123,
+          "rho": -0.11166,
+          "passes": false
+        },
+        "band_waveform": {
+          "n": 23,
+          "mse_gain": -0.072123,
+          "rho": -0.11166,
+          "passes": false
+        },
+        "band_refit_peak_to_peak_mag": 0.962943
+      }
+    },
+    "g": {
+      "early": {
+        "red_waveform": {
+          "n": 191,
+          "mse_gain": 0.010991,
+          "rho": 0.165226,
+          "passes": false
+        },
+        "band_waveform": {
+          "n": 191,
+          "mse_gain": 0.023266,
+          "rho": 0.20053,
+          "passes": false
+        },
+        "band_refit_peak_to_peak_mag": 0.353175
+      },
+      "later": {
+        "red_waveform": {
+          "n": 90,
+          "mse_gain": 0.004823,
+          "rho": 0.022052,
+          "passes": false
+        },
+        "band_waveform": {
+          "n": 90,
+          "mse_gain": -0.066427,
+          "rho": -0.077812,
+          "passes": false
+        },
+        "band_refit_peak_to_peak_mag": 0.548221
+      },
+      "post_anchor": {
+        "red_waveform": {
+          "n": 15,
+          "mse_gain": 0.092853,
+          "rho": 0.396429,
+          "passes": false
+        },
+        "band_waveform": {
+          "n": 15,
+          "mse_gain": 0.077787,
+          "rho": 0.317857,
+          "passes": false
+        },
+        "band_refit_peak_to_peak_mag": 1.379935
+      }
+    }
+  },
+  "nearby_red_training_best": {
+    "period_days": 0.49100152648556095,
+    "scores": {
+      "r": {
+        "early": {
+          "red_waveform": {
+            "n": 248,
+            "mse_gain": 0.105998,
+            "rho": 0.308096,
+            "passes": false
+          },
+          "band_waveform": {
+            "n": 248,
+            "mse_gain": 0.105998,
+            "rho": 0.308096,
+            "passes": false
+          },
+          "band_refit_peak_to_peak_mag": 0.91586
+        },
+        "later": {
+          "red_waveform": {
+            "n": 125,
+            "mse_gain": -0.114595,
+            "rho": 0.016473,
+            "passes": false
+          },
+          "band_waveform": {
+            "n": 125,
+            "mse_gain": -0.114595,
+            "rho": 0.016473,
+            "passes": false
+          },
+          "band_refit_peak_to_peak_mag": 0.190211
+        },
+        "post_anchor": {
+          "red_waveform": {
+            "n": 23,
+            "mse_gain": -0.292182,
+            "rho": -0.300395,
+            "passes": false
+          },
+          "band_waveform": {
+            "n": 23,
+            "mse_gain": -0.292182,
+            "rho": -0.300395,
+            "passes": false
+          },
+          "band_refit_peak_to_peak_mag": 1.059231
+        }
+      },
+      "g": {
+        "early": {
+          "red_waveform": {
+            "n": 191,
+            "mse_gain": 0.043577,
+            "rho": 0.157612,
+            "passes": false
+          },
+          "band_waveform": {
+            "n": 191,
+            "mse_gain": 0.056493,
+            "rho": 0.150181,
+            "passes": false
+          },
+          "band_refit_peak_to_peak_mag": 0.618405
+        },
+        "later": {
+          "red_waveform": {
+            "n": 90,
+            "mse_gain": -0.083835,
+            "rho": -0.069663,
+            "passes": false
+          },
+          "band_waveform": {
+            "n": 90,
+            "mse_gain": -0.102943,
+            "rho": -0.076413,
+            "passes": false
+          },
+          "band_refit_peak_to_peak_mag": 0.510776
+        },
+        "post_anchor": {
+          "red_waveform": {
+            "n": 15,
+            "mse_gain": -0.135766,
+            "rho": -0.157143,
+            "passes": false
+          },
+          "band_waveform": {
+            "n": 15,
+            "mse_gain": -0.218728,
+            "rho": -0.185714,
+            "passes": false
+          },
+          "band_refit_peak_to_peak_mag": 0.840038
+        }
+      }
+    }
+  },
+  "injection": {
+    "r": {
+      "phases": 32,
+      "early_amplitude_range_mag": [
+        0.856691,
+        1.597023
+      ],
+      "passes": {
+        "later": {
+          "red_waveform": 0,
+          "band_waveform": 0
+        },
+        "post_anchor": {
+          "red_waveform": 0,
+          "band_waveform": 0
+        }
+      }
+    },
+    "g": {
+      "phases": 32,
+      "early_amplitude_range_mag": [
+        1.080621,
+        1.713209
+      ],
+      "passes": {
+        "later": {
+          "red_waveform": 21,
+          "band_waveform": 19
+        },
+        "post_anchor": {
+          "red_waveform": 0,
+          "band_waveform": 0
+        }
+      }
+    }
+  },
+  "within_night": {
+    "r": {
+      "n_early": 5,
+      "n_later": 0,
+      "dates": [
+        "2019-11-04",
+        "2019-11-05",
+        "2019-11-07",
+        "2019-11-08",
+        "2020-09-23"
+      ]
+    },
+    "g": {
+      "n_early": 5,
+      "n_later": 2,
+      "dates": [
+        "2018-09-27",
+        "2019-11-08",
+        "2020-08-24",
+        "2020-09-14",
+        "2020-09-29",
+        "2022-09-17",
+        "2022-09-19"
+      ],
+      "amplitude_mag": 0.209808,
+      "gain_on_early": {
+        "n": 5,
+        "mse_gain": 0.027237,
+        "rho": 0.1,
+        "passes": false
+      },
+      "forecast": {
+        "n": 2,
+        "mse_gain": 0.74615,
+        "rho": 1.0,
+        "passes": false
+      },
+      "median_abs_later_pair_difference_mag": 0.091251,
+      "injection": {
+        "phases": 32,
+        "passes": 0,
+        "amplitude_range_mag": [
+          1.181172,
+          1.599085
+        ]
+      }
+    }
+  }
+}

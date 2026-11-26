@@ -1,0 +1,7 @@
+# Independent first reading
+
+These assessments use the three admitted packet records before examining their images, catalogs or light curves.
+
+* **ZTF18aaadshm.** Both colors have many negative dates over several years. A periodic variable, a moving source and a blended star crossing the reference brightness all fit that evidence. A weak positive measurement in green anchors a selection made by red fading. Check that both polarities remain on the same propagated sky position, look for opposite lobes in the difference images, and test direct measurements on the signed dates. A spatially offset or changing reference would weaken a single-star interpretation.
+* **ZTF25aanlbls.** Three positive dates in a two-day span establish brief activity. The short span and faint anchor leave a flare, a moving source and a transient on diffuse host light possible. Compare all positions and the template with earlier detections, inspect host offset and nearby sources, and check later observations for continued emission. A centroid track or strong reference residual at a bright neighbor would change the interpretation.
+* **ZTF17aabutiy.** A candidate cataclysmic variable can vary continuously. The two nominated red date pairs could both sample ordinary light levels, and the much more frequent negative green dates could reflect reference selection. Test whether each candidate interval reached a higher absolute flux than dates in between. Compare the direct positions and difference residuals of the signs and establish whether any close companion can explain one group.

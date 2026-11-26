@@ -1,0 +1,60 @@
+{
+  "ZTF18aaadshm": {
+    "simbad_10arcsec": [],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.19",
+          "OID": "1498636",
+          "Name": "MGAB-V488",
+          "RAJ2000": "44.42384",
+          "DEJ2000": "48.86227",
+          "Type": "UG",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    }
+  },
+  "ZTF25aanlbls": {
+    "simbad_10arcsec": [],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    },
+    "bts_in_box": []
+  },
+  "ZTF17aabutiy": {
+    "simbad_10arcsec": [
+      {
+        "main_id": "ZTF17aabutiy",
+        "otype": "CV?",
+        "ra": "329.56641666666667",
+        "dec": "51.838972222222225",
+        "pmra": "",
+        "pmdec": "",
+        "separation_arcsec": 0.068
+      }
+    ],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.20",
+          "OID": "1542955",
+          "Name": "ZTF17aabutiy",
+          "RAJ2000": "329.56638",
+          "DEJ2000": "51.83902",
+          "Type": "UG",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    }
+  }
+}

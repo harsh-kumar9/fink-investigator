@@ -1,0 +1,19 @@
+{
+  "method": "unavailable",
+  "requested": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0827/197593/ztf_20250827197593_000633_zr_c14_o_q1_sciimg.fits?center=250.0278614%2C29.763246&size=225arcsec&gzip=false",
+  "failed": [
+    {
+      "method": "service",
+      "curl_status": 22
+    },
+    {
+      "method": "alternate",
+      "curl_status": 22
+    },
+    {
+      "method": "original",
+      "curl_status": 22
+    }
+  ],
+  "archived_utc": "2026-11-26T06:27:24+00:00"
+}

@@ -174,7 +174,14 @@ def from_alternate_cutout(row, position, size=165):
     bound = 2_000_000
     with TemporaryDirectory() as directory:
         path = Path(directory) / "cutout"
-        for url in (base, base + "&gzip=true"):
+        for url in (
+            base,
+            base + "&gzip=true",
+            base + "&gzip=false",
+            base.replace(f"{size}arcsec", f"{size / 60:g}arcmin") + "&gzip=false",
+            base.replace("irsa.ipac.caltech.edu/", "irsaproxy1.ipac.caltech.edu/"),
+            base.replace(f"{size}arcsec", f"{size / 3600:.12g}deg") + "&gzip=false",
+        ):
             command = [
                 "curl",
                 "--silent",

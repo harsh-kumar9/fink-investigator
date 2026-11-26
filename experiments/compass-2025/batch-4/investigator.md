@@ -1,0 +1,7 @@
+# Independent first reading
+
+I read the frozen packet before consulting catalogs, follow-up photometry or another reviewer.
+
+* **ZTF18aaadshm.** The position showed changes in both bands over seven observing years. A stellar pulsation, eclipses or longer changes of state could account for the recurrent positive and negative signs. The green anchor is a bright residual and does not measure the depth of the earlier fades. Check direct magnitudes at opposite signs, Gaia neighbors and residual centers, then test a clock on dates in another season. An absent broker label leaves prior identifications open.
+* **ZTF25aanlbls.** A source gave three positive green nights and one red night across April 20–22. The positive sequence supports an event above its reference, with little information about the rise or decay time. An erupting star and a transient in an unresolved host are both possible. Inspect the pre-event images and any deeper catalog counterpart, look for observations outside those three nights and search registry positions and discovery aliases.
+* **ZTF17aabutiy.** Red bright detections occurred in pairs over seven years, while green measurements frequently fell below the reference. A cataclysmic variable with recurring eruptions is plausible. A continuously varying source could also spend long intervals below the particular reference image. Compare the two alert groups in direct light, measure returns toward a common baseline, and search for previously documented episodes, spectra or a period.

@@ -45,7 +45,7 @@ def aperture(img, x, y):
     return float(np.sum((stamp[r2 < 21] - np.median(sky)) * weights[r2 < 21]))
 
 
-def star_list(rows, meta, ra, dec):
+def star_list(rows, meta, ra, dec, radius=65):
     field = [
         r
         for r in rows
@@ -62,7 +62,7 @@ def star_list(rows, meta, ra, dec):
         if not (
             15 <= mag <= 18.5
             and int(r["nobs"]) >= 30
-            and 14 <= math.hypot(*pilot.offsets(ra, dec, *sky[i])) <= 65
+            and 14 <= math.hypot(*pilot.offsets(ra, dec, *sky[i])) <= radius
         ):
             continue
         if any(
@@ -76,7 +76,7 @@ def star_list(rows, meta, ra, dec):
     return field, sky, standards
 
 
-def measure(raw, meta, position, star_rows):
+def measure(raw, meta, position, star_rows, standard_radius=65):
     with fits.open(io.BytesIO(raw)) as hdus:
         h = hdus[0].header
         image = np.asarray(hdus[0].data, dtype=float)
@@ -92,7 +92,7 @@ def measure(raw, meta, position, star_rows):
         wcs = WCS(h)
         target = wcs.all_world2pix([position], 0)[0]
         # At a quadrant edge IRSA can return an asymmetric cutout.
-        field, sky, keep = star_list(star_rows, meta, *position)
+        field, sky, keep = star_list(star_rows, meta, *position, radius=standard_radius)
         xy = wcs.all_world2pix(sky, 0) if len(sky) else np.empty((0, 2))
         calibrators = []
         for i in keep:

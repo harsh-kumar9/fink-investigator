@@ -1,0 +1,133 @@
+{
+  "dr10": {
+    "release": "10000",
+    "brickid": "495299",
+    "objid": "2671",
+    "ra": "250.02792335857197",
+    "dec": "29.76324886292915",
+    "type": "REX",
+    "shape_r": "0.5220418",
+    "shape_r_ivar": "409.83267",
+    "flux_g": "0.45327982",
+    "flux_r": "1.0034713",
+    "flux_z": "1.3471469",
+    "flux_ivar_g": "757.38574",
+    "flux_ivar_r": "192.90033",
+    "flux_ivar_z": "43.476517",
+    "maskbits": "0",
+    "fracflux_r": "0.0",
+    "mjd_min": "57120.32267625259",
+    "mjd_max": "58255.243318580746",
+    "nobs_g": "3",
+    "nobs_r": "3",
+    "nobs_i": "0",
+    "nobs_z": "3",
+    "ls_id": "10995635636406895",
+    "dchisq_1": "394.7334",
+    "dchisq_2": "428.9021"
+  },
+  "dr9": {
+    "release": "9010",
+    "brickid": "495299",
+    "objid": "2675",
+    "ra": "250.02792331852018",
+    "dec": "29.763248786129825",
+    "type": "REX",
+    "shape_r": "0.52049696",
+    "shape_r_ivar": "408.74112",
+    "flux_g": "0.45087275",
+    "flux_r": "0.99767107",
+    "flux_z": "1.354691",
+    "flux_ivar_g": "758.90466",
+    "flux_ivar_r": "193.33037",
+    "flux_ivar_z": "43.58956",
+    "maskbits": "0",
+    "fracflux_r": "0.0",
+    "mjd_min": "57120.32267625259",
+    "mjd_max": "58255.243318580746",
+    "nobs_g": "3",
+    "nobs_r": "3",
+    "nobs_z": "3",
+    "ls_id": "9906632226179699",
+    "dchisq_1": "393.02002",
+    "dchisq_2": "426.88013"
+  },
+  "offset_arcsec": 0.133,
+  "next_dr10_separation_arcsec": 7.042,
+  "profile_star": "10995635636406884",
+  "concentration_0.8_over_1.8arcsec": {
+    "g": {
+      "source": 0.4672,
+      "n": 22,
+      "controls_percentiles_5_50_95": [
+        0.4565,
+        0.5416,
+        0.681
+      ],
+      "controls_at_or_below_target": 3
+    },
+    "r": {
+      "source": 0.4699,
+      "n": 22,
+      "controls_percentiles_5_50_95": [
+        0.5416,
+        0.5964,
+        0.6562
+      ],
+      "controls_at_or_below_target": 0
+    },
+    "z": {
+      "source": 0.4929,
+      "n": 22,
+      "controls_percentiles_5_50_95": [
+        0.5686,
+        0.7374,
+        0.8773
+      ],
+      "controls_at_or_below_target": 0
+    }
+  },
+  "redshifts": {
+    "dr10": {
+      "RELEASE": 10000,
+      "BRICKID": 495299,
+      "OBJID": 2671,
+      "Z_SPEC": -99.0,
+      "SURVEY": "",
+      "Z_PHOT_MEAN": 0.5324684381484985,
+      "Z_PHOT_MEDIAN": 0.5340278148651123,
+      "Z_PHOT_STD": 0.11423240602016449,
+      "Z_PHOT_L68": 0.43994539976119995,
+      "Z_PHOT_U68": 0.6229370832443237,
+      "Z_PHOT_L95": 0.3462125062942505,
+      "Z_PHOT_U95": 0.7244942784309387,
+      "TRAINING": false,
+      "KFOLD": 5,
+      "Z_PHOT_MEAN_I": -99.0,
+      "Z_PHOT_MEDIAN_I": -99.0,
+      "Z_PHOT_STD_I": -99.0,
+      "Z_PHOT_L68_I": -99.0,
+      "Z_PHOT_U68_I": -99.0,
+      "Z_PHOT_L95_I": -99.0,
+      "Z_PHOT_U95_I": -99.0,
+      "TRAINING_I": false,
+      "KFOLD_I": -99
+    },
+    "dr9": {
+      "rd": [
+        [
+          250.02792331852018,
+          29.763248786129825
+        ]
+      ],
+      "phot_z_mean": [
+        0.519261360168457
+      ],
+      "phot_z_std": [
+        0.10412686318159103
+      ]
+    },
+    "desi_dr1_spectrum_positions_in_box": [],
+    "sdss_dr18_primary_spectra_within_5arcsec": []
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "sources_within_5arcsec": [
+    {
+      "objID": "166630444239155450",
+      "raMean": "44.42384647711723",
+      "decMean": "48.862256141247286",
+      "nDetections": "57",
+      "separation_arcsec": 0.138
+    }
+  ],
+  "mjd_range_all": [
+    55433.5015483,
+    56994.3560857
+  ],
+  "primary_snr5_clean85": {
+    "exposures": 40,
+    "nights": 19,
+    "retained_filter_dates": 23,
+    "phase_bins_of_10": 10,
+    "phase_correction_range_minutes": [
+      -1.88,
+      6.88
+    ],
+    "bands": {
+      "g": {
+        "nights": 3,
+        "published_amplitude_mag": 1.39,
+        "brightest": [
+          56217,
+          18.7205,
+          0.0167
+        ],
+        "faintest": [
+          55870,
+          19.8104,
+          0.0521
+        ],
+        "span_mag": 1.09,
+        "span_excess_over_published_mag": -0.3,
+        "span_excess_over_measured_error": -5.48
+      },
+      "i": {
+        "nights": 7,
+        "published_amplitude_mag": 1.05,
+        "brightest": [
+          56638,
+          18.1326,
+          0.0117
+        ],
+        "faintest": [
+          56632,
+          20.7312,
+          0.0935
+        ],
+        "span_mag": 2.5986,
+        "span_excess_over_published_mag": 1.5486,
+        "span_excess_over_measured_error": 16.44
+      },
+      "r": {
+        "nights": 6,
+        "published_amplitude_mag": 1.2,
+        "brightest": [
+          56638,
+          18.2126,
+          0.0154
+        ],
+        "faintest": [
+          56290,
+          21.4708,
+          0.2141
+        ],
+        "span_mag": 3.2582,
+        "span_excess_over_published_mag": 2.0582,
+        "span_excess_over_measured_error": 9.59
+      },
+      "z": {
+        "nights": 7,
+        "published_amplitude_mag": 0.9,
+        "brightest": [
+          56169,
+          18.3458,
+          0.0283
+        ],
+        "faintest": [
+          55436,
+          20.3976,
+          0.1282
+        ],
+        "span_mag": 2.0518,
+        "span_excess_over_published_mag": 1.1518,
+        "span_excess_over_measured_error": 8.77
+      }
+    },
+    "all_dates": {
+      "constant": {
+        "n": 23,
+        "rmse_mag": 0.977
+      },
+      "catalog": {
+        "n": 23,
+        "rmse_mag": 0.7972
+      }
+    },
+    "chronological": {
+      "split_mjd": 56217,
+      "constant": {
+        "n": 7,
+        "rmse_mag": 0.8841
+      },
+      "catalog": {
+        "n": 7,
+        "rmse_mag": 0.7238
+      }
+    },
+    "phase_shift_grid": {
+      "n": 100,
+      "fraction_at_least_as_good_as_catalog": 0.02,
+      "best_shift_cycles": 0.0,
+      "best_rmse_mag": 0.7972
+    }
+  },
+  "strict_snr10_clean90": {
+    "exposures": 35,
+    "nights": 16,
+    "retained_filter_dates": 20,
+    "phase_bins_of_10": 10,
+    "phase_correction_range_minutes": [
+      -0.35,
+      6.88
+    ],
+    "bands": {
+      "g": {
+        "nights": 3,
+        "published_amplitude_mag": 1.39,
+        "brightest": [
+          56217,
+          18.7205,
+          0.0167
+        ],
+        "faintest": [
+          55870,
+          19.8104,
+          0.0521
+        ],
+        "span_mag": 1.09,
+        "span_excess_over_published_mag": -0.3,
+        "span_excess_over_measured_error": -5.48
+      },
+      "i": {
+        "nights": 7,
+        "published_amplitude_mag": 1.05,
+        "brightest": [
+          56638,
+          18.1326,
+          0.0117
+        ],
+        "faintest": [
+          56632,
+          20.7312,
+          0.0935
+        ],
+        "span_mag": 2.5986,
+        "span_excess_over_published_mag": 1.5486,
+        "span_excess_over_measured_error": 16.44
+      },
+      "r": {
+        "nights": 5,
+        "published_amplitude_mag": 1.2,
+        "brightest": [
+          56638,
+          18.2126,
+          0.0154
+        ],
+        "faintest": [
+          56632,
+          20.7815,
+          0.1022
+        ],
+        "span_mag": 2.5689,
+        "span_excess_over_published_mag": 1.3689,
+        "span_excess_over_measured_error": 13.24
+      },
+      "z": {
+        "nights": 5,
+        "published_amplitude_mag": 0.9,
+        "brightest": [
+          56169,
+          18.3458,
+          0.0283
+        ],
+        "faintest": [
+          55790,
+          20.3351,
+          0.0858
+        ],
+        "span_mag": 1.9893,
+        "span_excess_over_published_mag": 1.0893,
+        "span_excess_over_measured_error": 12.06
+      }
+    },
+    "all_dates": {
+      "constant": {
+        "n": 20,
+        "rmse_mag": 0.8635
+      },
+      "catalog": {
+        "n": 20,
+        "rmse_mag": 0.676
+      }
+    },
+    "chronological": {
+      "split_mjd": 56217,
+      "constant": {
+        "n": 6,
+        "rmse_mag": 0.9645
+      },
+      "catalog": {
+        "n": 6,
+        "rmse_mag": 0.7962
+      }
+    },
+    "phase_shift_grid": {
+      "n": 100,
+      "fraction_at_least_as_good_as_catalog": 0.02,
+      "best_shift_cycles": 0.01,
+      "best_rmse_mag": 0.6758
+    }
+  }
+}

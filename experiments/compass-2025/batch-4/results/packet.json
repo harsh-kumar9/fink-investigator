@@ -1,0 +1,83 @@
+{
+  "gate_passed": true,
+  "cases": [
+    {
+      "id": "ZTF18aaadshm",
+      "question": "Does a source actually fade at these coordinates, or can motion or blending explain the residuals?",
+      "evidence": [
+        {
+          "id": "position",
+          "source": "https://ztf.fink-portal.org/ZTF18aaadshm",
+          "detail": "ICRS 44.4238904, 48.862231 deg at JD 2460735.6415625, UTC 2025-03-01; candid 2981141563615015013."
+        },
+        {
+          "id": "anchor",
+          "source": "https://ztf.fink-portal.org/ZTF18aaadshm",
+          "detail": "g difference magnitude 19.219349 \u00b1 0.12255858; sign 1, DRB 1.0. Reported first-detection age 2633.9429860999808 days."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF18aaadshm",
+          "detail": "Through the anchor: 280 distinct quality dates; positive/negative dates by filter {'g': {'positive': 56, 'negative': 109}, 'r': {'positive': 88, 'negative': 158}}. Selected on fading: {'filter': 'r', 'score': [7, 88], 'first_negative_date': '2019-11-04', 'last_negative_date': '2025-02-25'}."
+        },
+        {
+          "id": "context",
+          "source": "https://ztf.fink-portal.org/ZTF18aaadshm",
+          "detail": "At the anchor Fink reported CDS='Unknown', TNS=''. Check catalog IDs, astrometry and the registry separately."
+        }
+      ]
+    },
+    {
+      "id": "ZTF25aanlbls",
+      "question": "Did a source newly brighten here, and was the event already reported?",
+      "evidence": [
+        {
+          "id": "position",
+          "source": "https://ztf.fink-portal.org/ZTF25aanlbls",
+          "detail": "ICRS 250.0278614, 29.763246 deg at JD 2460787.9000579, UTC 2025-04-22; candid 3033400055215015008."
+        },
+        {
+          "id": "anchor",
+          "source": "https://ztf.fink-portal.org/ZTF25aanlbls",
+          "detail": "g difference magnitude 19.665434 \u00b1 0.1675776; sign 1, DRB 0.99956864. Reported first-detection age 2.036863500252366 days."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF25aanlbls",
+          "detail": "Through the anchor: 3 distinct quality dates; positive/negative dates by filter {'g': {'positive': 3, 'negative': 0}, 'r': {'positive': 1, 'negative': 0}}. Selected on onset: {'score': [1, 3], 'first_positive_date': '2025-04-20', 'last_positive_date': '2025-04-22'}."
+        },
+        {
+          "id": "context",
+          "source": "https://ztf.fink-portal.org/ZTF25aanlbls",
+          "detail": "At the anchor Fink reported CDS='Unknown', TNS=''. Check catalog IDs, astrometry and the registry separately."
+        }
+      ]
+    },
+    {
+      "id": "ZTF17aabutiy",
+      "question": "Do separate bright detections trace distinct episodes or ongoing variability?",
+      "evidence": [
+        {
+          "id": "position",
+          "source": "https://ztf.fink-portal.org/ZTF17aabutiy",
+          "detail": "ICRS 329.5663886, 51.8389644 deg at JD 2460949.8454167, UTC 2025-10-01; candid 3195345410315015004."
+        },
+        {
+          "id": "anchor",
+          "source": "https://ztf.fink-portal.org/ZTF17aabutiy",
+          "detail": "g difference magnitude 18.156807 \u00b1 0.06440606; sign 1, DRB 1.0. Reported first-detection age 2854.2426621001214 days."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF17aabutiy",
+          "detail": "Through the anchor: 549 distinct quality dates; positive/negative dates by filter {'g': {'positive': 99, 'negative': 392}, 'r': {'positive': 101, 'negative': 205}}. Selected on recurrent: {'filter': 'r', 'score': [7, 101], 'years_with_pair': [2019, 2020, 2021, 2022, 2023, 2024, 2025], 'example_dates': ['2019-11-12', '2019-11-13', '2025-09-01', '2025-09-16']}."
+        },
+        {
+          "id": "context",
+          "source": "https://ztf.fink-portal.org/ZTF17aabutiy",
+          "detail": "At the anchor Fink reported CDS='CataclyV*_Candidate', TNS=''. Check catalog IDs, astrometry and the registry separately."
+        }
+      ]
+    }
+  ]
+}

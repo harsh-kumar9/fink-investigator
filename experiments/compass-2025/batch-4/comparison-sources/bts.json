@@ -1,0 +1,5 @@
+{
+  "url": "https://sites.astro.caltech.edu/ztf/bts/explorer.php?f=s&subsample=sn&quality=y&startpeakdate=2024-01-01&endpeakdate=2024-12-31&endpeakmag=17.5&showpeakdate=y&showpeakmag=y&showz=y&format=csv",
+  "sha256_uncompressed": "20482a79c06c4af82ec56552c9a80cbfbb79ca7fa8e6ac69374973efd04db636",
+  "retrieved_utc": "2026-11-26T06:10:21+00:00"
+}

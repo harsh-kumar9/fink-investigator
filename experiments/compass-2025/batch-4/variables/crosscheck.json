@@ -1,0 +1,719 @@
+{
+  "ZTF17aabutiy": {
+    "target_asassn_id": 661428925320,
+    "field_cone_sources": 7,
+    "comparison_stars": [
+      {
+        "id": 120260043013,
+        "separation_arcsec": 40.35612,
+        "outside_median_mjy": 1.71809,
+        "catalog_memberships": [
+          "stellar_main",
+          "tic"
+        ]
+      },
+      {
+        "id": 111669598443,
+        "separation_arcsec": 43.63331,
+        "outside_median_mjy": 1.148659,
+        "catalog_memberships": [
+          "stellar_main",
+          "tic"
+        ]
+      },
+      {
+        "id": 111669613238,
+        "separation_arcsec": 58.75775,
+        "outside_median_mjy": 3.061655,
+        "catalog_memberships": [
+          "stellar_main",
+          "tic"
+        ]
+      }
+    ],
+    "matched_target": {
+      "change_mjy": {
+        "earlier_bin_starts": [
+          "2020-08-19",
+          "2020-09-18",
+          "2020-10-18",
+          "2020-11-17",
+          "2020-12-17"
+        ],
+        "later_bin_starts": [
+          "2021-03-17",
+          "2021-04-16",
+          "2021-05-16",
+          "2021-06-15",
+          "2021-07-15"
+        ],
+        "before_bins": 5,
+        "after_bins": 5,
+        "after_minus_before_mjy": -0.1297,
+        "leave_one_bin_out_range": [
+          -0.18919,
+          -0.12678
+        ]
+      },
+      "common_g_dates": 122,
+      "common_g_rho": 0.59116
+    },
+    "matched_corrected": {
+      "change_mjy": {
+        "earlier_bin_starts": [
+          "2020-08-19",
+          "2020-09-18",
+          "2020-10-18",
+          "2020-11-17",
+          "2020-12-17"
+        ],
+        "later_bin_starts": [
+          "2021-03-17",
+          "2021-04-16",
+          "2021-05-16",
+          "2021-06-15",
+          "2021-07-15"
+        ],
+        "before_bins": 5,
+        "after_bins": 5,
+        "after_minus_before_mjy": -0.12636,
+        "leave_one_bin_out_range": [
+          -0.16992,
+          -0.11327
+        ]
+      },
+      "common_g_dates": 122,
+      "common_g_rho": 0.55842
+    },
+    "by_camera": {
+      "bA": {
+        "change_mjy": {
+          "earlier_bin_starts": [
+            "2020-08-19",
+            "2020-09-18",
+            "2020-10-18",
+            "2020-11-17"
+          ],
+          "later_bin_starts": [
+            "2021-03-17",
+            "2021-04-16",
+            "2021-05-16",
+            "2021-06-15",
+            "2021-07-15"
+          ],
+          "before_bins": 4,
+          "after_bins": 5,
+          "after_minus_before_mjy": 0.03317,
+          "leave_one_bin_out_range": [
+            0.00385,
+            0.03898
+          ]
+        },
+        "common_g_dates": 57,
+        "common_g_rho": 0.66185
+      },
+      "bq": {
+        "change_mjy": {
+          "before_bins": 5,
+          "after_bins": 0,
+          "after_minus_before_mjy": null
+        },
+        "common_g_dates": 62,
+        "common_g_rho": 0.49263
+      },
+      "bt": {
+        "change_mjy": {
+          "before_bins": 5,
+          "after_bins": 0,
+          "after_minus_before_mjy": null
+        },
+        "common_g_dates": 65,
+        "common_g_rho": 0.57115
+      }
+    },
+    "lag_windows_days": [
+      [
+        6,
+        10
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        24,
+        29
+      ]
+    ],
+    "lag_scores": {
+      "asas_forced": {
+        "2019": {
+          "available_nights": 108,
+          "common_anchors": 69,
+          "delta_flux_medians_mjy": [
+            0.220702,
+            0.17954,
+            0.211772
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2020": {
+          "available_nights": 100,
+          "common_anchors": 64,
+          "delta_flux_medians_mjy": [
+            0.23921,
+            0.190103,
+            0.209187
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2021": {
+          "available_nights": 89,
+          "common_anchors": 62,
+          "delta_flux_medians_mjy": [
+            0.189077,
+            0.201726,
+            0.172464
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2022": {
+          "available_nights": 95,
+          "common_anchors": 61,
+          "delta_flux_medians_mjy": [
+            0.228282,
+            0.207179,
+            0.213999
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2023": {
+          "available_nights": 84,
+          "common_anchors": 48,
+          "delta_flux_medians_mjy": [
+            0.188098,
+            0.134466,
+            0.204868
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2024": {
+          "available_nights": 71,
+          "common_anchors": 32,
+          "delta_flux_medians_mjy": [
+            0.303421,
+            0.233988,
+            0.252986
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2025": {
+          "available_nights": 3,
+          "common_anchors": 0,
+          "delta_flux_medians_mjy": null,
+          "middle_smaller_than_both": false
+        }
+      },
+      "r": {
+        "2018": {
+          "available_nights": 118,
+          "common_anchors": 91,
+          "delta_flux_medians_mjy": [
+            0.118554,
+            0.067234,
+            0.072115
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2019": {
+          "available_nights": 110,
+          "common_anchors": 79,
+          "delta_flux_medians_mjy": [
+            0.1192,
+            0.076499,
+            0.066591
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2020": {
+          "available_nights": 81,
+          "common_anchors": 50,
+          "delta_flux_medians_mjy": [
+            0.101023,
+            0.036904,
+            0.115831
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2021": {
+          "available_nights": 58,
+          "common_anchors": 28,
+          "delta_flux_medians_mjy": [
+            0.170598,
+            0.077777,
+            0.16296
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2022": {
+          "available_nights": 67,
+          "common_anchors": 41,
+          "delta_flux_medians_mjy": [
+            0.05362,
+            0.034299,
+            0.013134
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2023": {
+          "available_nights": 59,
+          "common_anchors": 31,
+          "delta_flux_medians_mjy": [
+            0.123383,
+            0.129194,
+            0.10251
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2024": {
+          "available_nights": 65,
+          "common_anchors": 40,
+          "delta_flux_medians_mjy": [
+            0.099756,
+            0.113575,
+            0.055911
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2025": {
+          "available_nights": 48,
+          "common_anchors": 30,
+          "delta_flux_medians_mjy": [
+            0.053781,
+            0.059603,
+            0.035008
+          ],
+          "middle_smaller_than_both": false
+        }
+      },
+      "g": {
+        "2018": {
+          "available_nights": 94,
+          "common_anchors": 64,
+          "delta_flux_medians_mjy": [
+            0.118368,
+            0.085861,
+            0.072867
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2019": {
+          "available_nights": 87,
+          "common_anchors": 56,
+          "delta_flux_medians_mjy": [
+            0.108851,
+            0.061346,
+            0.076127
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2020": {
+          "available_nights": 74,
+          "common_anchors": 37,
+          "delta_flux_medians_mjy": [
+            0.09688,
+            0.130608,
+            0.117843
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2021": {
+          "available_nights": 49,
+          "common_anchors": 25,
+          "delta_flux_medians_mjy": [
+            0.116051,
+            0.145677,
+            0.144545
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2022": {
+          "available_nights": 45,
+          "common_anchors": 14,
+          "delta_flux_medians_mjy": [
+            0.161436,
+            0.131908,
+            0.011582
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2023": {
+          "available_nights": 44,
+          "common_anchors": 16,
+          "delta_flux_medians_mjy": [
+            0.07133,
+            0.038144,
+            0.090785
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2024": {
+          "available_nights": 46,
+          "common_anchors": 22,
+          "delta_flux_medians_mjy": [
+            0.077741,
+            0.110724,
+            0.115525
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2025": {
+          "available_nights": 29,
+          "common_anchors": 3,
+          "delta_flux_medians_mjy": [
+            0.267031,
+            0.038942,
+            0.204074
+          ],
+          "middle_smaller_than_both": true
+        }
+      }
+    }
+  },
+  "ZTF18aaadshm": {
+    "target_asassn_id": 661428914145,
+    "field_cone_sources": 4,
+    "comparison_stars": [
+      {
+        "id": 51540558348,
+        "separation_arcsec": 44.5381,
+        "outside_median_mjy": 0.455526,
+        "catalog_memberships": [
+          "stellar_main",
+          "tic"
+        ]
+      }
+    ],
+    "matched_target": {
+      "change_mjy": {
+        "before_bins": 0,
+        "after_bins": 0,
+        "after_minus_before_mjy": null
+      },
+      "common_g_dates": 0,
+      "common_g_rho": null
+    },
+    "matched_corrected": {
+      "change_mjy": {
+        "before_bins": 0,
+        "after_bins": 0,
+        "after_minus_before_mjy": null
+      },
+      "common_g_dates": 0,
+      "common_g_rho": null
+    },
+    "by_camera": {
+      "bA": {
+        "change_mjy": {
+          "before_bins": 2,
+          "after_bins": 4,
+          "after_minus_before_mjy": null
+        },
+        "common_g_dates": 48,
+        "common_g_rho": 0.08695
+      },
+      "bB": {
+        "change_mjy": {
+          "before_bins": 1,
+          "after_bins": 5,
+          "after_minus_before_mjy": null
+        },
+        "common_g_dates": 19,
+        "common_g_rho": 0.3386
+      },
+      "bq": {
+        "change_mjy": {
+          "before_bins": 1,
+          "after_bins": 3,
+          "after_minus_before_mjy": null
+        },
+        "common_g_dates": 24,
+        "common_g_rho": -0.01304
+      },
+      "br": {
+        "change_mjy": {
+          "earlier_bin_starts": [
+            "2021-02-15",
+            "2021-03-17",
+            "2021-07-15"
+          ],
+          "later_bin_starts": [
+            "2021-08-14",
+            "2021-09-13",
+            "2021-10-13",
+            "2021-11-12",
+            "2022-01-11"
+          ],
+          "before_bins": 3,
+          "after_bins": 5,
+          "after_minus_before_mjy": -0.0008,
+          "leave_one_bin_out_range": [
+            -0.01981,
+            0.04916
+          ]
+        },
+        "common_g_dates": 33,
+        "common_g_rho": 0.53209
+      },
+      "cB": {
+        "change_mjy": {
+          "before_bins": 0,
+          "after_bins": 0,
+          "after_minus_before_mjy": null
+        },
+        "common_g_dates": 9,
+        "common_g_rho": 0.75
+      }
+    },
+    "lag_windows_days": [
+      [
+        6,
+        10
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        24,
+        29
+      ]
+    ],
+    "lag_scores": {
+      "asas_forced": {
+        "2019": {
+          "available_nights": 108,
+          "common_anchors": 55,
+          "delta_flux_medians_mjy": [
+            0.302042,
+            0.38463,
+            0.304785
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2020": {
+          "available_nights": 90,
+          "common_anchors": 47,
+          "delta_flux_medians_mjy": [
+            0.336223,
+            0.285846,
+            0.236342
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2021": {
+          "available_nights": 99,
+          "common_anchors": 74,
+          "delta_flux_medians_mjy": [
+            0.309,
+            0.305895,
+            0.264589
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2022": {
+          "available_nights": 121,
+          "common_anchors": 99,
+          "delta_flux_medians_mjy": [
+            0.333488,
+            0.310918,
+            0.339872
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2023": {
+          "available_nights": 109,
+          "common_anchors": 72,
+          "delta_flux_medians_mjy": [
+            0.24939,
+            0.216511,
+            0.192505
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2024": {
+          "available_nights": 97,
+          "common_anchors": 57,
+          "delta_flux_medians_mjy": [
+            0.142045,
+            0.133237,
+            0.182794
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2025": {
+          "available_nights": 8,
+          "common_anchors": 0,
+          "delta_flux_medians_mjy": null,
+          "middle_smaller_than_both": false
+        }
+      },
+      "r": {
+        "2018": {
+          "available_nights": 41,
+          "common_anchors": 26,
+          "delta_flux_medians_mjy": [
+            0.074068,
+            0.052388,
+            0.05556
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2019": {
+          "available_nights": 64,
+          "common_anchors": 36,
+          "delta_flux_medians_mjy": [
+            0.074543,
+            0.05084,
+            0.058041
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2020": {
+          "available_nights": 73,
+          "common_anchors": 38,
+          "delta_flux_medians_mjy": [
+            0.058314,
+            0.060494,
+            0.048669
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2021": {
+          "available_nights": 53,
+          "common_anchors": 20,
+          "delta_flux_medians_mjy": [
+            0.074584,
+            0.042332,
+            0.087828
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2022": {
+          "available_nights": 48,
+          "common_anchors": 12,
+          "delta_flux_medians_mjy": [
+            0.090673,
+            0.048281,
+            0.083128
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2023": {
+          "available_nights": 47,
+          "common_anchors": 20,
+          "delta_flux_medians_mjy": [
+            0.097213,
+            0.044851,
+            0.068312
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2024": {
+          "available_nights": 41,
+          "common_anchors": 7,
+          "delta_flux_medians_mjy": [
+            0.097384,
+            0.05007,
+            0.056116
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2025": {
+          "available_nights": 6,
+          "common_anchors": 1,
+          "delta_flux_medians_mjy": [
+            0.153297,
+            0.054274,
+            0.102455
+          ],
+          "middle_smaller_than_both": true
+        }
+      },
+      "g": {
+        "2018": {
+          "available_nights": 38,
+          "common_anchors": 12,
+          "delta_flux_medians_mjy": [
+            0.093046,
+            0.029156,
+            0.033297
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2019": {
+          "available_nights": 45,
+          "common_anchors": 6,
+          "delta_flux_medians_mjy": [
+            0.09761,
+            0.06142,
+            0.050685
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2020": {
+          "available_nights": 63,
+          "common_anchors": 30,
+          "delta_flux_medians_mjy": [
+            0.042381,
+            0.043105,
+            0.032027
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2021": {
+          "available_nights": 38,
+          "common_anchors": 8,
+          "delta_flux_medians_mjy": [
+            0.050501,
+            0.043993,
+            0.044562
+          ],
+          "middle_smaller_than_both": true
+        },
+        "2022": {
+          "available_nights": 37,
+          "common_anchors": 11,
+          "delta_flux_medians_mjy": [
+            0.031091,
+            0.045366,
+            0.067511
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2023": {
+          "available_nights": 25,
+          "common_anchors": 12,
+          "delta_flux_medians_mjy": [
+            0.063162,
+            0.051146,
+            0.035334
+          ],
+          "middle_smaller_than_both": false
+        },
+        "2024": {
+          "available_nights": 28,
+          "common_anchors": 0,
+          "delta_flux_medians_mjy": null,
+          "middle_smaller_than_both": false
+        },
+        "2025": {
+          "available_nights": 7,
+          "common_anchors": 0,
+          "delta_flux_medians_mjy": null,
+          "middle_smaller_than_both": false
+        }
+      }
+    }
+  }
+}

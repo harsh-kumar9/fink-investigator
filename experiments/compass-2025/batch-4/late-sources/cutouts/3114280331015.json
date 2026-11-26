@@ -1,0 +1,26 @@
+{
+  "method": "alternate_ibe_cutout",
+  "original_url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0712/280336/ztf_20250712280336_000680_zr_c03_o_q3_sciimg.fits",
+  "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0712/280336/ztf_20250712280336_000680_zr_c03_o_q3_sciimg.fits?center=250.0278614,29.763246&size=225arcsec",
+  "retrieved_utc": "2026-11-26T06:16:32+00:00",
+  "attempts": [
+    {
+      "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0712/280336/ztf_20250712280336_000680_zr_c03_o_q3_sciimg.fits?center=250.0278614,29.763246&size=225arcsec",
+      "http_status": 200,
+      "curl_status": 0
+    }
+  ],
+  "received_bytes": 169777,
+  "size_arcsec": 225,
+  "sha256_response": "5c27a7d4d5bbfa8a12947ef2d8c4235aa8449a950eed9ceb26c3c3aa52c867dc",
+  "sha256_cutout": "d4f16957c741da02e79aeff31d0864e35bbfaec329e270eec0475b7e71cabad9",
+  "requested": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0712/280336/ztf_20250712280336_000680_zr_c03_o_q3_sciimg.fits?center=250.0278614%2C29.763246&size=225arcsec&gzip=false",
+  "sha256": "d4f16957c741da02e79aeff31d0864e35bbfaec329e270eec0475b7e71cabad9",
+  "attempts_before_success": [
+    {
+      "method": "service",
+      "curl_status": 22
+    }
+  ],
+  "archived_utc": "2026-11-26T06:16:32+00:00"
+}

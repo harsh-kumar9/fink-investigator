@@ -26,16 +26,16 @@ COLS = ["asas_sn_id", "ra_deg", "dec_deg", "catalog_sources"]
 POST = {"catalog": "master_list", "cols": COLS, "format": "arrow", "download": True}
 
 
-def obtain(fetch, local, neighbors=False, ra=RA, dec=DEC, stem=None):
+def obtain(fetch, local, neighbors=False, ra=RA, dec=DEC, stem=None, sources=SRC):
     stem = stem or ("asas-field" if neighbors else "asas")
     radius = 60 / 3600 if neighbors else RADIUS
     cone_url = f"{HOST}/lookup_cone/radius{radius}_ra{ra}_dec{dec}"
     key = encodebytes(
         f"conectr-{radius}_conera-{ra}_conedec-{dec}|catalog-master_list|cols-{'/'.join(COLS)}".encode()
     ).decode()
-    receipt = SRC / (stem + ".json")
-    cone = SRC / (stem + "-cone.parquet")
-    phot = SRC / (stem + "-forced.parquet")
+    receipt = sources / (stem + ".json")
+    cone = sources / (stem + "-cone.parquet")
+    phot = sources / (stem + "-forced.parquet")
     if (fetch or local) and not receipt.exists():
         if local:
             servers = json.loads((local / "fink-mgab-asas-servers.json").read_text())
