@@ -1,0 +1,347 @@
+{
+  "id": "ZTF18adjrqpw",
+  "original_pairs_by_reference": {
+    "training": {
+      "same_reference": 1,
+      "disjoint_references": 16
+    },
+    "held_out": {
+      "disjoint_references": 7,
+      "same_reference": 2
+    }
+  },
+  "reference_groups": [
+    {
+      "field": 533,
+      "rcid": 35,
+      "ref_start_jd": 2458186.976065,
+      "ref_end_jd": 2458255.813901,
+      "series_id": "533209400014701",
+      "signs": {
+        "1": {
+          "dates": 5,
+          "median_offset_arcsec": [
+            -0.11934984654478593,
+            -0.44172000000131106
+          ],
+          "median_psf_fwhm_pixels": 3.52,
+          "direct": {
+            "dates": 5,
+            "median_mag": 14.2053328
+          }
+        },
+        "-1": {
+          "dates": 137,
+          "median_offset_arcsec": [
+            -0.0003520644231278226,
+            -0.12996000000313757
+          ],
+          "median_psf_fwhm_pixels": 2.83,
+          "direct": {
+            "dates": 132,
+            "median_mag": 18.3079014
+          }
+        }
+      },
+      "within_reference": {
+        "positive_dates": 5,
+        "negative_dates": 137,
+        "pairs": 3,
+        "training_pairs": 2,
+        "test_pairs": 0,
+        "boundary_pairs_dropped": 1,
+        "training_end": "2025-09-07",
+        "test_start": null,
+        "status": "insufficient"
+      },
+      "direct_negative_minus_positive_mag": 4.1026
+    },
+    {
+      "field": 534,
+      "rcid": 46,
+      "ref_start_jd": 2458155.06272,
+      "ref_end_jd": 2458252.876273,
+      "series_id": "534212300007254",
+      "signs": {
+        "1": {
+          "dates": 28,
+          "median_offset_arcsec": [
+            -0.0519295054632672,
+            -0.6028200000038453
+          ],
+          "median_psf_fwhm_pixels": 2.395,
+          "direct": {
+            "dates": 27,
+            "median_mag": 17.6782112
+          }
+        },
+        "-1": {
+          "dates": 41,
+          "median_offset_arcsec": [
+            -0.09048056214723801,
+            -0.10872000000432536
+          ],
+          "median_psf_fwhm_pixels": 2.58,
+          "direct": {
+            "dates": 40,
+            "median_mag": 18.664849750000002
+          }
+        }
+      },
+      "within_reference": {
+        "positive_dates": 28,
+        "negative_dates": 41,
+        "pairs": 6,
+        "training_pairs": 4,
+        "test_pairs": 0,
+        "boundary_pairs_dropped": 2,
+        "training_end": "2025-09-06",
+        "test_start": null,
+        "status": "insufficient"
+      },
+      "direct_negative_minus_positive_mag": 0.9866
+    }
+  ],
+  "same_exposure_positions": {
+    "training": {
+      "matched_pairs": 16,
+      "original_pairs": 17,
+      "paired_projections": [
+        {
+          "utc_dates_positive_negative": [
+            "2023-02-19",
+            "2023-02-04"
+          ],
+          "direct_arcsec": 0.027502042931484047,
+          "difference_arcsec": 0.6195374435838497
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2023-06-17",
+            "2023-06-08"
+          ],
+          "direct_arcsec": -0.06011065768440849,
+          "difference_arcsec": 0.5524722469334958
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2023-06-26",
+            "2023-07-09"
+          ],
+          "direct_arcsec": 0.05387334604722747,
+          "difference_arcsec": 0.5982057511174562
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2023-07-16",
+            "2023-07-15"
+          ],
+          "direct_arcsec": -0.03094665712266466,
+          "difference_arcsec": 0.7286266603341196
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2023-08-09",
+            "2023-08-03"
+          ],
+          "direct_arcsec": -0.025014058222760507,
+          "difference_arcsec": 0.5966150536868468
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2023-09-09",
+            "2023-10-04"
+          ],
+          "direct_arcsec": 0.18593439143838975,
+          "difference_arcsec": 0.2867682105275467
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2024-06-11",
+            "2024-06-21"
+          ],
+          "direct_arcsec": -0.03298343604261226,
+          "difference_arcsec": 0.4964139783326592
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2024-07-10",
+            "2024-07-12"
+          ],
+          "direct_arcsec": 0.10006962886408521,
+          "difference_arcsec": 0.6249917183417726
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2024-07-29",
+            "2024-07-28"
+          ],
+          "direct_arcsec": 0.02663187399381114,
+          "difference_arcsec": 0.9167897898291505
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2024-08-04",
+            "2024-07-26"
+          ],
+          "direct_arcsec": 0.019040292265298284,
+          "difference_arcsec": 0.5597769647090719
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2024-08-06",
+            "2024-07-20"
+          ],
+          "direct_arcsec": -0.0552329130360417,
+          "difference_arcsec": 0.5977391723919602
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2024-08-30",
+            "2024-09-05"
+          ],
+          "direct_arcsec": 0.0021118391994707306,
+          "difference_arcsec": 0.4070587903307937
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-02-15",
+            "2025-02-17"
+          ],
+          "direct_arcsec": -0.07441092773166112,
+          "difference_arcsec": 0.6184321715392281
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-02-19",
+            "2025-02-19"
+          ],
+          "direct_arcsec": 0.014623829445021466,
+          "difference_arcsec": 0.739543980477602
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-01-31",
+            "2025-02-25"
+          ],
+          "direct_arcsec": -0.017086845311205075,
+          "difference_arcsec": 0.6229866831396214
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-03-10",
+            "2025-03-10"
+          ],
+          "direct_arcsec": 0.06735321224407155,
+          "difference_arcsec": 0.2855665368491869
+        }
+      ],
+      "direct": {
+        "east_north_arcsec": [
+          -0.05404189215212824,
+          -0.005220000003447467
+        ],
+        "training_direction_projection_arcsec": 0.008635679026314694
+      },
+      "difference": {
+        "east_north_arcsec": [
+          -0.033446122198397814,
+          -0.6010199999987975
+        ],
+        "training_direction_projection_arcsec": 0.6019313565405859
+      }
+    },
+    "held_out": {
+      "matched_pairs": 9,
+      "original_pairs": 9,
+      "paired_projections": [
+        {
+          "utc_dates_positive_negative": [
+            "2025-05-10",
+            "2025-05-09"
+          ],
+          "direct_arcsec": -0.023626393825202416,
+          "difference_arcsec": 0.4130652978758602
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-05-29",
+            "2025-05-23"
+          ],
+          "direct_arcsec": -0.03175019123804237,
+          "difference_arcsec": 0.595876158654072
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-06-20",
+            "2025-06-17"
+          ],
+          "direct_arcsec": -0.0722286536109145,
+          "difference_arcsec": 0.9713026544801837
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-06-30",
+            "2025-06-29"
+          ],
+          "direct_arcsec": 0.12772229130226445,
+          "difference_arcsec": 0.795395896066984
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-09-06",
+            "2025-09-05"
+          ],
+          "direct_arcsec": 0.0012859846933707595,
+          "difference_arcsec": 0.7080963524661711
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-09-07",
+            "2025-09-04"
+          ],
+          "direct_arcsec": 0.05621748613719989,
+          "difference_arcsec": 0.24203365449247236
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-09-09",
+            "2025-09-03"
+          ],
+          "direct_arcsec": -0.04108408776736215,
+          "difference_arcsec": 0.3434907939831426
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-09-10",
+            "2025-09-01"
+          ],
+          "direct_arcsec": 0.07027205929545594,
+          "difference_arcsec": 0.1846145135102899
+        },
+        {
+          "utc_dates_positive_negative": [
+            "2025-09-15",
+            "2025-08-31"
+          ],
+          "direct_arcsec": -0.011316611334443121,
+          "difference_arcsec": 0.4535940242962951
+        }
+      ],
+      "direct": {
+        "east_north_arcsec": [
+          -0.05949889111086043,
+          0.018719999994942782
+        ],
+        "training_direction_projection_arcsec": -0.014910194443927202
+      },
+      "difference": {
+        "east_north_arcsec": [
+          -0.19011479979611307,
+          -0.4521600000018111
+        ],
+        "training_direction_projection_arcsec": 0.4633033948211606
+      }
+    }
+  }
+}

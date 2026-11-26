@@ -1,0 +1,133 @@
+{
+  "ZTF25aaccmjq": {
+    "simbad": [],
+    "bts": {
+      "ZTFID": "ZTF25aaccmjq",
+      "IAUID": "SN2025oq",
+      "discdate": "2025-01-17 00:35:00.384",
+      "RA": "09:04:38.43",
+      "Dec": "+18:28:00.0",
+      "peakt": "2705.80",
+      "peakfilt": "r",
+      "peakmag": "15.464",
+      "peakabs": "-18.05",
+      "duration": "24.336",
+      "rise": "10.29",
+      "fade": "14.046",
+      "type": "SN Ic-BL",
+      "redshift": "0.01133",
+      "b": "37.438224632085",
+      "A_V": "0.084459656886756",
+      "separation_arcsec": 0.088,
+      "rows_in_box": 1
+    }
+  },
+  "ZTF18abodmfy": {
+    "simbad": [
+      {
+        "main_id": "V* FT Cam",
+        "otype": "CV*",
+        "ra": "50.30967820156",
+        "dec": "61.090715595",
+        "pmra": "-5.244",
+        "pmdec": "14.951",
+        "separation_arcsec": 0.323
+      }
+    ],
+    "catalogs": {
+      "B/vsx/vsx": {
+        "status": "returned",
+        "rows": [
+          {
+            "_r": "0.30",
+            "OID": "4716",
+            "Name": "FT Cam",
+            "RAJ2000": "50.30967",
+            "DEJ2000": "61.09072",
+            "Type": "UG",
+            "Period": "0.074920000000",
+            "separation_arcsec": 0.303
+          }
+        ]
+      },
+      "J/AJ/156/241/table4": {
+        "status": "returned",
+        "rows": []
+      },
+      "II/366/catv2021": {
+        "status": "returned",
+        "rows": [
+          {
+            "_r": "1.40",
+            "ASASSN-V": "J032114.41+610525.7",
+            "RAJ2000": "050.31004",
+            "DEJ2000": "+61.09047",
+            "Type": "UG",
+            "Per": "1.3966e-01",
+            "separation_arcsec": 1.4
+          }
+        ]
+      }
+    }
+  },
+  "ZTF18aazenpc": {
+    "simbad": [
+      {
+        "main_id": "V* V1060 Cyg",
+        "otype": "CV*",
+        "ra": "316.92576386875",
+        "dec": "37.23577847762",
+        "pmra": "-5.239",
+        "pmdec": "-8.829",
+        "separation_arcsec": 0.266
+      }
+    ],
+    "catalogs": {
+      "B/vsx/vsx": {
+        "status": "returned",
+        "rows": [
+          {
+            "_r": "0.25",
+            "OID": "11980",
+            "Name": "V1060 Cyg",
+            "RAJ2000": "316.92575",
+            "DEJ2000": "37.23578",
+            "Type": "UGSS",
+            "Period": "0.292000000000",
+            "separation_arcsec": 0.252
+          }
+        ]
+      },
+      "J/AJ/156/241/table4": {
+        "status": "returned",
+        "rows": [
+          {
+            "_r": "0.11",
+            "ATOID": "J316.9257+37.2357",
+            "RAJ2000": "316.92574",
+            "DEJ2000": "+37.23574",
+            "Class": "dubious",
+            "fp-LSper": "230.592957",
+            "fp-lngfitper": "216.830780",
+            "ls-Pday": "6.766858",
+            "separation_arcsec": 0.113
+          }
+        ]
+      },
+      "II/366/catv2021": {
+        "status": "returned",
+        "rows": [
+          {
+            "_r": "0.12",
+            "ASASSN-V": "J210742.17+371408.7",
+            "RAJ2000": "316.92571",
+            "DEJ2000": "+37.23575",
+            "Type": "UGSS",
+            "Per": "",
+            "separation_arcsec": 0.122
+          }
+        ]
+      }
+    }
+  }
+}

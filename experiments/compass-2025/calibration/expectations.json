@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ZTF22aasxgjp",
+    "name": "SN 2022oqm",
+    "start": "2022-07-11",
+    "stop_exclusive": "2022-08-10",
+    "expected": {"onset": true, "recurrent": false, "fading": false},
+    "source": "https://www.wis-tns.org/index.php/astronotes/astronote/2022-150",
+    "basis": "Spectroscopic supernova with a documented July onset and g/r rise. Selected independently of earlier project cohorts."
+  },
+  {
+    "id": "ZTF18abjedws",
+    "name": "MGAB-V713",
+    "start": "2024-01-01",
+    "stop_exclusive": "2025-01-01",
+    "expected": {"onset": false, "recurrent": true},
+    "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=1499062",
+    "basis": "The October replication established a 0.15-arcsec VSX match to this Z Cam-type dwarf nova. The historical control tests separated positive nights before 2025."
+  },
+  {
+    "id": "ZTF18achfhai",
+    "name": "CRTS J222643.4-200536",
+    "start": "2024-01-01",
+    "stop_exclusive": "2025-01-01",
+    "expected": {"onset": false, "recurrent": true, "fading": true},
+    "source": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=CRTS+J222643.4-200536",
+    "basis": "Cataloged RR Lyrae previously used as a period control. Its pulsation repeatedly crosses the reference level."
+  },
+  {
+    "id": "ZTF22abgqdcj",
+    "name": "G 143-8 subtraction residual",
+    "start": "2024-01-01",
+    "stop_exclusive": "2025-01-01",
+    "expected": {"onset": false, "recurrent": false, "fading": false},
+    "source": "../../october-census/review/ZTF22abgqdcj/reference/report.md",
+    "basis": "The star's Gaia trajectory, reference dates and image stamps identified a persistent negative residual at its old position. This tests whether pure negative detections are routed as repeatedly fading."
+  }
+]

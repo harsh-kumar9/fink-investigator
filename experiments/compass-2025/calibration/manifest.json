@@ -1,0 +1,15 @@
+{
+  "sources": {
+    "histories.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18abjedws,ZTF18achfhai,ZTF22aasxgjp,ZTF22abgqdcj",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-25T23:47:27+00:00",
+      "sha256_uncompressed": "13a63f597ea51fd19dff0d2edcb10e8e934b9f7a63bc2629025a7e7939ca5571"
+    }
+  }
+}

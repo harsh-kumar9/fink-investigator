@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ZTF25aaccmjq",
+    "checked_image_candids": [
+      "2938315872515015012",
+      "2953315692515015025",
+      "2955266292515015036"
+    ],
+    "gaia_rows_60arcsec": 2,
+    "nearby_5arcsec": [],
+    "moving_star_tracks": []
+  },
+  {
+    "id": "ZTF18abodmfy",
+    "checked_image_candids": [
+      "1047222342315010004",
+      "1749449832315015003",
+      "3157392582315015000"
+    ],
+    "gaia_rows_60arcsec": 36,
+    "nearby_5arcsec": [
+      {
+        "id": "463350318963210624",
+        "g_mag": 17.402834,
+        "ref_epoch": 2016.0,
+        "ref_ra": 50.30962998905,
+        "ref_dec": 61.09078204399,
+        "proper_motion_applied": true,
+        "ref_separation_arcsec": 0.07,
+        "anchor_separation_arcsec": 0.084,
+        "positive": {
+          "date_count": 250,
+          "median_xy_arcsec": [
+            -0.069,
+            0.04
+          ],
+          "median_distance_arcsec": 0.167,
+          "p90_distance_arcsec": 0.36
+        },
+        "negative": {
+          "date_count": 109,
+          "median_xy_arcsec": [
+            0.037,
+            -0.005
+          ],
+          "median_distance_arcsec": 0.085,
+          "p90_distance_arcsec": 0.17
+        }
+      }
+    ],
+    "moving_star_tracks": []
+  },
+  {
+    "id": "ZTF18aazenpc",
+    "checked_image_candids": [
+      "1035202660315010037",
+      "2044326200315010028",
+      "3165310410315015021"
+    ],
+    "gaia_rows_60arcsec": 99,
+    "nearby_5arcsec": [
+      {
+        "id": "1868798617634638592",
+        "g_mag": 16.940241,
+        "ref_epoch": 2016.0,
+        "ref_ra": 316.92573462014,
+        "ref_dec": 37.23573923827,
+        "proper_motion_applied": true,
+        "ref_separation_arcsec": 0.102,
+        "anchor_separation_arcsec": 0.009,
+        "positive": {
+          "date_count": 266,
+          "median_xy_arcsec": [
+            0.044,
+            -0.108
+          ],
+          "median_distance_arcsec": 0.194,
+          "p90_distance_arcsec": 0.401
+        },
+        "negative": {
+          "date_count": 227,
+          "median_xy_arcsec": [
+            0.028,
+            0.161
+          ],
+          "median_distance_arcsec": 0.229,
+          "p90_distance_arcsec": 0.423
+        }
+      }
+    ],
+    "moving_star_tracks": []
+  }
+]

@@ -2,6 +2,10 @@
 
 This is an experiment in iteratively building pipelines for open-world discovery with frontier language models. Agents propose explanations for unusual telescope alerts, check them against public measurements and catalogs, and record what ruled each explanation in or out. Each new search starts with a test on objects whose identities are already known.
 
+## Using Fink as a discovery compass
+
+We searched a full year of Fink's nightly anomaly archive and traced four sources from a sample of 132 ZTF IDs. At one dwarf nova, a repeatable **0.463″ positional shift** in subtraction images nearly vanished when measured directly on the same exposures. At FT Cam, two widely separated groups of positive alerts initially looked like recurrent outbursts. Direct photometry showed a four-magnitude eruption in 2025 and ordinary brightness in the 2019 group. The reusable compass gives each search a question, a comparison that can disprove it and a ranked backlog. **65 eligible positions from this run remain to investigate.** [Discovery compass and next-year commands](DISCOVERY_COMPASS.md) · [2025 discoveries, recoveries and null results](experiments/compass-2025/README.md) · [Next candidates](experiments/compass-2025/results/report.md)
+
 ## An 11.62-day eclipse candidate and a star that brightened across seasons
 
 **ZTF18abjtfpx fades deeply every 11.62 days.** Earlier surveys had flagged the star, and ALeRCE had suggested an eclipsing binary with a roughly 5.8-day brightness cycle. Our red-band fit predicted which alternate cycles would go faint. On 88 green observing nights absent from both red series, the source was a median **1.56 magnitudes fainter** in the predicted deep window than halfway through the cycle. Two nearby comparison stars changed by less than 0.02 mag between those windows. On 41 dates the missing light was centered a median 0.10″ from Gaia DR3 4479632717757053440. Spectroscopy or sharper imaging during eclipse could establish which components are involved. [Phase plot, competing periods and offline replay](experiments/october-census/timing/README.md)

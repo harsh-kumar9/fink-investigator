@@ -1,0 +1,406 @@
+{
+  "case": {
+    "id": "ZTF18adjrqpw",
+    "candid": "3194149493515010014",
+    "jd": 2460948.6494907,
+    "date": "2025-09-30",
+    "ra": 246.3345411,
+    "dec": 12.0524704,
+    "bands": {
+      "g": {
+        "positive_dates": 113,
+        "negative_dates": 28,
+        "pairs": 14,
+        "training_pairs": 9,
+        "test_pairs": 5,
+        "boundary_pairs_dropped": 0,
+        "training_end": "2023-04-29",
+        "test_start": "2023-09-07",
+        "training_east_north_arcsec": [
+          -0.2788350397276492,
+          -0.5198399999997605
+        ],
+        "test_east_north_arcsec": [
+          0.13871339091750623,
+          -0.3405600000021991
+        ],
+        "training_length_arcsec": 0.5899005043053199,
+        "test_projection_arcsec": 0.2345455810327811,
+        "angle_deg": 50.37004233847478,
+        "score_arcsec": 0.2345455810327811,
+        "status": "below threshold"
+      },
+      "r": {
+        "positive_dates": 31,
+        "negative_dates": 151,
+        "pairs": 26,
+        "training_pairs": 17,
+        "test_pairs": 9,
+        "boundary_pairs_dropped": 0,
+        "training_end": "2025-03-10",
+        "test_start": "2025-05-09",
+        "training_east_north_arcsec": [
+          -0.03837502442237553,
+          -0.6040799999993851
+        ],
+        "test_east_north_arcsec": [
+          -0.19011479979611307,
+          -0.4521600000018111
+        ],
+        "training_length_arcsec": 0.6052976861831499,
+        "test_projection_arcsec": 0.4633033948211606,
+        "angle_deg": 19.169853777398167,
+        "score_arcsec": 0.4633033948211606,
+        "status": "passed"
+      }
+    },
+    "overlap": null,
+    "best_band": "r",
+    "rank": 2,
+    "status": "admitted"
+  },
+  "pairs": {
+    "training": [
+      {
+        "positive": "2023-02-19",
+        "negative": "2023-02-04",
+        "lag_days": 15,
+        "east": 0.08836817550840834,
+        "north": -0.6263999999980285,
+        "positive_candids": [
+          "2240503624615015012"
+        ],
+        "negative_candids": [
+          "2225544144615010008"
+        ]
+      },
+      {
+        "positive": "2023-06-17",
+        "negative": "2023-06-08",
+        "lag_days": 9,
+        "east": 0.16582235319941505,
+        "north": -0.5641200000056301,
+        "positive_candids": [
+          "2358298214615015018"
+        ],
+        "negative_candids": [
+          "2349297763515010012"
+        ]
+      },
+      {
+        "positive": "2023-06-26",
+        "negative": "2023-07-09",
+        "lag_days": 13,
+        "east": -0.0285172199744201,
+        "north": -0.5976000000003978,
+        "positive_candids": [
+          "2367276334615015015"
+        ],
+        "negative_candids": [
+          "2380229463515010010"
+        ]
+      },
+      {
+        "positive": "2023-07-16",
+        "negative": "2023-07-15",
+        "lag_days": 1,
+        "east": -0.13624893985554876,
+        "north": -0.7214399999959653,
+        "positive_candids": [
+          "2387234934615015018"
+        ],
+        "negative_candids": [
+          "2386233143515010012"
+        ]
+      },
+      {
+        "positive": "2023-08-09",
+        "negative": "2023-08-03",
+        "lag_days": 6,
+        "east": 0.0985780443794916,
+        "north": -0.6040799999993851,
+        "positive_candids": [
+          "2411213934615015013"
+        ],
+        "negative_candids": [
+          "2405248483515010009"
+        ]
+      },
+      {
+        "positive": "2023-09-09",
+        "negative": "2023-10-04",
+        "lag_days": 25,
+        "east": 0.05562618215626618,
+        "north": -0.2908800000035683,
+        "positive_candids": [
+          "2442206594615015014"
+        ],
+        "negative_candids": [
+          "2467132773515010015"
+        ]
+      },
+      {
+        "positive": "2024-06-11",
+        "negative": "2024-06-21",
+        "lag_days": 10,
+        "east": 0.018659415526464662,
+        "north": -0.4986000000009483,
+        "positive_candids": [
+          "2718341754615015012"
+        ],
+        "negative_candids": [
+          "2728347893515010006"
+        ]
+      },
+      {
+        "positive": "2024-07-10",
+        "negative": "2024-07-12",
+        "lag_days": 2,
+        "east": -0.0940012065786417,
+        "north": -0.6202799999968533,
+        "positive_candids": [
+          "2747343554615015013"
+        ],
+        "negative_candids": [
+          "2749262683515010012"
+        ]
+      },
+      {
+        "positive": "2024-07-29",
+        "negative": "2024-07-28",
+        "lag_days": 1,
+        "east": -0.03837502442237553,
+        "north": -0.9162000000017656,
+        "positive_candids": [
+          "2766267024615015026"
+        ],
+        "negative_candids": [
+          "2765322713515010009"
+        ]
+      },
+      {
+        "positive": "2024-08-04",
+        "negative": "2024-07-26",
+        "lag_days": 9,
+        "east": -0.0514014087785441,
+        "north": -0.5576400000002479,
+        "positive_candids": [
+          "2772233594615015033"
+        ],
+        "negative_candids": [
+          "2763302233515010010"
+        ]
+      },
+      {
+        "positive": "2024-08-06",
+        "negative": "2024-07-20",
+        "lag_days": 17,
+        "east": -0.015490835518188778,
+        "north": -0.5979599999982099,
+        "positive_candids": [
+          "2774234174615015017"
+        ],
+        "negative_candids": [
+          "2757298243515010006"
+        ]
+      },
+      {
+        "positive": "2024-08-28",
+        "negative": "2024-08-28",
+        "lag_days": 0,
+        "east": -0.29573413303841206,
+        "north": -0.9532800000002339,
+        "positive_candids": [
+          "2796191774615015019"
+        ],
+        "negative_candids": [
+          "2796194133515010016"
+        ]
+      },
+      {
+        "positive": "2024-08-30",
+        "negative": "2024-09-05",
+        "lag_days": 6,
+        "east": -0.41367572179062395,
+        "north": -0.3816000000021802,
+        "positive_candids": [
+          "2798228344615015007"
+        ],
+        "negative_candids": [
+          "2804171993515010013"
+        ]
+      },
+      {
+        "positive": "2025-02-15",
+        "negative": "2025-02-17",
+        "lag_days": 2,
+        "east": 0.13413655321671908,
+        "north": -0.6281999999998789,
+        "positive_candids": [
+          "2967504284615015004"
+        ],
+        "negative_candids": [
+          "2969410993515010007"
+        ]
+      },
+      {
+        "positive": "2025-02-19",
+        "negative": "2025-02-19",
+        "lag_days": 0,
+        "east": -0.18377763977956132,
+        "north": -0.7293599999989908,
+        "positive_candids": [
+          "2971484514615015012"
+        ],
+        "negative_candids": [
+          "2971484053515010019"
+        ]
+      },
+      {
+        "positive": "2025-01-31",
+        "negative": "2025-02-25",
+        "lag_days": 25,
+        "east": -0.17004712637701166,
+        "north": -0.6134400000000539,
+        "positive_candids": [
+          "2952503004615015012"
+        ],
+        "negative_candids": [
+          "2977523563515010021"
+        ]
+      },
+      {
+        "positive": "2025-03-10",
+        "negative": "2025-03-10",
+        "lag_days": 0,
+        "east": -0.32777199744423585,
+        "north": -0.2653199999990363,
+        "positive_candids": [
+          "2990441774615015009"
+        ],
+        "negative_candids": [
+          "2990440833515010011"
+        ]
+      }
+    ],
+    "held_out": [
+      {
+        "positive": "2025-05-10",
+        "negative": "2025-05-09",
+        "lag_days": 1,
+        "east": -0.20807008637625934,
+        "north": -0.40068000000133,
+        "positive_candids": [
+          "3051369184615015012"
+        ],
+        "negative_candids": [
+          "3050378343515010019"
+        ]
+      },
+      {
+        "positive": "2025-05-29",
+        "negative": "2025-05-23",
+        "lag_days": 6,
+        "east": -0.19011479979611307,
+        "north": -0.5850000000002353,
+        "positive_candids": [
+          "3070319574615015015"
+        ],
+        "negative_candids": [
+          "3064308713515010045"
+        ]
+      },
+      {
+        "positive": "2025-06-20",
+        "negative": "2025-06-17",
+        "lag_days": 3,
+        "east": -0.11618126653651006,
+        "north": -0.9658800000003964,
+        "positive_candids": [
+          "3092315194615015056"
+        ],
+        "negative_candids": [
+          "3089253003515010114"
+        ]
+      },
+      {
+        "positive": "2025-06-30",
+        "negative": "2025-06-29",
+        "lag_days": 1,
+        "east": -0.5773856882511466,
+        "north": -0.7603200000026789,
+        "positive_candids": [
+          "3102290744615015017"
+        ],
+        "negative_candids": [
+          "3101197413515010021"
+        ]
+      },
+      {
+        "positive": "2025-09-06",
+        "negative": "2025-09-05",
+        "lag_days": 1,
+        "east": -0.2714416863416513,
+        "north": -0.6922800000005225,
+        "positive_candids": [
+          "3170205234615015009"
+        ],
+        "negative_candids": [
+          "3169191203515010008"
+        ]
+      },
+      {
+        "positive": "2025-09-07",
+        "negative": "2025-09-04",
+        "lag_days": 3,
+        "east": -0.30981671076402684,
+        "north": -0.2228400000014119,
+        "positive_candids": [
+          "3171229123515015001"
+        ],
+        "negative_candids": [
+          "3168195614615010018"
+        ]
+      },
+      {
+        "positive": "2025-09-09",
+        "negative": "2025-09-03",
+        "lag_days": 6,
+        "east": -0.0570344399488402,
+        "north": -0.3405599999958042,
+        "positive_candids": [
+          "3173196013515015004"
+        ],
+        "negative_candids": [
+          "3167150393515010009"
+        ]
+      },
+      {
+        "positive": "2025-09-10",
+        "negative": "2025-09-01",
+        "lag_days": 9,
+        "east": -0.021827995534740532,
+        "north": -0.18360000000328114,
+        "positive_candids": [
+          "3174194084615015007"
+        ],
+        "negative_candids": [
+          "3165194313515010017"
+        ]
+      },
+      {
+        "positive": "2025-09-15",
+        "negative": "2025-08-31",
+        "lag_days": 15,
+        "east": -0.03696676662980153,
+        "north": -0.4521600000018111,
+        "positive_candids": [
+          "3179169874615015016"
+        ],
+        "negative_candids": [
+          "3164192524615010016"
+        ]
+      }
+    ]
+  }
+}

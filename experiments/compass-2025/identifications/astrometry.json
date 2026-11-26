@@ -1,0 +1,40 @@
+{
+  "ZTF18adjrqpw": {
+    "simbad_10_arcsec": [
+      {
+        "main_id": "CRTS J162520.3+120309",
+        "otype": "CV*",
+        "ra": "246.33456851923998",
+        "dec": "12.052459231399999",
+        "pmra": "-9.281",
+        "pmdec": "-13.545",
+        "separation_arcsec": 0.105
+      }
+    ],
+    "catalogs_5_arcsec": {
+      "B/vsx/vsx": {
+        "status": "returned",
+        "rows": [
+          {
+            "_r": "0.09",
+            "OID": "234063",
+            "Name": "SDSS J162520.29+120308.7",
+            "RAJ2000": "246.33456",
+            "DEJ2000": "12.05246",
+            "Type": "UGSU",
+            "Period": "0.091110000000",
+            "separation_arcsec": 0.076
+          }
+        ]
+      },
+      "J/AJ/156/241/table4": {
+        "status": "returned",
+        "rows": []
+      },
+      "II/366/catv2021": {
+        "status": "returned",
+        "rows": []
+      }
+    }
+  }
+}

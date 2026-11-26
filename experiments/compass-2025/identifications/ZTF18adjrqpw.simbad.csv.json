@@ -1,0 +1,5 @@
+{
+  "url": "https://simbad.cfa.harvard.edu/simbad/sim-tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+main_id%2Cotype%2Cra%2Cdec%2Cpmra%2Cpmdec+FROM+basic+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C246.3345411%2C12.0524704%2C0.002777778%29%29%3D1",
+  "retrieved_utc": "2026-11-25T23:53:25+00:00",
+  "sha256_uncompressed": "db8d44b48c72a44a345d1f02ff889309371cc523c36c239b10c50121740eb657"
+}

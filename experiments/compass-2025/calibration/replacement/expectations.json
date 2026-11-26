@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ZTF18abmfrmh",
+    "name": "ASASSN-20en",
+    "start": "2024-01-01",
+    "stop_exclusive": "2025-01-01",
+    "expected": {"onset": false, "recurrent": true},
+    "source": "https://vsx.aavso.org/index.php?view=detail.top&oid=1543944"
+  },
+  {
+    "id": "ZTF18achrnju",
+    "name": "CSS 121123:051056-102401",
+    "start": "2024-01-01",
+    "stop_exclusive": "2025-01-01",
+    "expected": {"onset": false, "recurrent": true},
+    "source": "../../../october-census/results/outcomes.csv"
+  }
+]

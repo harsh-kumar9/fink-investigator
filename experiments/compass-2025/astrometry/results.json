@@ -1,0 +1,5304 @@
+{
+  "summary": {
+    "year": 2025,
+    "sample": 132,
+    "verified_histories": 131,
+    "measurable_ids": 45,
+    "passed_ids": 2,
+    "dispositions": {
+      "below threshold": 43,
+      "insufficient": 86,
+      "overlap": 1,
+      "anchor missing": 1,
+      "admitted": 1
+    },
+    "admitted": "ZTF18adjrqpw"
+  },
+  "objects": [
+    {
+      "id": "ZTF18abbujxd",
+      "candid": "2927112452715010000",
+      "jd": 2460681.6124537,
+      "date": "2025-01-06",
+      "ra": 345.4651738,
+      "dec": 53.9932974,
+      "bands": {
+        "g": {
+          "positive_dates": 4,
+          "negative_dates": 17,
+          "pairs": 2,
+          "training_pairs": 1,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2020-10-12",
+          "test_start": "2022-09-22",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 16,
+          "negative_dates": 88,
+          "pairs": 16,
+          "training_pairs": 10,
+          "test_pairs": 6,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-11-13",
+          "test_start": "2022-11-15",
+          "training_east_north_arcsec": [
+            0.08550125104020653,
+            -0.095399999989354
+          ],
+          "test_east_north_arcsec": [
+            0.10994529684944765,
+            -0.0952199999872505
+          ],
+          "training_length_arcsec": 0.128107860521551,
+          "test_projection_arcsec": 0.14428816740152403,
+          "angle_deg": 7.2372900648165235,
+          "score_arcsec": 0.128107860521551,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF17aabvfza",
+      "candid": "2927141140115015004",
+      "jd": 2460681.6411458,
+      "date": "2025-01-06",
+      "ra": 327.7603324,
+      "dec": 52.730344,
+      "bands": {
+        "g": {
+          "positive_dates": 43,
+          "negative_dates": 3,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2021-09-30",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 28,
+          "negative_dates": 21,
+          "pairs": 11,
+          "training_pairs": 7,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-08-29",
+          "test_start": "2022-11-17",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abbmdnv",
+      "candid": "2927141621515015019",
+      "jd": 2460681.6416204,
+      "date": "2025-01-06",
+      "ra": 329.3859998,
+      "dec": 44.1719542,
+      "bands": {
+        "g": {
+          "positive_dates": 4,
+          "negative_dates": 8,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2020-11-14",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 14,
+          "negative_dates": 18,
+          "pairs": 8,
+          "training_pairs": 5,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-03-19",
+          "test_start": "2021-10-15",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18acsxdpa",
+      "candid": "2931112506315015001",
+      "jd": 2460685.6125,
+      "date": "2025-01-10",
+      "ra": 2.1053017,
+      "dec": 71.9985634,
+      "bands": {
+        "g": {
+          "positive_dates": 2,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 4,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abasxgt",
+      "candid": "2934122334615010042",
+      "jd": 2460688.622338,
+      "date": "2025-01-13",
+      "ra": 340.6198153,
+      "dec": 55.4148144,
+      "bands": {
+        "g": {
+          "positive_dates": 25,
+          "negative_dates": 423,
+          "pairs": 25,
+          "training_pairs": 16,
+          "test_pairs": 9,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-10-10",
+          "test_start": "2022-10-11",
+          "training_east_north_arcsec": [
+            0.15412881723021732,
+            -0.0371699999931252
+          ],
+          "test_east_north_arcsec": [
+            0.17543200469330938,
+            -0.002159999999662432
+          ],
+          "training_length_arcsec": 0.15854747301762542,
+          "test_projection_arcsec": 0.1710491758179173,
+          "angle_deg": 12.85324698278419,
+          "score_arcsec": 0.15854747301762542,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 33,
+          "negative_dates": 244,
+          "pairs": 33,
+          "training_pairs": 22,
+          "test_pairs": 11,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-07-03",
+          "test_start": "2024-09-05",
+          "training_east_north_arcsec": [
+            0.09016816781650863,
+            0.021059999990313827
+          ],
+          "test_east_north_arcsec": [
+            0.15714293723911865,
+            0.06551999999828695
+          ],
+          "training_length_arcsec": 0.09259493553633526,
+          "test_projection_arcsec": 0.16792648372635421,
+          "angle_deg": 9.486931047792371,
+          "score_arcsec": 0.09259493553633526,
+          "status": "below threshold"
+        }
+      },
+      "overlap": "same ID as ZTF18abasxgt",
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18aaabfxe",
+      "candid": "2935280770815015012",
+      "jd": 2460689.7807755,
+      "date": "2025-01-14",
+      "ra": 105.9654743,
+      "dec": 38.0530219,
+      "bands": {
+        "g": {
+          "positive_dates": 20,
+          "negative_dates": 6,
+          "pairs": 2,
+          "training_pairs": 1,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-10-09",
+          "test_start": "2022-04-10",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 27,
+          "negative_dates": 4,
+          "pairs": 4,
+          "training_pairs": 2,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-01-03",
+          "test_start": "2021-08-09",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF17aadesnh",
+      "candid": "2937284252415015005",
+      "jd": 2460691.7842593,
+      "date": "2025-01-16",
+      "ra": 120.7662079,
+      "dec": 25.2741179,
+      "bands": {
+        "g": {
+          "positive_dates": 8,
+          "negative_dates": 35,
+          "pairs": 3,
+          "training_pairs": 2,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-12-24",
+          "test_start": "2024-12-27",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 11,
+          "negative_dates": 79,
+          "pairs": 7,
+          "training_pairs": 4,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2020-12-21",
+          "test_start": "2021-10-31",
+          "status": "insufficient"
+        }
+      },
+      "overlap": "within 5 arcsec of ZTF17aaaipza",
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aaacdnd",
+      "candid": "2942345894315010001",
+      "jd": 2460696.8458912,
+      "date": "2025-01-21",
+      "ra": 137.4082823,
+      "dec": 48.6610871,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 213,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aabrxnf",
+      "candid": "2952301135315015035",
+      "jd": 2460706.8011343,
+      "date": "2025-01-31",
+      "ra": 98.6041133,
+      "dec": 43.7536829,
+      "bands": {
+        "g": {
+          "positive_dates": 17,
+          "negative_dates": 112,
+          "pairs": 17,
+          "training_pairs": 11,
+          "test_pairs": 6,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-01-25",
+          "test_start": "2023-12-11",
+          "training_east_north_arcsec": [
+            0.09153232839317524,
+            -0.06138000001385535
+          ],
+          "test_east_north_arcsec": [
+            0.08165099751522864,
+            -0.0973799999997027
+          ],
+          "training_length_arcsec": 0.11020740239556033,
+          "test_projection_arcsec": 0.12205069738643158,
+          "angle_deg": 16.17578054660545,
+          "score_arcsec": 0.11020740239556033,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 12,
+          "negative_dates": 223,
+          "pairs": 11,
+          "training_pairs": 7,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-08-08",
+          "test_start": "2023-12-13",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF17aadnjzv",
+      "candid": "2952320545815010021",
+      "jd": 2460706.820544,
+      "date": "2025-01-31",
+      "ra": 86.7657267,
+      "dec": 21.0096299,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 176,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2023-02-04",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 3,
+          "negative_dates": 131,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2022-09-25",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aacfjde",
+      "candid": "2952383254215015022",
+      "jd": 2460706.8832523,
+      "date": "2025-01-31",
+      "ra": 110.6126274,
+      "dec": 62.3491295,
+      "bands": {
+        "g": {
+          "positive_dates": 3,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 3,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18adjzjiu",
+      "candid": "2952503003815015013",
+      "jd": 2460707.0030093,
+      "date": "2025-01-31",
+      "ra": 250.4448919,
+      "dec": 12.1734875,
+      "bands": {
+        "g": {
+          "positive_dates": 18,
+          "negative_dates": 122,
+          "pairs": 18,
+          "training_pairs": 12,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2023-07-12",
+          "test_start": "2024-04-04",
+          "training_east_north_arcsec": [
+            0.06950121528186681,
+            -0.289260000000624
+          ],
+          "test_east_north_arcsec": [
+            0.03448667891605526,
+            -0.3322800000013615
+          ],
+          "training_length_arcsec": 0.2974924646541781,
+          "test_projection_arcsec": 0.3311417618957799,
+          "angle_deg": 7.5850941278603194,
+          "score_arcsec": 0.2974924646541781,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 13,
+          "negative_dates": 150,
+          "pairs": 12,
+          "training_pairs": 8,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-06-24",
+          "test_start": "2023-06-26",
+          "training_east_north_arcsec": [
+            -0.028152390994236144,
+            -0.39798000000175193
+          ],
+          "test_east_north_arcsec": [
+            -0.03536644118228967,
+            -0.2925000000017164
+          ],
+          "training_length_arcsec": 0.39897448229189647,
+          "test_projection_arcsec": 0.29426643831205895,
+          "angle_deg": 2.847957685248895,
+          "score_arcsec": 0.29426643831205895,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF21aaiqafw",
+      "candid": "2953346856115010003",
+      "jd": 2460707.8468519,
+      "date": "2025-02-01",
+      "ra": 154.1006637,
+      "dec": 14.6288329,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 3,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aciberz",
+      "candid": "2953386000215015008",
+      "jd": 2460707.8860069,
+      "date": "2025-02-01",
+      "ra": 137.8639889,
+      "dec": 8.6946597,
+      "bands": {
+        "g": {
+          "positive_dates": 26,
+          "negative_dates": 10,
+          "pairs": 2,
+          "training_pairs": 1,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2020-11-17",
+          "test_start": "2021-04-12",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 36,
+          "negative_dates": 18,
+          "pairs": 5,
+          "training_pairs": 3,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-04-28",
+          "test_start": "2022-10-26",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aadovkr",
+      "candid": "2953407114015010012",
+      "jd": 2460707.9071181,
+      "date": "2025-02-01",
+      "ra": 137.070805,
+      "dec": 20.1719171,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 1,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aaccmjq",
+      "candid": "2955266292515015036",
+      "jd": 2460709.7662963,
+      "date": "2025-02-03",
+      "ra": 136.1601504,
+      "dec": 18.4666711,
+      "bands": {
+        "g": {
+          "positive_dates": 4,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 5,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": "same ID as ZTF25aaccmjq",
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aadzeyu",
+      "candid": "2955339504715010009",
+      "jd": 2460709.8395023,
+      "date": "2025-02-03",
+      "ra": 155.2956184,
+      "dec": 12.3772511,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 1,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aaaduso",
+      "candid": "2956163760215010021",
+      "jd": 2460710.6637616,
+      "date": "2025-02-04",
+      "ra": 71.2796646,
+      "dec": 22.8745388,
+      "bands": {
+        "g": {
+          "positive_dates": 28,
+          "negative_dates": 192,
+          "pairs": 27,
+          "training_pairs": 18,
+          "test_pairs": 9,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-03-10",
+          "test_start": "2023-11-02",
+          "training_east_north_arcsec": [
+            -0.07446417245044751,
+            0.04517999999720246
+          ],
+          "test_east_north_arcsec": [
+            -0.07993704036660079,
+            0.08784000000332526
+          ],
+          "training_length_arcsec": 0.08709848091945806,
+          "test_projection_arcsec": 0.1139061973780653,
+          "angle_deg": 16.45022047644641,
+          "score_arcsec": 0.08709848091945806,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 51,
+          "negative_dates": 145,
+          "pairs": 41,
+          "training_pairs": 27,
+          "test_pairs": 13,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2023-12-15",
+          "test_start": "2023-12-17",
+          "training_east_north_arcsec": [
+            0.12803194025868028,
+            0.3607199999947852
+          ],
+          "test_east_north_arcsec": [
+            0.0859074417468174,
+            0.3420000000062373
+          ],
+          "training_length_arcsec": 0.3827676790464944,
+          "test_projection_arcsec": 0.35103574258068393,
+          "angle_deg": 5.441055294088708,
+          "score_arcsec": 0.35103574258068393,
+          "status": "below threshold"
+        }
+      },
+      "overlap": "same ID as ZTF18aaaduso",
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF25aafkkng",
+      "candid": "2962424304815015001",
+      "jd": 2460716.9243056,
+      "date": "2025-02-10",
+      "ra": 162.6293871,
+      "dec": 22.5740228,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18adixfaz",
+      "candid": "2967540000215015000",
+      "jd": 2460722.04,
+      "date": "2025-02-15",
+      "ra": 269.6959633,
+      "dec": 15.9378988,
+      "bands": {
+        "g": {
+          "positive_dates": 42,
+          "negative_dates": 84,
+          "pairs": 40,
+          "training_pairs": 26,
+          "test_pairs": 14,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-09-27",
+          "test_start": "2023-10-03",
+          "training_east_north_arcsec": [
+            -0.019038885801441374,
+            -0.07451999999474879
+          ],
+          "test_east_north_arcsec": [
+            0.0024231309666927353,
+            -0.0838800000018125
+          ],
+          "training_length_arcsec": 0.07691365010047102,
+          "test_projection_arcsec": 0.08066973648803334,
+          "angle_deg": 15.986448354083377,
+          "score_arcsec": 0.07691365010047102,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 44,
+          "negative_dates": 55,
+          "pairs": 35,
+          "training_pairs": 23,
+          "test_pairs": 12,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-08-31",
+          "test_start": "2023-09-19",
+          "training_east_north_arcsec": [
+            -0.014538785406616284,
+            -0.037800000000487444
+          ],
+          "test_east_north_arcsec": [
+            0.004327019379582318,
+            -0.07127999999845258
+          ],
+          "training_length_arcsec": 0.04049958371559502,
+          "test_projection_arcsec": 0.06497534424663588,
+          "angle_deg": 24.51178951386532,
+          "score_arcsec": 0.04049958371559502,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18aauempi",
+      "candid": "2972504751515010090",
+      "jd": 2460727.0047569,
+      "date": "2025-02-20",
+      "ra": 286.5654814,
+      "dec": 15.4751558,
+      "bands": {
+        "g": {
+          "positive_dates": 166,
+          "negative_dates": 8,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 65,
+          "negative_dates": 178,
+          "pairs": 17,
+          "training_pairs": 11,
+          "test_pairs": 6,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-02-19",
+          "test_start": "2023-03-29",
+          "training_east_north_arcsec": [
+            0.0003469487246529363,
+            -0.3279600000020366
+          ],
+          "test_east_north_arcsec": [
+            -0.21649595556932538,
+            -0.3157200000028837
+          ],
+          "training_length_arcsec": 0.3279601835204289,
+          "test_projection_arcsec": 0.3154907924957492,
+          "angle_deg": 34.499879118108005,
+          "score_arcsec": 0.3154907924957492,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF19aadotsj",
+      "candid": "2974535601815015002",
+      "jd": 2460729.0356019,
+      "date": "2025-02-22",
+      "ra": 255.0214909,
+      "dec": -11.0714167,
+      "bands": {
+        "g": {
+          "positive_dates": 69,
+          "negative_dates": 112,
+          "pairs": 65,
+          "training_pairs": 43,
+          "test_pairs": 22,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-07-02",
+          "test_start": "2023-07-08",
+          "training_east_north_arcsec": [
+            0.0999838692135018,
+            -0.1184400000028063
+          ],
+          "test_east_north_arcsec": [
+            0.10404681791846276,
+            -0.06425999999635224
+          ],
+          "training_length_arcsec": 0.15499937968768582,
+          "test_projection_arcsec": 0.11621954791616536,
+          "angle_deg": 18.130089544339757,
+          "score_arcsec": 0.11621954791616536,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 95,
+          "negative_dates": 109,
+          "pairs": 79,
+          "training_pairs": 52,
+          "test_pairs": 27,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-06-05",
+          "test_start": "2023-07-08",
+          "training_east_north_arcsec": [
+            0.03232694005617389,
+            -0.10638000000255943
+          ],
+          "test_east_north_arcsec": [
+            0.06606707959204629,
+            -0.045000000001493845
+          ],
+          "training_length_arcsec": 0.11118334162067627,
+          "test_projection_arcsec": 0.06226514171116826,
+          "angle_deg": 38.83713914278428,
+          "score_arcsec": 0.06226514171116826,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abomyja",
+      "candid": "2980157285415015005",
+      "jd": 2460734.6572801,
+      "date": "2025-02-28",
+      "ra": 72.2042409,
+      "dec": 43.3514324,
+      "bands": {
+        "g": {
+          "positive_dates": 23,
+          "negative_dates": 20,
+          "pairs": 9,
+          "training_pairs": 6,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-02-28",
+          "test_start": "2024-11-13",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 4,
+          "negative_dates": 31,
+          "pairs": 4,
+          "training_pairs": 2,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-02-28",
+          "test_start": "2022-07-12",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18actbmen",
+      "candid": "2980166584615010014",
+      "jd": 2460734.6665856,
+      "date": "2025-02-28",
+      "ra": 103.7832428,
+      "dec": -1.9364821,
+      "bands": {
+        "g": {
+          "positive_dates": 34,
+          "negative_dates": 65,
+          "pairs": 25,
+          "training_pairs": 16,
+          "test_pairs": 9,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-04-21",
+          "test_start": "2023-10-08",
+          "training_east_north_arcsec": [
+            -0.10236150818632805,
+            0.12258000000002767
+          ],
+          "test_east_north_arcsec": [
+            -0.23098800800331726,
+            0.25343999999929423
+          ],
+          "training_length_arcsec": 0.15969888778005464,
+          "test_projection_arcsec": 0.34258820980297844,
+          "angle_deg": 2.4825204870640376,
+          "score_arcsec": 0.15969888778005464,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 36,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18aaadshm",
+      "candid": "2981141563615015013",
+      "jd": 2460735.6415625,
+      "date": "2025-03-01",
+      "ra": 44.4238904,
+      "dec": 48.862231,
+      "bands": {
+        "g": {
+          "positive_dates": 56,
+          "negative_dates": 109,
+          "pairs": 56,
+          "training_pairs": 37,
+          "test_pairs": 19,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-11-23",
+          "test_start": "2022-12-15",
+          "training_east_north_arcsec": [
+            -0.07933934474381016,
+            -0.2969999999919537
+          ],
+          "test_east_north_arcsec": [
+            0.033156741137198464,
+            -0.21024000000124943
+          ],
+          "training_length_arcsec": 0.3074145923986005,
+          "test_projection_arcsec": 0.19456020423865297,
+          "angle_deg": 23.918754769628965,
+          "score_arcsec": 0.19456020423865297,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 88,
+          "negative_dates": 158,
+          "pairs": 84,
+          "training_pairs": 56,
+          "test_pairs": 27,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2023-07-01",
+          "test_start": "2023-08-01",
+          "training_east_north_arcsec": [
+            0.00686818207828134,
+            -0.055620000010492276
+          ],
+          "test_east_north_arcsec": [
+            0.05849796465812447,
+            -0.03167999998652249
+          ],
+          "training_length_arcsec": 0.0560424511083124,
+          "test_projection_arcsec": 0.03861030753065505,
+          "angle_deg": 54.52243783997171,
+          "score_arcsec": 0.03861030753065505,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18acyfauf",
+      "candid": "2981442971115015072",
+      "jd": 2460735.9429745,
+      "date": "2025-03-01",
+      "ra": 223.8235312,
+      "dec": -13.4706271,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 1,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18acgrzrx",
+      "candid": "2982177110615010021",
+      "jd": 2460736.6771181,
+      "date": "2025-03-02",
+      "ra": 100.7596365,
+      "dec": -5.757755,
+      "bands": {
+        "g": {
+          "positive_dates": 28,
+          "negative_dates": 94,
+          "pairs": 27,
+          "training_pairs": 18,
+          "test_pairs": 9,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-03-27",
+          "test_start": "2023-04-12",
+          "training_east_north_arcsec": [
+            0.003760929635337973,
+            -0.10440000000020433
+          ],
+          "test_east_north_arcsec": [
+            0.0952768859276637,
+            -0.0550799999977869
+          ],
+          "training_length_arcsec": 0.10446772033391284,
+          "test_projection_arcsec": 0.05847434637324273,
+          "angle_deg": 57.90445414499735,
+          "score_arcsec": 0.05847434637324273,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 32,
+          "negative_dates": 119,
+          "pairs": 31,
+          "training_pairs": 20,
+          "test_pairs": 11,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-04-16",
+          "test_start": "2023-10-14",
+          "training_east_north_arcsec": [
+            -0.009133686395409138,
+            0.01584000000125485
+          ],
+          "test_east_north_arcsec": [
+            0.04728025910177894,
+            -0.02519999999712752
+          ],
+          "training_length_arcsec": 0.018284688326833345,
+          "test_projection_arcsec": -0.04544846728920859,
+          "angle_deg": 148.02593745050558,
+          "score_arcsec": -0.04544846728920859,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18aazwnmq",
+      "candid": "2985507510915015024",
+      "jd": 2460740.0075116,
+      "date": "2025-03-05",
+      "ra": 255.850431,
+      "dec": 9.0564617,
+      "bands": {
+        "g": {
+          "positive_dates": 27,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 19,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aazutgw",
+      "candid": "3002516014815010095",
+      "jd": 2460757.0160185,
+      "date": "2025-03-22",
+      "ra": 291.7553476,
+      "dec": 7.5644761,
+      "bands": {
+        "g": {
+          "positive_dates": 120,
+          "negative_dates": 190,
+          "pairs": 26,
+          "training_pairs": 17,
+          "test_pairs": 8,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2023-08-07",
+          "test_start": "2023-10-03",
+          "training_east_north_arcsec": [
+            -0.042467178584943324,
+            -0.06605999999980128
+          ],
+          "test_east_north_arcsec": [
+            -0.0909118798601682,
+            -0.09180000000004185
+          ],
+          "training_length_arcsec": 0.07853269928468787,
+          "test_projection_arcsec": 0.12638148348269454,
+          "angle_deg": 11.986252477812736,
+          "score_arcsec": 0.07853269928468787,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 70,
+          "negative_dates": 236,
+          "pairs": 23,
+          "training_pairs": 15,
+          "test_pairs": 7,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2023-10-16",
+          "test_start": "2024-07-21",
+          "training_east_north_arcsec": [
+            0.04889078533511562,
+            -0.12365999999985888
+          ],
+          "test_east_north_arcsec": [
+            -0.24088525602215105,
+            -0.12509999999910093
+          ],
+          "training_length_arcsec": 0.13297407450570753,
+          "test_projection_arcsec": 0.027770801722250833,
+          "angle_deg": 84.1276832884517,
+          "score_arcsec": 0.027770801722250833,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF21aaqujsi",
+      "candid": "3003419400215010034",
+      "jd": 2460757.9194097,
+      "date": "2025-03-23",
+      "ra": 231.5582055,
+      "dec": 8.3006366,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 39,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 17,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aazfbvg",
+      "candid": "3007463761715015004",
+      "jd": 2460761.9637616,
+      "date": "2025-03-27",
+      "ra": 298.6919203,
+      "dec": 18.6326015,
+      "bands": {
+        "g": {
+          "positive_dates": 78,
+          "negative_dates": 162,
+          "pairs": 75,
+          "training_pairs": 50,
+          "test_pairs": 25,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-07-08",
+          "test_start": "2023-07-31",
+          "training_east_north_arcsec": [
+            0.12724195116491466,
+            -0.05777999999736494
+          ],
+          "test_east_north_arcsec": [
+            0.26335331452995914,
+            -0.010080000002687939
+          ],
+          "training_length_arcsec": 0.13974635070709368,
+          "test_projection_arcsec": 0.2439563667614089,
+          "angle_deg": 22.230627084823972,
+          "score_arcsec": 0.13974635070709368,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 63,
+          "negative_dates": 138,
+          "pairs": 57,
+          "training_pairs": 38,
+          "test_pairs": 19,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-06-05",
+          "test_start": "2023-06-07",
+          "training_east_north_arcsec": [
+            0.1008042803180045,
+            -0.07488000000535067
+          ],
+          "test_east_north_arcsec": [
+            0.13935211016030885,
+            -0.007559999998818512
+          ],
+          "training_length_arcsec": 0.12557275712204516,
+          "test_projection_arcsec": 0.11637382431011158,
+          "angle_deg": 33.500597400291184,
+          "score_arcsec": 0.11637382431011158,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18adllqqj",
+      "candid": "3007468555015010013",
+      "jd": 2460761.9685532,
+      "date": "2025-03-27",
+      "ra": 310.6515838,
+      "dec": 28.8737136,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 200,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 109,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aazfddf",
+      "candid": "3007471370715010002",
+      "jd": 2460761.9713773,
+      "date": "2025-03-27",
+      "ra": 293.5516223,
+      "dec": 8.7750678,
+      "bands": {
+        "g": {
+          "positive_dates": 144,
+          "negative_dates": 46,
+          "pairs": 8,
+          "training_pairs": 5,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-06-29",
+          "test_start": "2023-05-30",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 34,
+          "negative_dates": 163,
+          "pairs": 13,
+          "training_pairs": 8,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-09-24",
+          "test_start": "2023-06-25",
+          "training_east_north_arcsec": [
+            -0.0894802166779061,
+            -0.17891999999974928
+          ],
+          "test_east_north_arcsec": [
+            -0.05550263925097193,
+            -0.22788000000275588
+          ],
+          "training_length_arcsec": 0.2000476832573557,
+          "test_projection_arcsec": 0.22863887770180796,
+          "angle_deg": 12.88174501946775,
+          "score_arcsec": 0.2000476832573557,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abdcppy",
+      "candid": "3010503704115010011",
+      "jd": 2460765.0037037,
+      "date": "2025-03-30",
+      "ra": 296.1404196,
+      "dec": 34.9531475,
+      "bands": {
+        "g": {
+          "positive_dates": 8,
+          "negative_dates": 169,
+          "pairs": 8,
+          "training_pairs": 5,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2020-09-15",
+          "test_start": "2024-07-09",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 5,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aammeiw",
+      "candid": "3010504205015015028",
+      "jd": 2460765.0042014,
+      "date": "2025-03-30",
+      "ra": 284.9883528,
+      "dec": 35.7067827,
+      "bands": {
+        "g": {
+          "positive_dates": 47,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 40,
+          "negative_dates": 227,
+          "pairs": 40,
+          "training_pairs": 26,
+          "test_pairs": 14,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-08-28",
+          "test_start": "2023-11-03",
+          "training_east_north_arcsec": [
+            0.053641674008522565,
+            -0.1884600000025216
+          ],
+          "test_east_north_arcsec": [
+            0.07074269808318559,
+            -0.20573999999982107
+          ],
+          "training_length_arcsec": 0.19594540257782792,
+          "test_projection_arcsec": 0.21724682788941058,
+          "angle_deg": 3.0872537720945696,
+          "score_arcsec": 0.19594540257782792,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abbwsdn",
+      "candid": "3010505643215010006",
+      "jd": 2460765.0056481,
+      "date": "2025-03-30",
+      "ra": 273.887677,
+      "dec": 13.4590563,
+      "bands": {
+        "g": {
+          "positive_dates": 16,
+          "negative_dates": 155,
+          "pairs": 15,
+          "training_pairs": 10,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-04-14",
+          "test_start": "2024-06-16",
+          "training_east_north_arcsec": [
+            -0.11956363633215858,
+            -0.14867999999808035
+          ],
+          "test_east_north_arcsec": [
+            -0.06512104366680072,
+            -0.1540800000036313
+          ],
+          "training_length_arcsec": 0.19079099961056298,
+          "test_projection_arcsec": 0.16088140030423487,
+          "angle_deg": 15.894037076983764,
+          "score_arcsec": 0.16088140030423487,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 23,
+          "negative_dates": 92,
+          "pairs": 17,
+          "training_pairs": 11,
+          "test_pairs": 6,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-04-14",
+          "test_start": "2024-06-14",
+          "training_east_north_arcsec": [
+            -0.16245249565237527,
+            -0.10475999999641772
+          ],
+          "test_east_north_arcsec": [
+            -0.051291574616012275,
+            0.011880000001340818
+          ],
+          "training_length_arcsec": 0.1933015026918685,
+          "test_projection_arcsec": 0.036667565453496455,
+          "angle_deg": 45.85729627122939,
+          "score_arcsec": 0.036667565453496455,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18acrdian",
+      "candid": "3016237190015010016",
+      "jd": 2460770.7371991,
+      "date": "2025-04-05",
+      "ra": 124.4286223,
+      "dec": -5.4299319,
+      "bands": {
+        "g": {
+          "positive_dates": 2,
+          "negative_dates": 153,
+          "pairs": 2,
+          "training_pairs": 1,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-11-18",
+          "test_start": "2025-03-20",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 2,
+          "negative_dates": 99,
+          "pairs": 2,
+          "training_pairs": 1,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-11-13",
+          "test_start": "2025-03-05",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF17aabwliu",
+      "candid": "3016264140615015003",
+      "jd": 2460770.7641435,
+      "date": "2025-04-05",
+      "ra": 118.5435259,
+      "dec": -13.4644889,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 22,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2025-02-08",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 7,
+          "negative_dates": 24,
+          "pairs": 5,
+          "training_pairs": 3,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2025-01-16",
+          "test_start": "2025-02-20",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18adoeywv",
+      "candid": "3016268886215010002",
+      "jd": 2460770.7688889,
+      "date": "2025-04-05",
+      "ra": 137.6515712,
+      "dec": 35.7217192,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 91,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abnoybx",
+      "candid": "3020512843815010052",
+      "jd": 2460775.0128472,
+      "date": "2025-04-09",
+      "ra": 292.113027,
+      "dec": -2.3394352,
+      "bands": {
+        "g": {
+          "positive_dates": 72,
+          "negative_dates": 177,
+          "pairs": 69,
+          "training_pairs": 46,
+          "test_pairs": 23,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-05-28",
+          "test_start": "2023-07-09",
+          "training_east_north_arcsec": [
+            -0.01240964841674413,
+            -0.1366199999994322
+          ],
+          "test_east_north_arcsec": [
+            -0.043883394347901214,
+            -0.09935999999886036
+          ],
+          "training_length_arcsec": 0.13718244703194377,
+          "test_projection_arcsec": 0.10292235632515688,
+          "angle_deg": 18.639034027507925,
+          "score_arcsec": 0.10292235632515688,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 113,
+          "negative_dates": 20,
+          "pairs": 14,
+          "training_pairs": 9,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-08-04",
+          "test_start": "2024-09-02",
+          "training_east_north_arcsec": [
+            0.009711898672032036,
+            0.046800000000146724
+          ],
+          "test_east_north_arcsec": [
+            0.013308898399803412,
+            0.025920000000745347
+          ],
+          "training_length_arcsec": 0.04779708124801713,
+          "test_projection_arcsec": 0.02808352806667732,
+          "angle_deg": 15.455135560509675,
+          "score_arcsec": 0.02808352806667732,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF19abebudg",
+      "candid": "3030392113615015002",
+      "jd": 2460784.8921181,
+      "date": "2025-04-19",
+      "ra": 244.5122567,
+      "dec": -22.5921805,
+      "bands": {
+        "g": {
+          "positive_dates": 2,
+          "negative_dates": 1,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2023-06-29",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 3,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aazmwmw",
+      "candid": "3031455644415010013",
+      "jd": 2460785.9556481,
+      "date": "2025-04-20",
+      "ra": 310.5114534,
+      "dec": 13.3493509,
+      "bands": {
+        "g": {
+          "positive_dates": 13,
+          "negative_dates": 318,
+          "pairs": 13,
+          "training_pairs": 8,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-09-16",
+          "test_start": "2024-08-03",
+          "training_east_north_arcsec": [
+            0.08318982091881039,
+            -0.09612000000096543
+          ],
+          "test_east_north_arcsec": [
+            0.05184039358304705,
+            -0.0766800000008061
+          ],
+          "training_length_arcsec": 0.12712041812663039,
+          "test_projection_arcsec": 0.09190557135398819,
+          "angle_deg": 6.814382646634662,
+          "score_arcsec": 0.09190557135398819,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 15,
+          "negative_dates": 337,
+          "pairs": 15,
+          "training_pairs": 10,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 3,
+          "training_end": "2024-08-10",
+          "test_start": "2024-08-16",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF25aanlbls",
+      "candid": "3033400055215015008",
+      "jd": 2460787.9000579,
+      "date": "2025-04-22",
+      "ra": 250.0278614,
+      "dec": 29.763246,
+      "bands": {
+        "g": {
+          "positive_dates": 3,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18adqydvu",
+      "candid": "3034308173215015007",
+      "jd": 2460788.8081713,
+      "date": "2025-04-23",
+      "ra": 240.0854047,
+      "dec": 70.8353224,
+      "bands": {
+        "g": {
+          "positive_dates": 16,
+          "negative_dates": 14,
+          "pairs": 6,
+          "training_pairs": 4,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-07-11",
+          "test_start": "2024-08-11",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 13,
+          "negative_dates": 35,
+          "pairs": 9,
+          "training_pairs": 6,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-06-15",
+          "test_start": "2024-06-18",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aalsfbd",
+      "candid": "3035365460215010001",
+      "jd": 2460789.865463,
+      "date": "2025-04-24",
+      "ra": 256.9428774,
+      "dec": 44.5155357,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 118,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abbkgnu",
+      "candid": "3040356145515015005",
+      "jd": 2460794.8561458,
+      "date": "2025-04-29",
+      "ra": 254.2422636,
+      "dec": 21.3607252,
+      "bands": {
+        "g": {
+          "positive_dates": 159,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 121,
+          "negative_dates": 24,
+          "pairs": 7,
+          "training_pairs": 4,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-07-14",
+          "test_start": "2024-06-28",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abnkjzp",
+      "candid": "3041466345715010035",
+      "jd": 2460795.9663426,
+      "date": "2025-04-30",
+      "ra": 289.7519447,
+      "dec": 0.6475478,
+      "bands": {
+        "g": {
+          "positive_dates": 37,
+          "negative_dates": 53,
+          "pairs": 27,
+          "training_pairs": 18,
+          "test_pairs": 8,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2023-05-28",
+          "test_start": "2023-06-27",
+          "training_east_north_arcsec": [
+            -0.012599195267587904,
+            0.08297999999988814
+          ],
+          "test_east_north_arcsec": [
+            0.02159862045872212,
+            0.16037999999971575
+          ],
+          "training_length_arcsec": 0.0839310438477459,
+          "test_projection_arcsec": 0.155320445995366,
+          "angle_deg": 16.30347679004246,
+          "score_arcsec": 0.0839310438477459,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 12,
+          "negative_dates": 19,
+          "pairs": 5,
+          "training_pairs": 3,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-09-03",
+          "test_start": "2023-04-28",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abbmkur",
+      "candid": "3041475945715010001",
+      "jd": 2460795.9759491,
+      "date": "2025-04-30",
+      "ra": 329.4555568,
+      "dec": 51.4403207,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 4,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 3,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aapbgxu",
+      "candid": "3042294612915015008",
+      "jd": 2460796.7946181,
+      "date": "2025-05-01",
+      "ra": 216.5896991,
+      "dec": -17.321778,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aaogghv",
+      "candid": "3042357411815010020",
+      "jd": 2460796.857419,
+      "date": "2025-05-01",
+      "ra": 237.1804949,
+      "dec": -4.2978911,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF17aabshnt",
+      "candid": "3043224213715015000",
+      "jd": 2460797.724213,
+      "date": "2025-05-02",
+      "ra": 101.8567563,
+      "dec": 49.2615744,
+      "bands": {
+        "g": {
+          "positive_dates": 50,
+          "negative_dates": 92,
+          "pairs": 37,
+          "training_pairs": 24,
+          "test_pairs": 12,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2023-11-09",
+          "test_start": "2024-02-17",
+          "training_east_north_arcsec": [
+            -0.23764020458922108,
+            -0.5299200000152382
+          ],
+          "test_east_north_arcsec": [
+            -0.5829996715234749,
+            -0.6537600000044108
+          ],
+          "training_length_arcsec": 0.5807650757865498,
+          "test_projection_arcsec": 0.8350788996252153,
+          "angle_deg": 17.57180100544815,
+          "score_arcsec": 0.5807650757865498,
+          "status": "passed"
+        },
+        "r": {
+          "positive_dates": 51,
+          "negative_dates": 102,
+          "pairs": 31,
+          "training_pairs": 20,
+          "test_pairs": 11,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-01-12",
+          "test_start": "2023-03-18",
+          "training_east_north_arcsec": [
+            -0.2533810783179624,
+            -0.23381999999543268
+          ],
+          "test_east_north_arcsec": [
+            -0.7621402113446435,
+            -0.43595999997876334
+          ],
+          "training_length_arcsec": 0.3447807466310112,
+          "test_projection_arcsec": 0.8557556611152451,
+          "angle_deg": 12.930363249569787,
+          "score_arcsec": 0.3447807466310112,
+          "status": "below threshold"
+        }
+      },
+      "overlap": "same ID as ZTF17aabshnt",
+      "best_band": "g",
+      "rank": 1,
+      "status": "overlap"
+    },
+    {
+      "id": "ZTF22aagfmaf",
+      "candid": "3043356315315010007",
+      "jd": 2460797.8563194,
+      "date": "2025-05-02",
+      "ra": 228.7360858,
+      "dec": -28.3118338,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 47,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aapllae",
+      "candid": "3044293990215015018",
+      "jd": 2460798.7939931,
+      "date": "2025-05-03",
+      "ra": 222.9069336,
+      "dec": -6.2591423,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abdxump",
+      "candid": "3051440422415015020",
+      "jd": 2460805.9404282,
+      "date": "2025-05-10",
+      "ra": 257.6099788,
+      "dec": -25.1449745,
+      "bands": {
+        "g": {
+          "positive_dates": 22,
+          "negative_dates": 4,
+          "pairs": 3,
+          "training_pairs": 2,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-06-21",
+          "test_start": "2025-05-02",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 26,
+          "negative_dates": 7,
+          "pairs": 6,
+          "training_pairs": 4,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-06-11",
+          "test_start": "2025-04-20",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aaohzdc",
+      "candid": "3057459863915015011",
+      "jd": 2460811.9598611,
+      "date": "2025-05-16",
+      "ra": 309.8640412,
+      "dec": -9.5602805,
+      "bands": {
+        "g": {
+          "positive_dates": 3,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 2,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aaptcnt",
+      "candid": "3057471226115010026",
+      "jd": 2460811.9712269,
+      "date": "2025-05-16",
+      "ra": 296.9042362,
+      "dec": 51.1400578,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 40,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 42,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abuelqt",
+      "candid": "3061466653515015010",
+      "jd": 2460815.9666551,
+      "date": "2025-05-20",
+      "ra": 325.2148692,
+      "dec": 40.7294355,
+      "bands": {
+        "g": {
+          "positive_dates": 57,
+          "negative_dates": 82,
+          "pairs": 33,
+          "training_pairs": 22,
+          "test_pairs": 10,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2021-10-10",
+          "test_start": "2021-10-17",
+          "training_east_north_arcsec": [
+            0.0010912308938160475,
+            -0.14139000000241708
+          ],
+          "test_east_north_arcsec": [
+            0.021961021495746087,
+            -0.0694799999997997
+          ],
+          "training_length_arcsec": 0.14139421093364155,
+          "test_projection_arcsec": 0.06964741823749228,
+          "angle_deg": 17.0983478606529,
+          "score_arcsec": 0.06964741823749228,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 50,
+          "negative_dates": 132,
+          "pairs": 41,
+          "training_pairs": 27,
+          "test_pairs": 13,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2022-10-31",
+          "test_start": "2022-11-06",
+          "training_east_north_arcsec": [
+            -0.016641270956237367,
+            -0.08495999999524884
+          ],
+          "test_east_north_arcsec": [
+            0.013367578274789238,
+            0.015840000006051014
+          ],
+          "training_length_arcsec": 0.08657443905813997,
+          "test_projection_arcsec": -0.01811412132263613,
+          "angle_deg": 150.92087672571355,
+          "score_arcsec": -0.01811412132263613,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18aaydzhj",
+      "candid": "3066394523715010027",
+      "jd": 2460820.8945255,
+      "date": "2025-05-25",
+      "ra": 281.5500703,
+      "dec": 6.1273829,
+      "bands": {
+        "g": {
+          "positive_dates": 35,
+          "negative_dates": 15,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 66,
+          "negative_dates": 235,
+          "pairs": 14,
+          "training_pairs": 9,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-05-13",
+          "test_start": "2022-06-29",
+          "training_east_north_arcsec": [
+            -0.01610745008290189,
+            -0.11664000000095598
+          ],
+          "test_east_north_arcsec": [
+            -0.0014317732593154987,
+            -0.2422799999983738
+          ],
+          "training_length_arcsec": 0.11774693010179156,
+          "test_projection_arcsec": 0.2401982063727372,
+          "angle_deg": 7.523965888705416,
+          "score_arcsec": 0.11774693010179156,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abmpksk",
+      "candid": "3072444052515010050",
+      "jd": 2460826.9440509,
+      "date": "2025-05-31",
+      "ra": 301.5402462,
+      "dec": 18.1706789,
+      "bands": {
+        "g": {
+          "positive_dates": 50,
+          "negative_dates": 159,
+          "pairs": 50,
+          "training_pairs": 33,
+          "test_pairs": 17,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-03-23",
+          "test_start": "2024-04-08",
+          "training_east_north_arcsec": [
+            0.10398242034849194,
+            -0.02988000000385682
+          ],
+          "test_east_north_arcsec": [
+            0.1162961280622726,
+            0.029519999999649826
+          ],
+          "training_length_arcsec": 0.10819037915526941,
+          "test_projection_arcsec": 0.10362007565276077,
+          "angle_deg": 30.27518376497902,
+          "score_arcsec": 0.10362007565276077,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 29,
+          "negative_dates": 257,
+          "pairs": 28,
+          "training_pairs": 18,
+          "test_pairs": 10,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-02-16",
+          "test_start": "2024-04-23",
+          "training_east_north_arcsec": [
+            0.11877597184453204,
+            -0.07308000000350034
+          ],
+          "test_east_north_arcsec": [
+            0.10740289469182751,
+            -0.017100000001590843
+          ],
+          "training_length_arcsec": 0.1394575845485812,
+          "test_projection_arcsec": 0.100435922803715,
+          "angle_deg": 22.556648476535912,
+          "score_arcsec": 0.100435922803715,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18adkoznd",
+      "candid": "3072448294115015008",
+      "jd": 2460826.9482986,
+      "date": "2025-05-31",
+      "ra": 310.9982658,
+      "dec": 42.0570498,
+      "bands": {
+        "g": {
+          "positive_dates": 20,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 24,
+          "negative_dates": 1,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2022-06-20",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aakheeq",
+      "candid": "3074340105615010003",
+      "jd": 2460828.8401042,
+      "date": "2025-06-02",
+      "ra": 282.0922312,
+      "dec": 51.204963,
+      "bands": {
+        "g": {
+          "positive_dates": 7,
+          "negative_dates": 397,
+          "pairs": 7,
+          "training_pairs": 4,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-05-05",
+          "test_start": "2022-11-13",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 12,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF20aazppyc",
+      "candid": "3074394713515010077",
+      "jd": 2460828.8947106,
+      "date": "2025-06-02",
+      "ra": 247.7907456,
+      "dec": 40.9963135,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 1,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abmrerw",
+      "candid": "3079355283915015004",
+      "jd": 2460833.8552894,
+      "date": "2025-06-07",
+      "ra": 299.4192059,
+      "dec": -2.4771052,
+      "bands": {
+        "g": {
+          "positive_dates": 16,
+          "negative_dates": 25,
+          "pairs": 11,
+          "training_pairs": 7,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-04-27",
+          "test_start": "2023-11-10",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 193,
+          "negative_dates": 23,
+          "pairs": 23,
+          "training_pairs": 15,
+          "test_pairs": 8,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-11-12",
+          "test_start": "2024-08-05",
+          "training_east_north_arcsec": [
+            -0.1952973379080824,
+            -0.3142800000004442
+          ],
+          "test_east_north_arcsec": [
+            -0.03776467861625908,
+            -0.19332000000016336
+          ],
+          "training_length_arcsec": 0.3700175247123613,
+          "test_projection_arcsec": 0.18413168634055993,
+          "angle_deg": 20.80389337557556,
+          "score_arcsec": 0.18413168634055993,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18adkcmkr",
+      "candid": "3082416264915010043",
+      "jd": 2460836.9162616,
+      "date": "2025-06-10",
+      "ra": 286.908237,
+      "dec": 14.6993638,
+      "bands": {
+        "g": {
+          "positive_dates": 2,
+          "negative_dates": 82,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 6,
+          "negative_dates": 74,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2022-10-20",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abpfhfl",
+      "candid": "3083293692415010189",
+      "jd": 2460837.7936921,
+      "date": "2025-06-11",
+      "ra": 276.5589302,
+      "dec": -17.8529377,
+      "bands": {
+        "g": {
+          "positive_dates": 21,
+          "negative_dates": 147,
+          "pairs": 12,
+          "training_pairs": 8,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-07-02",
+          "test_start": "2024-04-17",
+          "training_east_north_arcsec": [
+            0.061850988352911335,
+            -0.1877400000068974
+          ],
+          "test_east_north_arcsec": [
+            -0.061336991298830676,
+            -0.3951000000064653
+          ],
+          "training_length_arcsec": 0.19766601215894908,
+          "test_projection_arcsec": 0.35606688120421964,
+          "angle_deg": 27.058876778323395,
+          "score_arcsec": 0.19766601215894908,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 14,
+          "negative_dates": 107,
+          "pairs": 6,
+          "training_pairs": 4,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-05-27",
+          "test_start": "2022-06-17",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF17aackkkm",
+      "candid": "3088227986115015000",
+      "jd": 2460842.7279861,
+      "date": "2025-06-16",
+      "ra": 192.1009296,
+      "dec": 29.783962,
+      "bands": {
+        "g": {
+          "positive_dates": 2,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 2,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aawuxlq",
+      "candid": "3095232043915010031",
+      "jd": 2460849.7320486,
+      "date": "2025-06-23",
+      "ra": 228.4394265,
+      "dec": -16.6056236,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18adistdb",
+      "candid": "3095241782515010016",
+      "jd": 2460849.7417824,
+      "date": "2025-06-23",
+      "ra": 200.670601,
+      "dec": 54.3523014,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 2,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 39,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF19aaapgpe",
+      "candid": "3097180382015015018",
+      "jd": 2460851.6803819,
+      "date": "2025-06-25",
+      "ra": 211.2248026,
+      "dec": -10.4507345,
+      "bands": {
+        "g": {
+          "positive_dates": 10,
+          "negative_dates": 73,
+          "pairs": 8,
+          "training_pairs": 5,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-05-31",
+          "test_start": "2022-06-06",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 12,
+          "negative_dates": 24,
+          "pairs": 3,
+          "training_pairs": 2,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2025-06-23",
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abdlipk",
+      "candid": "3102401304115015010",
+      "jd": 2460856.9013079,
+      "date": "2025-06-30",
+      "ra": 286.1043934,
+      "dec": -8.1996552,
+      "bands": {
+        "g": {
+          "positive_dates": 23,
+          "negative_dates": 40,
+          "pairs": 14,
+          "training_pairs": 9,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-09-07",
+          "test_start": "2022-05-12",
+          "training_east_north_arcsec": [
+            -0.05736748002712948,
+            -0.13572000000010576
+          ],
+          "test_east_north_arcsec": [
+            -0.07482714795834225,
+            -0.07128000000165002
+          ],
+          "training_length_arcsec": 0.14734634764625762,
+          "test_projection_arcsec": 0.09478868488650642,
+          "angle_deg": 23.47744547963944,
+          "score_arcsec": 0.09478868488650642,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 8,
+          "negative_dates": 78,
+          "pairs": 7,
+          "training_pairs": 4,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-07-20",
+          "test_start": "2023-10-07",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18admijkl",
+      "candid": "3102401784015010037",
+      "jd": 2460856.9017824,
+      "date": "2025-06-30",
+      "ra": 291.1439768,
+      "dec": -1.3008772,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 33,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 43,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF17aaapvpm",
+      "candid": "3102439514615015001",
+      "jd": 2460856.9395139,
+      "date": "2025-06-30",
+      "ra": 326.7564888,
+      "dec": 48.5766804,
+      "bands": {
+        "g": {
+          "positive_dates": 25,
+          "negative_dates": 13,
+          "pairs": 8,
+          "training_pairs": 5,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-09-12",
+          "test_start": "2024-10-12",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 56,
+          "negative_dates": 35,
+          "pairs": 26,
+          "training_pairs": 17,
+          "test_pairs": 9,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-09-16",
+          "test_start": "2023-09-27",
+          "training_east_north_arcsec": [
+            0.18697299495910585,
+            -0.31212000001517026
+          ],
+          "test_east_north_arcsec": [
+            0.1729202475267439,
+            -0.26856000001771463
+          ],
+          "training_length_arcsec": 0.363837594612552,
+          "test_projection_arcsec": 0.31924783337038154,
+          "angle_deg": 1.8532696802006858,
+          "score_arcsec": 0.31924783337038154,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18aayqxkx",
+      "candid": "3103194600215010005",
+      "jd": 2460857.6946065,
+      "date": "2025-07-01",
+      "ra": 206.6840973,
+      "dec": 29.8751848,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abncmxb",
+      "candid": "3105393542015015010",
+      "jd": 2460859.8935417,
+      "date": "2025-07-03",
+      "ra": 8.6390635,
+      "dec": 54.4783343,
+      "bands": {},
+      "overlap": null,
+      "status": "anchor missing"
+    },
+    {
+      "id": "ZTF18abpbhad",
+      "candid": "3115192442215010025",
+      "jd": 2460869.6924421,
+      "date": "2025-07-13",
+      "ra": 271.4395184,
+      "dec": 10.3590187,
+      "bands": {
+        "g": {
+          "positive_dates": 23,
+          "negative_dates": 20,
+          "pairs": 11,
+          "training_pairs": 7,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-07-29",
+          "test_start": "2024-08-03",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 44,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abgjphx",
+      "candid": "3115198586015015023",
+      "jd": 2460869.698588,
+      "date": "2025-07-13",
+      "ra": 292.985371,
+      "dec": 43.932176,
+      "bands": {
+        "g": {
+          "positive_dates": 64,
+          "negative_dates": 197,
+          "pairs": 60,
+          "training_pairs": 40,
+          "test_pairs": 20,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-07-24",
+          "test_start": "2023-08-04",
+          "training_east_north_arcsec": [
+            0.11977727718594867,
+            0.018000000005713446
+          ],
+          "test_east_north_arcsec": [
+            0.13792534959402902,
+            0.004499999988638592
+          ],
+          "training_length_arcsec": 0.1211222363163976,
+          "test_projection_arcsec": 0.13706255212913865,
+          "angle_deg": 6.677705343601835,
+          "score_arcsec": 0.1211222363163976,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 55,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF25abbvseo",
+      "candid": "3120497754415015006",
+      "jd": 2460874.9977546,
+      "date": "2025-07-18",
+      "ra": 56.1632708,
+      "dec": 16.6102161,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25aalrzkm",
+      "candid": "3120498706215015001",
+      "jd": 2460874.9987037,
+      "date": "2025-07-18",
+      "ra": 56.6978379,
+      "dec": 24.9258301,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25abbvspa",
+      "candid": "3120499171015015006",
+      "jd": 2460874.9991782,
+      "date": "2025-07-18",
+      "ra": 60.6646956,
+      "dec": 26.1391977,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abclkoo",
+      "candid": "3124263854515010003",
+      "jd": 2460878.7638542,
+      "date": "2025-07-22",
+      "ra": 251.9319768,
+      "dec": -15.2431219,
+      "bands": {
+        "g": {
+          "positive_dates": 53,
+          "negative_dates": 156,
+          "pairs": 43,
+          "training_pairs": 28,
+          "test_pairs": 15,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-05-28",
+          "test_start": "2024-06-02",
+          "training_east_north_arcsec": [
+            -0.07658732368786494,
+            -0.09018000000189375
+          ],
+          "test_east_north_arcsec": [
+            -0.03299680614193155,
+            -0.032759999999143474
+          ],
+          "training_length_arcsec": 0.11831335744543536,
+          "test_projection_arcsec": 0.04632979733645551,
+          "angle_deg": 4.8660320817678135,
+          "score_arcsec": 0.04632979733645551,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 38,
+          "negative_dates": 225,
+          "pairs": 36,
+          "training_pairs": 24,
+          "test_pairs": 12,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-06-09",
+          "test_start": "2024-08-27",
+          "training_east_north_arcsec": [
+            -0.07276664090260503,
+            0.12329999999884933
+          ],
+          "test_east_north_arcsec": [
+            -0.15048280265246092,
+            0.12257999999683022
+          ],
+          "training_length_arcsec": 0.14317078622388338,
+          "test_projection_arcsec": 0.18205000300368088,
+          "angle_deg": 20.287118473812505,
+          "score_arcsec": 0.14317078622388338,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF25abdhrho",
+      "candid": "3125421661615015010",
+      "jd": 2460879.9216667,
+      "date": "2025-07-23",
+      "ra": 340.6273455,
+      "dec": -10.2687223,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18acavhsv",
+      "candid": "3133231464015015003",
+      "jd": 2460887.7314699,
+      "date": "2025-07-31",
+      "ra": 262.4593369,
+      "dec": -15.3351899,
+      "bands": {
+        "g": {
+          "positive_dates": 11,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 12,
+          "negative_dates": 171,
+          "pairs": 12,
+          "training_pairs": 8,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2025-05-22",
+          "test_start": "2025-05-26",
+          "training_east_north_arcsec": [
+            0.0414882803136526,
+            0.03654000000175017
+          ],
+          "test_east_north_arcsec": [
+            0.014234472669693157,
+            -0.03239999999813392
+          ],
+          "training_length_arcsec": 0.05528516078942085,
+          "test_projection_arcsec": -0.010732214563167196,
+          "angle_deg": 107.65376877593911,
+          "score_arcsec": -0.010732214563167196,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18acahigh",
+      "candid": "3133338245715010003",
+      "jd": 2460887.8382407,
+      "date": "2025-07-31",
+      "ra": 307.2377542,
+      "dec": -6.3009642,
+      "bands": {
+        "g": {
+          "positive_dates": 40,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 40,
+          "negative_dates": 1,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25abgcucu",
+      "candid": "3133411936115015000",
+      "jd": 2460887.9119329,
+      "date": "2025-07-31",
+      "ra": 358.7027419,
+      "dec": 1.0454544,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abaquqn",
+      "candid": "3135302956015010069",
+      "jd": 2460889.8029514,
+      "date": "2025-08-02",
+      "ra": 317.5655812,
+      "dec": 43.6877334,
+      "bands": {
+        "g": {
+          "positive_dates": 15,
+          "negative_dates": 487,
+          "pairs": 11,
+          "training_pairs": 7,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 2,
+          "training_end": "2023-11-10",
+          "test_start": "2024-12-16",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 4,
+          "negative_dates": 289,
+          "pairs": 3,
+          "training_pairs": 2,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-11-12",
+          "test_start": "2024-12-21",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abakiqc",
+      "candid": "3135369973315015017",
+      "jd": 2460889.8699769,
+      "date": "2025-08-02",
+      "ra": 328.3206637,
+      "dec": 56.1733729,
+      "bands": {
+        "g": {
+          "positive_dates": 111,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 133,
+          "negative_dates": 13,
+          "pairs": 13,
+          "training_pairs": 8,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-07-28",
+          "test_start": "2022-09-21",
+          "training_east_north_arcsec": [
+            0.1298627161510846,
+            0.11483999999910566
+          ],
+          "test_east_north_arcsec": [
+            -0.05591311393596053,
+            0.09611999999776799
+          ],
+          "training_length_arcsec": 0.17335671502982444,
+          "test_projection_arcsec": 0.02178970658747745,
+          "angle_deg": 78.69968913052394,
+          "score_arcsec": 0.02178970658747745,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abdkpgs",
+      "candid": "3137299562315015011",
+      "jd": 2460891.7995602,
+      "date": "2025-08-04",
+      "ra": 288.6813589,
+      "dec": 60.8705066,
+      "bands": {
+        "g": {
+          "positive_dates": 24,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 25,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aagstwh",
+      "candid": "3146312806015010000",
+      "jd": 2460900.8128009,
+      "date": "2025-08-13",
+      "ra": 239.6774093,
+      "dec": 51.26364,
+      "bands": {
+        "g": {
+          "positive_dates": 222,
+          "negative_dates": 190,
+          "pairs": 165,
+          "training_pairs": 110,
+          "test_pairs": 52,
+          "boundary_pairs_dropped": 3,
+          "training_end": "2023-04-29",
+          "test_start": "2023-05-01",
+          "training_east_north_arcsec": [
+            0.06572124038987327,
+            0.03555000000616815
+          ],
+          "test_east_north_arcsec": [
+            0.13346987120435028,
+            0.15993000000165125
+          ],
+          "training_length_arcsec": 0.07472003706384296,
+          "test_projection_arcsec": 0.19348648045930372,
+          "angle_deg": 21.743365052398783,
+          "score_arcsec": 0.07472003706384296,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 129,
+          "negative_dates": 322,
+          "pairs": 128,
+          "training_pairs": 85,
+          "test_pairs": 43,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-12-24",
+          "test_start": "2023-01-13",
+          "training_east_north_arcsec": [
+            0.0056316401216973955,
+            0.05256000000031236
+          ],
+          "test_east_north_arcsec": [
+            0.11218227150591947,
+            0.24191999998777192
+          ],
+          "training_length_arcsec": 0.05286084534410273,
+          "test_projection_arcsec": 0.25249473960744695,
+          "angle_deg": 18.762196647909906,
+          "score_arcsec": 0.05286084534410273,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abodmfy",
+      "candid": "3157392582315015000",
+      "jd": 2460911.892581,
+      "date": "2025-08-24",
+      "ra": 50.3096123,
+      "dec": 61.0907995,
+      "bands": {
+        "g": {
+          "positive_dates": 134,
+          "negative_dates": 93,
+          "pairs": 2,
+          "training_pairs": 1,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2020-01-04",
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 222,
+          "negative_dates": 89,
+          "pairs": 11,
+          "training_pairs": 7,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2020-01-06",
+          "test_start": "2020-02-05",
+          "status": "insufficient"
+        }
+      },
+      "overlap": "same ID as ZTF18abodmfy",
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abolmti",
+      "candid": "3158396400515010037",
+      "jd": 2460912.8964005,
+      "date": "2025-08-25",
+      "ra": 12.7404181,
+      "dec": 37.6509032,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 63,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 173,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abuxyhz",
+      "candid": "3158456055915010001",
+      "jd": 2460912.9560532,
+      "date": "2025-08-25",
+      "ra": 53.7077993,
+      "dec": -7.1800284,
+      "bands": {
+        "g": {
+          "positive_dates": 103,
+          "negative_dates": 1,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2022-08-25",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 83,
+          "negative_dates": 17,
+          "pairs": 14,
+          "training_pairs": 9,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-09-05",
+          "test_start": "2023-09-27",
+          "training_east_north_arcsec": [
+            0.08607965654340684,
+            0.03636000000284412
+          ],
+          "test_east_north_arcsec": [
+            0.06500621367961809,
+            -0.08639999999928705
+          ],
+          "training_length_arcsec": 0.09344387016191971,
+          "test_projection_arcsec": 0.02626398652213756,
+          "angle_deg": 75.94185216636043,
+          "score_arcsec": 0.02626398652213756,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abteeqy",
+      "candid": "3159256580715015021",
+      "jd": 2460913.7565856,
+      "date": "2025-08-26",
+      "ra": 345.9651506,
+      "dec": 1.1142455,
+      "bands": {
+        "g": {
+          "positive_dates": 82,
+          "negative_dates": 34,
+          "pairs": 10,
+          "training_pairs": 6,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-07-30",
+          "test_start": "2024-06-16",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 81,
+          "negative_dates": 67,
+          "pairs": 18,
+          "training_pairs": 12,
+          "test_pairs": 6,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-06-28",
+          "test_start": "2023-07-21",
+          "training_east_north_arcsec": [
+            0.00035993190556253226,
+            0.1123200000000324
+          ],
+          "test_east_north_arcsec": [
+            -0.010797957678370003,
+            0.156960000000117
+          ],
+          "training_length_arcsec": 0.11232057670339803,
+          "test_projection_arcsec": 0.15692459198352418,
+          "angle_deg": 4.119029062303934,
+          "score_arcsec": 0.11232057670339803,
+          "status": "below threshold"
+        }
+      },
+      "overlap": "same ID as ZTF18abteeqy",
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF25ablwxyr",
+      "candid": "3159257061115015008",
+      "jd": 2460913.7570602,
+      "date": "2025-08-26",
+      "ra": 340.6705447,
+      "dec": 8.109182,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF23abpusdj",
+      "candid": "3164209524815010053",
+      "jd": 2460918.7095255,
+      "date": "2025-08-31",
+      "ra": 304.4038979,
+      "dec": 29.7875008,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 2,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 17,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abobpds",
+      "candid": "3164274205815010006",
+      "jd": 2460918.7742014,
+      "date": "2025-08-31",
+      "ra": 303.8972813,
+      "dec": -14.2790758,
+      "bands": {
+        "g": {
+          "positive_dates": 51,
+          "negative_dates": 159,
+          "pairs": 47,
+          "training_pairs": 31,
+          "test_pairs": 15,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2024-06-30",
+          "test_start": "2024-07-25",
+          "training_east_north_arcsec": [
+            -0.004535415499267441,
+            0.12852000000549424
+          ],
+          "test_east_north_arcsec": [
+            0.03139903010495482,
+            0.15912000000497528
+          ],
+          "training_length_arcsec": 0.12860000153640447,
+          "test_projection_arcsec": 0.15791364316558681,
+          "angle_deg": 13.183824606860437,
+          "score_arcsec": 0.12860000153640447,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 58,
+          "negative_dates": 1,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2021-07-06",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18adlfpie",
+      "candid": "3164287014415015002",
+      "jd": 2460918.7870139,
+      "date": "2025-08-31",
+      "ra": 324.8031197,
+      "dec": 13.330926,
+      "bands": {
+        "g": {
+          "positive_dates": 17,
+          "negative_dates": 73,
+          "pairs": 13,
+          "training_pairs": 8,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-07-16",
+          "test_start": "2024-11-29",
+          "training_east_north_arcsec": [
+            0.14090803069817126,
+            -0.32544000000136464
+          ],
+          "test_east_north_arcsec": [
+            -0.007356292529026195,
+            -0.21023999999485454
+          ],
+          "training_length_arcsec": 0.3546353996940026,
+          "test_projection_arcsec": 0.19000907682439458,
+          "angle_deg": 25.41546161538225,
+          "score_arcsec": 0.19000907682439458,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 24,
+          "negative_dates": 40,
+          "pairs": 9,
+          "training_pairs": 6,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-06-28",
+          "test_start": "2024-11-21",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abbwtqn",
+      "candid": "3165210024515010018",
+      "jd": 2460919.7100231,
+      "date": "2025-09-01",
+      "ra": 277.1573781,
+      "dec": -8.2639819,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 23,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aazenpc",
+      "candid": "3165310410315015021",
+      "jd": 2460919.8104167,
+      "date": "2025-09-01",
+      "ra": 316.9257141,
+      "dec": 37.2357162,
+      "bands": {
+        "g": {
+          "positive_dates": 211,
+          "negative_dates": 193,
+          "pairs": 89,
+          "training_pairs": 59,
+          "test_pairs": 30,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-07-27",
+          "test_start": "2023-07-30",
+          "training_east_north_arcsec": [
+            0.05417024188783234,
+            -0.2667600000094694
+          ],
+          "test_east_north_arcsec": [
+            0.07430494811739337,
+            -0.2786400000076128
+          ],
+          "training_length_arcsec": 0.2722045420474067,
+          "test_projection_arcsec": 0.28785384265926456,
+          "angle_deg": 3.4527809977518094,
+          "score_arcsec": 0.2722045420474067,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 172,
+          "negative_dates": 107,
+          "pairs": 40,
+          "training_pairs": 26,
+          "test_pairs": 14,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-06-25",
+          "test_start": "2023-07-14",
+          "training_east_north_arcsec": [
+            -0.17676982331581143,
+            -0.3034799999973359
+          ],
+          "test_east_north_arcsec": [
+            -0.24004009243659868,
+            -0.4993200000029674
+          ],
+          "training_length_arcsec": 0.3512088849011172,
+          "test_projection_arcsec": 0.5522795312621713,
+          "angle_deg": 4.544598879197049,
+          "score_arcsec": 0.3512088849011172,
+          "status": "below threshold"
+        }
+      },
+      "overlap": "same ID as ZTF18aazenpc",
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF25abpjweh",
+      "candid": "3172206335615015014",
+      "jd": 2460926.706331,
+      "date": "2025-09-08",
+      "ra": 294.0669929,
+      "dec": -20.6768229,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18adnewig",
+      "candid": "3172472693515015004",
+      "jd": 2460926.9726968,
+      "date": "2025-09-08",
+      "ra": 43.7106695,
+      "dec": 33.9691468,
+      "bands": {
+        "g": {
+          "positive_dates": 9,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 13,
+          "negative_dates": 168,
+          "pairs": 12,
+          "training_pairs": 8,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-10-21",
+          "test_start": "2024-10-23",
+          "training_east_north_arcsec": [
+            -0.03851448329228153,
+            -0.13643999999572998
+          ],
+          "test_east_north_arcsec": [
+            -0.052099049060273794,
+            -0.009000000002856723
+          ],
+          "training_length_arcsec": 0.14177178500007054,
+          "test_projection_arcsec": 0.02281503301186059,
+          "angle_deg": 64.43561547003401,
+          "score_arcsec": 0.02281503301186059,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF19abqjyqm",
+      "candid": "3175257883215010010",
+      "jd": 2460929.7578819,
+      "date": "2025-09-11",
+      "ra": 308.7066377,
+      "dec": -15.8277354,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 7,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 8,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25abqifyh",
+      "candid": "3178192234815015005",
+      "jd": 2460932.6922338,
+      "date": "2025-09-14",
+      "ra": 294.1135385,
+      "dec": -13.5251588,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25abrpiin",
+      "candid": "3181190454815015003",
+      "jd": 2460935.6904514,
+      "date": "2025-09-17",
+      "ra": 305.5954513,
+      "dec": -20.6307664,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abcckqd",
+      "candid": "3185139490015010026",
+      "jd": 2460939.6394907,
+      "date": "2025-09-21",
+      "ra": 307.1167854,
+      "dec": 52.1020668,
+      "bands": {
+        "g": {
+          "positive_dates": 86,
+          "negative_dates": 151,
+          "pairs": 78,
+          "training_pairs": 52,
+          "test_pairs": 26,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-08-29",
+          "test_start": "2023-09-16",
+          "training_east_north_arcsec": [
+            -0.05152385505661134,
+            -0.1245599999975866
+          ],
+          "test_east_north_arcsec": [
+            -0.012936246867064991,
+            -0.12816000000128724
+          ],
+          "training_length_arcsec": 0.13479577604396017,
+          "test_projection_arcsec": 0.12337281921195176,
+          "angle_deg": 16.708466700609335,
+          "score_arcsec": 0.12337281921195176,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 112,
+          "negative_dates": 39,
+          "pairs": 37,
+          "training_pairs": 24,
+          "test_pairs": 13,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-07-09",
+          "test_start": "2023-07-11",
+          "training_east_north_arcsec": [
+            -0.07706464995329473,
+            -0.060479999990548095
+          ],
+          "test_east_north_arcsec": [
+            -0.07894427567228174,
+            -0.09971999998867886
+          ],
+          "training_length_arcsec": 0.09796321080528418,
+          "test_projection_arcsec": 0.12366763470986668,
+          "angle_deg": 13.508102722683613,
+          "score_arcsec": 0.09796321080528418,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18adpqvwn",
+      "candid": "3186497961615015212",
+      "jd": 2460940.997963,
+      "date": "2025-09-22",
+      "ra": 42.0856441,
+      "dec": -24.9649908,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 1,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF25absffwy",
+      "candid": "3186499833415015002",
+      "jd": 2460940.999838,
+      "date": "2025-09-22",
+      "ra": 39.4938772,
+      "dec": -1.8497861,
+      "bands": {
+        "g": {
+          "positive_dates": 2,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 2,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18adjrqpw",
+      "candid": "3194149493515010014",
+      "jd": 2460948.6494907,
+      "date": "2025-09-30",
+      "ra": 246.3345411,
+      "dec": 12.0524704,
+      "bands": {
+        "g": {
+          "positive_dates": 113,
+          "negative_dates": 28,
+          "pairs": 14,
+          "training_pairs": 9,
+          "test_pairs": 5,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-04-29",
+          "test_start": "2023-09-07",
+          "training_east_north_arcsec": [
+            -0.2788350397276492,
+            -0.5198399999997605
+          ],
+          "test_east_north_arcsec": [
+            0.13871339091750623,
+            -0.3405600000021991
+          ],
+          "training_length_arcsec": 0.5899005043053199,
+          "test_projection_arcsec": 0.2345455810327811,
+          "angle_deg": 50.37004233847478,
+          "score_arcsec": 0.2345455810327811,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 31,
+          "negative_dates": 151,
+          "pairs": 26,
+          "training_pairs": 17,
+          "test_pairs": 9,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2025-03-10",
+          "test_start": "2025-05-09",
+          "training_east_north_arcsec": [
+            -0.03837502442237553,
+            -0.6040799999993851
+          ],
+          "test_east_north_arcsec": [
+            -0.19011479979611307,
+            -0.4521600000018111
+          ],
+          "training_length_arcsec": 0.6052976861831499,
+          "test_projection_arcsec": 0.4633033948211606,
+          "angle_deg": 19.169853777398167,
+          "score_arcsec": 0.4633033948211606,
+          "status": "passed"
+        }
+      },
+      "overlap": null,
+      "best_band": "r",
+      "rank": 2,
+      "status": "admitted"
+    },
+    {
+      "id": "ZTF19aatvkpb",
+      "candid": "3194190605915015008",
+      "jd": 2460948.6906019,
+      "date": "2025-09-30",
+      "ra": 311.8364811,
+      "dec": 0.0021484,
+      "bands": {
+        "g": {
+          "positive_dates": 33,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 41,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18acbxqmb",
+      "candid": "3195311724115010004",
+      "jd": 2460949.8117245,
+      "date": "2025-10-01",
+      "ra": 356.5156353,
+      "dec": -8.6064186,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 13,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 47,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abvdvka",
+      "candid": "3195321224715010022",
+      "jd": 2460949.8212269,
+      "date": "2025-10-01",
+      "ra": 23.9855838,
+      "dec": 55.0190376,
+      "bands": {
+        "g": {
+          "positive_dates": 3,
+          "negative_dates": 9,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2023-10-06",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 4,
+          "negative_dates": 52,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2025-09-24",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF17aabutiy",
+      "candid": "3195345410315015004",
+      "jd": 2460949.8454167,
+      "date": "2025-10-01",
+      "ra": 329.5663886,
+      "dec": 51.8389644,
+      "bands": {
+        "g": {
+          "positive_dates": 99,
+          "negative_dates": 392,
+          "pairs": 99,
+          "training_pairs": 66,
+          "test_pairs": 33,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-08-30",
+          "test_start": "2023-08-31",
+          "training_east_north_arcsec": [
+            0.024245368902222446,
+            -0.08189999999785869
+          ],
+          "test_east_north_arcsec": [
+            0.037035357044567674,
+            -0.07560000001376466
+          ],
+          "training_length_arcsec": 0.08541339422393954,
+          "test_projection_arcsec": 0.0830030928913659,
+          "angle_deg": 9.608908308411523,
+          "score_arcsec": 0.0830030928913659,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 101,
+          "negative_dates": 205,
+          "pairs": 97,
+          "training_pairs": 64,
+          "test_pairs": 33,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-07-27",
+          "test_start": "2023-08-23",
+          "training_east_north_arcsec": [
+            0.034755402592330585,
+            -0.06479999998987296
+          ],
+          "test_east_north_arcsec": [
+            0.048490737804444864,
+            -0.006840000003194291
+          ],
+          "training_length_arcsec": 0.07353215628582174,
+          "test_projection_arcsec": 0.028947160290752512,
+          "angle_deg": 53.764121163944786,
+          "score_arcsec": 0.028947160290752512,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF19aatidmp",
+      "candid": "3200117015515010020",
+      "jd": 2460954.6170139,
+      "date": "2025-10-06",
+      "ra": 277.9933139,
+      "dec": -14.557443,
+      "bands": {
+        "g": {
+          "positive_dates": 2,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 1,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abmfrjj",
+      "candid": "3200164050615015008",
+      "jd": 2460954.6640509,
+      "date": "2025-10-06",
+      "ra": 295.8638017,
+      "dec": 1.2236225,
+      "bands": {
+        "g": {
+          "positive_dates": 205,
+          "negative_dates": 27,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 85,
+          "negative_dates": 131,
+          "pairs": 9,
+          "training_pairs": 6,
+          "test_pairs": 3,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-07-14",
+          "test_start": "2024-09-26",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aajrusl",
+      "candid": "3201140565415015002",
+      "jd": 2460955.6405671,
+      "date": "2025-10-07",
+      "ra": 263.9011488,
+      "dec": 50.4111452,
+      "bands": {
+        "g": {
+          "positive_dates": 126,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 45,
+          "negative_dates": 38,
+          "pairs": 3,
+          "training_pairs": 2,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2023-06-19",
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aahojnc",
+      "candid": "3204517734915010003",
+      "jd": 2460959.0177315,
+      "date": "2025-10-10",
+      "ra": 119.4951799,
+      "dec": 22.085738,
+      "bands": {
+        "g": {
+          "positive_dates": 3,
+          "negative_dates": 13,
+          "pairs": 2,
+          "training_pairs": 1,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-12-15",
+          "test_start": "2023-12-16",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 24,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abnwuvi",
+      "candid": "3205216114915015015",
+      "jd": 2460959.7161111,
+      "date": "2025-10-11",
+      "ra": 321.9762394,
+      "dec": -13.8113516,
+      "bands": {
+        "g": {
+          "positive_dates": 78,
+          "negative_dates": 145,
+          "pairs": 77,
+          "training_pairs": 51,
+          "test_pairs": 24,
+          "boundary_pairs_dropped": 2,
+          "training_end": "2024-09-06",
+          "test_start": "2024-09-23",
+          "training_east_north_arcsec": [
+            0.08110518635579494,
+            0.011520000000331265
+          ],
+          "test_east_north_arcsec": [
+            0.06589796386440347,
+            0.06407999999744618
+          ],
+          "training_length_arcsec": 0.0819192386061776,
+          "test_projection_arcsec": 0.07425445283890833,
+          "angle_deg": 36.114583349628745,
+          "score_arcsec": 0.07425445283890833,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 63,
+          "negative_dates": 135,
+          "pairs": 63,
+          "training_pairs": 42,
+          "test_pairs": 20,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2024-08-16",
+          "test_start": "2024-08-23",
+          "training_east_north_arcsec": [
+            -0.14787712871845277,
+            0.1454399999985867
+          ],
+          "test_east_north_arcsec": [
+            -0.3212744237237026,
+            0.23363999999652663
+          ],
+          "training_length_arcsec": 0.20741368999562865,
+          "test_projection_arcsec": 0.3928850642010119,
+          "angle_deg": 8.498223175931486,
+          "score_arcsec": 0.20741368999562865,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF20aboxwij",
+      "candid": "3205340604615015016",
+      "jd": 2460959.8406019,
+      "date": "2025-10-11",
+      "ra": 46.6687278,
+      "dec": 76.5634272,
+      "bands": {
+        "g": {
+          "positive_dates": 39,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 107,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF20aabdvpx",
+      "candid": "3210474174515010020",
+      "jd": 2460964.9741782,
+      "date": "2025-10-16",
+      "ra": 95.1134319,
+      "dec": 27.5475056,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 21,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF17aadbpoq",
+      "candid": "3210493323215015017",
+      "jd": 2460964.9933218,
+      "date": "2025-10-16",
+      "ra": 94.5383731,
+      "dec": 27.6401356,
+      "bands": {
+        "g": {
+          "positive_dates": 19,
+          "negative_dates": 208,
+          "pairs": 19,
+          "training_pairs": 12,
+          "test_pairs": 7,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-11-12",
+          "test_start": "2024-10-14",
+          "training_east_north_arcsec": [
+            0.025034935522099396,
+            -0.059219999995008266
+          ],
+          "test_east_north_arcsec": [
+            0.0038269965631604775,
+            -0.03707999999846834
+          ],
+          "training_length_arcsec": 0.06429429520575253,
+          "test_projection_arcsec": 0.0356436944303136,
+          "angle_deg": 17.023361899075137,
+          "score_arcsec": 0.0356436944303136,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 24,
+          "negative_dates": 1,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2021-11-03",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF17aaaoxxi",
+      "candid": "3210494250115015014",
+      "jd": 2460964.9942593,
+      "date": "2025-10-16",
+      "ra": 102.2581637,
+      "dec": 8.995694,
+      "bands": {
+        "g": {
+          "positive_dates": 62,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 96,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18adljfoy",
+      "candid": "3269095405315010016",
+      "jd": 2461023.5954051,
+      "date": "2025-12-14",
+      "ra": 316.4066661,
+      "dec": 29.3693596,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 265,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abtrbsz",
+      "candid": "3269133684015010001",
+      "jd": 2461023.6336806,
+      "date": "2025-12-14",
+      "ra": 27.8976628,
+      "dec": 56.7149726,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 106,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 296,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aaydgcs",
+      "candid": "3272092465015010023",
+      "jd": 2461026.5924653,
+      "date": "2025-12-17",
+      "ra": 309.2292804,
+      "dec": 35.6792626,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 11,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 25,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18abaqmhh",
+      "candid": "3272095783915010011",
+      "jd": 2461026.595787,
+      "date": "2025-12-17",
+      "ra": 302.773414,
+      "dec": 62.8735528,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 214,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 450,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18acwyafi",
+      "candid": "3275425561915010006",
+      "jd": 2461029.9255671,
+      "date": "2025-12-20",
+      "ra": 154.4750889,
+      "dec": 24.7088026,
+      "bands": {
+        "g": {
+          "positive_dates": 0,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 0,
+          "negative_dates": 116,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aabefzb",
+      "candid": "3275486505815015002",
+      "jd": 2461029.9865046,
+      "date": "2025-12-20",
+      "ra": 172.8431482,
+      "dec": 43.3774928,
+      "bands": {
+        "g": {
+          "positive_dates": 32,
+          "negative_dates": 51,
+          "pairs": 10,
+          "training_pairs": 6,
+          "test_pairs": 4,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-04-11",
+          "test_start": "2023-11-13",
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 15,
+          "negative_dates": 22,
+          "pairs": 6,
+          "training_pairs": 4,
+          "test_pairs": 2,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2021-03-17",
+          "test_start": "2022-12-24",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18acakeog",
+      "candid": "3276214886015015000",
+      "jd": 2461030.7148843,
+      "date": "2025-12-21",
+      "ra": 68.373406,
+      "dec": 72.8477242,
+      "bands": {
+        "g": {
+          "positive_dates": 13,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 17,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18aablljp",
+      "candid": "3283285604615015008",
+      "jd": 2461037.7856019,
+      "date": "2025-12-28",
+      "ra": 75.9754109,
+      "dec": 41.1813127,
+      "bands": {
+        "g": {
+          "positive_dates": 3,
+          "negative_dates": 0,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 3,
+          "negative_dates": 218,
+          "pairs": 3,
+          "training_pairs": 2,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2020-12-22",
+          "test_start": "2025-12-21",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF18actauvk",
+      "candid": "3285239344915015004",
+      "jd": 2461039.7393403,
+      "date": "2025-12-30",
+      "ra": 81.0506189,
+      "dec": 0.6966564,
+      "bands": {
+        "g": {
+          "positive_dates": 101,
+          "negative_dates": 20,
+          "pairs": 18,
+          "training_pairs": 12,
+          "test_pairs": 6,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-11-18",
+          "test_start": "2024-01-16",
+          "training_east_north_arcsec": [
+            0.28275909714986486,
+            0.13067999999996083
+          ],
+          "test_east_north_arcsec": [
+            0.4046100894498705,
+            0.15425999999993945
+          ],
+          "training_length_arcsec": 0.31149633933803533,
+          "test_projection_arcsec": 0.4319982721996832,
+          "angle_deg": 3.9348557750807562,
+          "score_arcsec": 0.31149633933803533,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 123,
+          "negative_dates": 20,
+          "pairs": 19,
+          "training_pairs": 12,
+          "test_pairs": 7,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2022-12-17",
+          "test_start": "2024-11-21",
+          "training_east_north_arcsec": [
+            0.12329088582217773,
+            -0.024479999999904578
+          ],
+          "test_east_north_arcsec": [
+            0.2588208668641726,
+            0.012600000000162481
+          ],
+          "training_length_arcsec": 0.12569770454074566,
+          "test_projection_arcsec": 0.25141116188562596,
+          "angle_deg": 14.017383588994882,
+          "score_arcsec": 0.12569770454074566,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF17aabmwpe",
+      "candid": "3285258042115015000",
+      "jd": 2461039.758044,
+      "date": "2025-12-30",
+      "ra": 115.6658094,
+      "dec": 54.7401975,
+      "bands": {
+        "g": {
+          "positive_dates": 58,
+          "negative_dates": 4,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 93,
+          "negative_dates": 2,
+          "pairs": 1,
+          "training_pairs": 0,
+          "test_pairs": 1,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": "2024-10-12",
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    },
+    {
+      "id": "ZTF17aabshbq",
+      "candid": "3285259000815010027",
+      "jd": 2461039.7590046,
+      "date": "2025-12-30",
+      "ra": 99.526908,
+      "dec": 45.2491446,
+      "bands": {
+        "g": {
+          "positive_dates": 116,
+          "negative_dates": 144,
+          "pairs": 98,
+          "training_pairs": 65,
+          "test_pairs": 33,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2023-10-24",
+          "test_start": "2023-11-03",
+          "training_east_north_arcsec": [
+            0.07780887914447993,
+            -0.10836000001290813
+          ],
+          "test_east_north_arcsec": [
+            0.08769339472673834,
+            -0.07488000000535067
+          ],
+          "training_length_arcsec": 0.13340206623781256,
+          "test_projection_arcsec": 0.11197219034808593,
+          "angle_deg": 13.825932086402233,
+          "score_arcsec": 0.11197219034808593,
+          "status": "below threshold"
+        },
+        "r": {
+          "positive_dates": 189,
+          "negative_dates": 27,
+          "pairs": 20,
+          "training_pairs": 13,
+          "test_pairs": 7,
+          "boundary_pairs_dropped": 0,
+          "training_end": "2024-11-09",
+          "test_start": "2025-02-19",
+          "training_east_north_arcsec": [
+            -0.1827368139365257,
+            0.1594799999963925
+          ],
+          "test_east_north_arcsec": [
+            -0.1691772860407082,
+            0.11519999999052288
+          ],
+          "training_length_arcsec": 0.24254198310090927,
+          "test_projection_arcsec": 0.2032102385304341,
+          "angle_deg": 6.8595855322739405,
+          "score_arcsec": 0.2032102385304341,
+          "status": "below threshold"
+        }
+      },
+      "overlap": null,
+      "status": "below threshold"
+    },
+    {
+      "id": "ZTF18abwcaoz",
+      "candid": "3285287741215015063",
+      "jd": 2461039.7877431,
+      "date": "2025-12-30",
+      "ra": 78.1439749,
+      "dec": 45.0861991,
+      "bands": {
+        "g": {
+          "positive_dates": 1,
+          "negative_dates": 43,
+          "pairs": 0,
+          "training_pairs": 0,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 0,
+          "training_end": null,
+          "test_start": null,
+          "status": "insufficient"
+        },
+        "r": {
+          "positive_dates": 2,
+          "negative_dates": 129,
+          "pairs": 2,
+          "training_pairs": 1,
+          "test_pairs": 0,
+          "boundary_pairs_dropped": 1,
+          "training_end": "2025-12-28",
+          "test_start": null,
+          "status": "insufficient"
+        }
+      },
+      "overlap": null,
+      "status": "insufficient"
+    }
+  ]
+}

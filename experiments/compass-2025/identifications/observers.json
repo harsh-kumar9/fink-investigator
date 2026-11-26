@@ -1,0 +1,75 @@
+{
+  "FT Cam window 1": {
+    "received_in_bounds": 4,
+    "observer_codes_with_usable_data": [],
+    "counts_by_type_limit_validation": {
+      "Visual / 1 / Z": 4
+    },
+    "dates": [
+      "2019-11-02",
+      "2019-11-04"
+    ],
+    "series": {}
+  },
+  "FT Cam window 2": {
+    "received_in_bounds": 2,
+    "observer_codes_with_usable_data": [
+      "SKA"
+    ],
+    "counts_by_type_limit_validation": {
+      "CCD / 0 / Z": 2
+    },
+    "dates": [
+      "2025-08-21",
+      "2025-08-24"
+    ],
+    "series": {
+      "SKA/CV": {
+        "in_window": {
+          "nights": 0,
+          "median_mag": null
+        },
+        "surrounding": {
+          "nights": 2,
+          "median_mag": 13.345
+        }
+      }
+    }
+  },
+  "V1060 Cyg": {
+    "received_in_bounds": 38,
+    "observer_codes_with_usable_data": [
+      "PYG",
+      "SKA"
+    ],
+    "counts_by_type_limit_validation": {
+      "CCD / 0 / Z": 4,
+      "CCD / 1 / Z": 1,
+      "Visual / 1 / Z": 33
+    },
+    "series": {
+      "PYG/V": {
+        "positive": {
+          "nights": 1,
+          "median_mag": 16.648
+        },
+        "negative": {
+          "nights": 1,
+          "median_mag": 14.751
+        },
+        "negative_minus_positive_mag": null
+      },
+      "SKA/CV": {
+        "positive": {
+          "nights": 2,
+          "median_mag": 13.21
+        },
+        "negative": {
+          "nights": 0,
+          "median_mag": null
+        },
+        "negative_minus_positive_mag": null
+      }
+    }
+  }
+}

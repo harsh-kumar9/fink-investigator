@@ -1,11 +1,14 @@
 PYTHON ?= python3
-.PHONY: test replay verify
+.PHONY: test replay verify verify-compass
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v
 
 replay:
 	$(PYTHON) pilot.py replay --out results
+
+verify-compass:
+	$(PYTHON) experiments/compass-2025/verify.py
 
 verify: test
 	@set -eu; tmp=$$(mktemp -d); trap 'rm -r "$$tmp"' EXIT; \

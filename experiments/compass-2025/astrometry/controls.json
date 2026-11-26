@@ -1,0 +1,102 @@
+{
+  "kind": "synthetic geometry controls",
+  "passed": true,
+  "cases": {
+    "stable": {
+      "expected": "passed",
+      "agreement": true,
+      "result": {
+        "positive_dates": 24,
+        "negative_dates": 24,
+        "pairs": 24,
+        "training_pairs": 16,
+        "test_pairs": 8,
+        "boundary_pairs_dropped": 0,
+        "training_end": "2022-11-17",
+        "test_start": "2023-01-15",
+        "training_east_north_arcsec": [
+          0.600000000019918,
+          0.4499999999893589
+        ],
+        "test_east_north_arcsec": [
+          0.600000000019918,
+          0.4499999999893589
+        ],
+        "training_length_arcsec": 0.7500000000095498,
+        "test_projection_arcsec": 0.7500000000095497,
+        "angle_deg": 0.0,
+        "score_arcsec": 0.7500000000095497,
+        "status": "passed"
+      }
+    },
+    "common_drift": {
+      "expected": "below threshold",
+      "agreement": true,
+      "result": {
+        "positive_dates": 24,
+        "negative_dates": 24,
+        "pairs": 24,
+        "training_pairs": 16,
+        "test_pairs": 8,
+        "boundary_pairs_dropped": 0,
+        "training_end": "2022-11-17",
+        "test_start": "2023-01-15",
+        "training_east_north_arcsec": [
+          0.0,
+          0.0
+        ],
+        "test_east_north_arcsec": [
+          0.0,
+          0.0
+        ],
+        "training_length_arcsec": 0.0,
+        "test_projection_arcsec": null,
+        "angle_deg": null,
+        "score_arcsec": null,
+        "status": "below threshold"
+      }
+    },
+    "reversed": {
+      "expected": "below threshold",
+      "agreement": true,
+      "result": {
+        "positive_dates": 24,
+        "negative_dates": 24,
+        "pairs": 24,
+        "training_pairs": 16,
+        "test_pairs": 8,
+        "boundary_pairs_dropped": 0,
+        "training_end": "2022-11-17",
+        "test_start": "2023-01-15",
+        "training_east_north_arcsec": [
+          0.600000000019918,
+          0.4499999999893589
+        ],
+        "test_east_north_arcsec": [
+          -0.600000000019918,
+          -0.4499999999893589
+        ],
+        "training_length_arcsec": 0.7500000000095498,
+        "test_projection_arcsec": -0.7500000000095497,
+        "angle_deg": 180.0,
+        "score_arcsec": -0.7500000000095497,
+        "status": "below threshold"
+      }
+    },
+    "sparse": {
+      "expected": "insufficient",
+      "agreement": true,
+      "result": {
+        "positive_dates": 11,
+        "negative_dates": 11,
+        "pairs": 11,
+        "training_pairs": 7,
+        "test_pairs": 4,
+        "boundary_pairs_dropped": 0,
+        "training_end": "2021-05-26",
+        "test_start": "2021-07-24",
+        "status": "insufficient"
+      }
+    }
+  }
+}
