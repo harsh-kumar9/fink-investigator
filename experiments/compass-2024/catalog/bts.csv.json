@@ -1,0 +1,5 @@
+{
+  "url": "https://sites.astro.caltech.edu/ztf/bts/explorer.php?f=s&startra=15.403625&endra=15.423625&startdec=75.1337291&enddec=75.1537291&showdiscdate=y&showpeakdate=y&format=csv",
+  "retrieved_utc": "2026-11-26T06:46:43+00:00",
+  "sha256_uncompressed": "65857880ddea2ec24ca3ac74165108ba54ef2598047d2d8751bafbf8e9387245"
+}

@@ -1,0 +1,83 @@
+{
+  "gate_passed": true,
+  "cases": [
+    {
+      "id": "ZTF18abbtzhm",
+      "question": "Does a source actually fade at these coordinates, or can motion or blending explain the residuals?",
+      "evidence": [
+        {
+          "id": "position",
+          "source": "https://ztf.fink-portal.org/ZTF18abbtzhm",
+          "detail": "ICRS 330.183135, 63.716245 deg at JD 2460311.6122222, UTC 2024-01-02; candid 2557112223615010005."
+        },
+        {
+          "id": "anchor",
+          "source": "https://ztf.fink-portal.org/ZTF18abbtzhm",
+          "detail": "g difference magnitude 19.145197 \u00b1 0.12181589; sign -1, DRB 0.9999995. Reported first-detection age 2216.0116434996016 days."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF18abbtzhm",
+          "detail": "Through the anchor: 259 distinct quality dates; positive/negative dates by filter {'g': {'positive': 88, 'negative': 115}, 'r': {'positive': 91, 'negative': 119}}. Selected on fading: {'filter': 'g', 'score': [6, 88], 'first_negative_date': '2019-11-02', 'last_negative_date': '2024-01-02'}."
+        },
+        {
+          "id": "context",
+          "source": "https://ztf.fink-portal.org/ZTF18abbtzhm",
+          "detail": "At the anchor Fink reported CDS='Unknown', TNS=None. Check catalog IDs, astrometry and the registry separately."
+        }
+      ]
+    },
+    {
+      "id": "ZTF24abilvns",
+      "question": "Did a source newly brighten here, and was the event already reported?",
+      "evidence": [
+        {
+          "id": "position",
+          "source": "https://ztf.fink-portal.org/ZTF24abilvns",
+          "detail": "ICRS 15.413625, 75.1437291 deg at JD 2460596.8183333, UTC 2024-10-13; candid 2842318332215015008."
+        },
+        {
+          "id": "anchor",
+          "source": "https://ztf.fink-portal.org/ZTF24abilvns",
+          "detail": "g difference magnitude 16.070797 \u00b1 0.03603789; sign 1, DRB 0.99999994. Reported first-detection age 20.970867999829352 days."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF24abilvns",
+          "detail": "Through the anchor: 6 distinct quality dates; positive/negative dates by filter {'g': {'positive': 6, 'negative': 0}, 'r': {'positive': 5, 'negative': 0}}. Selected on onset: {'score': [5, 6], 'first_positive_date': '2024-09-23', 'last_positive_date': '2024-10-13'}."
+        },
+        {
+          "id": "context",
+          "source": "https://ztf.fink-portal.org/ZTF24abilvns",
+          "detail": "At the anchor Fink reported CDS='Star', TNS=None. Check catalog IDs, astrometry and the registry separately."
+        }
+      ]
+    },
+    {
+      "id": "ZTF17aabunmx",
+      "question": "Do separate bright detections trace distinct episodes or ongoing variability?",
+      "evidence": [
+        {
+          "id": "position",
+          "source": "https://ztf.fink-portal.org/ZTF17aabunmx",
+          "detail": "ICRS 353.6482175, 54.5570747 deg at JD 2460645.8039699, UTC 2024-12-01; candid 2891303962515015001."
+        },
+        {
+          "id": "anchor",
+          "source": "https://ztf.fink-portal.org/ZTF17aabunmx",
+          "detail": "g difference magnitude 15.224378 \u00b1 0.03395145; sign 1, DRB 1.0. Reported first-detection age 2550.1866667000577 days."
+        },
+        {
+          "id": "history",
+          "source": "https://ztf.fink-portal.org/ZTF17aabunmx",
+          "detail": "Through the anchor: 177 distinct quality dates; positive/negative dates by filter {'g': {'positive': 100, 'negative': 9}, 'r': {'positive': 124, 'negative': 19}}. Selected on recurrent: {'filter': 'r', 'score': [6, 124], 'years_with_pair': [2019, 2020, 2021, 2022, 2023, 2024], 'example_dates': ['2019-11-02', '2019-11-03', '2024-08-17', '2024-08-29']}."
+        },
+        {
+          "id": "context",
+          "source": "https://ztf.fink-portal.org/ZTF17aabunmx",
+          "detail": "At the anchor Fink reported CDS='CataclyV*', TNS=''. Check catalog IDs, astrometry and the registry separately."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2084 @@
+{
+  "summary": {
+    "coverage": {
+      "raw_packets": 2673,
+      "in_window_packets": 2613,
+      "out_of_window_packets": 60,
+      "selected_ids": 36,
+      "year": 2024,
+      "per_stratum": 1,
+      "raw_distinct_ids": 1314,
+      "distinct_ids": 1314,
+      "dates": 265,
+      "monthly": [
+        {
+          "start": "2024-01-01",
+          "stop_exclusive": "2024-02-01",
+          "raw_packets": 172,
+          "in_window_packets": 162,
+          "out_of_window_packets": 10,
+          "distinct_ids": 151,
+          "new_ids": 151,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-01-02": 10,
+            "2024-01-05": 10,
+            "2024-01-06": 10,
+            "2024-01-07": 10,
+            "2024-01-08": 1,
+            "2024-01-09": 1,
+            "2024-01-15": 10,
+            "2024-01-16": 10,
+            "2024-01-17": 10,
+            "2024-01-18": 10,
+            "2024-01-19": 10,
+            "2024-01-25": 10,
+            "2024-01-26": 10,
+            "2024-01-27": 10,
+            "2024-01-28": 10,
+            "2024-01-29": 10,
+            "2024-01-30": 10,
+            "2024-01-31": 10
+          },
+          "new_by_stratum": {
+            "young": 22,
+            "other_positive": 39,
+            "other": 90
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-02-01",
+          "stop_exclusive": "2024-03-01",
+          "raw_packets": 150,
+          "in_window_packets": 140,
+          "out_of_window_packets": 10,
+          "distinct_ids": 119,
+          "new_ids": 110,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-02-01": 10,
+            "2024-02-11": 10,
+            "2024-02-12": 10,
+            "2024-02-13": 10,
+            "2024-02-14": 10,
+            "2024-02-15": 10,
+            "2024-02-16": 10,
+            "2024-02-17": 10,
+            "2024-02-18": 10,
+            "2024-02-23": 10,
+            "2024-02-24": 10,
+            "2024-02-25": 10,
+            "2024-02-28": 10,
+            "2024-02-29": 10
+          },
+          "new_by_stratum": {
+            "young": 3,
+            "other_positive": 37,
+            "other": 70
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-03-01",
+          "stop_exclusive": "2024-04-01",
+          "raw_packets": 170,
+          "in_window_packets": 170,
+          "out_of_window_packets": 0,
+          "distinct_ids": 144,
+          "new_ids": 127,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-03-01": 10,
+            "2024-03-05": 10,
+            "2024-03-09": 10,
+            "2024-03-10": 10,
+            "2024-03-11": 10,
+            "2024-03-12": 10,
+            "2024-03-14": 10,
+            "2024-03-19": 10,
+            "2024-03-20": 10,
+            "2024-03-21": 10,
+            "2024-03-22": 10,
+            "2024-03-23": 10,
+            "2024-03-26": 10,
+            "2024-03-27": 10,
+            "2024-03-28": 10,
+            "2024-03-29": 10,
+            "2024-03-30": 10
+          },
+          "new_by_stratum": {
+            "young": 8,
+            "other_positive": 40,
+            "other": 79
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-04-01",
+          "stop_exclusive": "2024-05-01",
+          "raw_packets": 221,
+          "in_window_packets": 211,
+          "out_of_window_packets": 10,
+          "distinct_ids": 151,
+          "new_ids": 127,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-04-02": 10,
+            "2024-04-03": 10,
+            "2024-04-04": 10,
+            "2024-04-07": 10,
+            "2024-04-08": 10,
+            "2024-04-09": 10,
+            "2024-04-10": 10,
+            "2024-04-11": 10,
+            "2024-04-12": 10,
+            "2024-04-13": 10,
+            "2024-04-14": 10,
+            "2024-04-16": 10,
+            "2024-04-17": 10,
+            "2024-04-18": 10,
+            "2024-04-20": 10,
+            "2024-04-21": 11,
+            "2024-04-22": 10,
+            "2024-04-23": 10,
+            "2024-04-24": 10,
+            "2024-04-28": 10,
+            "2024-04-29": 10
+          },
+          "new_by_stratum": {
+            "young": 5,
+            "other_positive": 28,
+            "other": 94
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-05-01",
+          "stop_exclusive": "2024-06-01",
+          "raw_packets": 260,
+          "in_window_packets": 250,
+          "out_of_window_packets": 10,
+          "distinct_ids": 156,
+          "new_ids": 136,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-05-01": 10,
+            "2024-05-02": 10,
+            "2024-05-03": 10,
+            "2024-05-04": 10,
+            "2024-05-05": 10,
+            "2024-05-06": 10,
+            "2024-05-07": 10,
+            "2024-05-08": 10,
+            "2024-05-09": 10,
+            "2024-05-10": 10,
+            "2024-05-11": 10,
+            "2024-05-15": 10,
+            "2024-05-16": 10,
+            "2024-05-17": 10,
+            "2024-05-18": 10,
+            "2024-05-19": 10,
+            "2024-05-20": 10,
+            "2024-05-21": 10,
+            "2024-05-22": 10,
+            "2024-05-25": 10,
+            "2024-05-27": 10,
+            "2024-05-28": 10,
+            "2024-05-29": 10,
+            "2024-05-30": 10,
+            "2024-05-31": 10
+          },
+          "new_by_stratum": {
+            "young": 2,
+            "other_positive": 40,
+            "other": 94
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-06-01",
+          "stop_exclusive": "2024-07-01",
+          "raw_packets": 270,
+          "in_window_packets": 270,
+          "out_of_window_packets": 0,
+          "distinct_ids": 183,
+          "new_ids": 156,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-06-01": 10,
+            "2024-06-02": 10,
+            "2024-06-03": 10,
+            "2024-06-04": 10,
+            "2024-06-06": 10,
+            "2024-06-07": 10,
+            "2024-06-08": 10,
+            "2024-06-09": 10,
+            "2024-06-10": 10,
+            "2024-06-11": 10,
+            "2024-06-12": 10,
+            "2024-06-13": 10,
+            "2024-06-14": 10,
+            "2024-06-15": 10,
+            "2024-06-16": 10,
+            "2024-06-17": 10,
+            "2024-06-18": 10,
+            "2024-06-19": 10,
+            "2024-06-21": 10,
+            "2024-06-22": 10,
+            "2024-06-23": 10,
+            "2024-06-24": 10,
+            "2024-06-25": 10,
+            "2024-06-27": 10,
+            "2024-06-28": 10,
+            "2024-06-29": 10,
+            "2024-06-30": 10
+          },
+          "new_by_stratum": {
+            "young": 7,
+            "other_positive": 63,
+            "other": 86
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-07-01",
+          "stop_exclusive": "2024-08-01",
+          "raw_packets": 222,
+          "in_window_packets": 222,
+          "out_of_window_packets": 0,
+          "distinct_ids": 131,
+          "new_ids": 95,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-07-03": 10,
+            "2024-07-04": 1,
+            "2024-07-06": 1,
+            "2024-07-07": 10,
+            "2024-07-08": 10,
+            "2024-07-09": 10,
+            "2024-07-10": 10,
+            "2024-07-11": 10,
+            "2024-07-12": 10,
+            "2024-07-14": 10,
+            "2024-07-15": 10,
+            "2024-07-16": 10,
+            "2024-07-17": 10,
+            "2024-07-18": 10,
+            "2024-07-19": 10,
+            "2024-07-20": 10,
+            "2024-07-21": 10,
+            "2024-07-22": 10,
+            "2024-07-24": 10,
+            "2024-07-26": 10,
+            "2024-07-27": 10,
+            "2024-07-28": 10,
+            "2024-07-29": 10,
+            "2024-07-30": 10
+          },
+          "new_by_stratum": {
+            "young": 1,
+            "other_positive": 38,
+            "other": 56
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-08-01",
+          "stop_exclusive": "2024-09-01",
+          "raw_packets": 260,
+          "in_window_packets": 260,
+          "out_of_window_packets": 0,
+          "distinct_ids": 147,
+          "new_ids": 106,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-08-02": 10,
+            "2024-08-03": 10,
+            "2024-08-04": 10,
+            "2024-08-05": 10,
+            "2024-08-06": 10,
+            "2024-08-07": 10,
+            "2024-08-08": 10,
+            "2024-08-09": 10,
+            "2024-08-10": 10,
+            "2024-08-11": 10,
+            "2024-08-12": 10,
+            "2024-08-13": 10,
+            "2024-08-14": 10,
+            "2024-08-15": 10,
+            "2024-08-16": 10,
+            "2024-08-17": 10,
+            "2024-08-21": 10,
+            "2024-08-22": 10,
+            "2024-08-23": 10,
+            "2024-08-24": 10,
+            "2024-08-25": 10,
+            "2024-08-26": 10,
+            "2024-08-27": 10,
+            "2024-08-28": 10,
+            "2024-08-29": 10,
+            "2024-08-30": 10
+          },
+          "new_by_stratum": {
+            "young": 4,
+            "other_positive": 36,
+            "other": 66
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-09-01",
+          "stop_exclusive": "2024-10-01",
+          "raw_packets": 260,
+          "in_window_packets": 260,
+          "out_of_window_packets": 0,
+          "distinct_ids": 148,
+          "new_ids": 109,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-09-02": 10,
+            "2024-09-03": 10,
+            "2024-09-04": 10,
+            "2024-09-05": 10,
+            "2024-09-06": 10,
+            "2024-09-07": 10,
+            "2024-09-08": 10,
+            "2024-09-09": 10,
+            "2024-09-10": 10,
+            "2024-09-11": 10,
+            "2024-09-12": 10,
+            "2024-09-13": 10,
+            "2024-09-14": 10,
+            "2024-09-15": 10,
+            "2024-09-16": 10,
+            "2024-09-18": 10,
+            "2024-09-21": 10,
+            "2024-09-22": 10,
+            "2024-09-23": 10,
+            "2024-09-24": 10,
+            "2024-09-25": 10,
+            "2024-09-26": 10,
+            "2024-09-27": 10,
+            "2024-09-28": 10,
+            "2024-09-29": 10,
+            "2024-09-30": 10
+          },
+          "new_by_stratum": {
+            "young": 2,
+            "other_positive": 27,
+            "other": 80
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-10-01",
+          "stop_exclusive": "2024-11-01",
+          "raw_packets": 220,
+          "in_window_packets": 210,
+          "out_of_window_packets": 10,
+          "distinct_ids": 144,
+          "new_ids": 92,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-10-02": 10,
+            "2024-10-03": 10,
+            "2024-10-08": 10,
+            "2024-10-09": 10,
+            "2024-10-12": 10,
+            "2024-10-13": 10,
+            "2024-10-14": 10,
+            "2024-10-15": 10,
+            "2024-10-16": 10,
+            "2024-10-17": 10,
+            "2024-10-19": 10,
+            "2024-10-20": 10,
+            "2024-10-21": 10,
+            "2024-10-23": 10,
+            "2024-10-24": 10,
+            "2024-10-25": 10,
+            "2024-10-26": 10,
+            "2024-10-27": 10,
+            "2024-10-28": 10,
+            "2024-10-30": 10,
+            "2024-10-31": 10
+          },
+          "new_by_stratum": {
+            "young": 1,
+            "other_positive": 26,
+            "other": 65
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-11-01",
+          "stop_exclusive": "2024-12-01",
+          "raw_packets": 259,
+          "in_window_packets": 249,
+          "out_of_window_packets": 10,
+          "distinct_ids": 112,
+          "new_ids": 56,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-11-01": 9,
+            "2024-11-02": 10,
+            "2024-11-04": 10,
+            "2024-11-05": 10,
+            "2024-11-06": 10,
+            "2024-11-07": 10,
+            "2024-11-08": 10,
+            "2024-11-09": 10,
+            "2024-11-10": 10,
+            "2024-11-11": 10,
+            "2024-11-12": 10,
+            "2024-11-13": 10,
+            "2024-11-14": 10,
+            "2024-11-15": 10,
+            "2024-11-17": 10,
+            "2024-11-18": 10,
+            "2024-11-19": 10,
+            "2024-11-20": 10,
+            "2024-11-21": 10,
+            "2024-11-22": 10,
+            "2024-11-23": 10,
+            "2024-11-25": 10,
+            "2024-11-26": 10,
+            "2024-11-29": 10,
+            "2024-11-30": 10
+          },
+          "new_by_stratum": {
+            "young": 2,
+            "other_positive": 18,
+            "other": 36
+          },
+          "selected_by_stratum": {
+            "young": 1,
+            "other_positive": 1,
+            "other": 1
+          }
+        },
+        {
+          "start": "2024-12-01",
+          "stop_exclusive": "2025-01-01",
+          "raw_packets": 209,
+          "in_window_packets": 209,
+          "out_of_window_packets": 0,
+          "distinct_ids": 108,
+          "new_ids": 49,
+          "selected_ids": 3,
+          "utc_dates": {
+            "2024-12-01": 9,
+            "2024-12-02": 10,
+            "2024-12-03": 10,
+            "2024-12-04": 10,
+            "2024-12-05": 10,
+            "2024-12-06": 10,
+            "2024-12-07": 10,
+            "2024-12-08": 10,
+            "2024-12-09": 10,
+            "2024-12-10": 10,
+            "2024-12-11": 10,
+            "2024-12-12": 10,
+            "2024-12-14": 10,
+            "2024-12-15": 10,
+            "2024-12-16": 10,
+            "2024-12-17": 10,
+            "2024-12-19": 10,
+            "2024-12-20": 10,
+            "2024-12-21": 10,
+            "2024-12-22": 10,
+            "2024-12-24": 10
+          },
+          "new_by_stratum": {
+            "young": 0,
+            "other_positive": 20,
+            "other": 29
+          },
+          "selected_by_stratum": {
+            "young": 0,
+            "other_positive": 2,
+            "other": 1
+          }
+        }
+      ],
+      "history_retries": {
+        "ZTF18aawmdpg": {
+          "filename": "retry-ZTF18aawmdpg.json.gz",
+          "candid": "2648479431615015014",
+          "batch_rows": 500,
+          "single_id_rows": 500,
+          "single_id_rows_through_anchor": 347,
+          "recovered": false
+        },
+        "ZTF24aazkypa": {
+          "filename": "retry-ZTF24aazkypa.json.gz",
+          "candid": "2775328021415015104",
+          "batch_rows": 0,
+          "single_id_rows": 0,
+          "single_id_rows_through_anchor": 0,
+          "recovered": false
+        },
+        "ZTF24ablknoq": {
+          "filename": "retry-ZTF24ablknoq.json.gz",
+          "candid": "2862434360415015013",
+          "batch_rows": 0,
+          "single_id_rows": 0,
+          "single_id_rows_through_anchor": 0,
+          "recovered": false
+        }
+      },
+      "unavailable_history_ids": [
+        "ZTF18aawmdpg",
+        "ZTF24aazkypa",
+        "ZTF24ablknoq"
+      ],
+      "verified_histories": 33
+    },
+    "sampled_ids": 36,
+    "quality_anchor": 30,
+    "prior_overlaps": 2,
+    "eligible_ids": 14,
+    "history_unavailable": 3,
+    "no_route_with_history": 19,
+    "eligible_by_route": {
+      "onset": 2,
+      "recurrent": 11,
+      "fading": 10
+    },
+    "admitted": {
+      "fading": "ZTF18abbtzhm",
+      "onset": "ZTF24abilvns",
+      "recurrent": "ZTF17aabunmx"
+    },
+    "route_passed": {
+      "onset": true,
+      "recurrent": true,
+      "fading": true
+    }
+  },
+  "objects": [
+    {
+      "id": "ZTF18abbtzhm",
+      "candid": "2557112223615010005",
+      "jd": 2460311.6122222,
+      "date": "2024-01-02",
+      "ra": 330.183135,
+      "dec": 63.716245,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2216.0116434996016,
+      "quality_span_days": 1521.9641087995842,
+      "dates": 259,
+      "positive_dates": 112,
+      "negative_dates": 147,
+      "by_filter": {
+        "g": {
+          "positive": 88,
+          "negative": 115
+        },
+        "r": {
+          "positive": 91,
+          "negative": 119
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "r",
+          "score": [
+            4,
+            91
+          ],
+          "years_with_pair": [
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "example_dates": [
+            "2019-12-16",
+            "2020-01-12",
+            "2023-09-16",
+            "2023-09-26"
+          ]
+        },
+        "fading": {
+          "filter": "g",
+          "score": [
+            6,
+            88
+          ],
+          "first_negative_date": "2019-11-02",
+          "last_negative_date": "2024-01-02"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 7,
+          "status": "same ID as ZTF18abbtzhm"
+        },
+        "fading": {
+          "rank": 1,
+          "status": "admitted"
+        }
+      },
+      "selected_for": "fading"
+    },
+    {
+      "id": "ZTF17aabupib",
+      "candid": "2557113171115015015",
+      "jd": 2460311.6131713,
+      "date": "2024-01-02",
+      "ra": 344.3812774,
+      "dec": 51.6478164,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2216.0115045998245,
+      "quality_span_days": 1521.9627314996906,
+      "dates": 237,
+      "positive_dates": 66,
+      "negative_dates": 171,
+      "by_filter": {
+        "g": {
+          "positive": 55,
+          "negative": 142
+        },
+        "r": {
+          "positive": 55,
+          "negative": 115
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "r",
+          "score": [
+            5,
+            55
+          ],
+          "years_with_pair": [
+            2019,
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "example_dates": [
+            "2019-12-16",
+            "2019-12-29",
+            "2023-10-21",
+            "2023-11-09"
+          ]
+        },
+        "fading": {
+          "filter": "g",
+          "score": [
+            5,
+            55
+          ],
+          "first_negative_date": "2019-11-02",
+          "last_negative_date": "2023-11-13"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 6,
+          "status": "backlog"
+        },
+        "fading": {
+          "rank": 7,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aacldic",
+      "candid": "2571236300315015017",
+      "jd": 2460325.7363079,
+      "date": "2024-01-16",
+      "ra": 77.0544412,
+      "dec": 44.1936739,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 0.0009491001255810261,
+      "quality_span_days": 0.0009491001255810261,
+      "dates": 1,
+      "positive_dates": 1,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 1,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF17aabuoma",
+      "candid": "2587125086115015003",
+      "jd": 2460341.625081,
+      "date": "2024-02-01",
+      "ra": 350.4256356,
+      "dec": 44.0574886,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2245.991157399956,
+      "quality_span_days": 1550.984490700066,
+      "dates": 320,
+      "positive_dates": 128,
+      "negative_dates": 221,
+      "by_filter": {
+        "g": {
+          "positive": 42,
+          "negative": 111
+        },
+        "r": {
+          "positive": 95,
+          "negative": 121
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "r",
+          "score": [
+            5,
+            95
+          ],
+          "years_with_pair": [
+            2019,
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "example_dates": [
+            "2019-11-04",
+            "2019-11-14",
+            "2023-10-18",
+            "2023-11-06"
+          ]
+        },
+        "fading": {
+          "filter": "r",
+          "score": [
+            5,
+            95
+          ],
+          "first_negative_date": "2019-11-03",
+          "last_negative_date": "2023-11-11"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 3,
+          "status": "backlog"
+        },
+        "fading": {
+          "rank": 6,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18absoecr",
+      "candid": "2587125086115010001",
+      "jd": 2460341.625081,
+      "date": "2024-02-01",
+      "ra": 350.0179098,
+      "dec": 44.0987942,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 1970.764988400042,
+      "quality_span_days": 1550.865474499762,
+      "dates": 109,
+      "positive_dates": 0,
+      "negative_dates": 109,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 65
+        },
+        "r": {
+          "positive": 0,
+          "negative": 68
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aaelsdg",
+      "candid": "2598196340615015022",
+      "jd": 2460352.6963426,
+      "date": "2024-02-12",
+      "ra": 91.7186112,
+      "dec": 22.4497812,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 0.010914400219917297,
+      "quality_span_days": 0.010914400219917297,
+      "dates": 1,
+      "positive_dates": 1,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 1,
+          "negative": 0
+        },
+        "r": {
+          "positive": 1,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18aaaxsnp",
+      "candid": "2616188031915015033",
+      "jd": 2460370.6880324,
+      "date": "2024-03-01",
+      "ra": 124.1712104,
+      "dec": 10.3422042,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2211.9526736000553,
+      "quality_span_days": 1579.6438772999682,
+      "dates": 115,
+      "positive_dates": 96,
+      "negative_dates": 19,
+      "by_filter": {
+        "g": {
+          "positive": 72,
+          "negative": 15
+        },
+        "r": {
+          "positive": 47,
+          "negative": 12
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "g",
+          "score": [
+            6,
+            72
+          ],
+          "years_with_pair": [
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "example_dates": [
+            "2019-11-03",
+            "2019-11-04",
+            "2024-02-12",
+            "2024-03-01"
+          ]
+        },
+        "fading": {
+          "filter": "g",
+          "score": [
+            6,
+            15
+          ],
+          "first_negative_date": "2019-11-13",
+          "last_negative_date": "2024-02-17"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 2,
+          "status": "backlog"
+        },
+        "fading": {
+          "rank": 4,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18adbbtpw",
+      "candid": "2616188032515010035",
+      "jd": 2460370.6880324,
+      "date": "2024-03-01",
+      "ra": 120.2002367,
+      "dec": 11.1075663,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 1945.6950346999802,
+      "quality_span_days": 1175.7235184996389,
+      "dates": 11,
+      "positive_dates": 0,
+      "negative_dates": 11,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 2
+        },
+        "r": {
+          "positive": 0,
+          "negative": 10
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aafskkk",
+      "candid": "2625176815415015015",
+      "jd": 2460379.6768171,
+      "date": "2024-03-10",
+      "ra": 105.0024262,
+      "dec": 57.0929897,
+      "history_available": true,
+      "anchor_quality": false,
+      "reported_age_days": 22.786330999806523,
+      "quality_span_days": 21.790277699939907,
+      "dates": 3,
+      "positive_dates": 3,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 2,
+          "negative": 0
+        },
+        "r": {
+          "positive": 1,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18aavllfm",
+      "candid": "2648477543815010063",
+      "jd": 2460402.9775463,
+      "date": "2024-04-02",
+      "ra": 289.1481628,
+      "dec": 19.4188548,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2185.0034721996635,
+      "quality_span_days": 1613.3613888998516,
+      "dates": 286,
+      "positive_dates": 75,
+      "negative_dates": 211,
+      "by_filter": {
+        "g": {
+          "positive": 67,
+          "negative": 119
+        },
+        "r": {
+          "positive": 39,
+          "negative": 150
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "g",
+          "score": [
+            4,
+            67
+          ],
+          "years_with_pair": [
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "example_dates": [
+            "2020-04-01",
+            "2020-04-15",
+            "2023-10-13",
+            "2023-11-10"
+          ]
+        },
+        "fading": {
+          "filter": "r",
+          "score": [
+            6,
+            39
+          ],
+          "first_negative_date": "2019-11-05",
+          "last_negative_date": "2024-04-02"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 8,
+          "status": "backlog"
+        },
+        "fading": {
+          "rank": 3,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18aawmdpg",
+      "candid": "2648479431615015014",
+      "jd": 2460402.9794329,
+      "date": "2024-04-02",
+      "ra": 304.4342719,
+      "dec": 25.4214159,
+      "history_available": false,
+      "anchor_quality": true,
+      "reported_age_days": 2155.0169907999225,
+      "quality_span_days": null,
+      "dates": 0,
+      "positive_dates": 0,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aaibcrw",
+      "candid": "2649288961415015008",
+      "jd": 2460403.7889699,
+      "date": "2024-04-03",
+      "ra": 127.2735443,
+      "dec": 0.8641045,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 0.14025459997355938,
+      "quality_span_days": 0.14025459997355938,
+      "dates": 1,
+      "positive_dates": 1,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 1,
+          "negative": 0
+        },
+        "r": {
+          "positive": 1,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF19aaaphdz",
+      "candid": "2677293790015010010",
+      "jd": 2460431.7937963,
+      "date": "2024-05-01",
+      "ra": 191.7892894,
+      "dec": -12.1030751,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 1954.7817013999447,
+      "quality_span_days": 1531.854166700039,
+      "dates": 34,
+      "positive_dates": 0,
+      "negative_dates": 34,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 17
+        },
+        "r": {
+          "positive": 0,
+          "negative": 21
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aaezgzx",
+      "candid": "2677321573415015015",
+      "jd": 2460431.8215741,
+      "date": "2024-05-01",
+      "ra": 212.8921713,
+      "dec": 76.5874036,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 299.12082179961726,
+      "quality_span_days": 2.0371411996893585,
+      "dates": 2,
+      "positive_dates": 2,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 2,
+          "negative": 0
+        },
+        "r": {
+          "positive": 2,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aaktwky",
+      "candid": "2679193123415015001",
+      "jd": 2460433.693125,
+      "date": "2024-05-03",
+      "ra": 152.3839616,
+      "dec": -2.0318335,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 10.980578700080514,
+      "quality_span_days": 10.917835600208491,
+      "dates": 3,
+      "positive_dates": 3,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 2,
+          "negative": 0
+        },
+        "r": {
+          "positive": 2,
+          "negative": 0
+        }
+      },
+      "eligible": {
+        "onset": {
+          "score": [
+            1,
+            3
+          ],
+          "first_positive_date": "2024-04-22",
+          "last_positive_date": "2024-05-03"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "onset": {
+          "rank": 2,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF23aaepfuw",
+      "candid": "2708180531615010001",
+      "jd": 2460462.6805324,
+      "date": "2024-06-01",
+      "ra": 174.5442335,
+      "dec": -17.259709,
+      "history_available": true,
+      "anchor_quality": false,
+      "reported_age_days": 1505.9313309998251,
+      "quality_span_days": 37.98292829981074,
+      "dates": 5,
+      "positive_dates": 0,
+      "negative_dates": 5,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 5
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF21aagkens",
+      "candid": "2708210391715015002",
+      "jd": 2460462.7103935,
+      "date": "2024-06-01",
+      "ra": 180.7382598,
+      "dec": -24.8484068,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 1892.8507523001172,
+      "quality_span_days": 1146.9373495001346,
+      "dates": 21,
+      "positive_dates": 21,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 21,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 0
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "g",
+          "score": [
+            4,
+            21
+          ],
+          "years_with_pair": [
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "example_dates": [
+            "2021-04-11",
+            "2021-04-15",
+            "2024-05-29",
+            "2024-06-01"
+          ]
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 9,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aapvfub",
+      "candid": "2708213210015015005",
+      "jd": 2460462.7132176,
+      "date": "2024-06-01",
+      "ra": 163.8216044,
+      "dec": -12.2525091,
+      "history_available": true,
+      "anchor_quality": false,
+      "reported_age_days": 0.00047450000420212746,
+      "quality_span_days": 0.0,
+      "dates": 1,
+      "positive_dates": 1,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 1,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18adngmsg",
+      "candid": "2740360920915010013",
+      "jd": 2460494.8609259,
+      "date": "2024-07-03",
+      "ra": 314.7353448,
+      "dec": 23.8851581,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2248.899328699801,
+      "quality_span_days": 819.8651503999718,
+      "dates": 58,
+      "positive_dates": 51,
+      "negative_dates": 8,
+      "by_filter": {
+        "g": {
+          "positive": 44,
+          "negative": 1
+        },
+        "r": {
+          "positive": 29,
+          "negative": 7
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "g",
+          "score": [
+            2,
+            44
+          ],
+          "years_with_pair": [
+            2022,
+            2023
+          ],
+          "example_dates": [
+            "2022-04-05",
+            "2022-04-21",
+            "2023-11-10",
+            "2023-11-12"
+          ]
+        },
+        "fading": {
+          "filter": "r",
+          "score": [
+            3,
+            7
+          ],
+          "first_negative_date": "2022-06-14",
+          "last_negative_date": "2024-07-03"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 10,
+          "status": "backlog"
+        },
+        "fading": {
+          "rank": 10,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18abckrpd",
+      "candid": "2740428842215015027",
+      "jd": 2460494.9288426,
+      "date": "2024-07-03",
+      "ra": 7.0227792,
+      "dec": 60.6720942,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2393.3031945000403,
+      "quality_span_days": 1704.1576041998342,
+      "dates": 164,
+      "positive_dates": 82,
+      "negative_dates": 82,
+      "by_filter": {
+        "g": {
+          "positive": 50,
+          "negative": 25
+        },
+        "r": {
+          "positive": 66,
+          "negative": 70
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "r",
+          "score": [
+            5,
+            66
+          ],
+          "years_with_pair": [
+            2019,
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "example_dates": [
+            "2019-11-13",
+            "2019-11-16",
+            "2023-11-11",
+            "2023-11-14"
+          ]
+        },
+        "fading": {
+          "filter": "r",
+          "score": [
+            6,
+            66
+          ],
+          "first_negative_date": "2019-11-11",
+          "last_negative_date": "2024-06-27"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 5,
+          "status": "backlog"
+        },
+        "fading": {
+          "rank": 2,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aaumqjp",
+      "candid": "2744211951015015025",
+      "jd": 2460498.711956,
+      "date": "2024-07-07",
+      "ra": 254.1789246,
+      "dec": -20.5623615,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 0.001886600162833929,
+      "quality_span_days": 0.0,
+      "dates": 1,
+      "positive_dates": 1,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 1,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18aazmglx",
+      "candid": "2770267404115010057",
+      "jd": 2460524.7674074,
+      "date": "2024-08-02",
+      "ra": 290.5388431,
+      "dec": 13.0313339,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2276.7919328999706,
+      "quality_span_days": 1732.1430787001736,
+      "dates": 273,
+      "positive_dates": 5,
+      "negative_dates": 268,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 0
+        },
+        "r": {
+          "positive": 5,
+          "negative": 268
+        }
+      },
+      "eligible": {
+        "fading": {
+          "filter": "r",
+          "score": [
+            6,
+            5
+          ],
+          "first_negative_date": "2019-11-05",
+          "last_negative_date": "2024-08-02"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "fading": {
+          "rank": 5,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18adjsqek",
+      "candid": "2770345391515015003",
+      "jd": 2460524.8453935,
+      "date": "2024-08-02",
+      "ra": 289.6749521,
+      "dec": 44.8200764,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2268.9098841999657,
+      "quality_span_days": 902.832187499851,
+      "dates": 18,
+      "positive_dates": 17,
+      "negative_dates": 1,
+      "by_filter": {
+        "g": {
+          "positive": 15,
+          "negative": 0
+        },
+        "r": {
+          "positive": 13,
+          "negative": 1
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "g",
+          "score": [
+            2,
+            15
+          ],
+          "years_with_pair": [
+            2023,
+            2024
+          ],
+          "example_dates": [
+            "2023-07-03",
+            "2023-07-09",
+            "2024-07-30",
+            "2024-08-02"
+          ]
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 11,
+          "status": "backlog"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24aazkypa",
+      "candid": "2775328021415015104",
+      "jd": 2460529.8280208,
+      "date": "2024-08-07",
+      "ra": 316.9222164,
+      "dec": 36.8417923,
+      "history_available": false,
+      "anchor_quality": true,
+      "reported_age_days": 0.04494210006669164,
+      "quality_span_days": null,
+      "dates": 0,
+      "positive_dates": 0,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF19aaimlso",
+      "candid": "2801170113515010010",
+      "jd": 2460555.6701157,
+      "date": "2024-09-02",
+      "ra": 276.57741,
+      "dec": -9.046408,
+      "history_available": true,
+      "anchor_quality": false,
+      "reported_age_days": 2247.8122685002163,
+      "quality_span_days": 1571.7799420999363,
+      "dates": 50,
+      "positive_dates": 34,
+      "negative_dates": 16,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 0
+        },
+        "r": {
+          "positive": 34,
+          "negative": 16
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF19abuscub",
+      "candid": "2801485975315015027",
+      "jd": 2460555.9859722,
+      "date": "2024-09-02",
+      "ra": 60.5351114,
+      "dec": 72.4062857,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2233.014293999877,
+      "quality_span_days": 1412.1675116000697,
+      "dates": 8,
+      "positive_dates": 2,
+      "negative_dates": 6,
+      "by_filter": {
+        "g": {
+          "positive": 1,
+          "negative": 5
+        },
+        "r": {
+          "positive": 1,
+          "negative": 1
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24abhibgl",
+      "candid": "2811460306115015015",
+      "jd": 2460565.9603009,
+      "date": "2024-09-12",
+      "ra": 47.0205657,
+      "dec": 15.232126,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 0.056330999825149775,
+      "quality_span_days": 0.056330999825149775,
+      "dates": 1,
+      "positive_dates": 1,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 1,
+          "negative": 0
+        },
+        "r": {
+          "positive": 1,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF22aboeziv",
+      "candid": "2831247186015010011",
+      "jd": 2460585.7471875,
+      "date": "2024-10-02",
+      "ra": 13.6551135,
+      "dec": 0.4115925,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 1532.7877893997356,
+      "quality_span_days": 0.0,
+      "dates": 1,
+      "positive_dates": 0,
+      "negative_dates": 1,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 1
+        }
+      },
+      "eligible": {},
+      "prior_overlap": "same ID as ZTF22aboeziv",
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24abkkbmk",
+      "candid": "2831357962015015048",
+      "jd": 2460585.857963,
+      "date": "2024-10-02",
+      "ra": 355.9357311,
+      "dec": -3.3874503,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 1184.9034490999766,
+      "quality_span_days": 0.1396527998149395,
+      "dates": 1,
+      "positive_dates": 1,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 1,
+          "negative": 0
+        },
+        "r": {
+          "positive": 1,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24abilvns",
+      "candid": "2842318332215015008",
+      "jd": 2460596.8183333,
+      "date": "2024-10-13",
+      "ra": 15.413625,
+      "dec": 75.1437291,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 20.970867999829352,
+      "quality_span_days": 20.11998840002343,
+      "dates": 6,
+      "positive_dates": 6,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 6,
+          "negative": 0
+        },
+        "r": {
+          "positive": 5,
+          "negative": 0
+        }
+      },
+      "eligible": {
+        "onset": {
+          "score": [
+            5,
+            6
+          ],
+          "first_positive_date": "2024-09-23",
+          "last_positive_date": "2024-10-13"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "onset": {
+          "rank": 1,
+          "status": "admitted"
+        }
+      },
+      "selected_for": "onset"
+    },
+    {
+      "id": "ZTF18abuxyhz",
+      "candid": "2861380605915015001",
+      "jd": 2460615.8806019,
+      "date": "2024-11-01",
+      "ra": 53.7078074,
+      "dec": -7.1799644,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2513.168958400376,
+      "quality_span_days": 1819.1245139003731,
+      "dates": 124,
+      "positive_dates": 107,
+      "negative_dates": 17,
+      "by_filter": {
+        "g": {
+          "positive": 85,
+          "negative": 1
+        },
+        "r": {
+          "positive": 66,
+          "negative": 16
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "g",
+          "score": [
+            5,
+            85
+          ],
+          "years_with_pair": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "example_dates": [
+            "2020-09-24",
+            "2020-09-27",
+            "2024-10-26",
+            "2024-11-01"
+          ]
+        },
+        "fading": {
+          "filter": "r",
+          "score": [
+            5,
+            16
+          ],
+          "first_negative_date": "2020-09-16",
+          "last_negative_date": "2024-08-26"
+        }
+      },
+      "prior_overlap": "same ID as ZTF18abuxyhz",
+      "route_decisions": {
+        "recurrent": {
+          "rank": 4,
+          "status": "same ID as ZTF18abuxyhz"
+        },
+        "fading": {
+          "rank": 8,
+          "status": "same ID as ZTF18abuxyhz"
+        }
+      },
+      "selected_for": null
+    },
+    {
+      "id": "ZTF24ablknoq",
+      "candid": "2862434360415015013",
+      "jd": 2460616.9343634,
+      "date": "2024-11-02",
+      "ra": 102.7270591,
+      "dec": 59.6068263,
+      "history_available": false,
+      "anchor_quality": true,
+      "reported_age_days": 25.024085599929094,
+      "quality_span_days": null,
+      "dates": 0,
+      "positive_dates": 0,
+      "negative_dates": 0,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 0
+        },
+        "r": {
+          "positive": 0,
+          "negative": 0
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18aazeobb",
+      "candid": "2864119246215010033",
+      "jd": 2460618.6192477,
+      "date": "2024-11-04",
+      "ra": 299.6709651,
+      "dec": 43.1245367,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2347.6367708002217,
+      "quality_span_days": 1646.713935200125,
+      "dates": 205,
+      "positive_dates": 4,
+      "negative_dates": 201,
+      "by_filter": {
+        "g": {
+          "positive": 2,
+          "negative": 136
+        },
+        "r": {
+          "positive": 4,
+          "negative": 111
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF17aabunmx",
+      "candid": "2891303962515015001",
+      "jd": 2460645.8039699,
+      "date": "2024-12-01",
+      "ra": 353.6482175,
+      "dec": 54.5570747,
+      "history_available": true,
+      "anchor_quality": true,
+      "reported_age_days": 2550.1866667000577,
+      "quality_span_days": 1856.1505440003239,
+      "dates": 177,
+      "positive_dates": 155,
+      "negative_dates": 22,
+      "by_filter": {
+        "g": {
+          "positive": 100,
+          "negative": 9
+        },
+        "r": {
+          "positive": 124,
+          "negative": 19
+        }
+      },
+      "eligible": {
+        "recurrent": {
+          "filter": "r",
+          "score": [
+            6,
+            124
+          ],
+          "years_with_pair": [
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "example_dates": [
+            "2019-11-02",
+            "2019-11-03",
+            "2024-08-17",
+            "2024-08-29"
+          ]
+        },
+        "fading": {
+          "filter": "r",
+          "score": [
+            4,
+            19
+          ],
+          "first_negative_date": "2021-01-04",
+          "last_negative_date": "2024-11-22"
+        }
+      },
+      "prior_overlap": null,
+      "route_decisions": {
+        "recurrent": {
+          "rank": 1,
+          "status": "admitted"
+        },
+        "fading": {
+          "rank": 9,
+          "status": "same ID as ZTF17aabunmx"
+        }
+      },
+      "selected_for": "recurrent"
+    },
+    {
+      "id": "ZTF21abkqzgr",
+      "candid": "2892099120315010004",
+      "jd": 2460646.5991204,
+      "date": "2024-12-02",
+      "ra": 340.4107264,
+      "dec": -12.8800729,
+      "history_available": true,
+      "anchor_quality": false,
+      "reported_age_days": 1952.6995370998047,
+      "quality_span_days": 800.8495948999189,
+      "dates": 17,
+      "positive_dates": 0,
+      "negative_dates": 17,
+      "by_filter": {
+        "g": {
+          "positive": 0,
+          "negative": 11
+        },
+        "r": {
+          "positive": 0,
+          "negative": 7
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    },
+    {
+      "id": "ZTF18aaaalzj",
+      "candid": "2892412583615015022",
+      "jd": 2460646.912581,
+      "date": "2024-12-02",
+      "ra": 86.8960909,
+      "dec": 13.0582664,
+      "history_available": true,
+      "anchor_quality": false,
+      "reported_age_days": 2551.0863772998564,
+      "quality_span_days": 1853.0201967996545,
+      "dates": 170,
+      "positive_dates": 141,
+      "negative_dates": 31,
+      "by_filter": {
+        "g": {
+          "positive": 64,
+          "negative": 24
+        },
+        "r": {
+          "positive": 122,
+          "negative": 22
+        }
+      },
+      "eligible": {},
+      "prior_overlap": null,
+      "route_decisions": {},
+      "selected_for": null
+    }
+  ]
+}

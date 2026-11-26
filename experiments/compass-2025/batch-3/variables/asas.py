@@ -137,6 +137,8 @@ def obtain(fetch, local, neighbors=False, ra=RA, dec=DEC, stem=None, sources=SRC
     if target["separation_arcsec"] > 3:
         raise ValueError("No Sky Patrol counterpart within 3 arcsec")
     full = pq.ParquetFile(phot).read(use_threads=False).to_pylist()
+    if not full:
+        return cone_rows, []
     ids = {r["asas_sn_id"] for r in full}
     if (
         not ids.issubset({r["asas_sn_id"] for r in cone_rows})

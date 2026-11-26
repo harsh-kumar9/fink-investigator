@@ -18,27 +18,32 @@ import pilot
 
 NAME = "ZTF25aanlbls"
 FOLDER = HERE / "onset-sources"
-BASE = f"https://api.alerce.online/ztf/v1/objects/{NAME}"
 FIELDS = "oid,pid,mjd,fid,mag,e_mag,isdiffpos,field,rcid,rfid,procstatus,dubious,magzpsci,diffmaglim,sciinpseeing"
 
 
-def inputs(fetch):
-    query = f"SELECT TOP 10000 {FIELDS} FROM ztf.forced_photometry WHERE oid='{NAME}'"
+def forced_inputs(fetch, name, folder):
+    query = f"SELECT TOP 10000 {FIELDS} FROM ztf.forced_photometry WHERE oid='{name}'"
     url = "https://tap.alerce.online/tap/sync?" + urlencode(
         dict(REQUEST="doQuery", LANG="ADQL", FORMAT="csv", QUERY=query)
     )
-    forced = capture(FOLDER, "forced", url, set(FIELDS.split(",")), fetch)
+    forced = capture(folder, "forced", url, set(FIELDS.split(",")), fetch)
     if (
         len(forced) >= 10000
         or len({r["pid"] for r in forced}) != len(forced)
-        or any(r["oid"] != NAME for r in forced)
+        or any(r["oid"] != name for r in forced)
     ):
         raise ValueError("Wrong or truncated forced series")
+    return forced
+
+
+def inputs(fetch, name=NAME, folder=FOLDER):
+    forced = forced_inputs(fetch, name, folder)
+    base = f"https://api.alerce.online/ztf/v1/objects/{name}"
     det = compass_archive.capture_list(
-        FOLDER, "detections", BASE + "/detections", fetch
+        folder, "detections", base + "/detections", fetch
     )
     lim = compass_archive.capture_list(
-        FOLDER, "limits", BASE + "/non_detections", fetch
+        folder, "limits", base + "/non_detections", fetch
     )
     return forced, det, lim
 

@@ -1,0 +1,45 @@
+{
+  "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0822/395417/ztf_20250822395417_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772%2C-1.8497861&size=600arcsec&gzip=false",
+  "request": {
+    "method": "alternate_ibe_cutout",
+    "original_url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0822/395417/ztf_20250822395417_000401_zr_c09_o_q3_sciimg.fits",
+    "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0822/395417/ztf_20250822395417_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec&gzip=false",
+    "retrieved_utc": "2026-11-26T06:47:18+00:00",
+    "attempts": [
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0822/395417/ztf_20250822395417_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0822/395417/ztf_20250822395417_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec&gzip=true",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0822/395417/ztf_20250822395417_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec&gzip=false",
+        "http_status": 200,
+        "curl_status": 0
+      }
+    ],
+    "received_bytes": 1431360,
+    "size_arcsec": 600,
+    "sha256_response": "a9b6070f669e16e9bfcd047ef304189cc0293d3d2233d7a8c6cf04f5226111f6",
+    "sha256_cutout": "a9b6070f669e16e9bfcd047ef304189cc0293d3d2233d7a8c6cf04f5226111f6"
+  },
+  "pid": "3155395423415",
+  "expid": "315539542",
+  "oids": [
+    "401209300001438",
+    "401209300001279",
+    "401209300001951",
+    "401209300001212",
+    "401209300035960",
+    "401209300010726",
+    "401209300002145",
+    "401209300001488"
+  ],
+  "cutout_sha256": "a9b6070f669e16e9bfcd047ef304189cc0293d3d2233d7a8c6cf04f5226111f6",
+  "tiles_sha256": "7012a25c72e50cf8fdef9f6b3abc5f30cc2afb1684e9c8b2e7310dddb7fadc6a",
+  "archived_utc": "2026-11-26T06:47:18+00:00"
+}

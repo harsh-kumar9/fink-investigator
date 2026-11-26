@@ -1,0 +1,22 @@
+{
+  "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0104/150150/ztf_20250104150150_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772%2C-1.8497861&size=600arcsec&gzip=false",
+  "request": {
+    "method": "ibe",
+    "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0104/150150/ztf_20250104150150_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772%2C-1.8497861&size=600arcsec&gzip=false"
+  },
+  "pid": "2925150163415",
+  "expid": "292515016",
+  "oids": [
+    "401209300001438",
+    "401209300001279",
+    "401209300001951",
+    "401209300001212",
+    "401209300035960",
+    "401209300010726",
+    "401209300002145",
+    "401209300001488"
+  ],
+  "cutout_sha256": "7522f6687af6650f95e943c5f98a598b2fb52438a820c57e28de684350f276fc",
+  "tiles_sha256": "7ef49b50a3508c947aced3ad9c5787befb5dfdd5db9c3810829358a8481900f7",
+  "archived_utc": "2026-11-26T06:47:13+00:00"
+}

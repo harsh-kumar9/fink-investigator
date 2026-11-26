@@ -1,0 +1,135 @@
+{
+  "state": {
+    "boundary": "2020-08-19",
+    "asas_bin_flux_change_mjy": {
+      "earlier_bin_starts": [
+        "2020-03-22",
+        "2020-04-21",
+        "2020-05-21",
+        "2020-06-20",
+        "2020-07-20"
+      ],
+      "later_bin_starts": [
+        "2020-08-19",
+        "2020-09-18",
+        "2020-10-18",
+        "2020-11-17",
+        "2020-12-17"
+      ],
+      "before_bins": 5,
+      "after_bins": 5,
+      "after_minus_before_flux": 0.06736,
+      "leave_one_bin_out_range": [
+        0.04723,
+        0.08014
+      ]
+    },
+    "bands": {
+      "g": {
+        "controls": {
+          "800101100045715": {
+            "separation_arcsec": 11.098,
+            "contrast_mag": 0.00198
+          },
+          "800101100060299": {
+            "separation_arcsec": 12.45,
+            "contrast_mag": -0.0675
+          },
+          "800101100032073": {
+            "separation_arcsec": 19.617,
+            "contrast_mag": -0.0142
+          }
+        },
+        "before": {
+          "field_dates": 38,
+          "matched": 30,
+          "bright": 7,
+          "bright_fraction_bounds": [
+            0.1842,
+            0.3947
+          ]
+        },
+        "after": {
+          "field_dates": 32,
+          "matched": 19,
+          "bright": 6,
+          "bright_fraction_bounds": [
+            0.1875,
+            0.5938
+          ]
+        },
+        "outside_bright_threshold_mag": 18.67983
+      },
+      "r": {
+        "controls": {
+          "800201100054659": {
+            "separation_arcsec": 11.098,
+            "contrast_mag": -0.00392
+          },
+          "800201100078481": {
+            "separation_arcsec": 12.367,
+            "contrast_mag": -0.01678
+          },
+          "800201100036499": {
+            "separation_arcsec": 17.799,
+            "contrast_mag": 0.00778
+          }
+        },
+        "before": {
+          "field_dates": 40,
+          "matched": 30,
+          "bright": 5,
+          "bright_fraction_bounds": [
+            0.125,
+            0.375
+          ]
+        },
+        "after": {
+          "field_dates": 40,
+          "matched": 29,
+          "bright": 10,
+          "bright_fraction_bounds": [
+            0.25,
+            0.525
+          ]
+        },
+        "outside_bright_threshold_mag": 18.56008
+      }
+    }
+  },
+  "tess_shifts": {
+    "per_sector": {
+      "14": {
+        "shifts_passing_both_bands": [
+          0
+        ],
+        "trials": 100
+      },
+      "15": {
+        "shifts_passing_both_bands": [
+          0,
+          1,
+          32,
+          33,
+          34,
+          36,
+          96,
+          97,
+          99
+        ],
+        "trials": 100
+      },
+      "16": {
+        "shifts_passing_both_bands": [
+          0,
+          58
+        ],
+        "trials": 100
+      }
+    },
+    "same_fraction_passing_all": [
+      0
+    ],
+    "trials": 100
+  }
+}

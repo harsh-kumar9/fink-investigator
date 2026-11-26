@@ -1,0 +1,50 @@
+{
+  "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1129/234838/ztf_20241129234838_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772%2C-1.8497861&size=600arcsec&gzip=false",
+  "request": {
+    "method": "alternate_ibe_cutout",
+    "original_url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1129/234838/ztf_20241129234838_000401_zr_c09_o_q3_sciimg.fits",
+    "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1129/234838/ztf_20241129234838_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=8arcmin&gzip=false",
+    "retrieved_utc": "2026-11-26T06:47:15+00:00",
+    "attempts": [
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1129/234838/ztf_20241129234838_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=480arcsec",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1129/234838/ztf_20241129234838_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=480arcsec&gzip=true",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1129/234838/ztf_20241129234838_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=480arcsec&gzip=false",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1129/234838/ztf_20241129234838_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=8arcmin&gzip=false",
+        "http_status": 200,
+        "curl_status": 0
+      }
+    ],
+    "received_bytes": 927360,
+    "size_arcsec": 480,
+    "sha256_response": "be9367b21726099d0d1aab965fbf23d0e93c94b42edbec798ee03d437e27b8dc",
+    "sha256_cutout": "be9367b21726099d0d1aab965fbf23d0e93c94b42edbec798ee03d437e27b8dc"
+  },
+  "pid": "2889234843415",
+  "expid": "288923484",
+  "oids": [
+    "401209300001438",
+    "401209300001279",
+    "401209300001951",
+    "401209300001212",
+    "401209300035960",
+    "401209300010726",
+    "401209300002145",
+    "401209300001488"
+  ],
+  "cutout_sha256": "be9367b21726099d0d1aab965fbf23d0e93c94b42edbec798ee03d437e27b8dc",
+  "tiles_sha256": "d0ff27eeb2c5fd86b2e96ed62b688d7c97e89b975c82548f96ccb9c759d99566",
+  "archived_utc": "2026-11-26T06:47:15+00:00"
+}

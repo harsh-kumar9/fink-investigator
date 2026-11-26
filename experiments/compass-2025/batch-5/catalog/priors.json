@@ -1,0 +1,106 @@
+{
+  "tns": {
+    "objid": "188835",
+    "name_prefix": "SN",
+    "name": "2025xza",
+    "ra": "39.4939171784",
+    "declination": "-1.84979076482",
+    "redshift": "0.028",
+    "typeid": "10",
+    "type": "SN II",
+    "reporting_groupid": "18",
+    "reporting_group": "ATLAS",
+    "source_groupid": "18",
+    "source_group": "ATLAS",
+    "discoverydate": "2025-09-18 21:57:55.872",
+    "discoverymag": "18.839",
+    "discmagfilter": "72",
+    "filter": "orange",
+    "reporters": "J. Tonry, L. Denneau, H. Weiland, R. Siverd (IfA, University of Hawaii), N. Erasmus, W. Koorts (South African Astronomical Observatory), A. Jordan, V. Suc (UAI, Obstech), M. R. Alarc\u00f3n, J. Licandro, P. Nichita (IAC), S. J. Smartt, K. W. Smith (Oxford/QUB), D. R. Young, M. Nicholl, M. Fulton, M. McCollum, T. Moore, J. Weston, X. Sheng, C. R. Angus, A. Wilson, A. Aamer, D. Magill, P. J. Broda (QUB), P. Ramsden (Birmingham/QUB), L. Shingles (GSI/QUB), S. Srivastav, J. H. Gillanders, H. Stevance, A. J. Cooper, F. Stoppa, J. Tweddle (Oxford), L. Rhodes (TSI/McGill), A. Rest (STScI), T.-W. Chen (NCU), C. Stubbs (Harvard), J. S. Sommer (LMU), B. P. Schmidt (ANU)",
+    "time_received": "2025-09-19 07:18:33",
+    "internal_names": "ATLAS25lri, ZTF25absffwy, , GOTO25hpa, PS25hqf",
+    "Discovery_ADS_bibcode": "2025TNSTR3766....1T",
+    "Class_ADS_bibcodes": "2025TNSCR3800....1W",
+    "creationdate": "2025-09-19 07:18:35",
+    "lastmodified": "2026-08-31 16:31:30"
+  },
+  "cats150": "ZTF25absffwy | SN2025xza | 39.493892 | -1.849766 | Type II (1.0) | 20.71\" | 11.78 kpc | 0.02845 | 18.0 (ztfr) | 19.5 (ztfr) | 272.6 | 4 | 2025-09-20",
+  "dwarf_novae": {
+    "MGAB-V960": {
+      "vsx": {
+        "Name": "MGAB-V960",
+        "RA2000": "307.11680",
+        "Declination2000": "52.10207",
+        "VariabilityType": "UG",
+        "MaxMag": "18.3 g",
+        "MinMag": "21.5 g",
+        "Discoverer": "Gabriel Murawski",
+        "Category": "Variable",
+        "OID": "1499309",
+        "Constellation": "Cyg"
+      },
+      "published_rows": {
+        "J/AJ/159/198/table1": [],
+        "J/AJ/159/198/table2": [],
+        "J/AJ/159/198/table3": [],
+        "J/AJ/162/94/table1": [],
+        "J/AJ/162/94/table2": [],
+        "J/MNRAS/456/4441/catalog": [],
+        "J/AJ/153/204/table5": []
+      },
+      "discovery": "MGAB-V9 60 Gaia EDR3 position : 307.116825 52.102094 Variability type : UG Variability range : 18.2 - 21.7 g",
+      "aavso_observations": 0,
+      "aavso_dates": []
+    },
+    "MGAB-V306": {
+      "vsx": {
+        "Name": "MGAB-V306",
+        "RA2000": "102.25819",
+        "Declination2000": "8.99572",
+        "VariabilityType": "UGSU:",
+        "MaxMag": "16.6 g",
+        "MinMag": "21.5 g",
+        "Discoverer": "Gabriel Murawski",
+        "Category": "Variable",
+        "OID": "1498454",
+        "Constellation": "Mon"
+      },
+      "published_rows": {
+        "J/AJ/159/198/table1": [],
+        "J/AJ/159/198/table2": [
+          {
+            "_r": "0.10",
+            "recno": "54",
+            "ZTF": "17aaaoxxi",
+            "RAJ2000": "06 49 01.96",
+            "DEJ2000": "+08 59 44.6",
+            "GLAT": "3.6",
+            "High": "16.6",
+            "Low": "20.1",
+            "plx": null,
+            "e_plx": null,
+            "Nout": "5",
+            "Days": "449",
+            "SDSS": null,
+            "CRTS": null,
+            "Spec": null,
+            "Other": "G",
+            "CCat": "0",
+            "Gaia": "1",
+            "SimbadName": "o ZTF 17aaaoxxi"
+          }
+        ],
+        "J/AJ/159/198/table3": [],
+        "J/AJ/162/94/table1": [],
+        "J/AJ/162/94/table2": [],
+        "J/MNRAS/456/4441/catalog": [],
+        "J/AJ/153/204/table5": []
+      },
+      "discovery": "MGAB-V306 Gaia EDR3 position : 102.258188 8.995720 Variability type : UGSU: Variability range : 16.6 - 21.5 g",
+      "aavso_observations": 0,
+      "aavso_dates": [],
+      "aavso_2010_2014_count": 0,
+      "vsnet_january_2025": "MGAB-V306 (UGZ:) <164(17) <168(18) ASD"
+    }
+  }
+}

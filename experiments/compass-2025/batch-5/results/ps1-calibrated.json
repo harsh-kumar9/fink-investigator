@@ -1,0 +1,440 @@
+{
+  "r": {
+    "references": [],
+    "measurements": [
+      {
+        "window": "before",
+        "date": "2023-09-05",
+        "pid": "2438457293415",
+        "seeing": 1.67005,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2023-09-24",
+        "pid": "2457453783415",
+        "seeing": 2.00215,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2023-10-16",
+        "pid": "2479421273415",
+        "seeing": 1.99172,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2023-11-11",
+        "pid": "2505289683415",
+        "seeing": 3.14974,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-02-13",
+        "pid": "2599122693415",
+        "seeing": 2.47691,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-10-13",
+        "pid": "2842352883415",
+        "seeing": 1.57044,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-11-04",
+        "pid": "2864314143415",
+        "seeing": 3.15443,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-11-29",
+        "pid": "2889234843415",
+        "seeing": 2.31919,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-12-09",
+        "pid": "2899233533415",
+        "seeing": 2.49403,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2025-01-04",
+        "pid": "2925150163415",
+        "seeing": 2.33148,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2025-08-22",
+        "pid": "3155395423415",
+        "seeing": 1.48778,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2025-08-31",
+        "pid": "3164389563415",
+        "seeing": 1.91116,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "dec",
+        "date": "2025-12-08",
+        "pid": "3263232613415",
+        "seeing": 1.73227,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "dec",
+        "date": "2025-12-12",
+        "pid": "3267199993415",
+        "seeing": 2.09907,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "dec",
+        "date": "2025-12-16",
+        "pid": "3271236153415",
+        "seeing": 2.39359,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "dec",
+        "date": "2025-12-18",
+        "pid": "3273148873415",
+        "seeing": 2.11508,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "dec",
+        "date": "2025-12-20",
+        "pid": "3275148213415",
+        "seeing": 2.25832,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "dec",
+        "date": "2025-12-22",
+        "pid": "3277147813415",
+        "seeing": 1.38507,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "winter",
+        "date": "2026-01-15",
+        "pid": "3301125283415",
+        "seeing": 2.32178,
+        "status": "insufficient standards",
+        "stars": 0
+      }
+    ],
+    "comparisons": {
+      "dec": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      },
+      "winter": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      },
+      "post": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      },
+      "apr_may": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      },
+      "jun_jul": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      },
+      "aug_sep": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      },
+      "oct_nov": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      }
+    }
+  },
+  "i": {
+    "references": [],
+    "measurements": [
+      {
+        "window": "before",
+        "date": "2023-09-05",
+        "pid": "2438478903415",
+        "seeing": 1.40286,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2023-09-18",
+        "pid": "2451460983415",
+        "seeing": 2.16246,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2023-10-04",
+        "pid": "2467441423415",
+        "seeing": 2.61554,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2023-10-16",
+        "pid": "2479295473415",
+        "seeing": 2.40165,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2023-11-01",
+        "pid": "2495306633415",
+        "seeing": 1.97277,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2023-11-13",
+        "pid": "2507226643415",
+        "seeing": 1.71904,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-07-11",
+        "pid": "2748481403415",
+        "seeing": 1.98568,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-09-22",
+        "pid": "2821391773415",
+        "seeing": 1.81803,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-10-19",
+        "pid": "2848314643415",
+        "seeing": 2.78398,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-11-17",
+        "pid": "2877274973415",
+        "seeing": 2.67314,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2024-12-29",
+        "pid": "2919149283415",
+        "seeing": 2.49861,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "before",
+        "date": "2025-01-18",
+        "pid": "2939225623415",
+        "seeing": 2.32509,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "march",
+        "date": "2026-03-02",
+        "pid": "3347133113415",
+        "seeing": 1.74768,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "summer",
+        "date": "2026-07-27",
+        "pid": "3494433993415",
+        "seeing": 1.48487,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "summer",
+        "date": "2026-07-30",
+        "pid": "3497467213415",
+        "seeing": 1.45186,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "summer",
+        "date": "2026-08-02",
+        "pid": "3500463243415",
+        "seeing": 1.6233,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "summer",
+        "date": "2026-08-04",
+        "pid": "3502482253415",
+        "seeing": 1.83954,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "summer",
+        "date": "2026-08-05",
+        "pid": "3503408663415",
+        "seeing": 2.39115,
+        "status": "insufficient standards",
+        "stars": 0
+      },
+      {
+        "window": "summer",
+        "date": "2026-08-08",
+        "pid": "3506447073415",
+        "seeing": 1.92853,
+        "status": "insufficient standards",
+        "stars": 0
+      }
+    ],
+    "comparisons": {
+      "dec": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      },
+      "march": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      },
+      "summer": {
+        "all": {
+          "baseline": null,
+          "window": null
+        },
+        "matched": {
+          "baseline": null,
+          "window": null
+        },
+        "nightly": [],
+        "star_shifts": {}
+      }
+    }
+  }
+}

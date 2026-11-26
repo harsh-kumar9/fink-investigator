@@ -1,0 +1,5 @@
+{
+  "url": "https://datalab.noirlab.edu/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+500+ls_id%2Cra%2Cdec%2Ctype%2Cshape_r%2Cshape_e1%2Cshape_e2%2Cflux_g%2Cflux_r%2Cflux_z%2Cref_cat%2Cref_id+FROM+ls_dr10.tractor+WHERE+ra+BETWEEN+39.479+AND+39.509+AND+dec+BETWEEN+-1.865+AND+-1.834",
+  "sha256_uncompressed": "087fffd8cebd2b49bd514e334c7bb31804f449aadf9d0636d0bdc9f654b2aab9",
+  "retrieved_utc": "2026-11-26T06:38:10+00:00"
+}

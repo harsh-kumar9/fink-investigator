@@ -1,0 +1,20 @@
+{
+  "cone_url": "http://asassn-lb01.ifa.hawaii.edu:9006/lookup_cone/radius0.0016666666666666668_ra307.1167854_dec52.1020668",
+  "cone_post": {
+    "catalog": "master_list",
+    "cols": [
+      "asas_sn_id",
+      "ra_deg",
+      "dec_deg",
+      "catalog_sources"
+    ],
+    "format": "arrow",
+    "download": true
+  },
+  "servers_url": "http://asassn-lb01.ifa.hawaii.edu:9006/get_block_servers",
+  "chosen_block_server": "asassn-data01.ifa.hawaii.edu",
+  "block_url": "http://asassn-data01.ifa.hawaii.edu:9006/get_block/query_hash-Y29uZWN0ci0wLjAwMTY2NjY2NjY2NjY2NjY2NjhfY29uZXJhLTMwNy4xMTY3ODU0X2NvbmVkZWMt%0ANTIuMTAyMDY2OHxjYXRhbG9nLW1hc3Rlcl9saXN0fGNvbHMtYXNhc19zbl9pZC9yYV9kZWcvZGVj%0AX2RlZy9jYXRhbG9nX3NvdXJjZXM=%0A-block_idx-0-catalog-master_list",
+  "cone_sha256": "9a5f7c84fc28e6dcd9d01acd9be17baf26dc235cbe21f4d32194085aa4034a23",
+  "photometry_sha256": "c93224064a4e3311fcabcf8e14f515e2e51210a236952dfdc04f683816c23e9d",
+  "retrieved_utc": "2026-11-26T06:37:03+00:00"
+}

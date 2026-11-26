@@ -1,0 +1,14 @@
+{
+  "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HST/product/hst_16691_42_wfc3_uvis_f814w_ierg42_drc.fits",
+  "science_byte_range": [
+    23253000,
+    30922331
+  ],
+  "range_sha256": "f62667991a0a17c2fe04a396408eb6f08b7b06357c18ddbfe2fc44d25265d680",
+  "cutout_x0_y0": [
+    2479,
+    970
+  ],
+  "cutout_sha256": "68d9d93cebe286bf367210371dd33029d761a5e1e2956bfbcd3ce0949404203e",
+  "retrieved_utc": "2026-11-26T06:46:50+00:00"
+}

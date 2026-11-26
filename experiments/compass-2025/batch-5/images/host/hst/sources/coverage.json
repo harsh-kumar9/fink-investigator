@@ -1,0 +1,5 @@
+{
+  "url": "https://hst.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+100+obs_collection%2Cobs_id%2Cinstrument_name%2Ct_min%2Ct_max+FROM+ivoa.obscore+WHERE+1%3DCONTAINS%28POINT%28%27ICRS%27%2C39.49389185%2C-1.8497931%29%2Cs_region%29",
+  "sha256_uncompressed": "f47894806868ef6bee817a7cf38e7c84aba62eda3b81ee3c4a52082ad99ca5b7",
+  "retrieved_utc": "2026-11-26T06:46:43+00:00"
+}

@@ -1,0 +1,9 @@
+# Independent first reading
+
+These hypotheses use the three packet records alone, before inspection of the catalog matches, surrounding field or post-anchor behavior.
+
+**ZTF18abcckqd.** Green is more often negative and red more often positive against their respective references. A periodic variable sampled at different reference phases, a color-dependent blend or proper motion could explain these counts. Inspect the centers of both signs, propagate neighboring Gaia stars, and compare coordinates by filter and epoch. Opposing lobes, a drifting residual or sign-specific neighbors would weaken a single stationary star interpretation. Direct multiband flux and cycle coherence would separate fades from reference crossings.
+
+**ZTF25absffwy.** Two colors on three dates with a bright r measurement warrant a close look. A normal extragalactic transient, a stellar outburst and subtraction next to a bright neighbor are all plausible. Compare positions across nights, inspect the templates and deep pre-event optical images for a star or extended light, and test whether any displacement from a galaxy exceeds the nightly spread. A field-matched image control or Gaia motion can constrain the interpretation. Earlier or later exposures can establish the rise and duration. The empty registry field applies to this packet epoch.
+
+**ZTF17aaaoxxi.** Seven seasons of positive-only detections against a reference need not correspond to seven distinct outbursts. The object could stay above an unusually faint reference, flare repeatedly on one star or share a position with a nearby variable. Compare the early, middle and recent positions and identify a persistent quiescent counterpart. A baseline between elevated intervals and a consistent localization are required to distinguish discrete episodes from sustained variability. The provisional catalog label is compatible with multiple behaviors.

@@ -1,0 +1,1314 @@
+{
+  "target": {
+    "windows": {
+      "baseline": {
+        "n": 7,
+        "first": "2025-08-31",
+        "last": "2025-09-11",
+        "mean": 4.9826318798708735,
+        "error": 2.331127178911479
+      },
+      "early": {
+        "n": 7,
+        "first": "2025-09-24",
+        "last": "2025-10-12",
+        "mean": 205.01231178261642,
+        "error": 4.057026021565314,
+        "excess": 200.02967990274556,
+        "excess_error": 4.679061237461834
+      },
+      "middle": {
+        "n": 11,
+        "first": "2025-10-18",
+        "last": "2025-11-10",
+        "mean": 151.43892261498308,
+        "error": 4.919933635290837,
+        "excess": 146.45629073511222,
+        "excess_error": 5.444253934188403
+      },
+      "winter": {
+        "n": 9,
+        "first": "2025-12-04",
+        "last": "2025-12-29",
+        "mean": 116.75121664291905,
+        "error": 2.3684608021921054,
+        "excess": 111.76858476304817,
+        "excess_error": 3.323215385102245
+      },
+      "late": {
+        "n": 4,
+        "first": "2026-01-13",
+        "last": "2026-02-01",
+        "mean": 94.45102501956073,
+        "error": 9.693397917963019,
+        "excess": 89.46839313968985,
+        "excess_error": 9.969760133535289
+      },
+      "spring": null
+    },
+    "ratios": {
+      "winter": 0.5587600041023415,
+      "late": 0.44727559021835855
+    }
+  },
+  "controls": [
+    {
+      "id": "ZTF24aabpojp",
+      "name": "SN2024acn",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.1405922218405885,
+        "peak_minus_discovery_days": 30,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60322.81280092592,
+      "windows": {
+        "baseline": {
+          "n": 1,
+          "first": "2024-01-05",
+          "last": "2024-01-05",
+          "mean": -3.624980920694465,
+          "error": 2.8216726044299607
+        },
+        "early": {
+          "n": 2,
+          "first": "2024-01-30",
+          "last": "2024-02-01",
+          "mean": 1188.7364990117876,
+          "error": 28.04787273424142,
+          "excess": 1192.361479932482,
+          "excess_error": 28.18944840188956
+        },
+        "middle": {
+          "n": 4,
+          "first": "2024-02-14",
+          "last": "2024-02-28",
+          "mean": 1145.0192003420761,
+          "error": 64.91272015300355,
+          "excess": 1148.6441812627706,
+          "excess_error": 64.9740184531382
+        },
+        "winter": {
+          "n": 6,
+          "first": "2024-03-29",
+          "last": "2024-05-01",
+          "mean": 579.7285910268324,
+          "error": 27.07843333530711,
+          "excess": 583.3535719475269,
+          "excess_error": 27.22505074708332
+        },
+        "late": {
+          "n": 11,
+          "first": "2024-05-08",
+          "last": "2024-06-03",
+          "mean": 422.2690028565809,
+          "error": 9.82036878856286,
+          "excess": 425.89398377727537,
+          "excess_error": 10.217704215232017
+        },
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aarvbxj",
+      "name": "SN2024lby",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.08970006010485734,
+        "peak_minus_discovery_days": 11,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60473.398877291664,
+      "windows": {
+        "baseline": {
+          "n": 1,
+          "first": "2024-05-14",
+          "last": "2024-05-14",
+          "mean": 3.8391472675256515,
+          "error": 3.3340891944525795
+        },
+        "early": {
+          "n": 5,
+          "first": "2024-06-19",
+          "last": "2024-07-03",
+          "mean": 415.0053386348594,
+          "error": 11.607422559506096,
+          "excess": 411.16619136733374,
+          "excess_error": 12.076771473845834
+        },
+        "middle": {
+          "n": 9,
+          "first": "2024-07-13",
+          "last": "2024-08-08",
+          "mean": 330.7434585367266,
+          "error": 6.357577037151597,
+          "excess": 326.90431126920095,
+          "excess_error": 7.17878377859946
+        },
+        "winter": {
+          "n": 8,
+          "first": "2024-09-01",
+          "last": "2024-09-23",
+          "mean": 73.91363703410693,
+          "error": 4.190345139941529,
+          "excess": 70.07448976658128,
+          "excess_error": 5.3549176602817194
+        },
+        "late": {
+          "n": 6,
+          "first": "2024-10-10",
+          "last": "2024-10-25",
+          "mean": 55.6317305844115,
+          "error": 2.4759484148973026,
+          "excess": 51.792583316885846,
+          "excess_error": 4.15288710535188
+        },
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24abyatjx",
+      "name": "SN2024aeee",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.11073223970655763,
+        "peak_minus_discovery_days": 12,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60661.64513888889,
+      "windows": {
+        "baseline": {
+          "n": 5,
+          "first": "2024-11-23",
+          "last": "2024-12-11",
+          "mean": -0.14861090092044926,
+          "error": 2.6765314216286766
+        },
+        "early": {
+          "n": 2,
+          "first": "2024-12-29",
+          "last": "2025-01-12",
+          "mean": 2375.424842273901,
+          "error": 438.7883504257998,
+          "excess": 2375.5734531748217,
+          "excess_error": 438.7965135342867
+        },
+        "middle": {
+          "n": 5,
+          "first": "2025-01-18",
+          "last": "2025-02-04",
+          "mean": 1655.7920688887514,
+          "error": 116.27554845788842,
+          "excess": 1655.9406797896718,
+          "excess_error": 116.30634973909947
+        },
+        "winter": {
+          "n": 9,
+          "first": "2025-03-05",
+          "last": "2025-04-07",
+          "mean": 325.39338168028377,
+          "error": 46.59850694537271,
+          "excess": 325.5419925812042,
+          "excess_error": 46.67531113971191
+        },
+        "late": {
+          "n": 4,
+          "first": "2025-04-16",
+          "last": "2025-05-03",
+          "mean": 123.77387183851083,
+          "error": 15.645677059137844,
+          "excess": 123.92248273943127,
+          "excess_error": 15.872965415756372
+        },
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aahxgoa",
+      "name": "SN2024faq",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.1028723395451909,
+        "peak_minus_discovery_days": 6,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60397.445,
+      "windows": {
+        "baseline": {
+          "n": 3,
+          "first": "2024-02-29",
+          "last": "2024-03-21",
+          "mean": -5.3824544038689695,
+          "error": 2.501246706436329
+        },
+        "early": {
+          "n": 4,
+          "first": "2024-04-03",
+          "last": "2024-04-22",
+          "mean": 438.69199577117536,
+          "error": 21.143582335408823,
+          "excess": 444.0744501750443,
+          "excess_error": 21.29101474943528
+        },
+        "middle": {
+          "n": 12,
+          "first": "2024-04-30",
+          "last": "2024-05-27",
+          "mean": 306.3522786873922,
+          "error": 6.999679902930289,
+          "excess": 311.73473309126115,
+          "excess_error": 7.4331523480919435
+        },
+        "winter": {
+          "n": 13,
+          "first": "2024-06-14",
+          "last": "2024-07-17",
+          "mean": 76.34030708307714,
+          "error": 11.000623215752142,
+          "excess": 81.7227614869461,
+          "excess_error": 11.28139823875585
+        },
+        "late": {
+          "n": 7,
+          "first": "2024-07-23",
+          "last": "2024-08-06",
+          "mean": 39.197022144497836,
+          "error": 3.14150083939967,
+          "excess": 44.579476548366806,
+          "excess_error": 4.015627299738786
+        },
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aanbjel",
+      "name": "SN2024iqx",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.20025125204672872,
+        "peak_minus_discovery_days": 6,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60440.29912040509,
+      "windows": {
+        "baseline": {
+          "n": 2,
+          "first": "2024-04-18",
+          "last": "2024-04-23",
+          "mean": 3.253218473950743,
+          "error": 3.2870145223245593
+        },
+        "early": {
+          "n": 7,
+          "first": "2024-05-16",
+          "last": "2024-06-02",
+          "mean": 317.2632538824687,
+          "error": 23.480521574629627,
+          "excess": 314.0100354085179,
+          "excess_error": 23.709478228898668
+        },
+        "middle": {
+          "n": 11,
+          "first": "2024-06-11",
+          "last": "2024-07-10",
+          "mean": 188.52447060264643,
+          "error": 2.9883272161440924,
+          "excess": 185.2712521286957,
+          "excess_error": 4.44236018583816
+        },
+        "winter": {
+          "n": 13,
+          "first": "2024-07-25",
+          "last": "2024-08-28",
+          "mean": 66.148331566294,
+          "error": 3.7899774392548555,
+          "excess": 62.89511309234326,
+          "excess_error": 5.016811084746299
+        },
+        "late": {
+          "n": 8,
+          "first": "2024-09-03",
+          "last": "2024-09-22",
+          "mean": 49.72154487544189,
+          "error": 1.7723277780998723,
+          "excess": 46.46832640149115,
+          "excess_error": 3.7343821742019094
+        },
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24abybsoa",
+      "name": "SN2024aeeg",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.1564729737600181,
+        "peak_minus_discovery_days": 4,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60661.24684028935,
+      "windows": {
+        "baseline": {
+          "n": 2,
+          "first": "2024-12-06",
+          "last": "2024-12-08",
+          "mean": 3.8098882989405753,
+          "error": 3.028104715761702
+        },
+        "early": {
+          "n": 5,
+          "first": "2024-12-23",
+          "last": "2025-01-09",
+          "mean": 796.5299905315371,
+          "error": 37.81030858529429,
+          "excess": 792.7201022325966,
+          "excess_error": 37.93137030855591
+        },
+        "middle": {
+          "n": 4,
+          "first": "2025-01-19",
+          "last": "2025-02-05",
+          "mean": 579.2565614826085,
+          "error": 26.468032454219014,
+          "excess": 575.4466731836679,
+          "excess_error": 26.640686180487343
+        },
+        "winter": null,
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aaabbse",
+      "name": "SN2023achj",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.10885138907294747,
+        "peak_minus_discovery_days": 14,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60309.540689999994,
+      "windows": {
+        "baseline": {
+          "n": 3,
+          "first": "2023-12-09",
+          "last": "2023-12-14",
+          "mean": 7.543242593534752,
+          "error": 2.446201886473126
+        },
+        "early": null,
+        "middle": {
+          "n": 3,
+          "first": "2024-01-31",
+          "last": "2024-02-29",
+          "mean": 344.43497185831046,
+          "error": 25.703649552527473,
+          "excess": 336.89172926477573,
+          "excess_error": 25.819788999690342
+        },
+        "winter": {
+          "n": 1,
+          "first": "2024-03-28",
+          "last": "2024-03-28",
+          "mean": 275.50048991866004,
+          "error": 4.80566991921779,
+          "excess": 267.9572473251253,
+          "excess_error": 5.3924360952967625
+        },
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aaosqgf",
+      "name": "SN2024jgk",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.14911196721643424,
+        "peak_minus_discovery_days": 7,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60454.3776,
+      "windows": {
+        "baseline": {
+          "n": 10,
+          "first": "2024-04-29",
+          "last": "2024-05-17",
+          "mean": 0.42824525581970885,
+          "error": 1.0999601861010457
+        },
+        "early": {
+          "n": 8,
+          "first": "2024-05-31",
+          "last": "2024-06-19",
+          "mean": 509.63993776354215,
+          "error": 29.358343296064728,
+          "excess": 509.21169250772243,
+          "excess_error": 29.37894200784971
+        },
+        "middle": {
+          "n": 7,
+          "first": "2024-06-27",
+          "last": "2024-07-24",
+          "mean": 277.1993899717954,
+          "error": 16.706507511979662,
+          "excess": 276.7711447159757,
+          "excess_error": 16.74267916609646
+        },
+        "winter": {
+          "n": 2,
+          "first": "2024-08-08",
+          "last": "2024-08-10",
+          "mean": 172.97643935134658,
+          "error": 3.6936670558652525,
+          "excess": 172.54819409552687,
+          "excess_error": 3.8539705150132804
+        },
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aahgqwk",
+      "name": "SN2024ehs",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.13496345254621572,
+        "peak_minus_discovery_days": 20,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60384.47002,
+      "windows": {
+        "baseline": {
+          "n": 1,
+          "first": "2024-02-23",
+          "last": "2024-02-23",
+          "mean": -14.399603206555064,
+          "error": 23.392940954912824
+        },
+        "early": {
+          "n": 3,
+          "first": "2024-03-21",
+          "last": "2024-04-08",
+          "mean": 3450.5146838719734,
+          "error": 1296.2161932033196,
+          "excess": 3464.9142870785286,
+          "excess_error": 1296.4272633699993
+        },
+        "middle": {
+          "n": 8,
+          "first": "2024-04-16",
+          "last": "2024-05-15",
+          "mean": 1677.6188502335906,
+          "error": 275.0515904296729,
+          "excess": 1692.0184534401455,
+          "excess_error": 276.04457445204855
+        },
+        "winter": {
+          "n": 1,
+          "first": "2024-06-01",
+          "last": "2024-06-01",
+          "mean": 909.2512974554194,
+          "error": 6.279878800331415,
+          "excess": 923.6509006619744,
+          "excess_error": 24.221200718934014
+        },
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aaimzkp",
+      "name": "SN2024fpf",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.08000064154755505,
+        "peak_minus_discovery_days": 76,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60404.5283,
+      "windows": {
+        "baseline": {
+          "n": 1,
+          "first": "2024-03-22",
+          "last": "2024-03-22",
+          "mean": 6.150667806911879,
+          "error": 6.9789026624313895
+        },
+        "early": {
+          "n": 1,
+          "first": "2024-04-13",
+          "last": "2024-04-13",
+          "mean": 357.3193111206991,
+          "error": 4.911813951397061,
+          "excess": 351.16864331378724,
+          "excess_error": 8.534107959525164
+        },
+        "middle": {
+          "n": 12,
+          "first": "2024-05-08",
+          "last": "2024-06-02",
+          "mean": 437.91045940196494,
+          "error": 7.168470382056292,
+          "excess": 431.75979159505306,
+          "excess_error": 10.004601440842618
+        },
+        "winter": {
+          "n": 3,
+          "first": "2024-06-23",
+          "last": "2024-07-03",
+          "mean": 449.81169664066954,
+          "error": 19.35163628691886,
+          "excess": 443.66102883375765,
+          "excess_error": 20.57160444284516
+        },
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aajzrsq",
+      "name": "SN2024grz",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.17004289309702939,
+        "peak_minus_discovery_days": 17,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60417.302859999996,
+      "windows": {
+        "baseline": {
+          "n": 3,
+          "first": "2024-03-19",
+          "last": "2024-04-08",
+          "mean": 4.636287479230618,
+          "error": 2.4757800149861957
+        },
+        "early": {
+          "n": 4,
+          "first": "2024-04-23",
+          "last": "2024-05-10",
+          "mean": 485.63867002865527,
+          "error": 72.91092102022984,
+          "excess": 481.0023825494246,
+          "excess_error": 72.95294298861971
+        },
+        "middle": {
+          "n": 8,
+          "first": "2024-05-18",
+          "last": "2024-06-08",
+          "mean": 218.54363399002358,
+          "error": 33.943276008719295,
+          "excess": 213.90734651079296,
+          "excess_error": 34.033446385676314
+        },
+        "winter": null,
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aboqfdy",
+      "name": "SN2024zmm",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.11708466659692396,
+        "peak_minus_discovery_days": 35,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60609.39706019676,
+      "windows": {
+        "baseline": {
+          "n": 3,
+          "first": "2024-09-26",
+          "last": "2024-10-20",
+          "mean": -2.861900789236994,
+          "error": 2.9838937496363656
+        },
+        "early": {
+          "n": 6,
+          "first": "2024-11-07",
+          "last": "2024-11-21",
+          "mean": 282.3893464117468,
+          "error": 25.379372982701433,
+          "excess": 285.2512472009838,
+          "excess_error": 25.554181554183934
+        },
+        "middle": {
+          "n": 7,
+          "first": "2024-11-26",
+          "last": "2024-12-22",
+          "mean": 340.60085828853664,
+          "error": 15.369689413598088,
+          "excess": 343.4627590777736,
+          "excess_error": 15.65665911296494
+        },
+        "winter": {
+          "n": 1,
+          "first": "2025-01-24",
+          "last": "2025-01-24",
+          "mean": 138.84206270251153,
+          "error": 6.049790488452778,
+          "excess": 141.7039634917485,
+          "excess_error": 6.7456346523727975
+        },
+        "late": {
+          "n": 4,
+          "first": "2025-02-24",
+          "last": "2025-03-23",
+          "mean": 89.68872837778724,
+          "error": 5.133103019607871,
+          "excess": 92.55062916702424,
+          "excess_error": 5.93737050545327
+        },
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24abwniiv",
+      "name": "SN2024admm",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.04041767292018415,
+        "peak_minus_discovery_days": 16,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60650.249201388884,
+      "windows": {
+        "baseline": {
+          "n": 1,
+          "first": "2024-11-18",
+          "last": "2024-11-18",
+          "mean": 6.715406336614916,
+          "error": 6.1788420806657225
+        },
+        "early": {
+          "n": 5,
+          "first": "2024-12-14",
+          "last": "2024-12-28",
+          "mean": 372.7978406055203,
+          "error": 27.00726743323171,
+          "excess": 366.0824342689054,
+          "excess_error": 27.705064224215466
+        },
+        "middle": {
+          "n": 4,
+          "first": "2025-01-12",
+          "last": "2025-02-05",
+          "mean": 96.44899830867149,
+          "error": 9.275265549016455,
+          "excess": 89.73359197205657,
+          "excess_error": 11.144893021585135
+        },
+        "winter": null,
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24abuclbj",
+      "name": "SN2024acga",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.09159999999948099,
+        "peak_minus_discovery_days": 13,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60640.494340000005,
+      "windows": {
+        "baseline": {
+          "n": 4,
+          "first": "2024-11-05",
+          "last": "2024-11-20",
+          "mean": 2.848483381153559,
+          "error": 2.7827143112786064
+        },
+        "early": {
+          "n": 7,
+          "first": "2024-12-03",
+          "last": "2024-12-21",
+          "mean": 336.3199765918779,
+          "error": 15.177080117871256,
+          "excess": 333.4714932107243,
+          "excess_error": 15.430076469106618
+        },
+        "middle": {
+          "n": 7,
+          "first": "2024-12-29",
+          "last": "2025-01-19",
+          "mean": 137.37696791219486,
+          "error": 20.123877140199077,
+          "excess": 134.5284845310413,
+          "excess_error": 20.31536192372712
+        },
+        "winter": null,
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aaczgax",
+      "name": "SN2024anc",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.12937912728497658,
+        "peak_minus_discovery_days": 14,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60327.47168,
+      "windows": {
+        "baseline": {
+          "n": 1,
+          "first": "2024-01-05",
+          "last": "2024-01-05",
+          "mean": 7.596945977045423,
+          "error": 2.7107591995981215
+        },
+        "early": {
+          "n": 3,
+          "first": "2024-01-30",
+          "last": "2024-02-12",
+          "mean": 380.9484855384256,
+          "error": 67.48269159136207,
+          "excess": 373.35153956138015,
+          "excess_error": 67.5371148321654
+        },
+        "middle": {
+          "n": 3,
+          "first": "2024-02-23",
+          "last": "2024-03-05",
+          "mean": 125.88518730271574,
+          "error": 19.936025216133583,
+          "excess": 118.28824132567031,
+          "excess_error": 20.119476058200917
+        },
+        "winter": {
+          "n": 4,
+          "first": "2024-04-04",
+          "last": "2024-04-10",
+          "mean": 17.084160348235965,
+          "error": 1.2219717325454587,
+          "excess": 9.487214371190543,
+          "excess_error": 2.97345427967978
+        },
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF19abgbbzy",
+      "name": "SN2019lqo",
+      "audit": {
+        "ok": false,
+        "separation_arcsec": 0.757289186117858,
+        "peak_minus_discovery_days": 1733,
+        "tns_type": "SN II"
+      }
+    },
+    {
+      "id": "ZTF24aahszxf",
+      "name": "SN2024exw",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.0716000000025474,
+        "peak_minus_discovery_days": 10,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60393.67439814815,
+      "windows": {
+        "baseline": null,
+        "early": {
+          "n": 4,
+          "first": "2024-04-09",
+          "last": "2024-04-16",
+          "mean": 2901.9681047107842,
+          "error": 56.910463741116246
+        },
+        "middle": {
+          "n": 4,
+          "first": "2024-04-29",
+          "last": "2024-05-14",
+          "mean": 2676.048049726609,
+          "error": 46.262386649157335
+        },
+        "winter": null,
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF18adowxvg",
+      "name": "SN2024ydr",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.6372506427485375,
+        "peak_minus_discovery_days": 12,
+        "tns_type": "SN IIP"
+      },
+      "clock_mjd": 60596.519386597225,
+      "windows": {
+        "baseline": null,
+        "early": {
+          "n": 6,
+          "first": "2024-10-19",
+          "last": "2024-11-08",
+          "mean": 449.4558703638606,
+          "error": 46.899745877981374
+        },
+        "middle": {
+          "n": 8,
+          "first": "2024-11-13",
+          "last": "2024-12-10",
+          "mean": 241.22002737087564,
+          "error": 11.988685655734537
+        },
+        "winter": null,
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24abavoif",
+      "name": "SN2024seh",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.15445852357708678,
+        "peak_minus_discovery_days": 22,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60534.275740694444,
+      "windows": {
+        "baseline": {
+          "n": 8,
+          "first": "2024-07-14",
+          "last": "2024-08-05",
+          "mean": 0.9921991377533841,
+          "error": 2.319612739816367
+        },
+        "early": {
+          "n": 9,
+          "first": "2024-08-18",
+          "last": "2024-09-05",
+          "mean": 342.76802166795824,
+          "error": 28.790912346719512,
+          "excess": 341.77582253020483,
+          "excess_error": 28.88420393604789
+        },
+        "middle": {
+          "n": 8,
+          "first": "2024-09-12",
+          "last": "2024-10-09",
+          "mean": 240.99602216870335,
+          "error": 33.115982420933186,
+          "excess": 240.00382303094997,
+          "excess_error": 33.197121787382024
+        },
+        "winter": null,
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aawakwl",
+      "name": "SN2024pkt",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.16873742598999225,
+        "peak_minus_discovery_days": 7,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60504.531050000005,
+      "windows": {
+        "baseline": {
+          "n": 3,
+          "first": "2024-06-18",
+          "last": "2024-06-24",
+          "mean": -8.88444600172661,
+          "error": 6.14324279011269
+        },
+        "early": {
+          "n": 6,
+          "first": "2024-07-20",
+          "last": "2024-08-07",
+          "mean": 494.65090712194643,
+          "error": 47.745391046737616,
+          "excess": 503.535353123673,
+          "excess_error": 48.13898418313544
+        },
+        "middle": {
+          "n": 10,
+          "first": "2024-08-18",
+          "last": "2024-09-11",
+          "mean": 224.3822565131382,
+          "error": 6.799705208975388,
+          "excess": 233.26670251486482,
+          "excess_error": 9.1638105014911
+        },
+        "winter": {
+          "n": 7,
+          "first": "2024-09-30",
+          "last": "2024-11-01",
+          "mean": 149.31272527038368,
+          "error": 5.97878003800779,
+          "excess": 158.1971712721103,
+          "excess_error": 8.572353394555778
+        },
+        "late": {
+          "n": 10,
+          "first": "2024-11-06",
+          "last": "2024-12-09",
+          "mean": 93.59670802284464,
+          "error": 4.95697940739787,
+          "excess": 102.48115402457125,
+          "excess_error": 7.89373655651353
+        },
+        "spring": {
+          "n": 4,
+          "first": "2024-12-19",
+          "last": "2025-01-04",
+          "mean": 68.70395588460768,
+          "error": 4.57747383542103,
+          "excess": 77.5884018863343,
+          "excess_error": 7.661116021327158
+        }
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aasvdze",
+      "name": "SN2024mld",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.11834260879954046,
+        "peak_minus_discovery_days": 17,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60484.25479168982,
+      "windows": {
+        "baseline": {
+          "n": 9,
+          "first": "2024-05-26",
+          "last": "2024-06-16",
+          "mean": 0.45131574529706303,
+          "error": 1.2241235980393044
+        },
+        "early": {
+          "n": 7,
+          "first": "2024-06-28",
+          "last": "2024-07-17",
+          "mean": 292.6651940881702,
+          "error": 30.631555770193888,
+          "excess": 292.21387834287316,
+          "excess_error": 30.656005732739796
+        },
+        "middle": {
+          "n": 12,
+          "first": "2024-07-23",
+          "last": "2024-08-22",
+          "mean": 230.38212874488482,
+          "error": 18.523268410442896,
+          "excess": 229.93081299958777,
+          "excess_error": 18.563672890583597
+        },
+        "winter": null,
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24abljlku",
+      "name": "SN2024xav",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.11569523062253916,
+        "peak_minus_discovery_days": 9,
+        "tns_type": "SN IIP"
+      },
+      "clock_mjd": 60583.03634,
+      "windows": {
+        "baseline": {
+          "n": 2,
+          "first": "2024-09-19",
+          "last": "2024-09-23",
+          "mean": 4.968395983198296,
+          "error": 5.227552630340527
+        },
+        "early": {
+          "n": 10,
+          "first": "2024-10-09",
+          "last": "2024-10-25",
+          "mean": 569.9412001926964,
+          "error": 4.386098746320708,
+          "excess": 564.9728042094981,
+          "excess_error": 6.823867577514693
+        },
+        "middle": {
+          "n": 11,
+          "first": "2024-10-30",
+          "last": "2024-11-29",
+          "mean": 404.01630735019404,
+          "error": 19.689192836746983,
+          "excess": 399.0479113669957,
+          "excess_error": 20.37134313356851
+        },
+        "winter": {
+          "n": 6,
+          "first": "2024-12-16",
+          "last": "2025-01-13",
+          "mean": 84.96280118924744,
+          "error": 20.036948517373215,
+          "excess": 79.99440520604915,
+          "excess_error": 20.707646230096863
+        },
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24abtczty",
+      "name": "SN2024abfl",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.06383934864408083,
+        "peak_minus_discovery_days": 6,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60629.58399305555,
+      "windows": {
+        "baseline": {
+          "n": 6,
+          "first": "2024-10-23",
+          "last": "2024-11-09",
+          "mean": -168.45421374150814,
+          "error": 98.86163137688293
+        },
+        "early": {
+          "n": 5,
+          "first": "2024-11-26",
+          "last": "2024-12-11",
+          "mean": 605.6695569329538,
+          "error": 32.7895505238519,
+          "excess": 774.123770674462,
+          "excess_error": 104.15746148046676
+        },
+        "middle": {
+          "n": 3,
+          "first": "2024-12-16",
+          "last": "2024-12-21",
+          "mean": 656.1372010509133,
+          "error": 20.301485856015134,
+          "excess": 824.5914147924215,
+          "excess_error": 100.92458811637859
+        },
+        "winter": {
+          "n": 6,
+          "first": "2025-01-31",
+          "last": "2025-02-28",
+          "mean": 640.1213437694005,
+          "error": 36.3448679039769,
+          "excess": 808.5755575109087,
+          "excess_error": 105.33077224370955
+        },
+        "late": null,
+        "spring": null
+      },
+      "ratios": {
+        "winter": 1.0445042358102894,
+        "late": null
+      }
+    },
+    {
+      "id": "ZTF24aaaibep",
+      "name": "SN2024hw",
+      "audit": {
+        "ok": true,
+        "separation_arcsec": 0.10533130356929986,
+        "peak_minus_discovery_days": 11,
+        "tns_type": "SN II"
+      },
+      "clock_mjd": 60314.35734949074,
+      "windows": {
+        "baseline": {
+          "n": 1,
+          "first": "2023-12-10",
+          "last": "2023-12-10",
+          "mean": -4.138985651985982,
+          "error": 5.229702089088425
+        },
+        "early": {
+          "n": 3,
+          "first": "2024-01-13",
+          "last": "2024-01-19",
+          "mean": 353.8231645835121,
+          "error": 10.805082930698028,
+          "excess": 357.9621502354981,
+          "excess_error": 12.00414932762325
+        },
+        "middle": {
+          "n": 3,
+          "first": "2024-02-17",
+          "last": "2024-03-05",
+          "mean": 212.37839517260568,
+          "error": 18.49334002288328,
+          "excess": 216.51738082459167,
+          "excess_error": 19.218569383348814
+        },
+        "winter": {
+          "n": 9,
+          "first": "2024-03-22",
+          "last": "2024-04-22",
+          "mean": 145.47353944132243,
+          "error": 7.301503149286044,
+          "excess": 149.61252509330842,
+          "excess_error": 8.981187682019002
+        },
+        "late": {
+          "n": 3,
+          "first": "2024-04-30",
+          "last": "2024-05-14",
+          "mean": 84.20144506550561,
+          "error": 15.885854381464712,
+          "excess": 88.34043071749159,
+          "excess_error": 16.724537463550895
+        },
+        "spring": null
+      },
+      "ratios": {
+        "winter": null,
+        "late": null
+      }
+    }
+  ],
+  "comparisons": {
+    "winter": {
+      "eligible": 1,
+      "median": 1.0445042358102894,
+      "below_target": 0,
+      "above_target": 1
+    },
+    "late": {
+      "eligible": 0,
+      "median": null,
+      "below_target": 0,
+      "above_target": 0
+    }
+  },
+  "limited_baselines": {
+    "winter": {
+      "1": {
+        "SN2024lby": 0.1704286277369948,
+        "SN2024faq": 0.1840294154611525,
+        "SN2024iqx": 0.20029650648113378,
+        "SN2024anc": 0.025410942144061564,
+        "SN2024pkt": 0.31417291812925713,
+        "SN2024xav": 0.1415898333690171,
+        "SN2024hw": 0.41795626994329016
+      },
+      "2": {
+        "SN2024faq": 0.1840294154611525,
+        "SN2024iqx": 0.20029650648113378,
+        "SN2024pkt": 0.31417291812925713,
+        "SN2024xav": 0.1415898333690171
+      }
+    },
+    "late": {
+      "1": {
+        "SN2024lby": 0.1259650827434268,
+        "SN2024faq": 0.10038739344448788,
+        "SN2024iqx": 0.14798357110159618,
+        "SN2024zmm": 0.32445302194179165,
+        "SN2024pkt": 0.20352325489924622,
+        "SN2024hw": 0.24678707136878494
+      },
+      "2": {
+        "SN2024faq": 0.10038739344448788,
+        "SN2024iqx": 0.14798357110159618,
+        "SN2024zmm": 0.32445302194179165,
+        "SN2024pkt": 0.20352325489924622
+      }
+    }
+  }
+}

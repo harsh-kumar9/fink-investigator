@@ -1,0 +1,21 @@
+# Does the same search work in a different year?
+
+Using the same three rules as the 2025 search, we examined **2,613 Fink anomaly packets from 1,314 distinct ZTF IDs** on 265 nights in 2024. The prespecified sample took up to three histories per month. Of 36 sampled IDs, 33 had verifiable histories, 14 satisfied a route, and two sampled positions overlapped earlier cases or controls. Each route passed its calibration. Three positions received independent reviews and a direct ZTF photometry check. Ten more eligible positions remain in this sample. [Registration](protocol.md) · [Source ledger and queue](results/report.md) · [First investigator opinions](investigator.md) · [First skeptic opinions](skeptic.md)
+
+| What the compass selected | What the measurements and prior record show |
+|---|---|
+| Short onset, ZTF24abilvns | ASASSN-14iy brightened by 6.18 mag in g and 6.20 mag in r between the baseline and the sampled September–October 2024 event, roughly 300-fold in flux in each band. An October VSNET bulletin already reported this eruption from ZTF and ASAS-SN. This recovers a documented event. |
+| Fading, ZTF18abbtzhm | Direct light curves at MGAB-V1042 were a median 2.20 mag fainter in g and 2.03 mag fainter in r on negative than on positive alert dates. The two sign groups trace a real brightness change at a previously cataloged dwarf nova. |
+| Recurrent brightening, ZTF17aabunmx | The nominated early red group was 0.34 mag brighter than the comparison dates. The late group was 0.09 mag fainter. This specific pair supplies little evidence for two eruptions at ASASSN-16le, whose earlier superhumps and outbursts were published. |
+
+## Did the half-day model predict later observations of MGAB-V1042?
+
+The 2017 Pan-STARRS RR Lyrae search fit a **0.509962976-day** waveform here, with low classification scores and fitted peak-to-peak amplitudes of 1.98 mag in g and 1.52 in r. The source was later cataloged as a dwarf nova. We transferred the published g and r shapes to actual ZTF exposure times and allowed a free amplitude and 40 clock offsets. Each fit removes the mean in local 14-day windows, separately by filter, so multi-week changes in brightness cannot supply a spurious match to the pulsation. [Published search and methods](https://arxiv.org/abs/1611.08596) · [Source’s catalog row and identity](investigator.md) · [Follow-up protocol](protocol.md)
+
+On 1,050 usable filter-nights before the anchor, the best shift reproduced only 0.17 of the catalog amplitude. Applied to 239 later filter-nights from April 2024 through October 2025, that shift gave **0.007 times the published amplitude** (95% block-bootstrap interval −0.21 to +0.26). Even allowing the later data to choose their own phase yielded a best scale of 0.25. Injecting the full published waveform into the later measurements recovered its amplitude within 30% at all 40 phases with the primary 14-day windows. This independently challenges a persistent full-amplitude pulsation at that period. Smaller signals, other periods and changes between the PS1 and ZTF epochs remain possible. [Waveform transfer, alternate window widths and injections](results/waveform.json)
+
+## What the search recovered
+
+The onset rule generalized to a Galactic outburst alongside the explosions it recovered in 2025. An empty TNS field at the anchor did not establish discovery priority. All three 2024 sources had earlier names. The sample deliberately spans months, magnitudes and alert histories unevenly, so these recoveries do not measure a survey-wide yield. [Direct flux checks](results/direct.json) · [Catalog matches](catalog/results.json) · [Prior work on ASASSN-16le](https://doi.org/10.30970/jps.26.3901) · [VSNET October archive](https://ooruri.kusastro.kyoto-u.ac.jp/mailman3/hyperkitty/list/vsnet-outburst%40ooruri.kusastro.kyoto-u.ac.jp/2024/10/?page=4)
+
+Run `python3 experiments/compass-2024/verify.py` from the repository root to reproduce the archive-backed queue and direct measurements offline. Add `--science` with NumPy and SciPy installed for the waveform transfer. All 36 selected IDs appear in the snapshot manifest and the ledger names the three missing histories. Use the next-packet command in the compass to continue from these decisions. [Archive manifest](snapshot/manifest.json) · [Discovery compass](../../DISCOVERY_COMPASS.md)

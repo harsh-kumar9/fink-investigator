@@ -1,0 +1,5 @@
+{
+  "url": "https://datalab.noirlab.edu/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+500+targetid%2Cmean_fiber_ra%2Cmean_fiber_dec%2Cz%2Czerr%2Czwarn%2Cdeltachi2%2Cspectype%2Csurvey%2Cprogram+FROM+desi_dr1.zpix+WHERE+targetid+IN+%2839627743108799637%2C39627743108799803%29",
+  "sha256_uncompressed": "7e30ebf914780ebe3940a4352fa7c219987f6f74d5c9320c902ef5676f9cbbbb",
+  "retrieved_utc": "2026-11-26T06:38:17+00:00"
+}

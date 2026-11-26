@@ -1,0 +1,5 @@
+{
+  "url": "https://irsa.ipac.caltech.edu/TAP/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=CSV&QUERY=SELECT+TOP+1000+source_id%2Cra%2Cdec%2Cpmra%2Cpmdec%2Cref_epoch%2Cphot_g_mean_mag%2Cruwe+FROM+gaia_dr3_source+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C39.49389185%2C-1.8497931%2C0.05%29%29%3D1",
+  "sha256_uncompressed": "592f93086ea33ca78b482ae2eafe13a51c059bc2f20782c0d5628c9924d40963",
+  "retrieved_utc": "2026-11-26T06:46:48+00:00"
+}

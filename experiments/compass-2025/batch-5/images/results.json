@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ZTF18abcckqd",
+    "checked_image_candids": [
+      "1037141460015015017",
+      "2065180000015010023",
+      "3185139490015010026"
+    ],
+    "gaia_rows_60arcsec": 87,
+    "nearby_5arcsec": [
+      {
+        "id": "2181713128604659072",
+        "g_mag": 18.981892,
+        "ref_epoch": 2016.0,
+        "ref_ra": 307.11679969186,
+        "ref_dec": 52.10206613951,
+        "proper_motion_applied": true,
+        "ref_separation_arcsec": 0.032,
+        "anchor_separation_arcsec": 0.065,
+        "positive": {
+          "date_count": 133,
+          "median_xy_arcsec": [
+            -0.028,
+            -0.042
+          ],
+          "median_distance_arcsec": 0.096,
+          "p90_distance_arcsec": 0.202
+        },
+        "negative": {
+          "date_count": 159,
+          "median_xy_arcsec": [
+            0.007,
+            0.073
+          ],
+          "median_distance_arcsec": 0.124,
+          "p90_distance_arcsec": 0.24
+        }
+      }
+    ],
+    "moving_star_tracks": [],
+    "nearest_two_at_anchor": [
+      {
+        "id": "2181713128604659072",
+        "separation_arcsec": 0.065
+      },
+      {
+        "id": "2181713132895153280",
+        "separation_arcsec": 5.114
+      }
+    ]
+  },
+  {
+    "id": "ZTF25absffwy",
+    "checked_image_candids": [
+      "3184426233415015003",
+      "3186499833415015002"
+    ],
+    "gaia_rows_60arcsec": 4,
+    "nearby_5arcsec": [],
+    "moving_star_tracks": [],
+    "nearest_two_at_anchor": [
+      {
+        "id": "2496737404825415552",
+        "separation_arcsec": 20.676
+      },
+      {
+        "id": "2496737301746073600",
+        "separation_arcsec": 36.665
+      }
+    ]
+  },
+  {
+    "id": "ZTF17aaaoxxi",
+    "checked_image_candids": [
+      "1051473060115015153",
+      "2482498910115015024",
+      "3210494250115015014"
+    ],
+    "gaia_rows_60arcsec": 38,
+    "nearby_5arcsec": [
+      {
+        "id": "3158240365020879104",
+        "g_mag": 19.741602,
+        "ref_epoch": 2016.0,
+        "ref_ra": 102.25818224604,
+        "ref_dec": 8.99571206495,
+        "proper_motion_applied": true,
+        "ref_separation_arcsec": 0.093,
+        "anchor_separation_arcsec": 0.072,
+        "positive": {
+          "date_count": 110,
+          "median_xy_arcsec": [
+            0.022,
+            -0.007
+          ],
+          "median_distance_arcsec": 0.078,
+          "p90_distance_arcsec": 0.223
+        },
+        "negative": {
+          "date_count": 0,
+          "median_xy_arcsec": null,
+          "median_distance_arcsec": null,
+          "p90_distance_arcsec": null
+        }
+      }
+    ],
+    "moving_star_tracks": [],
+    "nearest_two_at_anchor": [
+      {
+        "id": "3158240365020879104",
+        "separation_arcsec": 0.072
+      },
+      {
+        "id": "3158240365019238144",
+        "separation_arcsec": 8.483
+      }
+    ]
+  }
+]

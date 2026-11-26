@@ -1,0 +1,111 @@
+{
+  "ZTF18abbtzhm": {
+    "simbad_10arcsec": [],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.06",
+          "OID": "1499391",
+          "Name": "MGAB-V1042",
+          "RAJ2000": "330.18317",
+          "DEJ2000": "63.71625",
+          "Type": "UG",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    },
+    "tns_10arcsec_or_alias": []
+  },
+  "ZTF24abilvns": {
+    "simbad_10arcsec": [
+      {
+        "main_id": "Gaia DR3 538957063517128832",
+        "otype": "*",
+        "ra": "15.413287070899996",
+        "dec": "75.14382352065",
+        "pmra": "12.549",
+        "pmdec": "-13.93",
+        "separation_arcsec": 0.461
+      }
+    ],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "1.07",
+          "OID": "399677",
+          "Name": "ASASSN-14iy",
+          "RAJ2000": "15.41283",
+          "DEJ2000": "75.14394",
+          "Type": "UG",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [
+        {
+          "_r": "1.06",
+          "ASASSN-V": "J010139.08+750838.2",
+          "RAJ2000": "015.41283",
+          "DEJ2000": "+75.14394",
+          "Type": "UG",
+          "Per": ""
+        }
+      ],
+      "I/358/vrrlyr": []
+    },
+    "bts_in_box": [],
+    "tns_10arcsec_or_alias": []
+  },
+  "ZTF17aabunmx": {
+    "simbad_10arcsec": [
+      {
+        "main_id": "ASASSN -16le",
+        "otype": "CV*",
+        "ra": "353.64814010021996",
+        "dec": "54.55708386973",
+        "pmra": "3.273",
+        "pmdec": "-2.356",
+        "separation_arcsec": 0.165
+      }
+    ],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.22",
+          "OID": "474592",
+          "Name": "ASASSN-16le",
+          "RAJ2000": "353.64813",
+          "DEJ2000": "54.55711",
+          "Type": "UGSU",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [
+        {
+          "_r": "0.24",
+          "ASASSN-V": "J233435.55+543325.6",
+          "RAJ2000": "353.64812",
+          "DEJ2000": "+54.55711",
+          "Type": "UGSU",
+          "Per": ""
+        }
+      ],
+      "I/358/vrrlyr": []
+    },
+    "tns_10arcsec_or_alias": [
+      {
+        "separation_arcsec": 0.053,
+        "name_prefix": "AT",
+        "name": "2018asi",
+        "internal_names": "Gaia18awg",
+        "type": "",
+        "discoverydate": "2018-04-04 12:18:43.000",
+        "reporting_group": "GaiaAlerts"
+      }
+    ]
+  }
+}

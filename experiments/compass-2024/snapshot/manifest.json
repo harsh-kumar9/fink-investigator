@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "year": 2024,
+  "per_stratum": 1,
+  "sources": {
+    "anomaly-2024-01.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-01-01",
+        "stop_date": "2024-02-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:18+00:00",
+      "sha256_uncompressed": "a914c007649e84726d9b64a7493852d213b6ad2059f621e0b0cd41cd84413885"
+    },
+    "anomaly-2024-02.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-02-01",
+        "stop_date": "2024-03-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:20+00:00",
+      "sha256_uncompressed": "cddb719698805f7fcb1c59a4c894ce7020bf0f89f8a6f374862ace39fd1ea754"
+    },
+    "anomaly-2024-03.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-03-01",
+        "stop_date": "2024-04-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:21+00:00",
+      "sha256_uncompressed": "dce7fed6d812cc7b97836c02ab008de723be8b6f8d3640783482222c855b9f18"
+    },
+    "anomaly-2024-04.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-04-01",
+        "stop_date": "2024-05-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:22+00:00",
+      "sha256_uncompressed": "9f7f94c364aea04212d61791e806b23cae3d588a16e60f851278374ceb3fdf5f"
+    },
+    "anomaly-2024-05.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-05-01",
+        "stop_date": "2024-06-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:23+00:00",
+      "sha256_uncompressed": "ed1ea469d8bd32f62a4fc3addce45ee2529eff27861ed761c33e101205d43d4a"
+    },
+    "anomaly-2024-06.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-06-01",
+        "stop_date": "2024-07-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:25+00:00",
+      "sha256_uncompressed": "809ac5271eb1b14080dc59991ab8182fe52e9cc0c486f8caf92d262b369c10d8"
+    },
+    "anomaly-2024-07.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-07-01",
+        "stop_date": "2024-08-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:26+00:00",
+      "sha256_uncompressed": "459f8e7589f0b3f42301c6f26475170fb12ac34948ce28345c66e3457cc2d0a9"
+    },
+    "anomaly-2024-08.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-08-01",
+        "stop_date": "2024-09-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:27+00:00",
+      "sha256_uncompressed": "6eec9237afad704240f3293cb9cc4b61e87f7285103fca7debd568c289e119bf"
+    },
+    "anomaly-2024-09.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-09-01",
+        "stop_date": "2024-10-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:27+00:00",
+      "sha256_uncompressed": "166f81eeac64c5994e8dd481aad924e48f3dd3e72bba9e88f36612aab63c401e"
+    },
+    "anomaly-2024-10.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-10-01",
+        "stop_date": "2024-11-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:30+00:00",
+      "sha256_uncompressed": "e68da9616b82a6d68aef11145242a81aa49d7b8444bd0b81eff3e4f0855e2f59"
+    },
+    "anomaly-2024-11.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-11-01",
+        "stop_date": "2024-12-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:31+00:00",
+      "sha256_uncompressed": "7aeb61c8c5c4b6646492e129e313fcc420017ab144880ea5245299bd995c2090"
+    },
+    "anomaly-2024-12.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/anomaly",
+      "params": {
+        "start_date": "2024-12-01",
+        "stop_date": "2025-01-01",
+        "n": 400,
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist,d:anomaly_score",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:32+00:00",
+      "sha256_uncompressed": "98f59c86591b40cb60cd3fbecf5ea2deb078136f242f99aab80e5ca2fa0bd55d"
+    },
+    "history-000.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF17aabunmx,ZTF17aabuoma,ZTF17aabupib,ZTF18aaaalzj",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:35+00:00",
+      "sha256_uncompressed": "13d3d778bf8da8fed00b619a980b3a7b982079a7c679912d1a9d9b70bc7e1ba8"
+    },
+    "history-004.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18aaaxsnp,ZTF18aavllfm,ZTF18aawmdpg,ZTF18aazeobb",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:39+00:00",
+      "sha256_uncompressed": "34a696ad0b39b870256882078630e6549a2b379a5818e25999a911e84e5ed72f"
+    },
+    "history-008.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18aazmglx,ZTF18abbtzhm,ZTF18abckrpd,ZTF18absoecr",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:46+00:00",
+      "sha256_uncompressed": "1acbafc72d7b4ef15ff1134c64a8d9672d6b7aa56a9fdd516c444fadf1322ca5"
+    },
+    "history-012.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18abuxyhz,ZTF18adbbtpw,ZTF18adjsqek,ZTF18adngmsg",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:49+00:00",
+      "sha256_uncompressed": "476d93110dfb824d0bc1ead62f30569c61df57738aefc7585dc039b02b88727f"
+    },
+    "history-016.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF19aaaphdz,ZTF19aaimlso,ZTF19abuscub,ZTF21aagkens",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:51+00:00",
+      "sha256_uncompressed": "9dd063517fdc71e427e5cf79c4f15d1d7b442c720a4aa91c6540c166086fd875"
+    },
+    "history-020.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF21abkqzgr,ZTF22aboeziv,ZTF23aaepfuw,ZTF24aacldic",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:53+00:00",
+      "sha256_uncompressed": "87dcdc83ade15a36f6d88c4b4fdc0128765b5c82e0ad33d3d7b93844bfdf2a07"
+    },
+    "history-024.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF24aaelsdg,ZTF24aaezgzx,ZTF24aafskkk,ZTF24aaibcrw",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:55+00:00",
+      "sha256_uncompressed": "ae56345ced67357359f3933e1dbb8c6db50a3163cd2c822a5e8ae66d6c507ed9"
+    },
+    "history-028.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF24aaktwky,ZTF24aapvfub,ZTF24aaumqjp,ZTF24aazkypa",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:56+00:00",
+      "sha256_uncompressed": "0c240966dcdd29338e45ab5977d980a4f3fc5b3849feddd7790219e4a874305c"
+    },
+    "history-032.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF24abhibgl,ZTF24abilvns,ZTF24abkkbmk,ZTF24ablknoq",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:59+00:00",
+      "sha256_uncompressed": "58906922c112e6dadbd4bc800b9ba5166b365fe97908cf6cfee3ae9c8a57739d"
+    },
+    "retry-ZTF18aawmdpg.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF18aawmdpg",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:35:59+00:00",
+      "sha256_uncompressed": "15efe8cf3f6d698864cf52d02e0e05d0e91d7f125aabe5e558bb35b56d896814"
+    },
+    "retry-ZTF24aazkypa.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF24aazkypa",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:36:00+00:00",
+      "sha256_uncompressed": "79de36ecf9a7c85e4a21e7d1eab8180b52449bb02e3424e3cff1b22aef03c60e"
+    },
+    "retry-ZTF24ablknoq.json.gz": {
+      "url": "https://api.ztf.fink-portal.org/api/v1/objects",
+      "params": {
+        "objectId": "ZTF24ablknoq",
+        "columns": "i:objectId,i:candid,i:ra,i:dec,i:jd,i:drb,i:fid,i:magpsf,i:sigmapsf,i:isdiffpos,d:cdsxmatch,d:tns,i:jdstarthist",
+        "output-format": "json"
+      },
+      "method": "POST",
+      "retrieved_utc": "2026-11-26T06:36:00+00:00",
+      "sha256_uncompressed": "a45474f7189de9ff46cc5136f3914a46fad2c4e13e45a47d16d53c7a69d7f97f"
+    }
+  },
+  "anchors": [
+    [
+      "ZTF18abbtzhm",
+      "2557112223615010005"
+    ],
+    [
+      "ZTF17aabupib",
+      "2557113171115015015"
+    ],
+    [
+      "ZTF24aacldic",
+      "2571236300315015017"
+    ],
+    [
+      "ZTF17aabuoma",
+      "2587125086115015003"
+    ],
+    [
+      "ZTF18absoecr",
+      "2587125086115010001"
+    ],
+    [
+      "ZTF24aaelsdg",
+      "2598196340615015022"
+    ],
+    [
+      "ZTF18aaaxsnp",
+      "2616188031915015033"
+    ],
+    [
+      "ZTF18adbbtpw",
+      "2616188032515010035"
+    ],
+    [
+      "ZTF24aafskkk",
+      "2625176815415015015"
+    ],
+    [
+      "ZTF18aavllfm",
+      "2648477543815010063"
+    ],
+    [
+      "ZTF18aawmdpg",
+      "2648479431615015014"
+    ],
+    [
+      "ZTF24aaibcrw",
+      "2649288961415015008"
+    ],
+    [
+      "ZTF19aaaphdz",
+      "2677293790015010010"
+    ],
+    [
+      "ZTF24aaezgzx",
+      "2677321573415015015"
+    ],
+    [
+      "ZTF24aaktwky",
+      "2679193123415015001"
+    ],
+    [
+      "ZTF23aaepfuw",
+      "2708180531615010001"
+    ],
+    [
+      "ZTF21aagkens",
+      "2708210391715015002"
+    ],
+    [
+      "ZTF24aapvfub",
+      "2708213210015015005"
+    ],
+    [
+      "ZTF18adngmsg",
+      "2740360920915010013"
+    ],
+    [
+      "ZTF18abckrpd",
+      "2740428842215015027"
+    ],
+    [
+      "ZTF24aaumqjp",
+      "2744211951015015025"
+    ],
+    [
+      "ZTF18aazmglx",
+      "2770267404115010057"
+    ],
+    [
+      "ZTF18adjsqek",
+      "2770345391515015003"
+    ],
+    [
+      "ZTF24aazkypa",
+      "2775328021415015104"
+    ],
+    [
+      "ZTF19aaimlso",
+      "2801170113515010010"
+    ],
+    [
+      "ZTF19abuscub",
+      "2801485975315015027"
+    ],
+    [
+      "ZTF24abhibgl",
+      "2811460306115015015"
+    ],
+    [
+      "ZTF22aboeziv",
+      "2831247186015010011"
+    ],
+    [
+      "ZTF24abkkbmk",
+      "2831357962015015048"
+    ],
+    [
+      "ZTF24abilvns",
+      "2842318332215015008"
+    ],
+    [
+      "ZTF18abuxyhz",
+      "2861380605915015001"
+    ],
+    [
+      "ZTF24ablknoq",
+      "2862434360415015013"
+    ],
+    [
+      "ZTF18aazeobb",
+      "2864119246215010033"
+    ],
+    [
+      "ZTF17aabunmx",
+      "2891303962515015001"
+    ],
+    [
+      "ZTF21abkqzgr",
+      "2892099120315010004"
+    ],
+    [
+      "ZTF18aaaalzj",
+      "2892412583615015022"
+    ]
+  ]
+}

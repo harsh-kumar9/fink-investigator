@@ -18,15 +18,25 @@ The first three rows have label-blind routing rules. The fourth has a separate c
 
 ## Resume the 2025 queue
 
-The fourth round recovered MGAB-V488’s December 2013 eruption and measured the color and late light of AT 2025iac. There are 56 unique eligible positions left. Pass all five reviewed packets to take the next three while preserving the original route ranks. [Fourth-round findings](experiments/compass-2025/batch-4/README.md) · [Current queue](experiments/compass-2025/batch-4/results/report.md)
+The fifth round used the final eligible recent-onset source in the 2025 sample. **53 unique positions remain** on the recurrent and fading routes. The independent 2024 search added a fresh year with ten eligible positions left after its first packet. The two commands below advance the respective queues and preserve their original ranks. [Fifth-round findings](experiments/compass-2025/batch-5/README.md) · [2025 queue](experiments/compass-2025/batch-5/results/report.md) · [2024 findings and queue](experiments/compass-2024/README.md)
 
 ```sh
 base=experiments/compass-2025
-python3 compass.py --snapshot "$base/snapshot" --out runs/compass-2025-batch-5 \
+python3 compass.py --snapshot "$base/snapshot" --out runs/compass-2025-batch-6 \
   --reviewed-packet "$base/results/packet.json" --reviewed-packet "$base/astrometry/packet.json" \
   --reviewed-packet "$base/batch-2/results/packet.json" --reviewed-packet "$base/batch-3/results/packet.json" \
-  --reviewed-packet "$base/batch-4/results/packet.json"
+  --reviewed-packet "$base/batch-4/results/packet.json" --reviewed-packet "$base/batch-5/results/packet.json"
+
+other=experiments/compass-2024
+python3 compass.py --snapshot "$other/snapshot" --out runs/compass-2024-batch-2 \
+  --exclude-ledger "$base/results/ledger.json" --reviewed-packet "$other/results/packet.json"
 ```
+
+Three checks from the fifth round travel to other sources.
+
+* **Separate a peak sequence from a lasting clock.** Measure intervening faint returns and compare peak strengths in the same filter. Try the same rule in independent seasons. For a coarse-pixel telescope, localize the variable signal on difference images and shift the time series as a control. [MGAB-V960 with ZTF and TESS](experiments/compass-2025/batch-5/variables/README.md)
+* **Resolve the host before interpreting a faint pre-event source.** Center the event on a registered deep image, propagate reference-star positions to the image epoch and measure offset positions on equally bright host structure. State the aperture and local depth. [Subaru, DECam and Hubble at SN 2025xza](experiments/compass-2025/batch-5/images/host/hst/README.md)
+* **Count how many standards and comparison objects actually survive.** A sparse field can require a wider stellar calibration on the same detector. A bright comparison panel can still have zero usable late baselines. Preserve those counts when reporting the result of a relaxed check. [Original image measurements and Type II panel](experiments/compass-2025/batch-5/README.md#four-months-of-red-light-from-sn-2025xza)
 
 Two tests from the fourth round apply to other sources.
 
@@ -41,16 +51,17 @@ Earlier rounds added these checks.
 
 ## Run another year
 
-Run these commands from the repository root with Python 3.10 or newer and curl. The queue and catalog replay use the standard library. The deeper image and time-series checks list their scientific Python dependencies in the batch reports. The optional figures use Matplotlib. The 2024 commands below are an example for a different year; the checked-in wide search is 2025.
+Run these commands from the repository root with Python 3.10 or newer and curl. The queue and catalog replay use the standard library. The deeper image and time-series checks list their scientific Python dependencies in the batch reports. The optional figures use Matplotlib. The example below starts a new 2023 search. The checked-in cohorts cover 2025 and 2024.
 
 ```sh
 make verify
 make verify-compass
 
-run=runs/compass-2024
-python3 compass_archive.py fetch --year 2024 --snapshot "$run/snapshot"
+run=runs/compass-2023
+python3 compass_archive.py fetch --year 2023 --snapshot "$run/snapshot"
 python3 compass.py --snapshot "$run/snapshot" --out "$run/results" \
-  --exclude-ledger experiments/compass-2025/results/ledger.json
+  --exclude-ledger experiments/compass-2025/results/ledger.json \
+  --exclude-ledger experiments/compass-2024/results/ledger.json
 python3 agents/review.py plan --packet "$run/results/packet.json" --limit 3
 python3 compass_direct.py --snapshot "$run/snapshot" --ledger "$run/results/ledger.json" \
   --sources "$run/direct" --out "$run/results/direct.json" --fetch

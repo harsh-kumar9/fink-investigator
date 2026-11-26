@@ -1,0 +1,337 @@
+{
+  "inventory": 1489,
+  "eligible": {
+    "before": 71,
+    "dec": 6,
+    "winter": 1,
+    "post": 0,
+    "apr_may": 0,
+    "jun_jul": 0,
+    "aug_sep": 0,
+    "oct_nov": 0
+  },
+  "controls": {
+    "0,12": [
+      39.4938772,
+      -1.8464527666666666
+    ],
+    "0,-12": [
+      39.4938772,
+      -1.8531194333333334
+    ],
+    "12,0": [
+      39.497212271274854,
+      -1.8497861
+    ],
+    "-12,0": [
+      39.490542128725146,
+      -1.8497861
+    ],
+    "0,24": [
+      39.4938772,
+      -1.8431194333333334
+    ],
+    "0,-24": [
+      39.4938772,
+      -1.8564527666666666
+    ],
+    "24,0": [
+      39.500547342549716,
+      -1.8497861
+    ],
+    "-24,0": [
+      39.487207057450284,
+      -1.8497861
+    ]
+  },
+  "measurements": [
+    {
+      "window": "before",
+      "date": "2023-09-05",
+      "pid": "2438457293415",
+      "mjd": 60192.457291699946,
+      "seeing": 1.67005,
+      "field": 401,
+      "limit": 20.459101,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2023-09-24",
+      "pid": "2457453783415",
+      "mjd": 60211.45378470002,
+      "seeing": 2.00215,
+      "field": 401,
+      "limit": 21.007601,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2023-10-16",
+      "pid": "2479421273415",
+      "mjd": 60233.42127310019,
+      "seeing": 1.99172,
+      "field": 401,
+      "limit": 20.698,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2023-11-11",
+      "pid": "2505289683415",
+      "mjd": 60259.28968749987,
+      "seeing": 3.14974,
+      "field": 401,
+      "limit": 20.190901,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2024-02-13",
+      "pid": "2599122693415",
+      "mjd": 60353.12269680016,
+      "seeing": 2.47691,
+      "field": 401,
+      "limit": 20.1619,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2024-10-13",
+      "pid": "2842352883415",
+      "mjd": 60596.352881900035,
+      "seeing": 1.57044,
+      "field": 401,
+      "limit": 20.728701,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2024-11-04",
+      "pid": "2864314143415",
+      "mjd": 60618.314143499825,
+      "seeing": 3.15443,
+      "field": 401,
+      "limit": 20.091,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2024-11-29",
+      "pid": "2889234843415",
+      "mjd": 60643.234849500004,
+      "seeing": 2.31919,
+      "field": 401,
+      "limit": 20.057301,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2024-12-09",
+      "pid": "2899233533415",
+      "mjd": 60653.23353009997,
+      "seeing": 2.49403,
+      "field": 401,
+      "limit": 20.196199,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2025-01-04",
+      "pid": "2925150163415",
+      "mjd": 60679.15016200021,
+      "seeing": 2.33148,
+      "field": 401,
+      "limit": 20.483601,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2025-08-22",
+      "pid": "3155395423415",
+      "mjd": 60909.39542819979,
+      "seeing": 1.48778,
+      "field": 401,
+      "limit": 20.851,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "before",
+      "date": "2025-08-31",
+      "pid": "3164389563415",
+      "mjd": 60918.38956019981,
+      "seeing": 1.91116,
+      "field": 401,
+      "limit": 20.746901,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "dec",
+      "date": "2025-12-08",
+      "pid": "3263232613415",
+      "mjd": 61017.23261569999,
+      "seeing": 1.73227,
+      "field": 401,
+      "limit": 20.6033,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "dec",
+      "date": "2025-12-12",
+      "pid": "3267199993415",
+      "mjd": 61021.200000000186,
+      "seeing": 2.09907,
+      "field": 401,
+      "limit": 20.6322,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "dec",
+      "date": "2025-12-16",
+      "pid": "3271236153415",
+      "mjd": 61025.23615740007,
+      "seeing": 2.39359,
+      "field": 401,
+      "limit": 20.3806,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "dec",
+      "date": "2025-12-18",
+      "pid": "3273148873415",
+      "mjd": 61027.14887729986,
+      "seeing": 2.11508,
+      "field": 401,
+      "limit": 20.491699,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "dec",
+      "date": "2025-12-20",
+      "pid": "3275148213415",
+      "mjd": 61029.14821759984,
+      "seeing": 2.25832,
+      "field": 401,
+      "limit": 20.5609,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "dec",
+      "date": "2025-12-22",
+      "pid": "3277147813415",
+      "mjd": 61031.14781250013,
+      "seeing": 1.38507,
+      "field": 401,
+      "limit": 20.9485,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    },
+    {
+      "window": "winter",
+      "date": "2026-01-15",
+      "pid": "3301125283415",
+      "mjd": 61055.12528940011,
+      "seeing": 2.32178,
+      "field": 401,
+      "limit": 20.4074,
+      "status": "insufficient usable target or standards",
+      "standards": 0
+    }
+  ],
+  "comparisons": {
+    "dec": {
+      "nightly": [],
+      "all": {
+        "baseline": null,
+        "window": null
+      },
+      "matched": {
+        "baseline": null,
+        "window": null
+      }
+    },
+    "winter": {
+      "nightly": [],
+      "all": {
+        "baseline": null,
+        "window": null
+      },
+      "matched": {
+        "baseline": null,
+        "window": null
+      }
+    },
+    "post": {
+      "nightly": [],
+      "all": {
+        "baseline": null,
+        "window": null
+      },
+      "matched": {
+        "baseline": null,
+        "window": null
+      }
+    },
+    "apr_may": {
+      "nightly": [],
+      "all": {
+        "baseline": null,
+        "window": null
+      },
+      "matched": {
+        "baseline": null,
+        "window": null
+      }
+    },
+    "jun_jul": {
+      "nightly": [],
+      "all": {
+        "baseline": null,
+        "window": null
+      },
+      "matched": {
+        "baseline": null,
+        "window": null
+      }
+    },
+    "aug_sep": {
+      "nightly": [],
+      "all": {
+        "baseline": null,
+        "window": null
+      },
+      "matched": {
+        "baseline": null,
+        "window": null
+      }
+    },
+    "oct_nov": {
+      "nightly": [],
+      "all": {
+        "baseline": null,
+        "window": null
+      },
+      "matched": {
+        "baseline": null,
+        "window": null
+      }
+    }
+  }
+}

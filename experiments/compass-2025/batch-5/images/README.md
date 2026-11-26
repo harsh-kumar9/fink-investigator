@@ -1,0 +1,13 @@
+# Locating the fifth packet’s three sources
+
+**ZTF25absffwy.** The September 20 and 22 red science images show a new peak well south of the bright galaxy nucleus. Both difference images contain a compact positive residual at the transient’s position. A visibly separate dipole sits on the nucleus. These are the two red alert nights at or before the anchor. The nearest Gaia entry is 20.68″ away, at the galaxy nucleus. The Subaru and DECam pre-event images resolve the field as the barred spiral NGC 1037 and show a weak local light peak close to the transient. [ZTF images](ZTF25absffwy/montage.png) · [Deep-image field test](host/README.md) · [Hubble pre-event limits](host/hst/README.md)
+
+**ZTF18abcckqd.** Green images show a central positive residual on November 4, 2019 and negative residuals on August 28, 2022 and September 21, 2025. The images have separate subtraction structure near brighter neighbors. Proper-motion-corrected Gaia DR3 2181713128604659072 (G = 18.98) lies 0.065″ from the anchor. The median source separations are 0.096″ across 133 positive dates and 0.124″ across 159 negative dates. The next Gaia entry is 5.11″ away. Matched opposite-sign pairs in green have a 0.135″ training shift and a 0.123″ projection along that direction over 26 later held-out pairs, below the cohort’s selection threshold. This small sign dependence limits the precision of a component-level identification. The measurements favor variability close to the Gaia position. [Triplets](ZTF18abcckqd/montage.png) · [Matched-pair screen](../../astrometry/results.json)
+
+**ZTF17aaaoxxi.** Positive red residuals appear at the same position in November 2019, October 2023 and October 2025. A vertical feature in the 2019 visit falls to the side of the central residual and is absent at the later visits. The proper-motion-corrected coordinates of Gaia DR3 3158240365020879104 (G = 19.74) are 0.072″ from the anchor and a median 0.078″ away across 110 positive dates. The nearest other Gaia source is 8.48″ from the anchor. These checks associate the events with the same sky source. Their timing and total flux are needed to establish individual eruptions. [Triplets](ZTF17aaaoxxi/montage.png) · [Gaia results](results.json)
+
+The broker stretches each thumbnail independently. Signs and dates come from the alert packet. The three 60″ Gaia cones returned 87, 4 and 38 rows for the fading, onset and recurrent sources, respectively. None triggered the registered moving-star test. Replay all eight archived dated triplets and Gaia cones from the repository root. [Blind assessments](../skeptic.md) · [Measured positions](results.json)
+
+```sh
+python3 experiments/compass-2025/batch-2/images/replay.py --batch experiments/compass-2025/batch-5
+```

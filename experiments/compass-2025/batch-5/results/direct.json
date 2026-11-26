@@ -1,0 +1,187 @@
+{
+  "ZTF18abcckqd": {
+    "route": "fading",
+    "cone_series": 6,
+    "chosen_series": {
+      "1": {
+        "oid": "800101100031872",
+        "ra": "307.1168182",
+        "dec": "52.1020871",
+        "field": "800",
+        "ccdid": "1",
+        "qid": "1",
+        "fid": "1",
+        "nobs": "559",
+        "separation_arcsec": 0.102964
+      },
+      "2": {
+        "oid": "800201100036737",
+        "ra": "307.1168211",
+        "dec": "52.1020957",
+        "field": "800",
+        "ccdid": "1",
+        "qid": "1",
+        "fid": "2",
+        "nobs": "767",
+        "separation_arcsec": 0.130601
+      }
+    },
+    "bands": {
+      "g": {
+        "before_or_at_anchor_dates": 456,
+        "later_dates": 6,
+        "last_quality_date": "2025-10-19",
+        "off_alert": {
+          "dates": 300,
+          "median_mag": 19.28154185
+        },
+        "positive": {
+          "dates": 83,
+          "median_mag": 18.6077538
+        },
+        "negative": {
+          "dates": 73,
+          "median_mag": 20.9704895
+        },
+        "negative_minus_positive_mag": 2.3627
+      },
+      "r": {
+        "before_or_at_anchor_dates": 480,
+        "later_dates": 8,
+        "last_quality_date": "2025-10-21",
+        "off_alert": {
+          "dates": 357,
+          "median_mag": 19.4078674
+        },
+        "positive": {
+          "dates": 108,
+          "median_mag": 18.526044825
+        },
+        "negative": {
+          "dates": 15,
+          "median_mag": 21.0173454
+        },
+        "negative_minus_positive_mag": 2.4913
+      }
+    }
+  },
+  "ZTF25absffwy": {
+    "route": "onset",
+    "cone_series": 0,
+    "chosen_series": {},
+    "bands": {
+      "g": {
+        "before_or_at_anchor_dates": 0,
+        "later_dates": 0,
+        "last_quality_date": null,
+        "off_alert": {
+          "dates": 0,
+          "median_mag": null
+        },
+        "baseline": {
+          "dates": 0,
+          "median_mag": null
+        },
+        "event": {
+          "dates": 0,
+          "median_mag": null
+        },
+        "baseline_minus_event_mag": null
+      },
+      "r": {
+        "before_or_at_anchor_dates": 0,
+        "later_dates": 0,
+        "last_quality_date": null,
+        "off_alert": {
+          "dates": 0,
+          "median_mag": null
+        },
+        "baseline": {
+          "dates": 0,
+          "median_mag": null
+        },
+        "event": {
+          "dates": 0,
+          "median_mag": null
+        },
+        "baseline_minus_event_mag": null
+      }
+    }
+  },
+  "ZTF17aaaoxxi": {
+    "route": "recurrent",
+    "cone_series": 4,
+    "chosen_series": {
+      "2": {
+        "oid": "513201200018670",
+        "ra": "102.2581851",
+        "dec": "8.9957487",
+        "field": "513",
+        "ccdid": "1",
+        "qid": "2",
+        "fid": "2",
+        "nobs": "847",
+        "separation_arcsec": 0.21111
+      },
+      "1": {
+        "oid": "513101200017403",
+        "ra": "102.2581538",
+        "dec": "8.9956983",
+        "field": "513",
+        "ccdid": "1",
+        "qid": "2",
+        "fid": "1",
+        "nobs": "249",
+        "separation_arcsec": 0.038455
+      }
+    },
+    "bands": {
+      "g": {
+        "before_or_at_anchor_dates": 224,
+        "later_dates": 1,
+        "last_quality_date": "2025-10-20",
+        "off_alert": {
+          "dates": 168,
+          "median_mag": 20.312933
+        },
+        "early": {
+          "dates": 4,
+          "median_mag": 19.0077343
+        },
+        "late": {
+          "dates": 3,
+          "median_mag": 19.5529289
+        },
+        "outside": {
+          "dates": 217,
+          "median_mag": 20.0430298
+        },
+        "outside_minus_early_mag": 1.0353,
+        "outside_minus_late_mag": 0.4901
+      },
+      "r": {
+        "before_or_at_anchor_dates": 362,
+        "later_dates": 2,
+        "last_quality_date": "2025-10-20",
+        "off_alert": {
+          "dates": 272,
+          "median_mag": 19.73182775
+        },
+        "early": {
+          "dates": 4,
+          "median_mag": 18.51698495
+        },
+        "late": {
+          "dates": 3,
+          "median_mag": 19.2327938
+        },
+        "outside": {
+          "dates": 355,
+          "median_mag": 19.5191422
+        },
+        "outside_minus_early_mag": 1.0022,
+        "outside_minus_late_mag": 0.2863
+      }
+    }
+  }
+}

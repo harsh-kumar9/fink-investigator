@@ -1,0 +1,18 @@
+{
+  "url": "https://mast.stsci.edu/tesscut/api/v0.1/astrocut?ra=307.1167854&dec=52.1020668&x=9&y=9&units=px&sector=15",
+  "retrieved_utc": "2026-11-26T06:40:37+00:00",
+  "sector": 15,
+  "camera": 2,
+  "ccd": 4,
+  "fits_name": "tess-s0015-2-4_307.116785_52.102067_9x9_astrocut.fits",
+  "fits_sha256": "ad28e9bf4dfda154798af275e9c55f054a0d05f918e8dffb6bdfe17f8a04f272",
+  "cube_sha256": "2e4f971b6d32cfc9736de376ce426e2fe6cf93ac4b2e6d42b00c5a6ad45887ea",
+  "target_xy": [
+    4.104613229217707,
+    4.387610822055093
+  ],
+  "all_cadences": 1197,
+  "retained": 1190,
+  "first_bjd": 2458711.387939453,
+  "last_bjd": 2458737.3881835938
+}

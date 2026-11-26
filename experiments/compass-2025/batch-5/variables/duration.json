@@ -1,0 +1,4110 @@
+{
+  "ZTF17aaaoxxi": {
+    "levels": {
+      "g": 20.79002764,
+      "r": 20.12174798
+    },
+    "asas_cone": [
+      {
+        "asas_sn_id": 661428735436,
+        "ra_deg": 102.25818000000001,
+        "dec_deg": 8.99571,
+        "catalog_sources": [
+          "aavsovsx"
+        ],
+        "__index_level_0__": 0,
+        "separation_arcsec": 0.08171
+      }
+    ],
+    "asas_nights": 0,
+    "common_g_nights": 0,
+    "common_g_rho": null,
+    "tests": {
+      "primary": {
+        "bright_cut": 1.5,
+        "gap": 5,
+        "total_groups": 44,
+        "long": 4,
+        "short": 0,
+        "conflicted_dates": [],
+        "groups": [
+          {
+            "dates": [
+              "2018-10-06"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2018-10-06",
+            "last": "2018-10-06",
+            "previous_faint": "2018-09-29",
+            "next_faint": "2018-11-03",
+            "lower_days": 0,
+            "upper_days": 35,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-12-19",
+              "2018-12-20"
+            ],
+            "bright_bands": [
+              "r",
+              "gr"
+            ],
+            "first": "2018-12-19",
+            "last": "2018-12-20",
+            "previous_faint": "2018-12-16",
+            "next_faint": "2019-01-10",
+            "lower_days": 1,
+            "upper_days": 25,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-12-28",
+              "2018-12-29",
+              "2018-12-30",
+              "2018-12-31",
+              "2019-01-03",
+              "2019-01-04",
+              "2019-01-05"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "g",
+              "r",
+              "r",
+              "g",
+              "g"
+            ],
+            "first": "2018-12-28",
+            "last": "2019-01-05",
+            "previous_faint": "2018-12-16",
+            "next_faint": "2019-01-10",
+            "lower_days": 8,
+            "upper_days": 25,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-02-20",
+              "2019-02-25"
+            ],
+            "bright_bands": [
+              "g",
+              "gr"
+            ],
+            "first": "2019-02-20",
+            "last": "2019-02-25",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 5,
+            "upper_days": 322,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-04-08",
+              "2019-04-09",
+              "2019-04-13",
+              "2019-04-14",
+              "2019-04-15",
+              "2019-04-16",
+              "2019-04-20",
+              "2019-04-21"
+            ],
+            "bright_bands": [
+              "g",
+              "r",
+              "gr",
+              "g",
+              "r",
+              "r",
+              "r",
+              "g"
+            ],
+            "first": "2019-04-08",
+            "last": "2019-04-21",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 13,
+            "upper_days": 322,
+            "kind": "long",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2019-08-28",
+              "2019-08-31"
+            ],
+            "bright_bands": [
+              "g",
+              "gr"
+            ],
+            "first": "2019-08-28",
+            "last": "2019-08-31",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 3,
+            "upper_days": 322,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-09-07",
+              "2019-09-10"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2019-09-07",
+            "last": "2019-09-10",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 3,
+            "upper_days": 322,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-10-21",
+              "2019-10-25",
+              "2019-10-28"
+            ],
+            "bright_bands": [
+              "gr",
+              "r",
+              "g"
+            ],
+            "first": "2019-10-21",
+            "last": "2019-10-28",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 7,
+            "upper_days": 322,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-11-09"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2019-11-09",
+            "last": "2019-11-09",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 0,
+            "upper_days": 322,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-11-18",
+              "2019-11-19"
+            ],
+            "bright_bands": [
+              "gr",
+              "g"
+            ],
+            "first": "2019-11-18",
+            "last": "2019-11-19",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 1,
+            "upper_days": 322,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-12-10"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2019-12-10",
+            "last": "2019-12-10",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 0,
+            "upper_days": 322,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-12-16",
+              "2019-12-19"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2019-12-16",
+            "last": "2019-12-19",
+            "previous_faint": "2019-02-10",
+            "next_faint": "2019-12-29",
+            "lower_days": 3,
+            "upper_days": 322,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-08-20",
+              "2020-08-22"
+            ],
+            "bright_bands": [
+              "r",
+              "r"
+            ],
+            "first": "2020-08-20",
+            "last": "2020-08-22",
+            "previous_faint": "2020-04-17",
+            "next_faint": "2020-09-26",
+            "lower_days": 2,
+            "upper_days": 162,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-10-02",
+              "2020-10-04",
+              "2020-10-06"
+            ],
+            "bright_bands": [
+              "gr",
+              "r",
+              "r"
+            ],
+            "first": "2020-10-02",
+            "last": "2020-10-06",
+            "previous_faint": "2020-09-26",
+            "next_faint": "2020-10-15",
+            "lower_days": 4,
+            "upper_days": 19,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-11-12",
+              "2020-11-14",
+              "2020-11-16",
+              "2020-11-18",
+              "2020-11-21",
+              "2020-11-23",
+              "2020-11-25",
+              "2020-11-27"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr",
+              "g",
+              "r",
+              "gr",
+              "g",
+              "gr"
+            ],
+            "first": "2020-11-12",
+            "last": "2020-11-27",
+            "previous_faint": "2020-10-23",
+            "next_faint": "2020-12-06",
+            "lower_days": 15,
+            "upper_days": 44,
+            "kind": "long",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2021-03-07"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2021-03-07",
+            "last": "2021-03-07",
+            "previous_faint": "2021-03-02",
+            "next_faint": "2021-03-19",
+            "lower_days": 0,
+            "upper_days": 17,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-05-11"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2021-05-11",
+            "last": "2021-05-11",
+            "previous_faint": "2021-04-24",
+            "next_faint": "2021-08-20",
+            "lower_days": 0,
+            "upper_days": 118,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-04-02",
+              "2022-04-05",
+              "2022-04-07"
+            ],
+            "bright_bands": [
+              "gr",
+              "r",
+              "gr"
+            ],
+            "first": "2022-04-02",
+            "last": "2022-04-07",
+            "previous_faint": "2022-03-02",
+            "next_faint": "2022-04-24",
+            "lower_days": 5,
+            "upper_days": 53,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-09-07"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2022-09-07",
+            "last": "2022-09-07",
+            "previous_faint": "2022-04-24",
+            "next_faint": "2022-09-25",
+            "lower_days": 0,
+            "upper_days": 154,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-11-25",
+              "2022-11-27",
+              "2022-12-01"
+            ],
+            "bright_bands": [
+              "gr",
+              "r",
+              "r"
+            ],
+            "first": "2022-11-25",
+            "last": "2022-12-01",
+            "previous_faint": "2022-11-22",
+            "next_faint": "2022-12-15",
+            "lower_days": 6,
+            "upper_days": 23,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-02-12"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2023-02-12",
+            "last": "2023-02-12",
+            "previous_faint": "2023-01-27",
+            "next_faint": "2023-03-27",
+            "lower_days": 0,
+            "upper_days": 59,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-02-18"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2023-02-18",
+            "last": "2023-02-18",
+            "previous_faint": "2023-01-27",
+            "next_faint": "2023-03-27",
+            "lower_days": 0,
+            "upper_days": 59,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-03-10"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-03-10",
+            "last": "2023-03-10",
+            "previous_faint": "2023-01-27",
+            "next_faint": "2023-03-27",
+            "lower_days": 0,
+            "upper_days": 59,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-04-09",
+              "2023-04-11"
+            ],
+            "bright_bands": [
+              "g",
+              "r"
+            ],
+            "first": "2023-04-09",
+            "last": "2023-04-11",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 2,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-09-18",
+              "2023-09-20",
+              "2023-09-24",
+              "2023-09-27"
+            ],
+            "bright_bands": [
+              "g",
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2023-09-18",
+            "last": "2023-09-27",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 9,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-10-03",
+              "2023-10-07",
+              "2023-10-12",
+              "2023-10-15",
+              "2023-10-17",
+              "2023-10-19"
+            ],
+            "bright_bands": [
+              "r",
+              "gr",
+              "r",
+              "g",
+              "g",
+              "g"
+            ],
+            "first": "2023-10-03",
+            "last": "2023-10-19",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 16,
+            "upper_days": 528,
+            "kind": "long",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2023-11-04",
+              "2023-11-06",
+              "2023-11-10",
+              "2023-11-12",
+              "2023-11-14"
+            ],
+            "bright_bands": [
+              "gr",
+              "r",
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2023-11-04",
+            "last": "2023-11-14",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 10,
+            "upper_days": 528,
+            "kind": "long",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2023-12-13"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-12-13",
+            "last": "2023-12-13",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 0,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-12-30"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2023-12-30",
+            "last": "2023-12-30",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 0,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-01-05"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2024-01-05",
+            "last": "2024-01-05",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 0,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-01-12",
+              "2024-01-15",
+              "2024-01-17"
+            ],
+            "bright_bands": [
+              "g",
+              "gr",
+              "gr"
+            ],
+            "first": "2024-01-12",
+            "last": "2024-01-17",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 5,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-01-25",
+              "2024-01-30",
+              "2024-02-01"
+            ],
+            "bright_bands": [
+              "r",
+              "gr",
+              "gr"
+            ],
+            "first": "2024-01-25",
+            "last": "2024-02-01",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 7,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-02-12",
+              "2024-02-14",
+              "2024-02-17"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "g"
+            ],
+            "first": "2024-02-12",
+            "last": "2024-02-17",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 5,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-03-09"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2024-03-09",
+            "last": "2024-03-09",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 0,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-03-23",
+              "2024-03-28"
+            ],
+            "bright_bands": [
+              "g",
+              "gr"
+            ],
+            "first": "2024-03-23",
+            "last": "2024-03-28",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 5,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-04-03",
+              "2024-04-07"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2024-04-03",
+            "last": "2024-04-07",
+            "previous_faint": "2023-04-02",
+            "next_faint": "2024-09-11",
+            "lower_days": 4,
+            "upper_days": 528,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-12-29",
+              "2024-12-31",
+              "2025-01-02"
+            ],
+            "bright_bands": [
+              "gr",
+              "g",
+              "gr"
+            ],
+            "first": "2024-12-29",
+            "last": "2025-01-02",
+            "previous_faint": "2024-12-20",
+            "next_faint": "2025-04-06",
+            "lower_days": 4,
+            "upper_days": 107,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-01-31"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2025-01-31",
+            "last": "2025-01-31",
+            "previous_faint": "2024-12-20",
+            "next_faint": "2025-04-06",
+            "lower_days": 0,
+            "upper_days": 107,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-02-08"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2025-02-08",
+            "last": "2025-02-08",
+            "previous_faint": "2024-12-20",
+            "next_faint": "2025-04-06",
+            "lower_days": 0,
+            "upper_days": 107,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-03-17",
+              "2025-03-22",
+              "2025-03-24"
+            ],
+            "bright_bands": [
+              "r",
+              "gr",
+              "gr"
+            ],
+            "first": "2025-03-17",
+            "last": "2025-03-24",
+            "previous_faint": "2024-12-20",
+            "next_faint": "2025-04-06",
+            "lower_days": 7,
+            "upper_days": 107,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-04-08",
+              "2025-04-10"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2025-04-08",
+            "last": "2025-04-10",
+            "previous_faint": "2025-04-06",
+            "next_faint": "2025-09-14",
+            "lower_days": 2,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-04-16"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2025-04-16",
+            "last": "2025-04-16",
+            "previous_faint": "2025-04-06",
+            "next_faint": "2025-09-14",
+            "lower_days": 0,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-08-22",
+              "2025-08-23",
+              "2025-08-25",
+              "2025-08-26"
+            ],
+            "bright_bands": [
+              "r",
+              "r",
+              "r",
+              "r"
+            ],
+            "first": "2025-08-22",
+            "last": "2025-08-26",
+            "previous_faint": "2025-04-06",
+            "next_faint": "2025-09-14",
+            "lower_days": 4,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-10-04",
+              "2025-10-06",
+              "2025-10-08"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2025-10-04",
+            "last": "2025-10-08",
+            "previous_faint": "2025-09-30",
+            "next_faint": null,
+            "lower_days": 4,
+            "upper_days": null,
+            "kind": "unresolved"
+          }
+        ]
+      },
+      "shallow": {
+        "bright_cut": 1.25,
+        "gap": 5,
+        "total_groups": 53,
+        "long": 5,
+        "short": 0,
+        "conflicted_dates": [],
+        "examples": [
+          {
+            "first": "2018-12-28",
+            "last": "2019-01-08",
+            "lower_days": 11,
+            "upper_days": 25,
+            "kind": "long"
+          },
+          {
+            "first": "2019-04-08",
+            "last": "2019-04-21",
+            "lower_days": 13,
+            "upper_days": 322,
+            "kind": "long"
+          },
+          {
+            "first": "2020-11-12",
+            "last": "2020-11-29",
+            "lower_days": 17,
+            "upper_days": 44,
+            "kind": "long"
+          },
+          {
+            "first": "2023-10-03",
+            "last": "2023-10-21",
+            "lower_days": 18,
+            "upper_days": 528,
+            "kind": "long"
+          },
+          {
+            "first": "2023-11-04",
+            "last": "2023-11-14",
+            "lower_days": 10,
+            "upper_days": 528,
+            "kind": "long"
+          }
+        ]
+      },
+      "deep": {
+        "bright_cut": 1.75,
+        "gap": 5,
+        "total_groups": 43,
+        "long": 2,
+        "short": 0,
+        "conflicted_dates": [],
+        "examples": [
+          {
+            "first": "2020-11-12",
+            "last": "2020-11-27",
+            "lower_days": 15,
+            "upper_days": 44,
+            "kind": "long"
+          },
+          {
+            "first": "2023-11-04",
+            "last": "2023-11-14",
+            "lower_days": 10,
+            "upper_days": 528,
+            "kind": "long"
+          }
+        ]
+      },
+      "tight_gap": {
+        "bright_cut": 1.5,
+        "gap": 4,
+        "total_groups": 49,
+        "long": 3,
+        "short": 0,
+        "conflicted_dates": [],
+        "examples": [
+          {
+            "first": "2019-04-08",
+            "last": "2019-04-21",
+            "lower_days": 13,
+            "upper_days": 322,
+            "kind": "long"
+          },
+          {
+            "first": "2020-11-12",
+            "last": "2020-11-27",
+            "lower_days": 15,
+            "upper_days": 44,
+            "kind": "long"
+          },
+          {
+            "first": "2023-11-04",
+            "last": "2023-11-14",
+            "lower_days": 10,
+            "upper_days": 528,
+            "kind": "long"
+          }
+        ]
+      }
+    }
+  },
+  "ZTF18abcckqd": {
+    "levels": {
+      "g": 20.5491886,
+      "r": 20.47794078
+    },
+    "asas_cone": [
+      {
+        "asas_sn_id": 661428925966,
+        "ra_deg": 307.1168,
+        "dec_deg": 52.10207,
+        "catalog_sources": [
+          "aavsovsx"
+        ],
+        "__index_level_0__": 0,
+        "separation_arcsec": 0.03428
+      }
+    ],
+    "asas_nights": 664,
+    "common_g_nights": 152,
+    "common_g_rho": 0.28737,
+    "tests": {
+      "primary": {
+        "bright_cut": 1.5,
+        "gap": 5,
+        "total_groups": 152,
+        "long": 0,
+        "short": 13,
+        "conflicted_dates": [],
+        "groups": [
+          {
+            "dates": [
+              "2018-04-02"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2018-04-02",
+            "last": "2018-04-02",
+            "previous_faint": null,
+            "next_faint": "2018-04-26",
+            "lower_days": 0,
+            "upper_days": null,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-04-20",
+              "2018-04-23"
+            ],
+            "bright_bands": [
+              "g",
+              "g"
+            ],
+            "first": "2018-04-20",
+            "last": "2018-04-23",
+            "previous_faint": null,
+            "next_faint": "2018-04-26",
+            "lower_days": 3,
+            "upper_days": null,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-05-28"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2018-05-28",
+            "last": "2018-05-28",
+            "previous_faint": "2018-05-23",
+            "next_faint": "2018-06-09",
+            "lower_days": 0,
+            "upper_days": 17,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-06-05"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2018-06-05",
+            "last": "2018-06-05",
+            "previous_faint": "2018-05-23",
+            "next_faint": "2018-06-09",
+            "lower_days": 0,
+            "upper_days": 17,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-06-12"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2018-06-12",
+            "last": "2018-06-12",
+            "previous_faint": "2018-06-09",
+            "next_faint": "2018-06-18",
+            "lower_days": 0,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-06-30",
+              "2018-07-03"
+            ],
+            "bright_bands": [
+              "gr",
+              "g"
+            ],
+            "first": "2018-06-30",
+            "last": "2018-07-03",
+            "previous_faint": "2018-06-21",
+            "next_faint": "2018-07-06",
+            "lower_days": 3,
+            "upper_days": 15,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-07-18",
+              "2018-07-21"
+            ],
+            "bright_bands": [
+              "gr",
+              "g"
+            ],
+            "first": "2018-07-18",
+            "last": "2018-07-21",
+            "previous_faint": "2018-07-06",
+            "next_faint": "2018-08-15",
+            "lower_days": 3,
+            "upper_days": 40,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-08-12"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2018-08-12",
+            "last": "2018-08-12",
+            "previous_faint": "2018-07-06",
+            "next_faint": "2018-08-15",
+            "lower_days": 0,
+            "upper_days": 40,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-08-21",
+              "2018-08-24"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2018-08-21",
+            "last": "2018-08-24",
+            "previous_faint": "2018-08-15",
+            "next_faint": "2018-08-30",
+            "lower_days": 3,
+            "upper_days": 15,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-09-02"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2018-09-02",
+            "last": "2018-09-02",
+            "previous_faint": "2018-08-30",
+            "next_faint": "2018-09-05",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2018-09-08"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2018-09-08",
+            "last": "2018-09-08",
+            "previous_faint": "2018-09-05",
+            "next_faint": "2018-09-11",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2018-09-23",
+              "2018-09-26"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2018-09-23",
+            "last": "2018-09-26",
+            "previous_faint": "2018-09-17",
+            "next_faint": "2018-09-29",
+            "lower_days": 3,
+            "upper_days": 12,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-11-01"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2018-11-01",
+            "last": "2018-11-01",
+            "previous_faint": "2018-10-09",
+            "next_faint": "2018-11-07",
+            "lower_days": 0,
+            "upper_days": 29,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-11-19",
+              "2018-11-20"
+            ],
+            "bright_bands": [
+              "r",
+              "r"
+            ],
+            "first": "2018-11-19",
+            "last": "2018-11-20",
+            "previous_faint": "2018-11-17",
+            "next_faint": "2019-04-27",
+            "lower_days": 1,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-11-29"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2018-11-29",
+            "last": "2018-11-29",
+            "previous_faint": "2018-11-17",
+            "next_faint": "2019-04-27",
+            "lower_days": 0,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2018-12-20"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2018-12-20",
+            "last": "2018-12-20",
+            "previous_faint": "2018-11-17",
+            "next_faint": "2019-04-27",
+            "lower_days": 0,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-03-16"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2019-03-16",
+            "last": "2019-03-16",
+            "previous_faint": "2018-11-17",
+            "next_faint": "2019-04-27",
+            "lower_days": 0,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-03-31"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2019-03-31",
+            "last": "2019-03-31",
+            "previous_faint": "2018-11-17",
+            "next_faint": "2019-04-27",
+            "lower_days": 0,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-04-11"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2019-04-11",
+            "last": "2019-04-11",
+            "previous_faint": "2018-11-17",
+            "next_faint": "2019-04-27",
+            "lower_days": 0,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-04-18"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2019-04-18",
+            "last": "2019-04-18",
+            "previous_faint": "2018-11-17",
+            "next_faint": "2019-04-27",
+            "lower_days": 0,
+            "upper_days": 161,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-05-02"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2019-05-02",
+            "last": "2019-05-02",
+            "previous_faint": "2019-04-28",
+            "next_faint": "2019-05-09",
+            "lower_days": 0,
+            "upper_days": 11,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-06-04",
+              "2019-06-07"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2019-06-04",
+            "last": "2019-06-07",
+            "previous_faint": "2019-06-01",
+            "next_faint": "2019-06-10",
+            "lower_days": 3,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-06-23",
+              "2019-06-24"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2019-06-23",
+            "last": "2019-06-24",
+            "previous_faint": "2019-06-13",
+            "next_faint": "2019-06-28",
+            "lower_days": 1,
+            "upper_days": 15,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-07-10"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2019-07-10",
+            "last": "2019-07-10",
+            "previous_faint": "2019-07-01",
+            "next_faint": "2019-07-30",
+            "lower_days": 0,
+            "upper_days": 29,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-07-24",
+              "2019-07-26",
+              "2019-07-27",
+              "2019-07-28"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr",
+              "r"
+            ],
+            "first": "2019-07-24",
+            "last": "2019-07-28",
+            "previous_faint": "2019-07-01",
+            "next_faint": "2019-07-30",
+            "lower_days": 4,
+            "upper_days": 29,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-08-04"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2019-08-04",
+            "last": "2019-08-04",
+            "previous_faint": "2019-08-02",
+            "next_faint": "2019-08-06",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {
+                "2019-08-02": {
+                  "flux": 2.454053915098134,
+                  "max_error": 0.07506694255860881,
+                  "cameras": [
+                    "bq",
+                    "bt"
+                  ]
+                }
+              },
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2019-08-13",
+              "2019-08-14",
+              "2019-08-15",
+              "2019-08-16",
+              "2019-08-17",
+              "2019-08-18"
+            ],
+            "bright_bands": [
+              "g",
+              "gr",
+              "gr",
+              "gr",
+              "r",
+              "gr"
+            ],
+            "first": "2019-08-13",
+            "last": "2019-08-18",
+            "previous_faint": "2019-08-11",
+            "next_faint": "2019-08-20",
+            "lower_days": 5,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-08-24",
+              "2019-08-25"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2019-08-24",
+            "last": "2019-08-25",
+            "previous_faint": "2019-08-23",
+            "next_faint": "2019-08-28",
+            "lower_days": 1,
+            "upper_days": 5,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {
+                "2019-08-25": {
+                  "flux": 2.6485723396623166,
+                  "max_error": 0.06327369851300187,
+                  "cameras": [
+                    "bA",
+                    "bD",
+                    "bq",
+                    "bt"
+                  ]
+                },
+                "2019-08-26": {
+                  "flux": 2.5576630050859848,
+                  "max_error": 0.046199038353963995,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                }
+              },
+              "bracket_dates": {
+                "2019-08-22": {
+                  "flux": 2.277150988695704,
+                  "max_error": 0.1207895290630527,
+                  "cameras": [
+                    "bA",
+                    "bD",
+                    "bt"
+                  ]
+                },
+                "2019-08-27": {
+                  "flux": 2.445797030280672,
+                  "max_error": 0.037058552486534904,
+                  "cameras": [
+                    "bD"
+                  ]
+                }
+              },
+              "bright_minus_bracket_mjy": 0.241644
+            }
+          },
+          {
+            "dates": [
+              "2019-09-04",
+              "2019-09-06",
+              "2019-09-07"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2019-09-04",
+            "last": "2019-09-07",
+            "previous_faint": "2019-09-01",
+            "next_faint": "2019-09-09",
+            "lower_days": 3,
+            "upper_days": 8,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-09-14",
+              "2019-09-15"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2019-09-14",
+            "last": "2019-09-15",
+            "previous_faint": "2019-09-12",
+            "next_faint": "2019-09-17",
+            "lower_days": 1,
+            "upper_days": 5,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {
+                "2019-09-14": {
+                  "flux": 2.5909723181686606,
+                  "max_error": 0.11571508858841376,
+                  "cameras": [
+                    "bD"
+                  ]
+                },
+                "2019-09-15": {
+                  "flux": 2.6194334005323894,
+                  "max_error": 0.17554998045730713,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                }
+              },
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2019-09-23",
+              "2019-09-24",
+              "2019-09-25",
+              "2019-09-28"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr",
+              "r"
+            ],
+            "first": "2019-09-23",
+            "last": "2019-09-28",
+            "previous_faint": "2019-09-22",
+            "next_faint": "2019-10-02",
+            "lower_days": 5,
+            "upper_days": 10,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-10-04",
+              "2019-10-05"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2019-10-04",
+            "last": "2019-10-05",
+            "previous_faint": "2019-10-03",
+            "next_faint": "2019-10-07",
+            "lower_days": 1,
+            "upper_days": 4,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {
+                "2019-10-05": {
+                  "flux": 2.585927054238825,
+                  "max_error": 0.05327076921797124,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                }
+              },
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2019-10-14"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2019-10-14",
+            "last": "2019-10-14",
+            "previous_faint": "2019-10-07",
+            "next_faint": "2019-10-20",
+            "lower_days": 0,
+            "upper_days": 13,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-10-23"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2019-10-23",
+            "last": "2019-10-23",
+            "previous_faint": "2019-10-20",
+            "next_faint": "2019-10-26",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {
+                "2019-10-22": {
+                  "flux": 2.550492260374258,
+                  "max_error": 0.047297424677565314,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2019-10-23": {
+                  "flux": 2.6737119008585264,
+                  "max_error": 0.0633262952999624,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2019-10-24": {
+                  "flux": 2.713809204988541,
+                  "max_error": 0.0559795019593535,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                }
+              },
+              "bracket_dates": {
+                "2019-10-21": {
+                  "flux": 2.3608345553325267,
+                  "max_error": 0.043208676116379,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2019-10-25": {
+                  "flux": 2.6134671783666663,
+                  "max_error": 0.04479440024575201,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2019-10-27": {
+                  "flux": 2.474419243817356,
+                  "max_error": 0.04872095081732884,
+                  "cameras": [
+                    "bq",
+                    "bt"
+                  ]
+                }
+              },
+              "bright_minus_bracket_mjy": 0.199293
+            }
+          },
+          {
+            "dates": [
+              "2019-11-04",
+              "2019-11-06"
+            ],
+            "bright_bands": [
+              "gr",
+              "g"
+            ],
+            "first": "2019-11-04",
+            "last": "2019-11-06",
+            "previous_faint": "2019-10-26",
+            "next_faint": "2020-04-05",
+            "lower_days": 2,
+            "upper_days": 162,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-11-24"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2019-11-24",
+            "last": "2019-11-24",
+            "previous_faint": "2019-10-26",
+            "next_faint": "2020-04-05",
+            "lower_days": 0,
+            "upper_days": 162,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-12-12"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2019-12-12",
+            "last": "2019-12-12",
+            "previous_faint": "2019-10-26",
+            "next_faint": "2020-04-05",
+            "lower_days": 0,
+            "upper_days": 162,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2019-12-19"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2019-12-19",
+            "last": "2019-12-19",
+            "previous_faint": "2019-10-26",
+            "next_faint": "2020-04-05",
+            "lower_days": 0,
+            "upper_days": 162,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-03-05"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2020-03-05",
+            "last": "2020-03-05",
+            "previous_faint": "2019-10-26",
+            "next_faint": "2020-04-05",
+            "lower_days": 0,
+            "upper_days": 162,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-04-01"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2020-04-01",
+            "last": "2020-04-01",
+            "previous_faint": "2019-10-26",
+            "next_faint": "2020-04-05",
+            "lower_days": 0,
+            "upper_days": 162,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-05-06"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2020-05-06",
+            "last": "2020-05-06",
+            "previous_faint": "2020-05-03",
+            "next_faint": "2020-05-23",
+            "lower_days": 0,
+            "upper_days": 20,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-05-16"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2020-05-16",
+            "last": "2020-05-16",
+            "previous_faint": "2020-05-03",
+            "next_faint": "2020-05-23",
+            "lower_days": 0,
+            "upper_days": 20,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-06-04"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2020-06-04",
+            "last": "2020-06-04",
+            "previous_faint": "2020-05-26",
+            "next_faint": "2020-06-15",
+            "lower_days": 0,
+            "upper_days": 20,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-06-22",
+              "2020-06-25"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2020-06-22",
+            "last": "2020-06-25",
+            "previous_faint": "2020-06-15",
+            "next_faint": "2020-07-10",
+            "lower_days": 3,
+            "upper_days": 25,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-07-01"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2020-07-01",
+            "last": "2020-07-01",
+            "previous_faint": "2020-06-15",
+            "next_faint": "2020-07-10",
+            "lower_days": 0,
+            "upper_days": 25,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-07-07",
+              "2020-07-08"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2020-07-07",
+            "last": "2020-07-08",
+            "previous_faint": "2020-06-15",
+            "next_faint": "2020-07-10",
+            "lower_days": 1,
+            "upper_days": 25,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-07-16",
+              "2020-07-19"
+            ],
+            "bright_bands": [
+              "gr",
+              "g"
+            ],
+            "first": "2020-07-16",
+            "last": "2020-07-19",
+            "previous_faint": "2020-07-13",
+            "next_faint": "2020-07-22",
+            "lower_days": 3,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-08-03",
+              "2020-08-04"
+            ],
+            "bright_bands": [
+              "r",
+              "gr"
+            ],
+            "first": "2020-08-03",
+            "last": "2020-08-04",
+            "previous_faint": "2020-08-02",
+            "next_faint": "2020-08-19",
+            "lower_days": 1,
+            "upper_days": 17,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-08-13",
+              "2020-08-16"
+            ],
+            "bright_bands": [
+              "g",
+              "g"
+            ],
+            "first": "2020-08-13",
+            "last": "2020-08-16",
+            "previous_faint": "2020-08-02",
+            "next_faint": "2020-08-19",
+            "lower_days": 3,
+            "upper_days": 17,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-08-23"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2020-08-23",
+            "last": "2020-08-23",
+            "previous_faint": "2020-08-19",
+            "next_faint": "2020-08-26",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {
+                "2020-08-22": {
+                  "flux": 2.626586562030878,
+                  "max_error": 0.10313439255597161,
+                  "cameras": [
+                    "bq",
+                    "bt"
+                  ]
+                }
+              },
+              "bracket_dates": {
+                "2020-08-18": {
+                  "flux": 2.645947233513348,
+                  "max_error": 0.041789466381791505,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2020-08-19": {
+                  "flux": 2.213881363349064,
+                  "max_error": 0.05445297887216048,
+                  "cameras": [
+                    "bt"
+                  ]
+                },
+                "2020-08-26": {
+                  "flux": 2.3189365050362483,
+                  "max_error": 0.06314605758424527,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2020-08-27": {
+                  "flux": 2.625030188252249,
+                  "max_error": 0.052071896537047094,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                }
+              },
+              "bright_minus_bracket_mjy": 0.154603
+            }
+          },
+          {
+            "dates": [
+              "2020-09-02",
+              "2020-09-03",
+              "2020-09-04",
+              "2020-09-07"
+            ],
+            "bright_bands": [
+              "r",
+              "g",
+              "gr",
+              "gr"
+            ],
+            "first": "2020-09-02",
+            "last": "2020-09-07",
+            "previous_faint": "2020-08-27",
+            "next_faint": "2020-09-21",
+            "lower_days": 5,
+            "upper_days": 25,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-09-15"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2020-09-15",
+            "last": "2020-09-15",
+            "previous_faint": "2020-08-27",
+            "next_faint": "2020-09-21",
+            "lower_days": 0,
+            "upper_days": 25,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-09-27",
+              "2020-09-28",
+              "2020-09-29",
+              "2020-09-30",
+              "2020-10-01",
+              "2020-10-02"
+            ],
+            "bright_bands": [
+              "gr",
+              "g",
+              "r",
+              "gr",
+              "gr",
+              "r"
+            ],
+            "first": "2020-09-27",
+            "last": "2020-10-02",
+            "previous_faint": "2020-09-24",
+            "next_faint": "2020-10-07",
+            "lower_days": 5,
+            "upper_days": 13,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-10-09"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2020-10-09",
+            "last": "2020-10-09",
+            "previous_faint": "2020-10-07",
+            "next_faint": "2020-10-13",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {
+                "2020-10-09": {
+                  "flux": 2.602147175829523,
+                  "max_error": 0.03776252102926023,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2020-10-10": {
+                  "flux": 2.467183458721311,
+                  "max_error": 0.06642290525553839,
+                  "cameras": [
+                    "bq",
+                    "bt"
+                  ]
+                }
+              },
+              "bracket_dates": {
+                "2020-10-06": {
+                  "flux": 2.3139639248127484,
+                  "max_error": 0.12251029974166427,
+                  "cameras": [
+                    "bq",
+                    "bt"
+                  ]
+                },
+                "2020-10-07": {
+                  "flux": 2.634494897671103,
+                  "max_error": 0.05556681580444872,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                }
+              },
+              "bright_minus_bracket_mjy": 0.060436
+            }
+          },
+          {
+            "dates": [
+              "2020-10-19",
+              "2020-10-21",
+              "2020-10-23"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2020-10-19",
+            "last": "2020-10-23",
+            "previous_faint": "2020-10-17",
+            "next_faint": "2020-10-28",
+            "lower_days": 4,
+            "upper_days": 11,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-10-30"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2020-10-30",
+            "last": "2020-10-30",
+            "previous_faint": "2020-10-28",
+            "next_faint": "2020-11-14",
+            "lower_days": 0,
+            "upper_days": 17,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-11-11"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2020-11-11",
+            "last": "2020-11-11",
+            "previous_faint": "2020-10-28",
+            "next_faint": "2020-11-14",
+            "lower_days": 0,
+            "upper_days": 17,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-11-20"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2020-11-20",
+            "last": "2020-11-20",
+            "previous_faint": "2020-11-14",
+            "next_faint": "2020-11-26",
+            "lower_days": 0,
+            "upper_days": 12,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-11-28"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2020-11-28",
+            "last": "2020-11-28",
+            "previous_faint": "2020-11-26",
+            "next_faint": "2021-04-07",
+            "lower_days": 0,
+            "upper_days": 132,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-12-11"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2020-12-11",
+            "last": "2020-12-11",
+            "previous_faint": "2020-11-26",
+            "next_faint": "2021-04-07",
+            "lower_days": 0,
+            "upper_days": 132,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2020-12-19"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2020-12-19",
+            "last": "2020-12-19",
+            "previous_faint": "2020-11-26",
+            "next_faint": "2021-04-07",
+            "lower_days": 0,
+            "upper_days": 132,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-03-29"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2021-03-29",
+            "last": "2021-03-29",
+            "previous_faint": "2020-11-26",
+            "next_faint": "2021-04-07",
+            "lower_days": 0,
+            "upper_days": 132,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-04-04"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2021-04-04",
+            "last": "2021-04-04",
+            "previous_faint": "2020-11-26",
+            "next_faint": "2021-04-07",
+            "lower_days": 0,
+            "upper_days": 132,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-04-20"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2021-04-20",
+            "last": "2021-04-20",
+            "previous_faint": "2021-04-18",
+            "next_faint": "2021-05-03",
+            "lower_days": 0,
+            "upper_days": 15,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-05-01"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2021-05-01",
+            "last": "2021-05-01",
+            "previous_faint": "2021-04-18",
+            "next_faint": "2021-05-03",
+            "lower_days": 0,
+            "upper_days": 15,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-05-19",
+              "2021-05-20"
+            ],
+            "bright_bands": [
+              "gr",
+              "g"
+            ],
+            "first": "2021-05-19",
+            "last": "2021-05-20",
+            "previous_faint": "2021-05-10",
+            "next_faint": "2021-05-22",
+            "lower_days": 1,
+            "upper_days": 12,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-05-27",
+              "2021-05-28"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2021-05-27",
+            "last": "2021-05-28",
+            "previous_faint": "2021-05-22",
+            "next_faint": "2021-05-30",
+            "lower_days": 1,
+            "upper_days": 8,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-06-05",
+              "2021-06-06",
+              "2021-06-09",
+              "2021-06-11"
+            ],
+            "bright_bands": [
+              "gr",
+              "r",
+              "g",
+              "r"
+            ],
+            "first": "2021-06-05",
+            "last": "2021-06-11",
+            "previous_faint": "2021-06-04",
+            "next_faint": "2021-06-13",
+            "lower_days": 6,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-06-17"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2021-06-17",
+            "last": "2021-06-17",
+            "previous_faint": "2021-06-13",
+            "next_faint": "2021-06-21",
+            "lower_days": 0,
+            "upper_days": 8,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-06-25",
+              "2021-06-29"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2021-06-25",
+            "last": "2021-06-29",
+            "previous_faint": "2021-06-21",
+            "next_faint": "2021-07-02",
+            "lower_days": 4,
+            "upper_days": 11,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-07-09",
+              "2021-07-11",
+              "2021-07-13"
+            ],
+            "bright_bands": [
+              "gr",
+              "g",
+              "gr"
+            ],
+            "first": "2021-07-09",
+            "last": "2021-07-13",
+            "previous_faint": "2021-07-07",
+            "next_faint": "2021-07-17",
+            "lower_days": 4,
+            "upper_days": 10,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-08-23"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2021-08-23",
+            "last": "2021-08-23",
+            "previous_faint": "2021-08-15",
+            "next_faint": "2021-11-04",
+            "lower_days": 0,
+            "upper_days": 81,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-09-01",
+              "2021-09-05"
+            ],
+            "bright_bands": [
+              "r",
+              "r"
+            ],
+            "first": "2021-09-01",
+            "last": "2021-09-05",
+            "previous_faint": "2021-08-15",
+            "next_faint": "2021-11-04",
+            "lower_days": 4,
+            "upper_days": 81,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-09-13",
+              "2021-09-16",
+              "2021-09-19"
+            ],
+            "bright_bands": [
+              "r",
+              "gr",
+              "gr"
+            ],
+            "first": "2021-09-13",
+            "last": "2021-09-19",
+            "previous_faint": "2021-08-15",
+            "next_faint": "2021-11-04",
+            "lower_days": 6,
+            "upper_days": 81,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-10-04"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2021-10-04",
+            "last": "2021-10-04",
+            "previous_faint": "2021-08-15",
+            "next_faint": "2021-11-04",
+            "lower_days": 0,
+            "upper_days": 81,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-10-17"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2021-10-17",
+            "last": "2021-10-17",
+            "previous_faint": "2021-08-15",
+            "next_faint": "2021-11-04",
+            "lower_days": 0,
+            "upper_days": 81,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-10-23"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2021-10-23",
+            "last": "2021-10-23",
+            "previous_faint": "2021-08-15",
+            "next_faint": "2021-11-04",
+            "lower_days": 0,
+            "upper_days": 81,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-11-08"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2021-11-08",
+            "last": "2021-11-08",
+            "previous_faint": "2021-11-04",
+            "next_faint": "2022-04-01",
+            "lower_days": 0,
+            "upper_days": 148,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2021-11-19",
+              "2021-11-24"
+            ],
+            "bright_bands": [
+              "r",
+              "gr"
+            ],
+            "first": "2021-11-19",
+            "last": "2021-11-24",
+            "previous_faint": "2021-11-04",
+            "next_faint": "2022-04-01",
+            "lower_days": 5,
+            "upper_days": 148,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-04-04"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-04-04",
+            "last": "2022-04-04",
+            "previous_faint": "2022-04-01",
+            "next_faint": "2022-04-27",
+            "lower_days": 0,
+            "upper_days": 26,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-04-14"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-04-14",
+            "last": "2022-04-14",
+            "previous_faint": "2022-04-01",
+            "next_faint": "2022-04-27",
+            "lower_days": 0,
+            "upper_days": 26,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-04-25"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-04-25",
+            "last": "2022-04-25",
+            "previous_faint": "2022-04-01",
+            "next_faint": "2022-04-27",
+            "lower_days": 0,
+            "upper_days": 26,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-05-08"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2022-05-08",
+            "last": "2022-05-08",
+            "previous_faint": "2022-05-02",
+            "next_faint": "2022-05-19",
+            "lower_days": 0,
+            "upper_days": 17,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-05-25",
+              "2022-05-27"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2022-05-25",
+            "last": "2022-05-27",
+            "previous_faint": "2022-05-22",
+            "next_faint": "2022-05-30",
+            "lower_days": 2,
+            "upper_days": 8,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-06-04"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-06-04",
+            "last": "2022-06-04",
+            "previous_faint": "2022-06-02",
+            "next_faint": "2022-06-07",
+            "lower_days": 0,
+            "upper_days": 5,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {
+                "2022-06-02": {
+                  "flux": 2.3687058174192845,
+                  "max_error": 0.04037193626251354,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2022-06-06": {
+                  "flux": 2.7027054186277315,
+                  "max_error": 0.037038771474061954,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                }
+              },
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2022-06-13"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-06-13",
+            "last": "2022-06-13",
+            "previous_faint": "2022-06-07",
+            "next_faint": "2022-06-20",
+            "lower_days": 0,
+            "upper_days": 13,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-07-01",
+              "2022-07-04",
+              "2022-07-06"
+            ],
+            "bright_bands": [
+              "g",
+              "gr",
+              "gr"
+            ],
+            "first": "2022-07-01",
+            "last": "2022-07-06",
+            "previous_faint": "2022-06-29",
+            "next_faint": "2022-07-09",
+            "lower_days": 5,
+            "upper_days": 10,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-07-13"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2022-07-13",
+            "last": "2022-07-13",
+            "previous_faint": "2022-07-11",
+            "next_faint": "2022-07-30",
+            "lower_days": 0,
+            "upper_days": 19,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-07-22",
+              "2022-07-24",
+              "2022-07-26"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2022-07-22",
+            "last": "2022-07-26",
+            "previous_faint": "2022-07-11",
+            "next_faint": "2022-07-30",
+            "lower_days": 4,
+            "upper_days": 19,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-08-02"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-08-02",
+            "last": "2022-08-02",
+            "previous_faint": "2022-07-30",
+            "next_faint": "2022-08-06",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {
+                "2022-08-01": {
+                  "flux": 2.6408141655528703,
+                  "max_error": 0.10130802915313453,
+                  "cameras": [
+                    "bq",
+                    "bt"
+                  ]
+                },
+                "2022-08-02": {
+                  "flux": 2.7625962538423035,
+                  "max_error": 0.04393761834195016,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2022-08-03": {
+                  "flux": 2.5289682308686006,
+                  "max_error": 0.05093450184890689,
+                  "cameras": [
+                    "bq",
+                    "bt"
+                  ]
+                }
+              },
+              "bracket_dates": {
+                "2022-08-05": {
+                  "flux": 2.575838832273292,
+                  "max_error": 0.08177243548977776,
+                  "cameras": [
+                    "bA",
+                    "bD",
+                    "bq",
+                    "bt"
+                  ]
+                }
+              },
+              "bright_minus_bracket_mjy": 0.064975
+            }
+          },
+          {
+            "dates": [
+              "2022-08-11",
+              "2022-08-14"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2022-08-11",
+            "last": "2022-08-14",
+            "previous_faint": "2022-08-09",
+            "next_faint": "2022-08-18",
+            "lower_days": 3,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-08-22"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-08-22",
+            "last": "2022-08-22",
+            "previous_faint": "2022-08-20",
+            "next_faint": "2022-08-24",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {
+                "2022-08-22": {
+                  "flux": 2.7545263752877718,
+                  "max_error": 0.04697353150987927,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                }
+              },
+              "bracket_dates": {},
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2022-08-30",
+              "2022-09-01"
+            ],
+            "bright_bands": [
+              "g",
+              "r"
+            ],
+            "first": "2022-08-30",
+            "last": "2022-09-01",
+            "previous_faint": "2022-08-26",
+            "next_faint": "2022-09-03",
+            "lower_days": 2,
+            "upper_days": 8,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-09-27"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-09-27",
+            "last": "2022-09-27",
+            "previous_faint": "2022-09-22",
+            "next_faint": "2022-10-01",
+            "lower_days": 0,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-10-07",
+              "2022-10-09"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2022-10-07",
+            "last": "2022-10-09",
+            "previous_faint": "2022-10-03",
+            "next_faint": "2022-10-13",
+            "lower_days": 2,
+            "upper_days": 10,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-10-25",
+              "2022-10-29"
+            ],
+            "bright_bands": [
+              "r",
+              "r"
+            ],
+            "first": "2022-10-25",
+            "last": "2022-10-29",
+            "previous_faint": "2022-10-22",
+            "next_faint": "2022-10-31",
+            "lower_days": 4,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-11-11"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-11-11",
+            "last": "2022-11-11",
+            "previous_faint": "2022-10-31",
+            "next_faint": "2022-11-15",
+            "lower_days": 0,
+            "upper_days": 15,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-11-19"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2022-11-19",
+            "last": "2022-11-19",
+            "previous_faint": "2022-11-15",
+            "next_faint": "2022-11-23",
+            "lower_days": 0,
+            "upper_days": 8,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-12-10"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2022-12-10",
+            "last": "2022-12-10",
+            "previous_faint": "2022-11-23",
+            "next_faint": "2023-02-21",
+            "lower_days": 0,
+            "upper_days": 90,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2022-12-21"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2022-12-21",
+            "last": "2022-12-21",
+            "previous_faint": "2022-11-23",
+            "next_faint": "2023-02-21",
+            "lower_days": 0,
+            "upper_days": 90,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-04-08"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2023-04-08",
+            "last": "2023-04-08",
+            "previous_faint": "2023-03-26",
+            "next_faint": "2023-04-17",
+            "lower_days": 0,
+            "upper_days": 22,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-04-15"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-04-15",
+            "last": "2023-04-15",
+            "previous_faint": "2023-03-26",
+            "next_faint": "2023-04-17",
+            "lower_days": 0,
+            "upper_days": 22,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-04-22"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-04-22",
+            "last": "2023-04-22",
+            "previous_faint": "2023-04-17",
+            "next_faint": "2023-04-27",
+            "lower_days": 0,
+            "upper_days": 10,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-05-15"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-05-15",
+            "last": "2023-05-15",
+            "previous_faint": "2023-05-09",
+            "next_faint": "2023-06-17",
+            "lower_days": 0,
+            "upper_days": 39,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-05-25"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-05-25",
+            "last": "2023-05-25",
+            "previous_faint": "2023-05-09",
+            "next_faint": "2023-06-17",
+            "lower_days": 0,
+            "upper_days": 39,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-06-03"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2023-06-03",
+            "last": "2023-06-03",
+            "previous_faint": "2023-05-09",
+            "next_faint": "2023-06-17",
+            "lower_days": 0,
+            "upper_days": 39,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-06-13",
+              "2023-06-15"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2023-06-13",
+            "last": "2023-06-15",
+            "previous_faint": "2023-05-09",
+            "next_faint": "2023-06-17",
+            "lower_days": 2,
+            "upper_days": 39,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-06-23"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-06-23",
+            "last": "2023-06-23",
+            "previous_faint": "2023-06-17",
+            "next_faint": "2023-06-25",
+            "lower_days": 0,
+            "upper_days": 8,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-07-01",
+              "2023-07-03"
+            ],
+            "bright_bands": [
+              "g",
+              "gr"
+            ],
+            "first": "2023-07-01",
+            "last": "2023-07-03",
+            "previous_faint": "2023-06-25",
+            "next_faint": "2023-07-15",
+            "lower_days": 2,
+            "upper_days": 20,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-07-13"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-07-13",
+            "last": "2023-07-13",
+            "previous_faint": "2023-06-25",
+            "next_faint": "2023-07-15",
+            "lower_days": 0,
+            "upper_days": 20,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-07-22",
+              "2023-07-24"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2023-07-22",
+            "last": "2023-07-24",
+            "previous_faint": "2023-07-15",
+            "next_faint": "2023-08-14",
+            "lower_days": 2,
+            "upper_days": 30,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-08-08",
+              "2023-08-12"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2023-08-08",
+            "last": "2023-08-12",
+            "previous_faint": "2023-07-15",
+            "next_faint": "2023-08-14",
+            "lower_days": 4,
+            "upper_days": 30,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-08-27",
+              "2023-08-29",
+              "2023-08-31"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2023-08-27",
+            "last": "2023-08-31",
+            "previous_faint": "2023-08-14",
+            "next_faint": "2023-09-24",
+            "lower_days": 4,
+            "upper_days": 41,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-09-07"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-09-07",
+            "last": "2023-09-07",
+            "previous_faint": "2023-08-14",
+            "next_faint": "2023-09-24",
+            "lower_days": 0,
+            "upper_days": 41,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-09-16",
+              "2023-09-18"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2023-09-16",
+            "last": "2023-09-18",
+            "previous_faint": "2023-08-14",
+            "next_faint": "2023-09-24",
+            "lower_days": 2,
+            "upper_days": 41,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-09-26"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2023-09-26",
+            "last": "2023-09-26",
+            "previous_faint": "2023-09-24",
+            "next_faint": "2023-09-28",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short",
+            "asas": {
+              "bright_dates": {},
+              "bracket_dates": {
+                "2023-09-23": {
+                  "flux": 1.9650908253515036,
+                  "max_error": 0.060918193034418894,
+                  "cameras": [
+                    "bt"
+                  ]
+                },
+                "2023-09-24": {
+                  "flux": 2.2715733890221776,
+                  "max_error": 0.06325924787796242,
+                  "cameras": [
+                    "bA",
+                    "bD"
+                  ]
+                },
+                "2023-09-28": {
+                  "flux": 2.234131921316054,
+                  "max_error": 0.10112404789102745,
+                  "cameras": [
+                    "bD"
+                  ]
+                }
+              },
+              "bright_minus_bracket_mjy": null
+            }
+          },
+          {
+            "dates": [
+              "2023-10-04",
+              "2023-10-06"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2023-10-04",
+            "last": "2023-10-06",
+            "previous_faint": "2023-09-28",
+            "next_faint": "2023-10-17",
+            "lower_days": 2,
+            "upper_days": 19,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-10-15"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2023-10-15",
+            "last": "2023-10-15",
+            "previous_faint": "2023-09-28",
+            "next_faint": "2023-10-17",
+            "lower_days": 0,
+            "upper_days": 19,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-11-02",
+              "2023-11-04"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2023-11-02",
+            "last": "2023-11-04",
+            "previous_faint": "2023-10-17",
+            "next_faint": "2024-02-28",
+            "lower_days": 2,
+            "upper_days": 134,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-11-11"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2023-11-11",
+            "last": "2023-11-11",
+            "previous_faint": "2023-10-17",
+            "next_faint": "2024-02-28",
+            "lower_days": 0,
+            "upper_days": 134,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2023-12-10",
+              "2023-12-12"
+            ],
+            "bright_bands": [
+              "r",
+              "gr"
+            ],
+            "first": "2023-12-10",
+            "last": "2023-12-12",
+            "previous_faint": "2023-10-17",
+            "next_faint": "2024-02-28",
+            "lower_days": 2,
+            "upper_days": 134,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-04-04"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2024-04-04",
+            "last": "2024-04-04",
+            "previous_faint": "2024-02-28",
+            "next_faint": "2024-05-03",
+            "lower_days": 0,
+            "upper_days": 65,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-04-21"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2024-04-21",
+            "last": "2024-04-21",
+            "previous_faint": "2024-02-28",
+            "next_faint": "2024-05-03",
+            "lower_days": 0,
+            "upper_days": 65,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-04-30"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2024-04-30",
+            "last": "2024-04-30",
+            "previous_faint": "2024-02-28",
+            "next_faint": "2024-05-03",
+            "lower_days": 0,
+            "upper_days": 65,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-05-07",
+              "2024-05-08"
+            ],
+            "bright_bands": [
+              "gr",
+              "g"
+            ],
+            "first": "2024-05-07",
+            "last": "2024-05-08",
+            "previous_faint": "2024-05-03",
+            "next_faint": "2024-05-14",
+            "lower_days": 1,
+            "upper_days": 11,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-05-25",
+              "2024-05-28"
+            ],
+            "bright_bands": [
+              "r",
+              "gr"
+            ],
+            "first": "2024-05-25",
+            "last": "2024-05-28",
+            "previous_faint": "2024-05-20",
+            "next_faint": "2024-06-02",
+            "lower_days": 3,
+            "upper_days": 13,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-06-13",
+              "2024-06-15"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2024-06-13",
+            "last": "2024-06-15",
+            "previous_faint": "2024-06-08",
+            "next_faint": "2024-06-27",
+            "lower_days": 2,
+            "upper_days": 19,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-06-24"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2024-06-24",
+            "last": "2024-06-24",
+            "previous_faint": "2024-06-08",
+            "next_faint": "2024-06-27",
+            "lower_days": 0,
+            "upper_days": 19,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-06-29"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2024-06-29",
+            "last": "2024-06-29",
+            "previous_faint": "2024-06-27",
+            "next_faint": "2024-09-27",
+            "lower_days": 0,
+            "upper_days": 92,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-07-16",
+              "2024-07-18"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2024-07-16",
+            "last": "2024-07-18",
+            "previous_faint": "2024-06-27",
+            "next_faint": "2024-09-27",
+            "lower_days": 2,
+            "upper_days": 92,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-07-26"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2024-07-26",
+            "last": "2024-07-26",
+            "previous_faint": "2024-06-27",
+            "next_faint": "2024-09-27",
+            "lower_days": 0,
+            "upper_days": 92,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-08-14",
+              "2024-08-16"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2024-08-14",
+            "last": "2024-08-16",
+            "previous_faint": "2024-06-27",
+            "next_faint": "2024-09-27",
+            "lower_days": 2,
+            "upper_days": 92,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-08-24"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2024-08-24",
+            "last": "2024-08-24",
+            "previous_faint": "2024-06-27",
+            "next_faint": "2024-09-27",
+            "lower_days": 0,
+            "upper_days": 92,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-10-17"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2024-10-17",
+            "last": "2024-10-17",
+            "previous_faint": "2024-09-27",
+            "next_faint": "2024-11-01",
+            "lower_days": 0,
+            "upper_days": 35,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-10-24",
+              "2024-10-26"
+            ],
+            "bright_bands": [
+              "r",
+              "gr"
+            ],
+            "first": "2024-10-24",
+            "last": "2024-10-26",
+            "previous_faint": "2024-09-27",
+            "next_faint": "2024-11-01",
+            "lower_days": 2,
+            "upper_days": 35,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-11-06"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2024-11-06",
+            "last": "2024-11-06",
+            "previous_faint": "2024-11-01",
+            "next_faint": "2024-12-03",
+            "lower_days": 0,
+            "upper_days": 32,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2024-11-29"
+            ],
+            "bright_bands": [
+              "g"
+            ],
+            "first": "2024-11-29",
+            "last": "2024-11-29",
+            "previous_faint": "2024-11-01",
+            "next_faint": "2024-12-03",
+            "lower_days": 0,
+            "upper_days": 32,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-03-25"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2025-03-25",
+            "last": "2025-03-25",
+            "previous_faint": "2025-03-20",
+            "next_faint": "2025-04-30",
+            "lower_days": 0,
+            "upper_days": 41,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-04-22",
+              "2025-04-24"
+            ],
+            "bright_bands": [
+              "gr",
+              "r"
+            ],
+            "first": "2025-04-22",
+            "last": "2025-04-24",
+            "previous_faint": "2025-03-20",
+            "next_faint": "2025-04-30",
+            "lower_days": 2,
+            "upper_days": 41,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-05-02"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2025-05-02",
+            "last": "2025-05-02",
+            "previous_faint": "2025-04-30",
+            "next_faint": "2025-05-16",
+            "lower_days": 0,
+            "upper_days": 16,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-05-10",
+              "2025-05-12"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2025-05-10",
+            "last": "2025-05-12",
+            "previous_faint": "2025-04-30",
+            "next_faint": "2025-05-16",
+            "lower_days": 2,
+            "upper_days": 16,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-05-28"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2025-05-28",
+            "last": "2025-05-28",
+            "previous_faint": "2025-05-26",
+            "next_faint": "2025-06-05",
+            "lower_days": 0,
+            "upper_days": 10,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-06-14",
+              "2025-06-17"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr"
+            ],
+            "first": "2025-06-14",
+            "last": "2025-06-17",
+            "previous_faint": "2025-06-05",
+            "next_faint": "2025-07-05",
+            "lower_days": 3,
+            "upper_days": 30,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-06-23"
+            ],
+            "bright_bands": [
+              "r"
+            ],
+            "first": "2025-06-23",
+            "last": "2025-06-23",
+            "previous_faint": "2025-06-05",
+            "next_faint": "2025-07-05",
+            "lower_days": 0,
+            "upper_days": 30,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-07-01"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2025-07-01",
+            "last": "2025-07-01",
+            "previous_faint": "2025-06-05",
+            "next_faint": "2025-07-05",
+            "lower_days": 0,
+            "upper_days": 30,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-07-07",
+              "2025-07-09",
+              "2025-07-12"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2025-07-07",
+            "last": "2025-07-12",
+            "previous_faint": "2025-07-05",
+            "next_faint": "2025-07-14",
+            "lower_days": 5,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-07-19"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2025-07-19",
+            "last": "2025-07-19",
+            "previous_faint": "2025-07-16",
+            "next_faint": "2025-07-25",
+            "lower_days": 0,
+            "upper_days": 9,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-07-29",
+              "2025-07-31",
+              "2025-08-02"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2025-07-29",
+            "last": "2025-08-02",
+            "previous_faint": "2025-07-27",
+            "next_faint": "2025-08-04",
+            "lower_days": 4,
+            "upper_days": 8,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-08-09"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2025-08-09",
+            "last": "2025-08-09",
+            "previous_faint": "2025-08-04",
+            "next_faint": "2025-08-14",
+            "lower_days": 0,
+            "upper_days": 10,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-08-16"
+            ],
+            "bright_bands": [
+              "gr"
+            ],
+            "first": "2025-08-16",
+            "last": "2025-08-16",
+            "previous_faint": "2025-08-14",
+            "next_faint": "2025-09-06",
+            "lower_days": 0,
+            "upper_days": 23,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-08-31",
+              "2025-09-02",
+              "2025-09-04"
+            ],
+            "bright_bands": [
+              "gr",
+              "gr",
+              "gr"
+            ],
+            "first": "2025-08-31",
+            "last": "2025-09-04",
+            "previous_faint": "2025-08-14",
+            "next_faint": "2025-09-06",
+            "lower_days": 4,
+            "upper_days": 23,
+            "kind": "unresolved"
+          },
+          {
+            "dates": [
+              "2025-09-12",
+              "2025-09-17"
+            ],
+            "bright_bands": [
+              "g",
+              "r"
+            ],
+            "first": "2025-09-12",
+            "last": "2025-09-17",
+            "previous_faint": "2025-09-06",
+            "next_faint": null,
+            "lower_days": 5,
+            "upper_days": null,
+            "kind": "unresolved"
+          }
+        ]
+      },
+      "shallow": {
+        "bright_cut": 1.25,
+        "gap": 5,
+        "total_groups": 163,
+        "long": 5,
+        "short": 17,
+        "conflicted_dates": [],
+        "examples": [
+          {
+            "first": "2018-09-02",
+            "last": "2018-09-02",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2018-09-08",
+            "last": "2018-09-08",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2018-09-14",
+            "last": "2018-09-14",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2019-08-04",
+            "last": "2019-08-04",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short"
+          },
+          {
+            "first": "2019-08-24",
+            "last": "2019-08-25",
+            "lower_days": 1,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2019-09-13",
+            "last": "2019-09-15",
+            "lower_days": 2,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2019-10-04",
+            "last": "2019-10-05",
+            "lower_days": 1,
+            "upper_days": 4,
+            "kind": "short"
+          },
+          {
+            "first": "2019-10-23",
+            "last": "2019-10-23",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2020-08-03",
+            "last": "2020-08-16",
+            "lower_days": 13,
+            "upper_days": 17,
+            "kind": "long"
+          },
+          {
+            "first": "2020-08-23",
+            "last": "2020-08-23",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short"
+          },
+          {
+            "first": "2020-10-09",
+            "last": "2020-10-09",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2021-05-07",
+            "last": "2021-05-07",
+            "lower_days": 0,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2021-08-23",
+            "last": "2021-09-19",
+            "lower_days": 27,
+            "upper_days": 81,
+            "kind": "long"
+          },
+          {
+            "first": "2022-06-04",
+            "last": "2022-06-04",
+            "lower_days": 0,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2022-08-02",
+            "last": "2022-08-02",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short"
+          },
+          {
+            "first": "2022-08-22",
+            "last": "2022-08-22",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short"
+          },
+          {
+            "first": "2022-09-20",
+            "last": "2022-09-20",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short"
+          },
+          {
+            "first": "2023-09-26",
+            "last": "2023-09-26",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short"
+          },
+          {
+            "first": "2024-07-09",
+            "last": "2024-07-20",
+            "lower_days": 11,
+            "upper_days": 92,
+            "kind": "long"
+          },
+          {
+            "first": "2024-07-26",
+            "last": "2024-08-07",
+            "lower_days": 12,
+            "upper_days": 92,
+            "kind": "long"
+          },
+          {
+            "first": "2024-08-24",
+            "last": "2024-09-18",
+            "lower_days": 25,
+            "upper_days": 92,
+            "kind": "long"
+          },
+          {
+            "first": "2025-05-21",
+            "last": "2025-05-21",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short"
+          }
+        ]
+      },
+      "deep": {
+        "bright_cut": 1.75,
+        "gap": 5,
+        "total_groups": 114,
+        "long": 0,
+        "short": 8,
+        "conflicted_dates": [],
+        "examples": [
+          {
+            "first": "2018-09-08",
+            "last": "2018-09-08",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2019-08-24",
+            "last": "2019-08-25",
+            "lower_days": 1,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2019-09-14",
+            "last": "2019-09-14",
+            "lower_days": 0,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2019-10-04",
+            "last": "2019-10-04",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short"
+          },
+          {
+            "first": "2019-10-23",
+            "last": "2019-10-23",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2020-08-23",
+            "last": "2020-08-23",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short"
+          },
+          {
+            "first": "2022-06-04",
+            "last": "2022-06-04",
+            "lower_days": 0,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2022-08-02",
+            "last": "2022-08-02",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short"
+          }
+        ]
+      },
+      "tight_gap": {
+        "bright_cut": 1.5,
+        "gap": 4,
+        "total_groups": 154,
+        "long": 0,
+        "short": 13,
+        "conflicted_dates": [],
+        "examples": [
+          {
+            "first": "2018-09-02",
+            "last": "2018-09-02",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2018-09-08",
+            "last": "2018-09-08",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2019-08-04",
+            "last": "2019-08-04",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short"
+          },
+          {
+            "first": "2019-08-24",
+            "last": "2019-08-25",
+            "lower_days": 1,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2019-09-14",
+            "last": "2019-09-15",
+            "lower_days": 1,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2019-10-04",
+            "last": "2019-10-05",
+            "lower_days": 1,
+            "upper_days": 4,
+            "kind": "short"
+          },
+          {
+            "first": "2019-10-23",
+            "last": "2019-10-23",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2020-08-23",
+            "last": "2020-08-23",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short"
+          },
+          {
+            "first": "2020-10-09",
+            "last": "2020-10-09",
+            "lower_days": 0,
+            "upper_days": 6,
+            "kind": "short"
+          },
+          {
+            "first": "2022-06-04",
+            "last": "2022-06-04",
+            "lower_days": 0,
+            "upper_days": 5,
+            "kind": "short"
+          },
+          {
+            "first": "2022-08-02",
+            "last": "2022-08-02",
+            "lower_days": 0,
+            "upper_days": 7,
+            "kind": "short"
+          },
+          {
+            "first": "2022-08-22",
+            "last": "2022-08-22",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short"
+          },
+          {
+            "first": "2023-09-26",
+            "last": "2023-09-26",
+            "lower_days": 0,
+            "upper_days": 4,
+            "kind": "short"
+          }
+        ]
+      }
+    }
+  }
+}

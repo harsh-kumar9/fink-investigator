@@ -42,20 +42,20 @@ WINDOWS = {
 }
 
 
-def tables(fetch):
+def tables(fetch, position=POS, folder=FOLDER, fid=2):
     url = "https://irsa.ipac.caltech.edu/ibe/search/ztf/products/sci?" + urlencode(
-        dict(POS=f"{POS[0]},{POS[1]}", ct="csv", COLUMNS=COLS)
+        dict(POS=f"{position[0]},{position[1]}", ct="csv", COLUMNS=COLS)
     )
-    inventory = capture(FOLDER, "inventory", url, set(COLS.split(",")), fetch)
+    inventory = capture(folder, "inventory", url, set(COLS.split(",")), fetch)
     if len({r["pid"] for r in inventory}) != len(inventory) or not inventory:
         raise ValueError("Duplicate or empty inventory")
     cols = "oid,ra,dec,field,ccdid,qid,fid,nobs,meanmag"
     query = (
         f"SELECT TOP 2000 {cols} FROM ztf_objects_dr24 WHERE CONTAINS(POINT('ICRS',ra,dec),"
-        f"CIRCLE('ICRS',{POS[0]},{POS[1]},0.030))=1 AND fid=2"
+        f"CIRCLE('ICRS',{position[0]},{position[1]},0.030))=1 AND fid={fid}"
     )
     stars = capture(
-        FOLDER,
+        folder,
         "stars",
         pilot.IRSA
         + "?"
@@ -132,11 +132,11 @@ def select(inventory, field=None):
     )
 
 
-def image(row, fetch):
-    folder = FOLDER / "cutouts"
+def image(row, fetch, position=POS, source_folder=FOLDER):
+    folder = source_folder / "cutouts"
     pid = row["pid"]
     path, rec = folder / (pid + ".fits.gz"), folder / (pid + ".json")
-    url = phot.cutout_url(row, *POS, size=225)
+    url = phot.cutout_url(row, *position, size=225)
     if fetch and not path.exists():
         folder.mkdir(parents=True, exist_ok=True)
         failed = []
@@ -146,9 +146,9 @@ def image(row, fetch):
                     raw = pilot.curl(url, [])
                     receipt = {"method": mode, "url": url}
                 elif mode == "alternate":
-                    raw, receipt = image_fetch.from_alternate_cutout(row, POS, size=225)
+                    raw, receipt = image_fetch.from_alternate_cutout(row, position, size=225)
                 else:
-                    raw, receipt = image_fetch.from_original(row, POS, size=225)
+                    raw, receipt = image_fetch.from_original(row, position, size=225)
             except subprocess.CalledProcessError as exc:
                 if exc.returncode not in (22, 28):
                     raise
@@ -217,7 +217,7 @@ def sky_controls(stars, ref):
     return result
 
 
-def measure(item, stars, controls, fetch):
+def measure(item, stars, controls, fetch, position=POS, folder=FOLDER):
     win, d, r = item
     out = dict(
         window=win,
@@ -228,10 +228,10 @@ def measure(item, stars, controls, fetch):
         field=int(r["field"]),
         limit=float(r["maglimit"]),
     )
-    raw = image(r, fetch)
+    raw = image(r, fetch, position, folder)
     if raw is None:
         return {**out, "status": "unavailable"}
-    v = phot.measure(raw, r, POS, stars, standard_radius=95)
+    v = phot.measure(raw, r, position, stars, standard_radius=95)
     out.update(status=v["status"], standards=v["standards"])
     if v["status"] != "measured":
         return out

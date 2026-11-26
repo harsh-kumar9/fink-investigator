@@ -1,0 +1,55 @@
+{
+  "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1104/314144/ztf_20241104314144_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772%2C-1.8497861&size=600arcsec&gzip=false",
+  "request": {
+    "method": "alternate_ibe_cutout",
+    "original_url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1104/314144/ztf_20241104314144_000401_zr_c09_o_q3_sciimg.fits",
+    "url": "https://irsaproxy1.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1104/314144/ztf_20241104314144_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec",
+    "retrieved_utc": "2026-11-26T06:45:58+00:00",
+    "attempts": [
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1104/314144/ztf_20241104314144_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1104/314144/ztf_20241104314144_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec&gzip=true",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1104/314144/ztf_20241104314144_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec&gzip=false",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1104/314144/ztf_20241104314144_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=10arcmin&gzip=false",
+        "http_status": 503,
+        "curl_status": 22
+      },
+      {
+        "url": "https://irsaproxy1.ipac.caltech.edu/ibe/data/ztf/products/sci/2024/1104/314144/ztf_20241104314144_000401_zr_c09_o_q3_sciimg.fits?center=39.4938772,-1.8497861&size=600arcsec",
+        "http_status": 200,
+        "curl_status": 0
+      }
+    ],
+    "received_bytes": 1138982,
+    "size_arcsec": 600,
+    "sha256_response": "34677d58bd3e503cec72540326eb62e4e6b6c9daa804bcdb6189de7aad32cad0",
+    "sha256_cutout": "5e3b25938ad55b9af2417b61f5ee7e365131a3187bf3fe8ff8fa78a4034edee3"
+  },
+  "pid": "2864314143415",
+  "expid": "286431414",
+  "oids": [
+    "401209300001438",
+    "401209300001279",
+    "401209300001951",
+    "401209300001212",
+    "401209300035960",
+    "401209300010726",
+    "401209300002145",
+    "401209300001488"
+  ],
+  "cutout_sha256": "5e3b25938ad55b9af2417b61f5ee7e365131a3187bf3fe8ff8fa78a4034edee3",
+  "tiles_sha256": "eae66f9321e4a1ad59d7eba5b90535ab44bc3dd1889bbc20a5a8f2dfd828f2c7",
+  "archived_utc": "2026-11-26T06:45:58+00:00"
+}

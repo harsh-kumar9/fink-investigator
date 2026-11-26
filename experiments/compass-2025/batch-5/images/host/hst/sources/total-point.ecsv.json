@@ -1,0 +1,5 @@
+{
+  "url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:HST/product/hst_16691_42_wfc3_uvis_total_ierg42_point-cat.ecsv",
+  "sha256_uncompressed": "5b7ec4606aa900b4f2f22c5af7fa1bd504fe6c9684a5da6c0a8580caac84409b",
+  "retrieved_utc": "2026-11-26T06:46:44+00:00"
+}

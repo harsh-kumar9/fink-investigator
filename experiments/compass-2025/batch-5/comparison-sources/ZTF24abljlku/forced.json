@@ -1,0 +1,5 @@
+{
+  "url": "https://tap.alerce.online/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+TOP+10000+oid%2Cpid%2Cmjd%2Cfid%2Cmag%2Ce_mag%2Cisdiffpos%2Cfield%2Crcid%2Crfid%2Cprocstatus%2Cdubious%2Cmagzpsci%2Cdiffmaglim%2Csciinpseeing+FROM+ztf.forced_photometry+WHERE+oid%3D%27ZTF24abljlku%27",
+  "sha256_uncompressed": "9413001040a8dc7fb3b794f3deedaf3a3283f445d1932445aae5ac4cfc53dbd9",
+  "retrieved_utc": "2026-11-26T06:40:25+00:00"
+}

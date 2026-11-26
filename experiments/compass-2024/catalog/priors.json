@@ -1,0 +1,151 @@
+{
+  "vsx": {
+    "ASASSN-14iy": {
+      "Name": "ASASSN-14iy",
+      "AUID": "000-BLK-620",
+      "RA2000": "15.41283",
+      "Declination2000": "75.14394",
+      "VariabilityType": "UG",
+      "MaxMag": "15.3 V",
+      "MinMag": "20.9 B",
+      "Discoverer": "ASAS-SN",
+      "Category": "Variable",
+      "OID": "399677",
+      "Constellation": "Cas"
+    },
+    "MGAB-V1042": {
+      "Name": "MGAB-V1042",
+      "RA2000": "330.18317",
+      "Declination2000": "63.71625",
+      "VariabilityType": "UG",
+      "MaxMag": "17.9 g",
+      "MinMag": "20.6 g",
+      "Discoverer": "B. Sesar et al.; Gabriel Murawski",
+      "Category": "Variable",
+      "OID": "1499391",
+      "Constellation": "Cep"
+    },
+    "ASASSN-16le": {
+      "Name": "ASASSN-16le",
+      "AUID": "000-BMB-263",
+      "RA2000": "353.64812",
+      "Declination2000": "54.55711",
+      "VariabilityType": "UGSU",
+      "MaxMag": "15.5 V",
+      "MinMag": "19.3 V",
+      "Discoverer": "ASAS-SN",
+      "Category": "Variable",
+      "OID": "474592",
+      "Constellation": "Cas"
+    }
+  },
+  "gaia_dr3_5arcsec": [
+    {
+      "_r": "0.161",
+      "Source": "538957063517128832",
+      "RA_ICRS": "015.41350460293",
+      "DE_ICRS": "+75.14376160913",
+      "pmRA": "12.549",
+      "pmDE": "-13.930",
+      "Gmag": "20.345943",
+      "Plx": "1.8790",
+      "RUWE": "1.063",
+      "predicted_separation_at_alert_arcsec": 0.0054
+    }
+  ],
+  "sesar_5arcsec": [
+    {
+      "_r": "0.16",
+      "recno": "165394",
+      "RAJ2000": "330.18322",
+      "DEJ2000": "+63.71627",
+      "S3ab": "0.26",
+      "S3c": "0.01",
+      "Per": "0.5099629760",
+      "phi0": "-0.39964",
+      "gAmp": "1.98",
+      "rAmp": "1.52",
+      "iAmp": "1.21",
+      "zAmp": "1.09",
+      "Tg": "120",
+      "Tr": "118",
+      "Ti": "115",
+      "Tz": "117",
+      "gmag": "16.66",
+      "rmag": "16.90",
+      "imag": "17.07",
+      "zmag": "17.22"
+    }
+  ],
+  "vsnet": [
+    {
+      "subject": "[vsnet-outburst 31130] activity at a glance (Oct 11)",
+      "date": "Fri, 11 Oct 2024 09:21:38 +0900",
+      "measurements": [
+        [
+          "20240928.1421",
+          "14.707zg",
+          "ZTF Alert DC mag"
+        ],
+        [
+          "20240928.4659",
+          "14.764zr",
+          "ZTF Alert DC mag"
+        ],
+        [
+          "20241001.5489",
+          "15.107g",
+          "ASAS-SN Sky Patrol Photom. DB"
+        ],
+        [
+          "20241008.2442",
+          "16.050zr",
+          "ZTF Alert DC mag"
+        ],
+        [
+          "20241008.2824",
+          "15.988g",
+          "ASAS-SN Sky Patrol Photom. DB"
+        ],
+        [
+          "20241008.3469",
+          "16.013zg",
+          "ZTF Alert DC mag"
+        ]
+      ]
+    },
+    {
+      "subject": "[vsnet-outburst 31132] activity at a glance (Oct 12)",
+      "date": "Sat, 12 Oct 2024 09:03:46 +0900",
+      "measurements": [
+        [
+          "20240929.3902",
+          "14.767g",
+          "ASAS-SN Sky Patrol Photom. DB"
+        ],
+        [
+          "20241001.5489",
+          "15.107g",
+          "ASAS-SN Sky Patrol Photom. DB"
+        ],
+        [
+          "20241008.2442",
+          "16.050zr",
+          "ZTF Alert DC mag"
+        ],
+        [
+          "20241008.2824",
+          "15.988g",
+          "ASAS-SN Sky Patrol Photom. DB"
+        ],
+        [
+          "20241008.3469",
+          "16.013zg",
+          "ZTF Alert DC mag"
+        ]
+      ]
+    }
+  ],
+  "aavso_2024_onset_count": 0,
+  "aavso_2024_onset_dates": []
+}

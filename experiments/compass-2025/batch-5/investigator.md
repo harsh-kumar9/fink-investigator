@@ -1,0 +1,7 @@
+# Independent first reading
+
+I assessed the three frozen packets before inspecting follow-up measurements, catalog records or other reviewers' opinions.
+
+* **ZTF18abcckqd.** The September 21 green measurement is below its reference. Green shows more negative than positive detections across several years, while red shows more positive than negative detections. Color changes, different reference brightnesses and unresolved neighbors could all produce that asymmetry. Direct magnitudes in each filter, a test on withheld observing dates and a comparison of positive and negative astrometric centers could distinguish a variable star from a subtraction artifact.
+* **ZTF25absffwy.** Positive detections in two filters over September 20–22 support an optical brightening. The bright red residual on the third date merits a search for earlier exposures and later decline. A host-galaxy transient and a Galactic eruption are plausible. A position tied to a single underlying star or galaxy and an earlier public report would change what the three nights can establish.
+* **ZTF17aaaoxxi.** All recorded quality detections in both bands were brighter than the corresponding reference. Repeated eruptions of a normally faint cataclysmic variable could do this, but a long-lived bright state combined with a faint reference could also produce separated alert dates. Resolve the quiescent counterpart and inspect direct measurements between the positive groups. The broker's candidate label and repeated detections alone establish neither a subclass nor a recurrence interval.

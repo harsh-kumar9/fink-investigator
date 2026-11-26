@@ -50,7 +50,7 @@ def star_list(rows, meta, ra, dec, radius=65):
         r
         for r in rows
         if all(r[k] == meta[k] for k in ("field", "ccdid", "qid"))
-        and "z" + {"1": "g", "2": "r"}[r["fid"]] == meta["filtercode"]
+        and "z" + {"1": "g", "2": "r", "3": "i"}[r["fid"]] == meta["filtercode"]
     ]
     sky = np.array(
         [(float(r["ra"]), float(r["dec"])) for r in field], dtype=float

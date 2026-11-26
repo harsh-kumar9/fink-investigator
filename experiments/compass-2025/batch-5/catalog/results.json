@@ -1,0 +1,79 @@
+{
+  "ZTF18abcckqd": {
+    "simbad_10arcsec": [],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.02",
+          "OID": "1499309",
+          "Name": "MGAB-V960",
+          "RAJ2000": "307.11679",
+          "DEJ2000": "52.10207",
+          "Type": "UG",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    }
+  },
+  "ZTF25absffwy": {
+    "simbad_10arcsec": [],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    },
+    "bts_in_box": [
+      {
+        "ZTFID": "ZTF25absffwy",
+        "IAUID": "SN2025xza",
+        "discdate": "2025-09-18 21:57:55.872",
+        "RA": "02:37:58.53",
+        "Dec": "-01:50:59.2",
+        "peakt": "2953.87",
+        "peakfilt": "r",
+        "peakmag": "18.0784",
+        "peakabs": "-17.43",
+        "duration": ">33.288",
+        "rise": ">14.95",
+        "fade": "18.338",
+        "type": "SN II",
+        "redshift": "0.028",
+        "b": "-54.081380933132",
+        "A_V": "0.10979238018394"
+      }
+    ]
+  },
+  "ZTF17aaaoxxi": {
+    "simbad_10arcsec": [
+      {
+        "main_id": "ZTF17aaaoxxi",
+        "otype": "CV?",
+        "ra": "102.25816666666667",
+        "dec": "8.995722222222222",
+        "pmra": "",
+        "pmdec": "",
+        "separation_arcsec": 0.102
+      }
+    ],
+    "catalogs_5arcsec": {
+      "B/vsx/vsx": [
+        {
+          "_r": "0.12",
+          "OID": "1498454",
+          "Name": "MGAB-V306",
+          "RAJ2000": "102.25819",
+          "DEJ2000": "8.99572",
+          "Type": "UGSU:",
+          "Period": ""
+        }
+      ],
+      "J/AJ/156/241/table4": [],
+      "II/366/catv2021": [],
+      "I/358/vrrlyr": []
+    }
+  }
+}
